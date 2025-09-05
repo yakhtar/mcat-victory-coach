@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Browser - MCAT Victory Platform</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .question-card {
+            transition: all 0.3s ease;
+            border-left: 4px solid #3b82f6;
+        }
+        .question-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        .difficulty-foundation { border-left-color: #22c55e; }
+        .difficulty-intermediate { border-left-color: #3b82f6; }
+        .difficulty-advanced { border-left-color: #f59e0b; }
+        .difficulty-elite { border-left-color: #dc2626; }
+        
+        .stats-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .topic-badge {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg border-b-2 border-blue-600">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="/" class="flex items-center">
+                        <span class="text-2xl mr-3">🧬</span>
+                        <span class="text-xl font-bold text-gray-800">MCAT Victory Platform</span>
+                    </a>
+                </div>
+                <div class="flex items-center space-x-6">
+                    <a href="/" class="text-gray-600 hover:text-blue-600 font-medium transition duration-200">
+                        <i class="fas fa-home mr-1"></i>Home
+                    </a>
+                    <div class="text-sm text-gray-600">
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">
+                            <i class="fas fa-database mr-1"></i>
+                            <span id="totalQuestions">Loading...</span> Questions Available
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <!-- Header -->
+        <div class="mb-8">
+            <h1 class="text-4xl font-bold text-gray-900 mb-4">
+                <i class="fas fa-search text-blue-600 mr-3"></i>
+                Question Browser
+            </h1>
+            <p class="text-xl text-gray-600">
+                Explore our comprehensive database of <span class="font-semibold text-blue-600" id="questionCount">546+</span> 
+                AI-generated biochemistry questions targeting MCAT 515+ scores
+            </p>
+        </div>
+
+        <!-- Statistics Dashboard -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+            <div class="stats-card rounded-xl p-6 text-center">
+                <i class="fas fa-flask text-3xl mb-3"></i>
+                <div class="text-2xl font-bold" id="aminoAcidsCount">-</div>
+                <div class="text-sm opacity-90">Amino Acids</div>
+            </div>
+            <div class="stats-card rounded-xl p-6 text-center">
+                <i class="fas fa-atom text-3xl mb-3"></i>
+                <div class="text-2xl font-bold" id="metabolismCount">-</div>
+                <div class="text-sm opacity-90">Metabolism</div>
+            </div>
+            <div class="stats-card rounded-xl p-6 text-center">
+                <i class="fas fa-cog text-3xl mb-3"></i>
+                <div class="text-2xl font-bold" id="enzymeKineticsCount">-</div>
+                <div class="text-sm opacity-90">Enzyme Kinetics</div>
+            </div>
+            <div class="stats-card rounded-xl p-6 text-center">
+                <i class="fas fa-dna text-3xl mb-3"></i>
+                <div class="text-2xl font-bold" id="proteinStructureCount">-</div>
+                <div class="text-sm opacity-90">Protein Structure</div>
+            </div>
+        </div>
+
+        <!-- Filters -->
+        <div class="bg-white rounded-xl shadow-lg p-6 mb-8">
+            <h3 class="text-lg font-semibold text-gray-900 mb-4">Filter Questions</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <select id="topicFilter" class="rounded-lg border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+                    <option value="">All Topics</option>
+                    <option value="amino_acids">Amino Acids</option>
+                    <option value="metabolism">Metabolism</option>
+                    <option value="enzyme_kinetics">Enzyme Kinetics</option>
+                    <option value="protein_structure">Protein Structure</option>
+                </select>
+                <select id="difficultyFilter" class="rounded-lg border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+                    <option value="">All Difficulties</option>
+                    <option value="foundation">Foundation</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                    <option value="elite">Elite</option>
+                </select>
+                <select id="typeFilter" class="rounded-lg border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+                    <option value="">All Types</option>
+                    <option value="passage">Passage-Based</option>
+                    <option value="discrete">Discrete</option>
+                </select>
+                <button id="randomQuestion" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-200">
+                    <i class="fas fa-random mr-2"></i>Random Question
+                </button>
+            </div>
+        </div>
+
+        <!-- Question Display Area -->
+        <div id="questionContainer" class="space-y-6">
+            <!-- Questions will be loaded here -->
+        </div>
+
+        <!-- Load More Button -->
+        <div class="text-center mt-8">
+            <button id="loadMore" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition duration-200">
+                <i class="fas fa-plus mr-2"></i>Load More Questions
+            </button>
+        </div>
+    </div>
+
+    <script>
+        class QuestionBrowser {
+            constructor() {
+                this.currentOffset = 0;
+                this.questionsPerPage = 10;
+                this.totalQuestions = 0;
+                this.currentFilters = {};
+                this.init();
+            }
+
+            async init() {
+                await this.loadStats();
+                await this.loadQuestions();
+                this.setupEventListeners();
+            }
+
+            async loadStats() {
+                try {
+                    const response = await fetch('/api/questions/stats');
+                    const data = await response.json();
+                    
+                    if (data.success) {
+                        const stats = data.stats;
+                        document.getElementById('totalQuestions').textContent = stats.total_questions;
+                        document.getElementById('questionCount').textContent = stats.total_questions + '+';
+                        document.getElementById('aminoAcidsCount').textContent = stats.by_topic.amino_acids || 0;
+                        document.getElementById('metabolismCount').textContent = stats.by_topic.metabolism || 0;
+                        document.getElementById('enzymeKineticsCount').textContent = stats.by_topic.enzyme_kinetics || 0;
+                        document.getElementById('proteinStructureCount').textContent = stats.by_topic.protein_structure || 0;
+                        
+                        this.totalQuestions = stats.total_questions;
+                    }
+                } catch (error) {
+                    console.error('Error loading stats:', error);
+                }
+            }
+
+            async loadQuestions(reset = false) {
+                if (reset) {
+                    this.currentOffset = 0;
+                    document.getElementById('questionContainer').innerHTML = '';
+                }
+
+                try {
+                    const params = new URLSearchParams({
+                        limit: this.questionsPerPage,
+                        offset: this.currentOffset,
+                        ...this.currentFilters
+                    });
+
+                    const response = await fetch(`/api/questions?${params}`);
+                    const data = await response.json();
+                    
+                    if (data.success && data.questions.length > 0) {
+                        this.renderQuestions(data.questions);
+                        this.currentOffset += data.questions.length;
+                    }
+                    
+                    // Update load more button visibility
+                    const loadMoreBtn = document.getElementById('loadMore');
+                    if (this.currentOffset >= this.totalQuestions) {
+                        loadMoreBtn.style.display = 'none';
+                    } else {
+                        loadMoreBtn.style.display = 'block';
+                    }
+                } catch (error) {
+                    console.error('Error loading questions:', error);
+                }
+            }
+
+            renderQuestions(questions) {
+                const container = document.getElementById('questionContainer');
+                
+                questions.forEach(question => {
+                    const questionCard = this.createQuestionCard(question);
+                    container.appendChild(questionCard);
+                });
+            }
+
+            createQuestionCard(question) {
+                const card = document.createElement('div');
+                card.className = `question-card bg-white rounded-xl shadow-lg p-6 difficulty-${question.difficulty}`;
+                
+                const difficultyColors = {
+                    foundation: 'bg-green-100 text-green-800',
+                    intermediate: 'bg-blue-100 text-blue-800',
+                    advanced: 'bg-yellow-100 text-yellow-800',
+                    elite: 'bg-red-100 text-red-800'
+                };
+
+                card.innerHTML = `
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="flex space-x-2">
+                            <span class="topic-badge text-white px-3 py-1 rounded-full text-sm font-medium">
+                                ${question.topic.replace('_', ' ').toUpperCase()}
+                            </span>
+                            <span class="px-3 py-1 rounded-full text-sm font-medium ${difficultyColors[question.difficulty]}">
+                                ${question.difficulty.toUpperCase()}
+                            </span>
+                            <span class="px-3 py-1 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
+                                ${question.type === 'passage' ? 'PASSAGE' : 'DISCRETE'}
+                            </span>
+                        </div>
+                        <button class="text-gray-400 hover:text-blue-600 transition duration-200" onclick="toggleQuestion('${question.id}')">
+                            <i class="fas fa-chevron-down" id="icon-${question.id}"></i>
+                        </button>
+                    </div>
+                    
+                    ${question.passage && question.passage !== 'null' ? `
+                        <div class="bg-gray-50 rounded-lg p-4 mb-4 text-sm leading-relaxed">
+                            <strong class="text-gray-700">Passage:</strong><br>
+                            ${question.passage}
+                        </div>
+                    ` : ''}
+                    
+                    <div class="mb-4">
+                        <h4 class="font-semibold text-gray-900 mb-3">${question.question}</h4>
+                        <div class="space-y-2">
+                            ${question.choices ? question.choices.map((choice, index) => `
+                                <div class="flex items-start space-x-2">
+                                    <span class="font-medium text-gray-600 mt-1">${String.fromCharCode(65 + index)}.</span>
+                                    <span class="text-gray-800">${choice}</span>
+                                </div>
+                            `).join('') : 
+                            question.options ? Object.entries(question.options).map(([key, value]) => `
+                                <div class="flex items-start space-x-2">
+                                    <span class="font-medium text-gray-600 mt-1">${key}.</span>
+                                    <span class="text-gray-800">${value}</span>
+                                </div>
+                            `).join('') : ''}
+                        </div>
+                    </div>
+                    
+                    <div id="answer-${question.id}" class="hidden">
+                        <div class="border-t pt-4">
+                            <div class="mb-3">
+                                <span class="font-semibold text-green-600">Correct Answer: </span>
+                                <span class="font-medium">${question.correct_answer}</span>
+                            </div>
+                            <div class="bg-blue-50 rounded-lg p-4">
+                                <h5 class="font-semibold text-blue-900 mb-2">Explanation:</h5>
+                                <p class="text-blue-800 text-sm leading-relaxed">${question.explanation}</p>
+                            </div>
+                        </div>
+                    </div>
+                `;
+
+                return card;
+            }
+
+            async loadRandomQuestion() {
+                try {
+                    const response = await fetch('/api/question/random');
+                    const data = await response.json();
+                    
+                    if (data.success) {
+                        document.getElementById('questionContainer').innerHTML = '';
+                        this.renderQuestions([data.question]);
+                        this.currentOffset = 1;
+                    }
+                } catch (error) {
+                    console.error('Error loading random question:', error);
+                }
+            }
+
+            setupEventListeners() {
+                // Filter change handlers
+                ['topicFilter', 'difficultyFilter', 'typeFilter'].forEach(filterId => {
+                    document.getElementById(filterId).addEventListener('change', (e) => {
+                        if (e.target.value) {
+                            this.currentFilters[filterId.replace('Filter', '')] = e.target.value;
+                        } else {
+                            delete this.currentFilters[filterId.replace('Filter', '')];
+                        }
+                        this.loadQuestions(true);
+                    });
+                });
+
+                // Load more button
+                document.getElementById('loadMore').addEventListener('click', () => {
+                    this.loadQuestions();
+                });
+
+                // Random question button
+                document.getElementById('randomQuestion').addEventListener('click', () => {
+                    this.loadRandomQuestion();
+                });
+            }
+        }
+
+        function toggleQuestion(questionId) {
+            const answerDiv = document.getElementById(`answer-${questionId}`);
+            const icon = document.getElementById(`icon-${questionId}`);
+            
+            if (answerDiv.classList.contains('hidden')) {
+                answerDiv.classList.remove('hidden');
+                icon.classList.remove('fa-chevron-down');
+                icon.classList.add('fa-chevron-up');
+            } else {
+                answerDiv.classList.add('hidden');
+                icon.classList.remove('fa-chevron-up');
+                icon.classList.add('fa-chevron-down');
+            }
+        }
+
+        // Initialize the question browser
+        document.addEventListener('DOMContentLoaded', () => {
+            new QuestionBrowser();
+        });
+    </script>
+</body>
+</html>

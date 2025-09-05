@@ -1,0 +1,237 @@
+[
+  {
+    "id": "mol_bio_011",
+    "topic": "molecular_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying transcription termination in prokaryotes discovered two main mechanisms: intrinsic (Rho-independent) and extrinsic (Rho-dependent) termination. Intrinsic termination relies on the formation of hairpin structures in the mRNA that destabilize the RNA polymerase-DNA complex, followed by a series of U-A base pairs that further weaken the interaction. Rho-dependent termination requires the Rho protein, which is an ATP-dependent helicase that chases RNA polymerase along the nascent mRNA transcript. When Rho catches up to a paused polymerase, it disrupts the transcription complex and causes termination.",
+    "question": "Based on these termination mechanisms, what is the key difference between intrinsic and Rho-dependent termination?",
+    "options": {
+      "A": "Intrinsic termination requires ATP while Rho-dependent does not",
+      "B": "Intrinsic termination relies on RNA secondary structure while Rho-dependent requires a protein factor",
+      "C": "Only Rho-dependent termination occurs in eukaryotes",
+      "D": "Intrinsic termination only works on the lagging strand during replication"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Intrinsic termination depends on RNA hairpin structures and weak U-A base pairs that naturally destabilize the polymerase complex, while Rho-dependent termination requires the Rho protein (an ATP-dependent helicase) to actively disrupt transcription. Option A is backwards - Rho-dependent termination requires ATP. Option C is incorrect as these are prokaryotic termination mechanisms. Option D confuses transcription with replication.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Transcription Termination",
+        "url": "https://www.khanacademy.org/science/biology/gene-expression-central-dogma/transcription-of-dna-into-rna",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:15:00.000Z"
+  },
+  {
+    "id": "mol_bio_012",
+    "topic": "molecular_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which enzyme is responsible for relieving supercoiling tension ahead of the replication fork during DNA replication?",
+    "options": {
+      "A": "DNA helicase",
+      "B": "DNA primase",
+      "C": "DNA topoisomerase",
+      "D": "DNA ligase"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. DNA topoisomerases (particularly topoisomerase II in eukaryotes) relieve the supercoiling tension that builds up ahead of the replication fork as DNA helicase unwinds the double helix. Option A (helicase) unwinds DNA but doesn't relieve supercoiling. Option B (primase) synthesizes RNA primers. Option D (ligase) joins DNA fragments but doesn't affect supercoiling.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: DNA Topoisomerases",
+        "url": "https://www.nature.com/articles/nrg1706",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:15:00.000Z"
+  },
+  {
+    "id": "mol_bio_013",
+    "topic": "molecular_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists studying ribosome structure and function discovered that the peptidyl transferase center, responsible for peptide bond formation, is composed entirely of ribosomal RNA (rRNA) rather than ribosomal proteins. This finding established that ribosomes are ribozymes - RNA molecules with catalytic activity. The researchers found that the rRNA provides both the structural framework and the catalytic activity for protein synthesis, while ribosomal proteins primarily serve structural and regulatory roles. The discovery that RNA can have catalytic function revolutionized understanding of early evolution and the 'RNA World' hypothesis.",
+    "question": "Based on this ribosome structure, what does the catalytic role of rRNA in protein synthesis suggest about early evolution?",
+    "options": {
+      "A": "Proteins evolved before RNA and were the first catalysts",
+      "B": "RNA likely preceded proteins as both information storage and catalytic molecules",
+      "C": "DNA was the first molecule to have catalytic activity",
+      "D": "Ribosomes were the first organelles to evolve in cells"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The fact that rRNA catalyzes protein synthesis supports the 'RNA World' hypothesis, which proposes that RNA preceded proteins as catalytic molecules since RNA can both store genetic information (like DNA) and catalyze reactions (like proteins). This suggests RNA came first and later evolved the ability to make proteins. Option A is backwards. Option C is incorrect as DNA lacks catalytic activity. Option D confuses molecular evolution with organellar evolution.",
+    "study_resources": [
+      {
+        "title": "Nature Education: RNA World Hypothesis",
+        "url": "https://www.nature.com/scitable/topicpage/rna-functions-352/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T04:15:00.000Z"
+  },
+  {
+    "id": "mol_bio_014",
+    "topic": "molecular_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is the role of tRNA aminoacyl synthetases?",
+    "options": {
+      "A": "To translate mRNA into protein",
+      "B": "To attach amino acids to their corresponding tRNAs",
+      "C": "To form peptide bonds between amino acids",
+      "D": "To synthesize new tRNA molecules"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Aminoacyl-tRNA synthetases are enzymes that attach specific amino acids to their corresponding tRNA molecules, creating aminoacyl-tRNAs that can be used in protein synthesis. Each synthetase is specific for one amino acid and its corresponding tRNA(s). Option A describes the overall translation process. Option C describes peptidyl transferase activity. Option D would be transcription of tRNA genes.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: tRNA and Aminoacyl Synthetases",
+        "url": "https://www.khanacademy.org/science/biology/gene-expression-central-dogma/translation-polypeptides",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:15:00.000Z"
+  },
+  {
+    "id": "mol_bio_015",
+    "topic": "molecular_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying protein structure discovered that protein domains are independently folding units that often correspond to distinct functional regions. These domains can be evolutionarily mobile, appearing in different combinations across various proteins. The researchers found that domain shuffling through recombination events has been a major mechanism for protein evolution, allowing organisms to create new proteins with novel functions by combining existing functional domains. This modular organization explains why many proteins share similar structural motifs despite having different overall functions.",
+    "question": "Based on this domain organization, what evolutionary advantage does the modular structure of proteins provide?",
+    "options": {
+      "A": "It prevents all mutations from affecting protein function",
+      "B": "It allows rapid evolution of new protein functions through domain recombination",
+      "C": "It ensures that all proteins have identical structures",
+      "D": "It eliminates the need for protein folding"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that 'domain shuffling through recombination events has been a major mechanism for protein evolution, allowing organisms to create new proteins with novel functions by combining existing functional domains.' This modular organization accelerates evolution by reusing functional units. Option A is too absolute - mutations can still affect function. Option C contradicts protein diversity. Option D is incorrect as domains still need to fold independently.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Protein Evolution",
+        "url": "https://www.biointeractive.org/classroom-resources/protein-evolution",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:15:00.000Z"
+  },
+  {
+    "id": "mol_bio_016",
+    "topic": "molecular_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "In eukaryotic mRNA processing, what is the function of the 5' cap structure?",
+    "options": {
+      "A": "To mark mRNA for degradation",
+      "B": "To facilitate mRNA export from nucleus and translation initiation",
+      "C": "To prevent mRNA from binding to ribosomes",
+      "D": "To add a poly-A tail to the 3' end"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The 5' cap (7-methylguanosine) serves multiple functions: it protects mRNA from 5' exonuclease degradation, facilitates nuclear export, and is essential for translation initiation by helping ribosomes recognize and bind to mRNA. Option A is opposite - the cap protects from degradation. Option C is incorrect - the cap promotes ribosome binding. Option D confuses 5' capping with 3' polyadenylation.",
+    "study_resources": [
+      {
+        "title": "Nature Education: mRNA Processing",
+        "url": "https://www.nature.com/scitable/topicpage/rna-processing-splicing-5-and-3-end-modifications-925/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T04:15:00.000Z"
+  },
+  {
+    "id": "mol_bio_017",
+    "topic": "molecular_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers investigating the molecular basis of aging discovered that telomeres, the protective DNA-protein structures at chromosome ends, shorten with each cell division in most somatic cells. This occurs because conventional DNA polymerases cannot fully replicate the 5' ends of linear chromosomes, creating the 'end-replication problem.' Telomerase, containing both protein (TERT) and RNA (TERC) components, can extend telomeres by adding TTAGGG repeats using its internal RNA template. The researchers found that telomerase activity is high in stem cells and germ cells but low in most somatic cells, contributing to cellular aging and senescence.",
+    "question": "Based on this telomere biology, why does the end-replication problem specifically affect the 5' ends of chromosomes?",
+    "options": {
+      "A": "DNA polymerase can only synthesize DNA in the 5' to 3' direction and requires a 3'-OH primer",
+      "B": "The 5' end contains more AT base pairs which are harder to replicate",
+      "C": "Telomerase is only active at 5' chromosome ends",
+      "D": "DNA helicase cannot unwind DNA at 5' chromosome ends"
+    },
+    "correct_answer": "A",
+    "explanation": "The correct answer is A. DNA polymerases synthesize DNA only in the 5' to 3' direction and require a 3'-OH group to add new nucleotides. At chromosome ends, when the RNA primer of the lagging strand is removed, there's no way to fill in the gap at the 5' end because there's no upstream 3'-OH group available. This creates the end-replication problem. Options B, C, and D don't explain the fundamental directionality issue of DNA polymerase.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Telomeres and Telomerase",
+        "url": "https://www.nature.com/articles/nrg2465",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:15:00.000Z"
+  },
+  {
+    "id": "mol_bio_018",
+    "topic": "molecular_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which type of bond holds the two strands of the DNA double helix together?",
+    "options": {
+      "A": "Covalent bonds",
+      "B": "Ionic bonds",
+      "C": "Hydrogen bonds",
+      "D": "Van der Waals forces"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Hydrogen bonds between complementary base pairs (A-T and G-C) hold the two DNA strands together. These bonds are strong enough to maintain the double helix structure but weak enough to allow strand separation during replication and transcription. Option A (covalent bonds) connect nucleotides within each strand. Options B and D are not the primary forces holding DNA strands together.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: DNA Structure",
+        "url": "https://www.khanacademy.org/science/biology/dna-as-the-genetic-material/structure-of-dna",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:15:00.000Z"
+  },
+  {
+    "id": "mol_bio_019",
+    "topic": "molecular_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying gene expression regulation discovered that small interfering RNAs (siRNAs) and microRNAs (miRNAs) both participate in RNA interference (RNAi) pathways. These small RNAs are processed by the enzyme Dicer and incorporated into the RNA-induced silencing complex (RISC). The researchers found that siRNAs typically have perfect complementarity to their target mRNAs and promote mRNA cleavage, while miRNAs usually have partial complementarity and primarily inhibit translation. Both mechanisms allow cells to fine-tune gene expression post-transcriptionally.",
+    "question": "Based on this RNAi mechanism, what determines whether an mRNA target is cleaved or translationally repressed?",
+    "options": {
+      "A": "The length of the small RNA molecule",
+      "B": "The degree of complementarity between the small RNA and target mRNA",
+      "C": "Whether the target mRNA has a poly-A tail",
+      "D": "The subcellular location where the interaction occurs"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage clearly states that 'siRNAs typically have perfect complementarity to their target mRNAs and promote mRNA cleavage, while miRNAs usually have partial complementarity and primarily inhibit translation.' The degree of base-pairing complementarity determines the mechanism of silencing. Option A is not mentioned as a determining factor. Options C and D are not described as relevant to the silencing mechanism choice.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: RNA Interference",
+        "url": "https://www.biointeractive.org/classroom-resources/rna-interference",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:15:00.000Z"
+  },
+  {
+    "id": "mol_bio_020",
+    "topic": "molecular_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "A researcher studying bacterial gene regulation observes that a particular operon is only transcribed when both glucose is absent and lactose is present. This regulation pattern is most consistent with:",
+    "options": {
+      "A": "Negative regulation only",
+      "B": "Positive regulation only",
+      "C": "Both positive and negative regulation",
+      "D": "Constitutive expression"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. This describes the lac operon, which requires both negative regulation (LacI repressor is inactivated by lactose/allolactose) and positive regulation (CAP-cAMP activates transcription when glucose is absent). The operon needs both conditions: removal of negative regulation (presence of lactose) and addition of positive regulation (absence of glucose leading to cAMP-CAP activation). Options A and B alone cannot explain the dual requirement. Option D contradicts the conditional expression pattern.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Lac Operon",
+        "url": "https://www.khanacademy.org/science/biology/gene-regulation/gene-regulation-in-bacteria",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:15:00.000Z"
+  }
+]

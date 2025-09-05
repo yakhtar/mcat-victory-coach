@@ -1,0 +1,1958 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCAT Victory Coach - Interactive Study Platform</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        /* Medical Brand Color System - Navy Blues & Teal Accents */
+        :root {
+            /* Primary Navy Blue Palette */
+            --navy-darkest: #0f172a;      /* Deep navy for headers */
+            --navy-dark: #1e3a8a;         /* Primary navy from logo */
+            --navy-primary: #2563eb;      /* Standard navy blue */
+            --navy-medium: #3b82f6;       /* Medium navy */
+            --navy-light: #60a5fa;        /* Light navy */
+            --navy-lightest: #dbeafe;     /* Very light navy */
+            
+            /* Teal Accent Palette */
+            --teal-dark: #0f766e;         /* Dark teal */
+            --teal-primary: #14b8a6;      /* Primary teal accent */
+            --teal-medium: #2dd4bf;       /* Medium teal */
+            --teal-light: #5eead4;        /* Light teal */
+            --teal-lightest: #ccfbf1;     /* Very light teal */
+            
+            /* Medical Professional Colors */
+            --medical-blue: var(--navy-primary);
+            --medical-green: var(--teal-primary);
+            --medical-accent: var(--teal-medium);
+            --medical-dark: var(--navy-dark);
+            
+            /* Functional Colors */
+            --success: #10b981;
+            --warning: #f59e0b;
+            --error: #ef4444;
+            --info: var(--navy-medium);
+            
+            /* Neutral Grays */
+            --gray-50: #f9fafb;
+            --gray-100: #f3f4f6;
+            --gray-200: #e5e7eb;
+            --gray-300: #d1d5db;
+            --gray-600: #4b5563;
+            --gray-700: #374151;
+            --gray-800: #1f2937;
+            --gray-900: #111827;
+        }
+        
+        /* Medical Professional Gradients */
+        .medical-gradient {
+            background: linear-gradient(135deg, var(--navy-dark) 0%, var(--medical-blue) 50%, var(--teal-primary) 100%);
+        }
+        
+        .medical-gradient-soft {
+            background: linear-gradient(135deg, var(--navy-lightest) 0%, var(--teal-lightest) 100%);
+        }
+        
+        .medical-gradient-header {
+            background: linear-gradient(90deg, var(--navy-darkest) 0%, var(--navy-dark) 100%);
+        }
+        
+        /* Enhanced Card Styling */
+        .card-hover {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid var(--gray-200);
+            background: linear-gradient(135deg, #ffffff 0%, var(--gray-50) 100%);
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(30, 58, 138, 0.15), 0 4px 12px rgba(20, 184, 166, 0.1);
+            border-color: var(--teal-primary);
+        }
+        
+        /* Medical-themed Loading Animation */
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid var(--gray-200);
+            border-top: 3px solid var(--medical-blue);
+            border-radius: 50%;
+            animation: medical-spin 1s linear infinite;
+        }
+        
+        @keyframes medical-spin {
+            0% { 
+                transform: rotate(0deg);
+                border-top-color: var(--medical-blue);
+            }
+            50% { 
+                border-top-color: var(--teal-primary);
+            }
+            100% { 
+                transform: rotate(360deg);
+                border-top-color: var(--medical-blue);
+            }
+        }
+        
+        /* Enhanced MCP Badge with Medical Theming */
+        .mcp-badge {
+            background: linear-gradient(135deg, var(--teal-primary) 0%, var(--navy-primary) 100%);
+            color: white;
+            padding: 6px 16px;
+            border-radius: 25px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            animation: medical-pulse 2s infinite;
+            box-shadow: 0 4px 12px rgba(20, 184, 166, 0.3);
+        }
+        
+        @keyframes medical-pulse {
+            0%, 100% { 
+                opacity: 1;
+                box-shadow: 0 4px 12px rgba(20, 184, 166, 0.3);
+            }
+            50% { 
+                opacity: 0.8;
+                box-shadow: 0 6px 16px rgba(30, 58, 138, 0.4);
+            }
+        }
+        
+        /* Medical Button Styling */
+        .btn-medical-primary {
+            background: linear-gradient(135deg, var(--medical-blue) 0%, var(--navy-medium) 100%);
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .btn-medical-primary::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.5s;
+        }
+        
+        .btn-medical-primary:hover::before {
+            left: 100%;
+        }
+        
+        .btn-medical-primary:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 6px 20px rgba(37, 99, 235, 0.3);
+        }
+        
+        .btn-medical-secondary {
+            background: linear-gradient(135deg, var(--teal-primary) 0%, var(--teal-medium) 100%);
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-medical-secondary:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 6px 20px rgba(20, 184, 166, 0.3);
+        }
+        
+        /* Medical Section Styling */
+        .medical-section {
+            background: linear-gradient(135deg, #ffffff 0%, var(--gray-50) 100%);
+            border: 1px solid var(--gray-200);
+            border-radius: 12px;
+            position: relative;
+        }
+        
+        .medical-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--navy-dark) 0%, var(--teal-primary) 100%);
+            border-radius: 12px 12px 0 0;
+        }
+        
+        /* Medical Typography */
+        .medical-heading {
+            color: var(--navy-dark);
+            font-weight: 700;
+            position: relative;
+        }
+        
+        .medical-subheading {
+            color: var(--medical-blue);
+            font-weight: 600;
+        }
+        
+        .medical-text {
+            color: var(--gray-700);
+            line-height: 1.6;
+        }
+        
+        /* Professional Header Styling */
+        .header-professional {
+            background: #ffffff;
+            border-bottom: 3px solid var(--navy-dark);
+            box-shadow: 0 2px 8px rgba(30, 58, 138, 0.08);
+            font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+            position: relative;
+            z-index: 50;
+        }
+        
+        .header-logo-container {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .header-logo {
+            width: 64px;
+            height: 64px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(30, 58, 138, 0.15);
+            border: 2px solid var(--navy-primary);
+            transition: all 0.3s ease;
+        }
+        
+        .header-logo:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 16px rgba(30, 58, 138, 0.2);
+        }
+        
+        .header-brand-text {
+            min-width: 0;
+        }
+        
+        .header-title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 1.75rem;
+            color: var(--navy-dark);
+            margin: 0;
+            line-height: 1.2;
+            letter-spacing: -0.025em;
+        }
+        
+        .header-subtitle {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: 0.875rem;
+            color: var(--navy-primary);
+            margin: 0;
+            line-height: 1.3;
+            letter-spacing: 0.025em;
+            text-transform: uppercase;
+        }
+        
+        .header-navigation {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .header-nav-link {
+            font-weight: 500;
+            font-size: 0.875rem;
+            color: var(--navy-primary);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            position: relative;
+            padding: 4px 0;
+        }
+        
+        .header-nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--teal-primary);
+            transition: width 0.3s ease;
+        }
+        
+        .header-nav-link:hover {
+            color: var(--navy-dark);
+        }
+        
+        .header-nav-link:hover::after {
+            width: 100%;
+        }
+        
+        .header-status-indicator {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--gray-50);
+            border: 1px solid var(--gray-200);
+            border-radius: 20px;
+            padding: 8px 16px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: 0.75rem;
+            color: var(--gray-700);
+            transition: all 0.3s ease;
+        }
+        
+        .header-status-indicator:hover {
+            background: var(--navy-lightest);
+            border-color: var(--navy-primary);
+        }
+        
+        .header-status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--success);
+            animation: status-pulse 2s infinite;
+        }
+        
+        @keyframes status-pulse {
+            0%, 100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 0.7;
+                transform: scale(1.1);
+            }
+        }
+        
+        /* Responsive Header Design */
+        @media (max-width: 768px) {
+            .header-title {
+                font-size: 1.5rem;
+            }
+            
+            .header-subtitle {
+                font-size: 0.75rem;
+            }
+            
+            .header-logo {
+                width: 56px;
+                height: 56px;
+            }
+            
+            .header-navigation {
+                display: none;
+            }
+            
+            .header-status-indicator {
+                padding: 6px 12px;
+                font-size: 0.675rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .header-title {
+                font-size: 1.25rem;
+            }
+            
+            .header-logo {
+                width: 48px;
+                height: 48px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="header-professional">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex items-center justify-between">
+                <div class="text-xl font-semibold" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.1em; color: var(--navy-dark);">
+                    VICTORY
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+        <!-- Hero Section -->
+        <section class="mb-12 relative overflow-hidden rounded-2xl" style="background-image: url('assets/bkgdBanner.jpeg'); background-size: cover; background-position: center right; min-height: 400px;">
+            <!-- Semi-transparent overlay for text background -->
+            <div class="absolute inset-0 bg-gradient-to-r from-white/90 via-white/60 to-transparent rounded-2xl"></div>
+            
+            <!-- Content -->
+            <div class="relative z-10 px-6 md:px-8 py-8 md:py-12 h-full flex items-center">
+                <div class="max-w-2xl">
+                    <h1 class="text-5xl md:text-7xl font-bold mb-8" style="font-family: 'Montserrat', sans-serif; font-weight: 900; letter-spacing: -0.03em; color: var(--navy-dark); line-height: 0.9;">
+                        Score 515+
+                    </h1>
+                    <p class="text-2xl md:text-3xl font-light mb-12" style="font-family: 'Montserrat', sans-serif; letter-spacing: -0.01em; color: var(--gray-600); line-height: 1.2;">
+                        AI-powered MCAT prep that works
+                    </p>
+                    
+                    <p class="text-lg leading-relaxed mb-12 max-w-lg" style="color: var(--gray-700); line-height: 1.6;">
+                        5,000+ questions. Real AAMC format. Biochemistry mastery. Get the score you need for med school acceptance.
+                    </p>
+                    
+                    <div class="space-y-8">
+                        <div class="grid grid-cols-3 gap-8 text-center">
+                            <div>
+                                <div class="text-3xl font-bold mb-2" style="color: var(--navy-dark);">5,000+</div>
+                                <div class="text-sm text-gray-600">AI Questions</div>
+                            </div>
+                            <div>
+                                <div class="text-3xl font-bold mb-2" style="color: var(--navy-dark);">515+</div>
+                                <div class="text-sm text-gray-600">Target Score</div>
+                            </div>
+                            <div>
+                                <div class="text-3xl font-bold mb-2" style="color: var(--navy-dark);">25%</div>
+                                <div class="text-sm text-gray-600">Biochemistry Focus</div>
+                            </div>
+                        </div>
+                        
+                        <div class="pt-8">
+                            <button class="bg-black text-white px-12 py-4 text-lg font-medium hover:bg-gray-900 transition-colors" style="font-family: 'Montserrat', sans-serif;">
+                                Start Free Trial
+                            </button>
+                            <div class="text-sm text-gray-500 mt-3">7 days free • No credit card required</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+        <section class="mb-8">
+            <div class="medical-section p-8">
+                <h2 class="text-3xl font-bold mb-6 medical-heading text-center">
+                    <i class="fas fa-brain mr-3"></i>
+                    Interactive Flashcards
+                </h2>
+                <p class="text-center mb-6 medical-text">
+                    Master MCAT concepts with adaptive flashcards powered by medical education content.
+                </p>
+                
+                <!-- Flashcard Controls -->
+                <div class="flex flex-wrap justify-center gap-4 mb-6">
+                    <select id="flashcard-subject" class="px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <option value="Biology">Biology</option>
+                        <option value="General Chemistry">General Chemistry</option>
+                        <option value="Organic Chemistry">Organic Chemistry</option>
+                        <option value="Physics">Physics</option>
+                        <option value="Biochemistry">Biochemistry</option>
+                        <option value="Psychology">Psychology</option>
+                        <option value="Sociology">Sociology</option>
+                        <option value="CARS (Critical Analysis)">CARS - Critical Analysis</option>
+                    </select>
+                    <button id="generate-flashcards" class="btn-medical-primary px-6 py-2">
+                        <i class="fas fa-magic mr-2"></i>Generate Cards
+                    </button>
+                    <button id="shuffle-deck" class="hidden btn-medical-secondary px-4 py-2" title="Shuffle current deck">
+                        <i class="fas fa-random mr-2"></i>Shuffle
+                    </button>
+                </div>
+                
+                <!-- Flashcard Display Area -->
+                <div id="flashcard-container" class="max-w-2xl mx-auto">
+                    <!-- Welcome state -->
+                    <div id="welcome-card" class="bg-white rounded-xl shadow-lg p-8 text-center border-2 border-dashed border-gray-300">
+                        <i class="fas fa-play-circle text-6xl text-blue-500 mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-2">Ready to Start Learning</h3>
+                        <p class="text-gray-600">Select a subject and generate flashcards to begin your MCAT prep!</p>
+                    </div>
+                    
+                    <!-- Flashcard -->
+                    <div id="flashcard" class="hidden bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200 transition-all duration-500" style="min-height: 300px;">
+                        <div class="card-hover relative">
+                            <!-- Card flip animation overlay -->
+                            <div id="flip-overlay" class="absolute inset-0 bg-blue-100 rounded-xl opacity-0 transition-opacity duration-300 pointer-events-none flex items-center justify-center">
+                                <i class="fas fa-sync-alt text-2xl text-blue-600 animate-spin"></i>
+                            </div>
+                            
+                            <!-- Front of card -->
+                            <div id="card-front" class="p-8 cursor-pointer transform transition-transform duration-300 hover:scale-105" onclick="flipFlashcard()">
+                                <div class="text-center">
+                                    <div class="mb-4">
+                                        <span class="mcp-badge" id="card-subject">Biology</span>
+                                        <span class="text-sm text-gray-500 ml-2" id="card-progress">1 of 5</span>
+                                        <span class="text-xs text-gray-400 ml-2" id="difficulty-indicator"></span>
+                                    </div>
+                                    <div id="card-question" class="text-xl font-medium mb-6 leading-relaxed"></div>
+                                    <p class="text-sm text-gray-500 animate-pulse">
+                                        <i class="fas fa-mouse-pointer mr-1"></i>Click to reveal answer
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <!-- Back of card -->
+                            <div id="card-back" class="hidden p-8 bg-gradient-to-br from-blue-50 to-indigo-50">
+                                <div id="card-answer" class="text-lg mb-6 leading-relaxed"></div>
+                                
+                                <!-- Back to Question Button -->
+                                <div class="text-center mb-4">
+                                    <button onclick="flipFlashcard()" class="px-4 py-2 bg-gray-500 text-white rounded-lg hover:bg-gray-600 transition-colors text-sm">
+                                        <i class="fas fa-eye mr-1"></i>Show Question Again
+                                    </button>
+                                </div>
+                                
+                                <!-- Simple Next Card Button -->
+                                <div class="text-center">
+                                    <button onclick="MCATVictory.flashcards.nextCard()" class="px-6 py-2 btn-medical-primary">
+                                        Next Card <i class="fas fa-arrow-right ml-1"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Loading state -->
+                    <div id="loading-card" class="hidden bg-white rounded-xl shadow-lg p-8 text-center">
+                        <div class="loading mx-auto mb-4"></div>
+                        <p class="text-gray-600">Generating flashcards...</p>
+                    </div>
+                </div>
+                
+                <!-- Progress indicator -->
+                <div id="flashcard-progress" class="hidden mt-6 max-w-2xl mx-auto">
+                    <div class="bg-gray-200 rounded-full h-3 overflow-hidden">
+                        <div id="progress-bar" class="bg-gradient-to-r from-blue-500 to-teal-500 h-3 rounded-full transition-all duration-500 relative" style="width: 0%">
+                            <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-30 animate-pulse"></div>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center text-sm text-gray-600 mt-3">
+                        <span id="progress-text">0 of 0 cards</span>
+                        <div class="flex gap-4">
+                            <span id="confidence-stats" class="text-xs"></span>
+                            <span id="session-time">00:00</span>
+                        </div>
+                    </div>
+                    <div class="text-center mt-2">
+                        <button onclick="MCATVictory.flashcards.previousCard()" id="prev-card-btn" class="px-3 py-1 bg-gray-200 text-gray-600 rounded-lg hover:bg-gray-300 transition-colors text-sm mr-2 disabled:opacity-50">
+                            <i class="fas fa-chevron-left mr-1"></i>Previous
+                        </button>
+                        <button onclick="MCATVictory.flashcards.nextCard()" id="next-card-btn" class="px-3 py-1 btn-medical-primary text-sm">
+                            Next <i class="fas fa-chevron-right ml-1"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- AI Tutor Component -->
+        <section class="mb-8">
+            <div class="medical-section p-8">
+                <h2 class="text-3xl font-bold mb-6 medical-heading text-center">
+                    <i class="fas fa-robot mr-3"></i>
+                    AI Medical Tutor
+                </h2>
+                <p class="text-center mb-6 medical-text">
+                    Get instant, personalized explanations for MCAT concepts powered by medical AI.
+                </p>
+                
+                <!-- Chat Interface -->
+                <div class="max-w-4xl mx-auto">
+                    <!-- Chat History -->
+                    <div id="chat-history" class="bg-white rounded-xl shadow-lg border border-gray-200 h-96 overflow-y-auto p-4 mb-4">
+                        <!-- Welcome Message -->
+                        <div class="mb-4">
+                            <div class="flex items-start space-x-3">
+                                <div class="flex-shrink-0">
+                                    <div class="w-8 h-8 bg-gradient-to-r from-blue-500 to-teal-500 rounded-full flex items-center justify-center">
+                                        <i class="fas fa-robot text-white text-sm"></i>
+                                    </div>
+                                </div>
+                                <div class="flex-1">
+                                    <div class="bg-gradient-to-r from-blue-50 to-teal-50 rounded-lg p-3 border border-blue-200">
+                                        <p class="text-sm font-medium text-blue-800 mb-1">AI Medical Tutor</p>
+                                        <p class="text-gray-700">Hi! I'm your AI Medical Tutor. I can help explain MCAT concepts, answer questions about biology, chemistry, physics, and more. What would you like to learn about today?</p>
+                                    </div>
+                                    <p class="text-xs text-gray-500 mt-1">Just now</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Chat Input -->
+                    <div class="flex space-x-4">
+                        <div class="flex-1">
+                            <textarea 
+                                id="chat-input" 
+                                placeholder="Ask me about MCAT topics, medical concepts, or study strategies..."
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
+                                rows="3"
+                                onkeydown="if(event.key==='Enter' && !event.shiftKey) { event.preventDefault(); MCATVictory.tutor.sendMessage(); }"
+                            ></textarea>
+                        </div>
+                        <div class="flex flex-col space-y-2">
+                            <button 
+                                id="send-message" 
+                                onclick="MCATVictory.tutor.sendMessage()" 
+                                class="btn-medical-primary px-6 py-3 h-full"
+                            >
+                                <i class="fas fa-paper-plane mr-2"></i>
+                                Send
+                            </button>
+                            <button 
+                                onclick="MCATVictory.tutor.clearChat()" 
+                                class="px-6 py-2 bg-gray-500 text-white rounded-lg hover:bg-gray-600 transition-colors text-sm"
+                            >
+                                <i class="fas fa-trash mr-1"></i>
+                                Clear
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Quick Topic Buttons -->
+                    <div class="mt-4">
+                        <p class="text-sm font-medium text-gray-700 mb-2">Quick Topics:</p>
+                        <div class="flex flex-wrap gap-2">
+                            <button onclick="MCATVictory.tutor.quickTopic('What is cellular respiration?')" class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm hover:bg-blue-200 transition-colors">
+                                Cellular Respiration
+                            </button>
+                            <button onclick="MCATVictory.tutor.quickTopic('Explain organic chemistry reactions')" class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm hover:bg-green-200 transition-colors">
+                                Organic Chemistry
+                            </button>
+                            <button onclick="MCATVictory.tutor.quickTopic('How do I solve physics problems?')" class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm hover:bg-purple-200 transition-colors">
+                                Physics Problem Solving
+                            </button>
+                            <button onclick="MCATVictory.tutor.quickTopic('MCAT psychology concepts')" class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-sm hover:bg-yellow-200 transition-colors">
+                                Psychology
+                            </button>
+                            <button onclick="MCATVictory.tutor.quickTopic('Study strategies for MCAT')" class="px-3 py-1 bg-red-100 text-red-800 rounded-full text-sm hover:bg-red-200 transition-colors">
+                                Study Strategies
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Typing Indicator -->
+                    <div id="typing-indicator" class="hidden mt-4">
+                        <div class="flex items-center space-x-3">
+                            <div class="flex-shrink-0">
+                                <div class="w-8 h-8 bg-gradient-to-r from-blue-500 to-teal-500 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-robot text-white text-sm"></i>
+                                </div>
+                            </div>
+                            <div class="flex-1">
+                                <div class="bg-gradient-to-r from-blue-50 to-teal-50 rounded-lg p-3 border border-blue-200">
+                                    <div class="flex space-x-1">
+                                        <div class="w-2 h-2 bg-blue-400 rounded-full animate-bounce"></div>
+                                        <div class="w-2 h-2 bg-blue-400 rounded-full animate-bounce" style="animation-delay: 0.1s"></div>
+                                        <div class="w-2 h-2 bg-blue-400 rounded-full animate-bounce" style="animation-delay: 0.2s"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Status Section -->
+        <section class="mb-8 bg-gradient-to-r from-blue-50 to-indigo-50 text-blue-800 rounded-lg shadow-lg p-6 border border-blue-200">
+            <div class="text-center">
+                <h2 class="text-2xl font-bold mb-2">
+                    <i class="fas fa-tools mr-3"></i>
+                    Testing Mode - Isolating Components
+                </h2>
+                <p class="opacity-90 mb-4">Progress Tracker removed. Testing Flashcards and AI Tutor individually.</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="bg-white bg-opacity-60 p-4 rounded-lg text-center">
+                        <i class="fas fa-brain text-3xl mb-2 text-blue-600"></i>
+                        <div class="font-semibold text-blue-700">Flashcards</div>
+                        <div class="text-xs text-blue-600">🔍 Testing</div>
+                    </div>
+                    
+                    <div class="bg-white bg-opacity-60 p-4 rounded-lg text-center">
+                        <i class="fas fa-robot text-3xl mb-2 text-blue-600"></i>
+                        <div class="font-semibold text-blue-700">AI Tutor</div>
+                        <div class="text-xs text-blue-600">🔍 Testing</div>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-6">
+                    <p class="text-sm text-blue-600">✨ Enhanced Flashcard System Active - Test all new features!</p>
+                    <div class="text-xs text-blue-500 mt-1">Confidence tracking • Card shuffling • Variable deck sizes • Session analytics</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-white py-6 mt-12" style="background: linear-gradient(135deg, #1e3a8a 0%, #1e88e5 100%);">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 MCAT Victory Coach™. Evidence-Based Preparation for Future Doctors.</p>
+            <p class="text-sm mt-2" style="color: #e3f2fd;">Medical Education • Clean Foundation</p>
+        </div>
+    </footer>
+
+    <!-- Simple, Clean JavaScript - No Conflicts -->
+    <script>
+        // Simple initialization without conflicts
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('✅ MCAT Victory Coach - Clean Foundation Loaded');
+            console.log('🧬 No component conflicts detected');
+            
+            // Simple status indicator update
+            const statusIndicator = document.getElementById('mcp-status');
+            if (statusIndicator) {
+                setTimeout(() => {
+                    statusIndicator.innerHTML = '<div class="header-status-dot"></div><span>Foundation Ready</span>';
+                }, 1000);
+            }
+        });
+        
+        // Global namespace for future components
+        window.MCATVictory = {
+            components: {},
+            utils: {},
+            initialized: true,
+            flashcards: {
+                currentDeck: [],
+                originalDeck: [],
+                currentIndex: 0,
+                isFlipped: false,
+                sessionStats: {
+                    total: 0,
+                    confident: 0,
+                    okay: 0,
+                    needReview: 0,
+                    cardsRated: new Set()
+                },
+                sessionStartTime: null,
+                sessionTimer: null,
+                isShuffled: false,
+                errorCount: 0,
+                // FSRS (Free Spaced Repetition Scheduler) data
+                fsrsData: new Map(), // cardId -> FSRS card data
+                fsrsWeights: [0.4197, 1.1869, 3.173, 15.69, 7.1824, 0.5345, 1.4604, 0.0046, 1.54, 0.1192, 2.7849, 0.8213, 0.9453, 2.0556, 0.2676, 2.8011, 0.2892, 4.6306, 0.0, 1.0]
+            }
+        };
+        
+        // Additional flashcard methods - Define before init
+        MCATVictory.flashcards.shuffleArray = function(array) {
+            const shuffled = [...array];
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            return shuffled;
+        };
+
+        // FSRS Algorithm Implementation
+        MCATVictory.flashcards.initializeFSRSCard = function(cardId) {
+            if (!this.fsrsData.has(cardId)) {
+                this.fsrsData.set(cardId, {
+                    due: new Date(),
+                    stability: 1,
+                    difficulty: 5,
+                    elapsed_days: 0,
+                    scheduled_days: 0,
+                    reps: 0,
+                    lapses: 0,
+                    state: 'New', // New, Learning, Review, Relearning
+                    last_review: null
+                });
+            }
+            return this.fsrsData.get(cardId);
+        };
+
+        MCATVictory.flashcards.calculateMemoryState = function(elapsed_days, stability) {
+            if (stability < 0.1) stability = 0.1;
+            return Math.exp(-elapsed_days / stability);
+        };
+
+        MCATVictory.flashcards.nextInterval = function(s, r, t, grade) {
+            const w = this.fsrsWeights;
+            let new_s;
+            
+            if (r === 0) {
+                // First review
+                new_s = w[grade - 1];
+            } else {
+                const mean_reversion = w[4];
+                const difficulty_weight = w[5];
+                const stability_weight = w[6];
+                
+                new_s = s * Math.exp(w[17] * (grade - 3 + difficulty_weight * (t - 2) + 
+                    mean_reversion * (1 - Math.pow(stability_weight, Math.max(0, r)))));
+            }
+            
+            return Math.max(1, Math.round(new_s));
+        };
+
+        MCATVictory.flashcards.nextDifficulty = function(d, rating) {
+            const w = this.fsrsWeights;
+            const difficulty_change = w[6] * (rating - 3);
+            return Math.max(1, Math.min(10, d + difficulty_change));
+        };
+
+        MCATVictory.flashcards.fsrsSchedule = function(cardId, rating) {
+            const card = this.initializeFSRSCard(cardId);
+            const now = new Date();
+            
+            // Calculate elapsed days since last review
+            if (card.last_review) {
+                card.elapsed_days = Math.ceil((now - new Date(card.last_review)) / (1000 * 60 * 60 * 24));
+            }
+            
+            // Calculate memory state before updating
+            const memory_state = this.calculateMemoryState(card.elapsed_days, card.stability);
+            
+            // Update based on rating (1=Again, 2=Hard, 3=Good, 4=Easy)
+            if (rating === 1) { // Again - card forgotten
+                card.lapses++;
+                card.state = card.reps === 0 ? 'Learning' : 'Relearning';
+                card.stability = card.stability * 0.2; // Reduce stability significantly
+                card.scheduled_days = 1; // Review tomorrow
+            } else {
+                card.reps++;
+                
+                if (card.state === 'New' || card.state === 'Learning') {
+                    if (rating >= 3) {
+                        card.state = 'Review';
+                    } else {
+                        card.state = 'Learning';
+                    }
+                } else if (card.state === 'Relearning') {
+                    if (rating >= 3) {
+                        card.state = 'Review';
+                    }
+                }
+                
+                // Calculate new stability and difficulty
+                card.stability = this.nextInterval(card.stability, card.reps, card.difficulty, rating);
+                card.difficulty = this.nextDifficulty(card.difficulty, rating);
+                
+                // Set scheduled days based on stability
+                if (rating === 2) { // Hard
+                    card.scheduled_days = Math.max(1, Math.round(card.stability * 1.2));
+                } else if (rating === 3) { // Good
+                    card.scheduled_days = Math.round(card.stability);
+                } else if (rating === 4) { // Easy
+                    card.scheduled_days = Math.round(card.stability * 1.3);
+                }
+            }
+            
+            // Set next due date
+            card.due = new Date(now.getTime() + (card.scheduled_days * 24 * 60 * 60 * 1000));
+            card.last_review = now.toISOString();
+            
+            // Save to localStorage for persistence
+            this.saveFSRSData();
+            
+            return card;
+        };
+
+        MCATVictory.flashcards.saveFSRSData = function() {
+            const dataToSave = Object.fromEntries(this.fsrsData);
+            localStorage.setItem('mcat_fsrs_data', JSON.stringify(dataToSave));
+        };
+
+        MCATVictory.flashcards.loadFSRSData = function() {
+            const savedData = localStorage.getItem('mcat_fsrs_data');
+            if (savedData) {
+                const parsed = JSON.parse(savedData);
+                this.fsrsData = new Map(Object.entries(parsed));
+            }
+        };
+
+        MCATVictory.flashcards.getDueCards = function() {
+            const now = new Date();
+            const dueCards = [];
+            
+            for (const [cardId, cardData] of this.fsrsData) {
+                if (new Date(cardData.due) <= now) {
+                    dueCards.push({ cardId, ...cardData });
+                }
+            }
+            
+            return dueCards.sort((a, b) => new Date(a.due) - new Date(b.due));
+        };
+
+        MCATVictory.flashcards.getNextReviewDate = function(cardId) {
+            const card = this.fsrsData.get(cardId);
+            return card ? new Date(card.due) : new Date();
+        };
+        
+        MCATVictory.flashcards.shuffleDeck = function() {
+            if (this.currentDeck.length === 0) return;
+            
+            this.currentDeck = this.shuffleArray([...this.originalDeck]);
+            this.isShuffled = true;
+            this.currentIndex = 0;
+            this.showCurrentCard();
+            
+            // Show feedback
+            this.showNotification('Deck shuffled! Starting from the beginning.', 'info');
+        };
+        
+        MCATVictory.flashcards.startSessionTimer = function() {
+            this.sessionStartTime = Date.now();
+            this.sessionTimer = setInterval(() => {
+                this.updateSessionTime();
+            }, 1000);
+        };
+        
+        MCATVictory.flashcards.updateSessionTime = function() {
+            const timeElement = document.getElementById('session-time');
+            if (timeElement && this.sessionStartTime) {
+                const elapsed = Date.now() - this.sessionStartTime;
+                const minutes = Math.floor(elapsed / 60000);
+                const seconds = Math.floor((elapsed % 60000) / 1000);
+                timeElement.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            }
+        };
+        
+        MCATVictory.flashcards.showNotification = function(message, type = 'info') {
+            // Create notification element if it doesn't exist
+            let notification = document.getElementById('flashcard-notification');
+            if (!notification) {
+                notification = document.createElement('div');
+                notification.id = 'flashcard-notification';
+                notification.className = 'fixed top-4 right-4 z-50 px-4 py-3 rounded-lg shadow-lg transition-all duration-300 transform translate-x-full';
+                document.body.appendChild(notification);
+            }
+            
+            const colors = {
+                info: 'bg-blue-500 text-white',
+                success: 'bg-green-500 text-white',
+                warning: 'bg-yellow-500 text-black',
+                error: 'bg-red-500 text-white'
+            };
+            
+            notification.className = `fixed top-4 right-4 z-50 px-4 py-3 rounded-lg shadow-lg transition-all duration-300 ${colors[type] || colors.info}`;
+            notification.textContent = message;
+            
+            // Show notification
+            setTimeout(() => {
+                notification.style.transform = 'translateX(0)';
+            }, 100);
+            
+            // Hide notification after 3 seconds
+            setTimeout(() => {
+                notification.style.transform = 'translateX(100%)';
+            }, 3000);
+        };
+        
+        MCATVictory.flashcards.rateCard = function(confidence) {
+            const cardId = this.currentIndex;
+            
+            // Track rating (prevent duplicate ratings)
+            if (!this.sessionStats.cardsRated.has(cardId)) {
+                this.sessionStats.cardsRated.add(cardId);
+                
+                switch(confidence) {
+                    case 'high':
+                        this.sessionStats.confident++;
+                        break;
+                    case 'medium':
+                        this.sessionStats.okay++;
+                        break;
+                    case 'low':
+                        this.sessionStats.needReview++;
+                        break;
+                }
+            }
+            
+            // Automatically advance to next card
+            setTimeout(() => {
+                this.nextCard();
+            }, 300);
+        };
+
+        // FSRS Rating Function
+        MCATVictory.flashcards.rateCardFSRS = function(rating) {
+            if (this.currentDeck.length === 0 || this.currentIndex >= this.currentDeck.length) {
+                return;
+            }
+
+            const currentCard = this.currentDeck[this.currentIndex];
+            if (!currentCard || !currentCard.id) {
+                console.warn('No card ID found for FSRS rating');
+                return;
+            }
+
+            // Apply FSRS scheduling
+            const updatedCard = this.fsrsSchedule(currentCard.id, rating);
+            
+            // Show notification about next review
+            const nextReview = new Date(updatedCard.due);
+            const days = updatedCard.scheduled_days;
+            let message = '';
+            
+            switch(rating) {
+                case 1:
+                    message = `Card will be reviewed again tomorrow`;
+                    break;
+                case 2:
+                    message = `Card scheduled for review in ${days} day${days !== 1 ? 's' : ''}`;
+                    break;
+                case 3:
+                    message = `Card scheduled for review in ${days} day${days !== 1 ? 's' : ''}`;
+                    break;
+                case 4:
+                    message = `Card scheduled for review in ${days} day${days !== 1 ? 's' : ''}`;
+                    break;
+            }
+            
+            this.showNotification(message, 'success');
+            
+            // Update session stats
+            const cardId = `${this.currentIndex}`;
+            if (!this.sessionStats.cardsRated.has(cardId)) {
+                this.sessionStats.cardsRated.add(cardId);
+                
+                // Map FSRS ratings to confidence stats for backward compatibility
+                if (rating === 1) {
+                    this.sessionStats.needReview++;
+                } else if (rating === 2) {
+                    this.sessionStats.okay++;
+                } else {
+                    this.sessionStats.confident++;
+                }
+            }
+            
+            // Move to next card
+            setTimeout(() => {
+                this.nextCard();
+            }, 500);
+        };
+
+        // Update intervals display for current card
+        MCATVictory.flashcards.updateFSRSIntervals = function() {
+            if (this.currentDeck.length === 0 || this.currentIndex >= this.currentDeck.length) {
+                return;
+            }
+
+            const currentCard = this.currentDeck[this.currentIndex];
+            if (!currentCard || !currentCard.id) return;
+
+            const cardData = this.fsrsData.get(currentCard.id);
+            if (!cardData) return;
+
+            // Calculate preview intervals for each rating
+            const previewIntervals = {
+                1: 1, // Again - always 1 day
+                2: Math.max(1, Math.round(cardData.stability * 1.2)), // Hard
+                3: Math.round(cardData.stability), // Good  
+                4: Math.round(cardData.stability * 1.3) // Easy
+            };
+
+            // Update button text with intervals
+            const hardBtn = document.getElementById('hard-interval');
+            const goodBtn = document.getElementById('good-interval');  
+            const easyBtn = document.getElementById('easy-interval');
+            
+            if (hardBtn) hardBtn.textContent = `${previewIntervals[2]} day${previewIntervals[2] !== 1 ? 's' : ''}`;
+            if (goodBtn) goodBtn.textContent = `${previewIntervals[3]} day${previewIntervals[3] !== 1 ? 's' : ''}`;
+            if (easyBtn) easyBtn.textContent = `${previewIntervals[4]} day${previewIntervals[4] !== 1 ? 's' : ''}`;
+
+            // Update card info display
+            const stateEl = document.getElementById('card-state');
+            const repsEl = document.getElementById('card-reps');
+            const stabilityEl = document.getElementById('card-stability');
+            
+            if (stateEl) stateEl.textContent = cardData.state;
+            if (repsEl) repsEl.textContent = `Reviews: ${cardData.reps}`;
+            if (stabilityEl) stabilityEl.textContent = `Stability: ${Math.round(cardData.stability)}d`;
+        };
+        
+        MCATVictory.flashcards.updateConfidenceStats = function() {
+            const statsElement = document.getElementById('confidence-stats');
+            if (statsElement) {
+                const { confident, okay, needReview } = this.sessionStats;
+                statsElement.innerHTML = `😊${confident} 😐${okay} ☹️${needReview}`;
+            }
+        };
+        
+        MCATVictory.flashcards.getSessionTime = function() {
+            if (!this.sessionStartTime) return '00:00';
+            const elapsed = Date.now() - this.sessionStartTime;
+            const minutes = Math.floor(elapsed / 60000);
+            const seconds = Math.floor((elapsed % 60000) / 1000);
+            return `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        };
+        
+        // Flashcard functionality
+        MCATVictory.flashcards.init = function() {
+            const self = this;
+            const generateBtn = document.getElementById('generate-flashcards');
+            const shuffleBtn = document.getElementById('shuffle-deck');
+            
+            if (generateBtn) {
+                console.log('🔍 DEBUG: Generate button found, adding event listener');
+                generateBtn.addEventListener('click', function() {
+                    console.log('🔍 DEBUG: Generate button clicked!');
+                    self.generateFlashcards();
+                });
+            } else {
+                console.error('❌ DEBUG: Generate button NOT found!');
+            }
+            
+            if (shuffleBtn) {
+                shuffleBtn.addEventListener('click', function() {
+                    self.shuffleDeck();
+                });
+            }
+            
+            // Initialize keyboard navigation
+            this.setupKeyboardNavigation();
+            
+            // Initialize session timer properties
+            this.sessionStartTime = null;
+            this.sessionTimer = null;
+        };
+        
+        MCATVictory.flashcards.setupKeyboardNavigation = function() {
+            const self = this; // Store reference to 'this'
+            
+            document.addEventListener('keydown', function(event) {
+                // Don't interfere with text input elements (FIX for AI Tutor input conflict)
+                const activeElement = document.activeElement;
+                if (activeElement && (
+                    activeElement.tagName === 'INPUT' || 
+                    activeElement.tagName === 'TEXTAREA' || 
+                    activeElement.contentEditable === 'true'
+                )) {
+                    return; // Let the input handle its own events
+                }
+                
+                // Only handle keyboard events when flashcards are active
+                const flashcard = document.getElementById('flashcard');
+                if (!flashcard || flashcard.classList.contains('hidden')) {
+                    return;
+                }
+                
+                // Prevent default for our handled keys
+                const handledKeys = ['Space', 'ArrowLeft', 'ArrowRight', 'Enter', 'Escape'];
+                if (handledKeys.includes(event.code)) {
+                    event.preventDefault();
+                }
+                
+                switch(event.code) {
+                    case 'Space':
+                    case 'Enter':
+                        // Space or Enter to flip card
+                        console.log('🔍 Keyboard: Flipping card');
+                        self.flipCard();
+                        break;
+                        
+                    case 'ArrowRight':
+                        // Right arrow to go to next card (only if answer is showing)
+                        if (self.isFlipped) {
+                            console.log('🔍 Keyboard: Next card');
+                            self.nextCard();
+                        }
+                        break;
+                        
+                    case 'ArrowLeft':
+                        // Left arrow to go to previous card
+                        console.log('🔍 Keyboard: Previous card');
+                        self.previousCard();
+                        break;
+                        
+                    case 'Escape':
+                        // Escape to restart session
+                        console.log('🔍 Keyboard: Restarting session');
+                        location.reload();
+                        break;
+                }
+            });
+        };
+        
+        MCATVictory.flashcards.generateFlashcards = async function() {
+            console.log('🔍 DEBUG: generateFlashcards function called!');
+            const subject = document.getElementById('flashcard-subject').value;
+            console.log('🔍 DEBUG: Selected subject:', subject);
+            
+            // Always show ALL cards for the selected topic
+            const fallbackDecks = {
+                'Biology': 30,
+                'General Chemistry': 28,
+                'Organic Chemistry': 18,
+                'Physics': 28,
+                'Biochemistry': 32,
+                'Psychology': 26,
+                'Sociology': 24,
+                'CARS (Critical Analysis)': 16
+            };
+            const deckSize = fallbackDecks[subject] || 30;
+            console.log(`🔍 Using ALL cards: ${deckSize} cards for ${subject}`);
+            const welcomeCard = document.getElementById('welcome-card');
+            const loadingCard = document.getElementById('loading-card');
+            const shuffleBtn = document.getElementById('shuffle-deck');
+            
+            console.log('🔍 TESTING: Generating', deckSize, 'cards for subject:', subject);
+            
+            // Reset session stats
+            this.sessionStats = {
+                total: 0,
+                confident: 0,
+                okay: 0,
+                needReview: 0,
+                cardsRated: new Set()
+            };
+            
+            // Show loading state with better UX
+            welcomeCard.classList.add('hidden');
+            loadingCard.classList.remove('hidden');
+            
+            // Start session timer
+            this.startSessionTimer();
+            
+            // FOR TESTING: Skip API and use local fallback cards directly
+            setTimeout(() => {
+                console.log('🔍 TESTING: Loading local fallback cards');
+                this.loadFallbackCards(subject, deckSize);
+                shuffleBtn.classList.remove('hidden');
+            }, 800);
+            
+            /* COMMENTED OUT API CALL FOR TESTING
+            try {
+                // Call API to generate flashcards
+                const response = await fetch('/api/flashcards/generate', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ subject: subject, count: 5 })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success && data.flashcards && data.flashcards.length > 0) {
+                    // Use API response
+                    this.currentDeck = data.flashcards;
+                    this.currentIndex = 0;
+                    this.sessionStats = { total: this.currentDeck.length, easy: 0, medium: 0, hard: 0 };
+                    this.showCurrentCard();
+                } else if (data.fallback_cards && data.fallback_cards.length > 0) {
+                    // Use fallback from API
+                    this.currentDeck = data.fallback_cards;
+                    this.currentIndex = 0;
+                    this.sessionStats = { total: this.currentDeck.length, easy: 0, medium: 0, hard: 0 };
+                    this.showCurrentCard();
+                } else {
+                    console.log('Using local fallback cards due to API error or no data');
+                    this.loadFallbackCards(subject);
+                }
+            } catch (error) {
+                console.log('Network error, using fallback cards:', error);
+                this.loadFallbackCards(subject);
+            }
+            */
+        };
+        
+        MCATVictory.flashcards.loadFallbackCards = function(subject, deckSize = 5) {
+            const fallbackDecks = {
+                'Biology': [
+                    // Cell Biology - High Yield
+                    { front: 'What are the phases of mitosis?', back: 'Prophase, Metaphase, Anaphase, Telophase (PMAT). Chromosomes condense, align, separate, and two nuclei form.' },
+                    { front: 'What happens during G1, S, and G2 phases of the cell cycle?', back: 'G1: Cell growth and normal functions. S: DNA replication. G2: Further growth and protein synthesis for mitosis.' },
+                    { front: 'What is the function of p53 tumor suppressor?', back: 'p53 monitors DNA integrity and halts cell division if damage is detected. Mutations in p53 can lead to cancer.' },
+                    { front: 'Which organelle is the powerhouse of the cell?', back: 'Mitochondria - generates ATP through oxidative phosphorylation and contains its own circular DNA.' },
+                    { front: 'What is the function of the endoplasmic reticulum?', back: 'Rough ER: protein synthesis and modification. Smooth ER: lipid synthesis and detoxification.' },
+                    { front: 'What is the difference between prokaryotes and eukaryotes?', back: 'Prokaryotes lack membrane-bound nucleus (bacteria, archaea). Eukaryotes have nucleus and organelles.' },
+                    
+                    // Molecular Biology - High Yield
+                    { front: 'What is the central dogma of molecular biology?', back: 'DNA → RNA → Protein. Genetic information flows from DNA to RNA via transcription, then RNA to protein via translation.' },
+                    { front: 'What is DNA replication?', back: 'Semiconservative process where DNA unwinds and each strand serves as template for new complementary strand.' },
+                    { front: 'What are the key enzymes in DNA replication?', back: 'Helicase (unwinds), primase (makes RNA primers), DNA polymerase (synthesizes), ligase (joins fragments).' },
+                    { front: 'What is the difference between leading and lagging strand?', back: 'Leading strand: continuous synthesis 5→3. Lagging strand: discontinuous synthesis as Okazaki fragments.' },
+                    { front: 'What are the three types of RNA and their functions?', back: 'mRNA: carries genetic code. tRNA: brings amino acids to ribosome. rRNA: structural component of ribosomes.' },
+                    { front: 'What happens during transcription?', back: 'RNA polymerase synthesizes RNA from DNA template. Process: initiation, elongation, termination.' },
+                    { front: 'What happens during translation?', back: 'Ribosomes read mRNA codons and assemble amino acids into proteins using tRNA.' },
+                    { front: 'What is the genetic code?', back: 'Triplet code where 3 nucleotides (codon) specify 1 amino acid. 64 codons code for 20 amino acids.' },
+                    
+                    // Genetics - High Yield
+                    { front: 'What is natural selection?', back: 'Process where organisms with favorable traits survive and reproduce more successfully, leading to evolutionary change.' },
+                    { front: 'What are the stages of meiosis?', back: 'Meiosis I (reduction division) and Meiosis II (similar to mitosis). Results in four genetically diverse haploid gametes.' },
+                    { front: 'What is crossing over and when does it occur?', back: 'Exchange of genetic material between homologous chromosomes during prophase I of meiosis, increasing genetic diversity.' },
+                    { front: 'What is independent assortment?', back: 'Random distribution of chromosome pairs during meiosis, contributing to genetic variation in gametes.' },
+                    { front: 'What is a mutation?', back: 'Change in DNA sequence. Types: point mutations (substitution), frameshift (insertion/deletion).' },
+                    { front: 'What is Hardy-Weinberg equilibrium?', back: 'Mathematical model describing allele frequencies in populations: p² + 2pq + q² = 1.' },
+                    
+                    // Physiology - High Yield
+                    { front: 'What are the components of blood?', back: 'Red blood cells (oxygen transport), white blood cells (immune defense), platelets (clotting), plasma (liquid).' },
+                    { front: 'What is the path of blood through the heart?', back: 'Vena cava → Right atrium → Right ventricle → Pulmonary artery → Lungs → Pulmonary veins → Left atrium → Left ventricle → Aorta.' },
+                    { front: 'What controls heart rate?', back: 'Sinoatrial (SA) node acts as pacemaker. Sympathetic NS increases rate, parasympathetic NS decreases rate.' },
+                    { front: 'What is the nephron structure and function?', back: 'Functional unit of kidney: glomerulus (filtration), tubules (reabsorption/secretion), collecting duct (concentration).' },
+                    { front: 'What hormones regulate blood glucose?', back: 'Insulin (lowers glucose by promoting uptake), glucagon (raises glucose by promoting glycogenolysis).' },
+                    { front: 'What is the function of the respiratory system?', back: 'Gas exchange: oxygen delivery to tissues and carbon dioxide removal. Also pH regulation.' },
+                    
+                    // Evolution and Ecology
+                    { front: 'What is speciation?', back: 'Formation of new species through reproductive isolation: allopatric (geographic) or sympatric (within same area).' },
+                    { front: 'What is adaptive radiation?', back: 'Rapid evolution of diversely adapted species from common ancestor, often after colonizing new environment.' },
+                    { front: 'What are the levels of ecological organization?', back: 'Individual → Population → Community → Ecosystem → Biome → Biosphere.' },
+                    { front: 'What is primary vs secondary succession?', back: 'Primary: colonization of bare rock/new habitat. Secondary: recolonization after disturbance.' },
+                    
+                    // Immunology - High Yield
+                    { front: 'What are the components of innate immunity?', back: 'Physical barriers (skin), phagocytes (macrophages, neutrophils), complement system, inflammation.' },
+                    { front: 'What are the components of adaptive immunity?', back: 'B cells (produce antibodies), T cells (cell-mediated immunity), memory cells for faster secondary response.' },
+                    { front: 'What is the difference between B cells and T cells?', back: 'B cells: produce antibodies (humoral immunity). T cells: direct cell killing and helper functions (cellular immunity).' },
+                    { front: 'What are the classes of antibodies?', back: 'IgG (most abundant), IgM (first response), IgA (secretory), IgE (allergies), IgD (B cell surface).' }
+                ],
+                'General Chemistry': [
+                    // Acids and Bases - High Yield
+                    { front: 'What is the Henderson-Hasselbalch equation?', back: 'pH = pKa + log([A-]/[HA]). Used to calculate pH of buffer solutions and determine buffer capacity.' },
+                    { front: 'What is a buffer and how does it work?', back: 'Buffer resists pH changes. Contains weak acid and conjugate base. Works by neutralizing added acids or bases.' },
+                    { front: 'What is the difference between strong and weak acids?', back: 'Strong acids completely ionize (HCl, H2SO4). Weak acids partially ionize with equilibrium constant Ka.' },
+                    { front: 'What are the 7 strong acids?', back: 'HCl, HBr, HI, HNO3, H2SO4, HClO4, HClO3. These completely dissociate in water.' },
+                    { front: 'What is the relationship between Ka and Kb?', back: 'Ka × Kb = Kw = 1.0 × 10^-14 at 25°C. For conjugate acid-base pairs.' },
+                    { front: 'What is a titration curve?', back: 'Graph of pH vs volume of titrant added. Shows equivalence point where moles acid = moles base.' },
+                    
+                    // Equilibrium - High Yield  
+                    { front: 'What is Le Châtelier\'s Principle?', back: 'If stress applied to equilibrium, system shifts to counteract stress. Applies to concentration, temperature, pressure changes.' },
+                    { front: 'What is Keq and what does it tell you?', back: 'Equilibrium constant. Keq > 1: products favored. Keq < 1: reactants favored. Temperature dependent.' },
+                    { front: 'What is the reaction quotient Q?', back: 'Same expression as Keq but for non-equilibrium conditions. Q < Keq: forward reaction. Q > Keq: reverse reaction.' },
+                    { front: 'How does temperature affect equilibrium?', back: 'Increase T favors endothermic direction. Decrease T favors exothermic direction. Only factor that changes Keq.' },
+                    
+                    // Thermodynamics - High Yield
+                    { front: 'What is Gibbs free energy and spontaneity?', back: 'ΔG = ΔH - TΔS. ΔG < 0: spontaneous. ΔG > 0: non-spontaneous. ΔG = 0: equilibrium.' },
+                    { front: 'What is entropy?', back: 'Measure of disorder (randomness). ΔS > 0 increases spontaneity. Gas > liquid > solid in entropy.' },
+                    { front: 'What is enthalpy?', back: 'Heat content at constant pressure. ΔH < 0: exothermic (releases heat). ΔH > 0: endothermic (absorbs heat).' },
+                    { front: 'What is the relationship between ΔG and Keq?', back: 'ΔG° = -RT ln(Keq). Connects thermodynamics to equilibrium position.' },
+                    
+                    // Kinetics - High Yield
+                    { front: 'What is the rate law?', back: 'Rate = k[A]^m[B]^n. Rate depends on reactant concentrations raised to order powers. k is rate constant.' },
+                    { front: 'What is the difference between reaction order and molecularity?', back: 'Order: sum of exponents in rate law (experimental). Molecularity: number of molecules in elementary step (theoretical).' },
+                    { front: 'What is activation energy?', back: 'Minimum energy needed for reaction. Catalysts lower Ea but don\'t change ΔG or equilibrium position.' },
+                    { front: 'What is the Arrhenius equation?', back: 'k = Ae^(-Ea/RT). Shows relationship between rate constant, temperature, and activation energy.' },
+                    
+                    // Electrochemistry - High Yield
+                    { front: 'What is the difference between galvanic and electrolytic cells?', back: 'Galvanic: spontaneous, ΔG < 0, generates electricity. Electrolytic: non-spontaneous, ΔG > 0, requires electricity.' },
+                    { front: 'What happens at the anode and cathode?', back: 'Anode: oxidation occurs (lose electrons). Cathode: reduction occurs (gain electrons). "An Ox, Red Cat".' },
+                    { front: 'What is the Nernst equation?', back: 'E = E° - (RT/nF)ln(Q). Calculates cell potential under non-standard conditions.' },
+                    { front: 'What is standard reduction potential?', back: 'Voltage measured under standard conditions. Higher E° means stronger oxidizing agent.' },
+                    
+                    // Atomic Structure - High Yield
+                    { front: 'What is electronegativity and its trend?', back: 'Ability to attract electrons in bond. Increases across period (left to right), decreases down group.' },
+                    { front: 'What are the periodic trends for atomic radius?', back: 'Decreases across period (more protons), increases down group (more electron shells).' },
+                    { front: 'What is ionization energy?', back: 'Energy to remove electron. Increases across period, decreases down group. Opposite trend to atomic radius.' },
+                    { front: 'What is electron affinity?', back: 'Energy released when electron added to atom. Generally increases across period, varies down group.' },
+                    
+                    // Gas Laws - High Yield
+                    { front: 'What is the ideal gas law?', back: 'PV = nRT. Relates pressure, volume, moles, and temperature for ideal gases.' },
+                    { front: 'What are the gas law relationships?', back: 'Boyle\'s: P ∝ 1/V (T constant). Charles\': V ∝ T (P constant). Gay-Lussac\'s: P ∝ T (V constant).' },
+                    { front: 'What is partial pressure?', back: 'Pressure contributed by each gas in mixture. Dalton\'s Law: Ptotal = P1 + P2 + P3...' },
+                    { front: 'When do real gases deviate from ideal behavior?', back: 'High pressure (molecular volume matters) and low temperature (intermolecular forces matter).' }
+                ],
+                'Organic Chemistry': [
+                    // Reaction Mechanisms - High Yield
+                    { front: 'What is the difference between SN1 and SN2 reactions?', back: 'SN1: two-step, carbocation intermediate, racemization. SN2: one-step, backside attack, inversion of stereochemistry.' },
+                    { front: 'What is the difference between E1 and E2 reactions?', back: 'E1: two-step, carbocation intermediate, unimolecular. E2: one-step, concerted, bimolecular, anti-periplanar.' },
+                    { front: 'What factors favor SN2 over SN1?', back: 'Strong nucleophile, primary carbon, polar aprotic solvent, low temperature.' },
+                    { front: 'What factors favor E2 over E1?', back: 'Strong base, high temperature, anti-periplanar arrangement of β-hydrogen.' },
+                    { front: 'What is carbocation stability order?', back: '3° > 2° > 1° > methyl. Stabilized by hyperconjugation and inductive effects.' },
+                    
+                    // Functional Groups - High Yield
+                    { front: 'What are the major functional groups and their properties?', back: 'Alkyl halides (reactive), alcohols (polar, H-bonding), aldehydes/ketones (polar C=O), carboxylic acids (acidic), amines (basic).' },
+                    { front: 'What is the order of boiling points?', back: 'Carboxylic acid > alcohol > aldehyde/ketone > ether > alkyl halide > alkane (based on H-bonding and polarity).' },
+                    { front: 'What makes a compound acidic?', back: 'Ability to donate protons. Carboxylic acids > phenols > alcohols. Stabilization of conjugate base increases acidity.' },
+                    { front: 'What makes a compound basic?', back: 'Ability to accept protons. Amines are basic due to lone pair electrons on nitrogen.' },
+                    
+                    // Stereochemistry - High Yield
+                    { front: 'What is the difference between R and S configuration?', back: 'Cahn-Ingold-Prelog rules: assign priorities, rotate to put lowest priority away, clockwise = R, counterclockwise = S.' },
+                    { front: 'What is the difference between enantiomers and diastereomers?', back: 'Enantiomers: non-superimposable mirror images. Diastereomers: stereoisomers that are not mirror images.' },
+                    { front: 'What is optical activity?', back: 'Rotation of plane-polarized light by chiral compounds. (+) = dextrorotatory, (-) = levorotatory.' },
+                    { front: 'What is a racemic mixture?', back: '50:50 mixture of enantiomers. Optically inactive because rotations cancel out.' },
+                    
+                    // Spectroscopy - High Yield
+                    { front: 'What does IR spectroscopy measure?', back: 'Molecular vibrations. O-H: 3200-3600 cm⁻¹, C=O: 1700 cm⁻¹, C-H: 2800-3000 cm⁻¹.' },
+                    { front: 'What does ¹H NMR measure?', back: 'Chemical environment of protons. Chemical shift indicates functional groups, splitting patterns show neighboring protons.' },
+                    { front: 'What does mass spectrometry measure?', back: 'Mass-to-charge ratio of ions. Molecular ion peak gives molecular weight, fragmentation pattern aids structure determination.' },
+                    { front: 'What information does ¹³C NMR provide?', back: 'Carbon environments. DEPT helps distinguish CH₃, CH₂, CH, and quaternary carbons.' }
+                ],
+                'Physics': [
+                    // Mechanics - High Yield
+                    { front: 'What is Newton\'s Second Law?', back: 'F = ma. Net force equals mass times acceleration. Also F = dp/dt (change in momentum).' },
+                    { front: 'What is the work-energy theorem?', back: 'Work done on object equals change in kinetic energy. W = ΔKE = ½mv² - ½mv₀².' },
+                    { front: 'What is conservation of momentum?', back: 'Total momentum before collision equals total momentum after. m₁v₁ + m₂v₂ = m₁v₁\' + m₂v₂\'' },
+                    { front: 'What is the difference between elastic and inelastic collisions?', back: 'Elastic: kinetic energy conserved. Inelastic: kinetic energy not conserved, some converted to other forms.' },
+                    { front: 'What is circular motion?', back: 'Centripetal acceleration = v²/r = ω²r. Centripetal force = mv²/r directed toward center.' },
+                    
+                    // Waves and Sound - High Yield
+                    { front: 'What is the wave equation?', back: 'v = fλ. Wave speed equals frequency times wavelength.' },
+                    { front: 'What is the Doppler effect?', back: 'Frequency change due to relative motion. f\' = f(v ± v_observer)/(v ± v_source).' },
+                    { front: 'What is interference?', back: 'Constructive: waves add (path difference = nλ). Destructive: waves cancel (path difference = (n+½)λ).' },
+                    { front: 'What is resonance?', back: 'Maximum amplitude when driving frequency matches natural frequency of system.' },
+                    
+                    // Optics - High Yield
+                    { front: 'What is the lens equation?', back: '1/f = 1/do + 1/di. Relates focal length to object and image distances.' },
+                    { front: 'What is Snell\'s Law?', back: 'n₁sin(θ₁) = n₂sin(θ₂). Describes refraction at interface between media.' },
+                    { front: 'What is total internal reflection?', back: 'Occurs when light travels from denser to less dense medium at angle > critical angle.' },
+                    { front: 'What is the mirror equation?', back: '1/f = 1/do + 1/di. Same form as lens equation. Focal length is half radius of curvature.' },
+                    
+                    // Electricity and Magnetism - High Yield
+                    { front: 'What is Ohm\'s Law?', back: 'V = IR. Voltage equals current times resistance. Also P = IV = I²R = V²/R.' },
+                    { front: 'What is Coulomb\'s Law?', back: 'F = kq₁q₂/r². Force between charges inversely proportional to distance squared.' },
+                    { front: 'What is the relationship between electric field and potential?', back: 'E = -dV/dr. Electric field is negative gradient of potential.' },
+                    { front: 'What is Faraday\'s Law?', back: 'ε = -dΦ/dt. Induced EMF equals negative rate of change of magnetic flux.' },
+                    { front: 'What are series vs parallel circuits?', back: 'Series: same current, voltages add. Parallel: same voltage, currents add. Resistances: Rs = R1+R2, 1/Rp = 1/R1+1/R2.' },
+                    
+                    // Fluids - High Yield
+                    { front: 'What is Bernoulli\'s equation?', back: 'P + ½ρv² + ρgh = constant. Conservation of energy in fluid flow.' },
+                    { front: 'What is the continuity equation?', back: 'A₁v₁ = A₂v₂. Flow rate constant in incompressible fluid (mass conservation).' },
+                    { front: 'What is buoyancy?', back: 'Fb = ρ_fluid × V_displaced × g. Buoyant force equals weight of displaced fluid (Archimedes\' principle).' },
+                    { front: 'What is Poiseuille\'s Law?', back: 'Q = πr⁴ΔP/8ηL. Laminar flow rate through tube depends on r⁴.' },
+                    
+                    // Thermodynamics - High Yield
+                    { front: 'What is the First Law of Thermodynamics?', back: 'ΔU = Q - W. Change in internal energy equals heat added minus work done by system.' },
+                    { front: 'What is the Second Law of Thermodynamics?', back: 'Entropy of isolated system always increases. Heat cannot flow spontaneously from cold to hot.' },
+                    { front: 'What is an adiabatic process?', back: 'Q = 0 (no heat exchange). ΔU = -W. Temperature changes due to compression/expansion.' },
+                    { front: 'What is an isothermal process?', back: 'ΔT = 0 (constant temperature). ΔU = 0 for ideal gas. Q = W.' },
+                    
+                    // Modern Physics - High Yield
+                    { front: 'What is the photoelectric effect?', back: 'Electrons ejected from metal when light frequency > threshold. E = hf - φ (work function).' },
+                    { front: 'What is de Broglie wavelength?', back: 'λ = h/p. Matter waves - all particles have wave properties.' },
+                    { front: 'What is the Heisenberg uncertainty principle?', back: 'Δx·Δp ≥ ħ/2. Cannot simultaneously know exact position and momentum.' },
+                    { front: 'What is radioactive decay?', back: 'N(t) = N₀e^(-λt). Half-life: t₁/₂ = ln(2)/λ. α: 2 protons + 2 neutrons. β⁻: neutron → proton + electron.' }
+                ],
+                'Psychology': [
+                    // Learning and Memory - High Yield
+                    { front: 'What is classical conditioning?', back: 'Learning where neutral stimulus becomes conditioned stimulus through association. UCS → UCR, CS + UCS → UCR, CS → CR.' },
+                    { front: 'What is operant conditioning?', back: 'Learning through consequences. Reinforcement increases behavior, punishment decreases behavior. Schedules affect learning patterns.' },
+                    { front: 'What are the different types of memory?', back: 'Sensory (brief), Short-term/Working (15-30 sec), Long-term (unlimited). Long-term: Explicit (declarative) and Implicit (procedural).' },
+                    { front: 'What is the difference between recall and recognition?', back: 'Recall: retrieving information without cues. Recognition: identifying information when presented with cues.' },
+                    { front: 'What are the stages of memory formation?', back: 'Encoding (input), Storage (retention), Retrieval (output). Problems at any stage cause memory failure.' },
+                    
+                    // Cognitive Psychology - High Yield
+                    { front: 'What is cognitive dissonance?', back: 'Mental discomfort from holding contradictory beliefs. Resolved by changing attitudes, beliefs, or behaviors.' },
+                    { front: 'What is the elaboration likelihood model?', back: 'Two routes to persuasion: Central route (careful evaluation), Peripheral route (superficial cues).' },
+                    { front: 'What are heuristics?', back: 'Mental shortcuts for decision-making. Availability heuristic, representativeness heuristic, anchoring bias.' },
+                    { front: 'What is confirmation bias?', back: 'Tendency to search for and interpret information that confirms pre-existing beliefs.' },
+                    
+                    // Developmental Psychology - High Yield
+                    { front: 'What are Piaget\'s stages of development?', back: 'Sensorimotor (0-2): object permanence. Preoperational (2-7): symbolic thinking. Concrete (7-11): logical thinking. Formal (11+): abstract thinking.' },
+                    { front: 'What are Erikson\'s stages of psychosocial development?', back: '8 stages with crises: Trust vs Mistrust, Autonomy vs Shame, Initiative vs Guilt, Industry vs Inferiority, Identity vs Confusion, etc.' },
+                    { front: 'What is attachment theory?', back: 'Bowlby\'s theory: secure, anxious-ambivalent, avoidant attachment styles based on caregiver responsiveness.' },
+                    { front: 'What is theory of mind?', back: 'Understanding that others have beliefs, desires, and knowledge different from one\'s own. Develops around age 4.' },
+                    
+                    // Personality - High Yield
+                    { front: 'What are the Big Five personality traits?', back: 'OCEAN: Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism. Stable across cultures and time.' },
+                    { front: 'What is the difference between trait and state?', back: 'Trait: stable characteristic (personality). State: temporary condition (mood, emotion).' },
+                    { front: 'What are defense mechanisms?', back: 'Unconscious strategies to cope with anxiety: repression, projection, displacement, sublimation, rationalization.' },
+                    
+                    // Psychological Disorders - High Yield
+                    { front: 'What are the criteria for psychological disorders?', back: 'Deviance, distress, dysfunction, danger. Must cause significant impairment in functioning.' },
+                    { front: 'What is the difference between anxiety and phobia?', back: 'Anxiety: general worry/fear. Phobia: specific, irrational fear that interferes with functioning.' },
+                    { front: 'What are mood disorders?', back: 'Major depression: persistent sadness, loss of interest. Bipolar: alternating manic and depressive episodes.' },
+                    { front: 'What is schizophrenia?', back: 'Positive symptoms: hallucinations, delusions. Negative symptoms: flat affect, social withdrawal, poor speech.' },
+                    
+                    // Sensation and Perception - High Yield
+                    { front: 'What is the difference between sensation and perception?', back: 'Sensation: detection of stimuli by sensory organs. Perception: interpretation and organization of sensations.' },
+                    { front: 'What are absolute and difference thresholds?', back: 'Absolute: minimum stimulus intensity detected 50% of time. Difference: minimum change in stimulus detected 50% of time.' },
+                    { front: 'What is signal detection theory?', back: 'Decision-making under uncertainty. Four outcomes: hit, miss, false alarm, correct rejection.' },
+                    { front: 'What are Gestalt principles?', back: 'Figure-ground, proximity, similarity, closure, continuity. Brain organizes stimuli into meaningful wholes.' },
+                    
+                    // Social Psychology - High Yield
+                    { front: 'What is social facilitation?', back: 'Performance improves on easy tasks and worsens on difficult tasks in presence of others.' },
+                    { front: 'What is conformity?', back: 'Changing behavior to match group. Asch studies showed people conform even when group is obviously wrong.' },
+                    { front: 'What is obedience?', back: 'Following direct commands from authority figure. Milgram studies showed high rates of obedience to authority.' },
+                    { front: 'What is attribution theory?', back: 'How we explain behavior. Internal (dispositional) vs external (situational) attributions. Fundamental attribution error.' }
+                ],
+                'Biochemistry': [
+                    // Amino Acids - High Yield (Critical for MCAT)
+                    { front: 'What are the 20 standard amino acids and their properties?', back: 'Nonpolar: Gly, Ala, Val, Leu, Ile, Met, Pro, Phe, Trp. Polar: Ser, Thr, Cys, Tyr, Asn, Gln. Charged: Asp(-), Glu(-), Lys(+), Arg(+), His(+).' },
+                    { front: 'Which amino acids are essential?', back: 'His, Ile, Leu, Lys, Met, Phe, Thr, Trp, Val. "His Illness Leaves Me Feeling Thoroughly Tired and Weary".' },
+                    { front: 'Which amino acids have special properties?', back: 'Gly (flexible), Pro (rigid), Cys (disulfide bonds), Met (start codon), Trp (largest), His (pKa ~6).' },
+                    { front: 'What are the one-letter codes for amino acids?', back: 'A-Ala, R-Arg, N-Asn, D-Asp, C-Cys, Q-Gln, E-Glu, G-Gly, H-His, I-Ile, L-Leu, K-Lys, M-Met, F-Phe, P-Pro, S-Ser, T-Thr, W-Trp, Y-Tyr, V-Val.' },
+                    
+                    // Protein Structure - High Yield
+                    { front: 'What are the four levels of protein structure?', back: 'Primary: amino acid sequence. Secondary: α-helix, β-sheet (H-bonds). Tertiary: 3D fold (all interactions). Quaternary: multiple subunits.' },
+                    { front: 'What stabilizes protein structure?', back: 'Primary: peptide bonds. Secondary: hydrogen bonds. Tertiary: disulfide bonds, salt bridges, hydrophobic interactions, van der Waals.' },
+                    { front: 'What is protein denaturation?', back: 'Loss of native structure due to heat, pH, chemicals. Primary structure remains intact, higher orders disrupted.' },
+                    { front: 'What is the difference between fibrous and globular proteins?', back: 'Fibrous: structural (collagen, keratin), insoluble. Globular: functional (enzymes, hemoglobin), soluble.' },
+                    
+                    // Enzyme Kinetics - High Yield
+                    { front: 'What is the Michaelis-Menten equation?', back: 'v = (Vmax × [S]) / (Km + [S]). Describes enzyme kinetics. Km = [S] when v = Vmax/2.' },
+                    { front: 'What does Km represent?', back: 'Michaelis constant. Measure of enzyme affinity for substrate. Lower Km = higher affinity.' },
+                    { front: 'What does Vmax represent?', back: 'Maximum reaction velocity when enzyme is saturated with substrate. Proportional to enzyme concentration.' },
+                    { front: 'What is enzyme inhibition?', back: 'Competitive: competes with substrate, increases apparent Km. Non-competitive: changes enzyme shape, decreases Vmax. Uncompetitive: binds ES complex.' },
+                    { front: 'What is cooperative binding?', back: 'Binding of one substrate molecule increases affinity for subsequent binding. Sigmoidal curve instead of hyperbolic.' },
+                    
+                    // Glycolysis - High Yield (Critical Pathway)
+                    { front: 'What is glycolysis?', back: '10-step pathway: glucose → 2 pyruvate. Net: 2 ATP, 2 NADH. Occurs in cytoplasm. Can function anaerobically.' },
+                    { front: 'What are the key regulatory enzymes of glycolysis?', back: 'Hexokinase (step 1), Phosphofructokinase-1 (step 3, rate-limiting), Pyruvate kinase (step 10).' },
+                    { front: 'What regulates phosphofructokinase-1?', back: 'Activated by: ADP, AMP, Pi. Inhibited by: ATP, citrate. Key regulatory point of glycolysis.' },
+                    { front: 'What happens to pyruvate after glycolysis?', back: 'Aerobic: → acetyl-CoA → citric acid cycle. Anaerobic: → lactate (animals) or ethanol (yeast).' },
+                    
+                    // Citric Acid Cycle - High Yield
+                    { front: 'What is the citric acid cycle?', back: '8-step cycle: acetyl-CoA + oxaloacetate → citrate → oxaloacetate. Produces 3 NADH, 1 FADH2, 1 GTP per turn.' },
+                    { front: 'Where does the citric acid cycle occur?', back: 'Mitochondrial matrix. Requires oxygen (indirectly) for NAD+ regeneration via electron transport chain.' },
+                    { front: 'What are the key regulatory enzymes of the citric acid cycle?', back: 'Isocitrate dehydrogenase (rate-limiting), α-ketoglutarate dehydrogenase, pyruvate dehydrogenase complex.' },
+                    { front: 'What regulates isocitrate dehydrogenase?', back: 'Activated by: ADP, Ca2+. Inhibited by: ATP, NADH. Controls flux through citric acid cycle.' },
+                    
+                    // Electron Transport Chain - High Yield
+                    { front: 'What is the electron transport chain?', back: 'Series of protein complexes that transfer electrons from NADH/FADH2 to O2, pumping protons to create gradient.' },
+                    { front: 'What are the complexes of the electron transport chain?', back: 'Complex I (NADH dehydrogenase), II (succinate dehydrogenase), III (cytochrome bc1), IV (cytochrome oxidase).' },
+                    { front: 'What is oxidative phosphorylation?', back: 'ATP synthesis driven by proton gradient. ATP synthase uses proton-motive force to phosphorylate ADP.' },
+                    { front: 'What is the P/O ratio?', back: 'ATP molecules produced per oxygen atom reduced. NADH: ~2.5 ATP, FADH2: ~1.5 ATP.' },
+                    
+                    // Other Metabolic Pathways - High Yield
+                    { front: 'What is gluconeogenesis?', back: 'Synthesis of glucose from non-carbohydrate precursors. Uses many glycolytic enzymes in reverse plus 4 unique enzymes.' },
+                    { front: 'What is the pentose phosphate pathway?', back: 'Alternative glucose oxidation pathway. Produces NADPH (reducing power) and ribose-5-phosphate (nucleotide synthesis).' },
+                    { front: 'What is β-oxidation?', back: 'Fatty acid catabolism. Each cycle removes 2-carbon acetyl-CoA unit and produces 1 NADH, 1 FADH2.' },
+                    { front: 'What is the urea cycle?', back: 'Conversion of toxic ammonia to urea. Occurs partially in mitochondria, partially in cytoplasm. Requires 4 ATP per urea.' }
+                ],
+                'Sociology': [
+                    // Social Stratification - High Yield
+                    { front: 'What is social stratification?', back: 'Hierarchical arrangement of society. Based on class (economic), status (prestige), power (influence).' },
+                    { front: 'What is the difference between class and status?', back: 'Class: economic position (wealth, income). Status: social prestige and honor. Power: ability to influence others.' },
+                    { front: 'What is social mobility?', back: 'Movement between social classes. Vertical (up/down), horizontal (same level), intergenerational, intragenerational.' },
+                    { front: 'What are the theories of social class?', back: 'Marx: bourgeoisie vs proletariat (economic). Weber: class, status, party (multidimensional).' },
+                    
+                    // Social Institutions - High Yield
+                    { front: 'What are the major social institutions?', back: 'Family, education, religion, government, economy, healthcare. Each serves specific societal functions.' },
+                    { front: 'What is the functionalist perspective on institutions?', back: 'Institutions maintain social stability and meet societal needs. Focus on manifest and latent functions.' },
+                    { front: 'What is the conflict perspective on institutions?', back: 'Institutions perpetuate inequality and serve interests of dominant groups. Focus on power struggles.' },
+                    { front: 'What is secularization?', back: 'Decline in religious influence on society. Religion becomes more private, less involved in public life.' },
+                    
+                    // Culture and Society - High Yield
+                    { front: 'What is culture?', back: 'Shared beliefs, values, norms, symbols, language of a group. Material (objects) and non-material (ideas) components.' },
+                    { front: 'What is the difference between folkways and mores?', back: 'Folkways: informal norms, minor sanctions. Mores: important norms, serious sanctions. Laws: formal norms.' },
+                    { front: 'What is cultural relativism vs ethnocentrism?', back: 'Cultural relativism: judge culture by its own standards. Ethnocentrism: judge by own cultural standards.' },
+                    { front: 'What is socialization?', back: 'Process of learning culture and social roles. Primary (family), secondary (school, peers), anticipatory, resocialization.' },
+                    
+                    // Deviance and Social Control - High Yield
+                    { front: 'What is deviance?', back: 'Violation of social norms. Relative to time, place, culture. Can be positive (innovation) or negative (crime).' },
+                    { front: 'What are theories of deviance?', back: 'Strain theory (Merton): disconnect between goals and means. Labeling theory: deviance is socially constructed.' },
+                    { front: 'What is social control?', back: 'Mechanisms that regulate behavior. Formal (laws, police) and informal (social pressure, norms).' },
+                    { front: 'What is the medicalization of deviance?', back: 'Treating deviant behavior as medical condition rather than moral failing. Shifts from punishment to treatment.' },
+                    
+                    // Social Groups - High Yield
+                    { front: 'What is the difference between primary and secondary groups?', back: 'Primary: small, intimate, long-term (family). Secondary: large, formal, goal-oriented (workplace).' },
+                    { front: 'What is groupthink?', back: 'Faulty decision-making in cohesive groups. Desire for harmony overrides realistic evaluation of alternatives.' },
+                    { front: 'What is social capital?', back: 'Networks of relationships that provide access to resources. Bonding (similar people) vs bridging (different people).' },
+                    { front: 'What is the bystander effect?', back: 'Less likely to help in emergency when others present. Diffusion of responsibility and social influence.' },
+                    
+                    // Healthcare and Society - High Yield
+                    { front: 'What are health disparities?', back: 'Systematic differences in health outcomes between groups. Based on race, class, gender, geography.' },
+                    { front: 'What is the sick role?', back: 'Parsons concept: sick person has rights (exemption from duties) and obligations (seek help, cooperate).' },
+                    { front: 'What is medicalization?', back: 'Process by which non-medical problems are treated as medical conditions. Expansion of medical jurisdiction.' },
+                    { front: 'What are social determinants of health?', back: 'Social factors affecting health: income, education, housing, environment, social support.' },
+                    
+                    // Demography - High Yield
+                    { front: 'What is demographic transition?', back: 'Model of population change: high birth/death rates → declining death rates → declining birth rates → low both.' },
+                    { front: 'What affects population growth?', back: 'Birth rate, death rate, migration. Population growth = (births - deaths) + (immigration - emigration).' },
+                    { front: 'What is urbanization?', back: 'Movement from rural to urban areas. Creates megacities, changes social structures and relationships.' },
+                    { front: 'What is population pyramid?', back: 'Graphical representation of age/sex distribution. Shape indicates growth pattern and social issues.' }
+                ],
+                'CARS (Critical Analysis)': [
+                    // Passage Analysis - High Yield
+                    { front: 'What is the main idea vs central thesis?', back: 'Main idea: overall point of passage. Central thesis: author specific argument or position being defended.' },
+                    { front: 'How do you identify the author tone?', back: 'Look for word choice, examples used, qualifiers. Positive, negative, neutral, critical, supportive, ambivalent.' },
+                    { front: 'What is the difference between implicit and explicit information?', back: 'Explicit: directly stated in passage. Implicit: must be inferred from context clues and reasoning.' },
+                    { front: 'How do you identify supporting details?', back: 'Look for examples, evidence, explanations that support the main argument. Often introduced by \"for example,\" \"because,\" etc.' },
+                    
+                    // Reasoning Skills - High Yield
+                    { front: 'What is inductive vs deductive reasoning?', back: 'Inductive: specific observations → general conclusions. Deductive: general principles → specific conclusions.' },
+                    { front: 'What is an assumption?', back: 'Unstated premise required for argument to be valid. Bridge between evidence and conclusion.' },
+                    { front: 'What strengthens vs weakens an argument?', back: 'Strengthens: additional evidence, removes objections. Weakens: contradictory evidence, identifies flaws.' },
+                    { front: 'What is causation vs correlation?', back: 'Causation: one event causes another. Correlation: events occur together but may not be causally related.' },
+                    
+                    // Question Types - High Yield
+                    { front: 'How do you approach \"author would agree\" questions?', back: 'Find statements consistent with author viewpoint and tone. Eliminate contradictory or extreme options.' },
+                    { front: 'How do you approach \"strengthen/weaken\" questions?', back: 'Identify the argument structure, then find choice that provides supporting/contradicting evidence.' },
+                    { front: 'How do you approach \"meaning in context\" questions?', back: 'Consider surrounding sentences and overall passage theme. Word may have different meaning than typical definition.' },
+                    { front: 'How do you approach \"new information\" questions?', back: 'Apply passage principles to new situation. Consider what author would likely say given their established viewpoint.' },
+                    
+                    // Time Management - High Yield
+                    { front: 'What is the recommended CARS timing strategy?', back: '8-10 minutes per passage. ~3-4 minutes reading, ~1-1.5 minutes per question. Skip difficult passages if needed.' },
+                    { front: 'How should you approach passage reading?', back: 'Read for structure and main ideas, not details. Identify thesis, supporting points, author tone.' },
+                    { front: 'What is the process of elimination strategy?', back: 'Eliminate obviously wrong answers first. Look for scope issues, extreme language, contradictory statements.' },
+                    { front: 'How do you handle difficult vocabulary?', back: 'Use context clues to infer meaning. Do not get stuck on unknown words - focus on overall meaning.' }
+                ]
+            };
+            
+            const availableCards = fallbackDecks[subject] || fallbackDecks['Biology'];
+            
+            // Load FSRS data from localStorage
+            this.loadFSRSData();
+            
+            // Create deck of requested size by cycling through available cards if needed
+            this.originalDeck = [];
+            for (let i = 0; i < deckSize; i++) {
+                const cardData = { ...availableCards[i % availableCards.length] };
+                // Generate unique card ID based on subject and front text (safe encoding)
+                const rawId = subject + '|' + cardData.front;
+                cardData.id = rawId.replace(/[^a-zA-Z0-9]/g, '').substring(0, 16) + '_' + i;
+                // Initialize FSRS data for this card
+                this.initializeFSRSCard(cardData.id);
+                this.originalDeck.push(cardData);
+            }
+            
+            // Shuffle the deck initially for better variety
+            this.currentDeck = this.shuffleArray([...this.originalDeck]);
+            this.isShuffled = true;
+            
+            this.currentIndex = 0;
+            this.sessionStats.total = this.currentDeck.length;
+            this.showCurrentCard();
+        };
+        
+        MCATVictory.flashcards.showCurrentCard = function() {
+            const loadingCard = document.getElementById('loading-card');
+            const flashcard = document.getElementById('flashcard');
+            const progressSection = document.getElementById('flashcard-progress');
+            
+            // Hide loading, show card
+            loadingCard.classList.add('hidden');
+            flashcard.classList.remove('hidden');
+            progressSection.classList.remove('hidden');
+            
+            // Reset card state
+            this.isFlipped = false;
+            document.getElementById('card-front').classList.remove('hidden');
+            document.getElementById('card-back').classList.add('hidden');
+            
+            // Update card content with error handling
+            try {
+                const card = this.currentDeck[this.currentIndex];
+                
+                if (!card) {
+                    throw new Error('Card not found at index ' + this.currentIndex);
+                }
+                
+                // Handle text content properly
+                const frontText = typeof card.front === 'string' ? card.front : (card.front?.text || card.front || 'Question not available');
+                const backText = typeof card.back === 'string' ? card.back : (card.back?.text || card.back || 'Answer not available');
+                const difficulty = card.difficulty || 'medium';
+                
+                document.getElementById('card-question').textContent = frontText;
+                document.getElementById('card-answer').textContent = backText;
+                document.getElementById('card-progress').textContent = `${this.currentIndex + 1} of ${this.currentDeck.length}`;
+                
+                // Update difficulty indicator
+                const difficultyEl = document.getElementById('difficulty-indicator');
+                if (difficultyEl) {
+                    const icons = { easy: '🟢', medium: '🟡', hard: '🔴' };
+                    difficultyEl.textContent = icons[difficulty] || '🟡';
+                }
+                
+                this.errorCount = 0; // Reset error count on success
+            } catch (error) {
+                console.error('Error displaying card:', error);
+                this.handleCardError(error);
+                return;
+            }
+            
+            // Update subject display
+            const subjectElement = document.getElementById('card-subject');
+            if (subjectElement) {
+                subjectElement.textContent = document.getElementById('flashcard-subject').value;
+            }
+            
+            // Update progress bar with animation
+            const progress = ((this.currentIndex + 1) / this.currentDeck.length) * 100;
+            const progressBar = document.getElementById('progress-bar');
+            if (progressBar) {
+                progressBar.style.width = `${progress}%`;
+            }
+            
+            document.getElementById('progress-text').textContent = `${this.currentIndex + 1} of ${this.currentDeck.length} cards`;
+            
+            // Update navigation buttons
+            const prevBtn = document.getElementById('prev-card-btn');
+            const nextBtn = document.getElementById('next-card-btn');
+            if (prevBtn) prevBtn.disabled = this.currentIndex === 0;
+            if (nextBtn) nextBtn.style.display = this.currentIndex === this.currentDeck.length - 1 ? 'none' : 'inline-block';
+            
+            // Update confidence stats
+            this.updateConfidenceStats();
+            
+            // FSRS intervals update disabled for simplified interface
+            // this.updateFSRSIntervals();
+        };
+        
+        MCATVictory.flashcards.flipCard = function() {
+            console.log('🔍 FlipCard called, current state:', this.isFlipped);
+            
+            const front = document.getElementById('card-front');
+            const back = document.getElementById('card-back');
+            
+            if (!front || !back) {
+                console.error('Card elements not found');
+                return;
+            }
+            
+            if (!this.isFlipped) {
+                front.classList.add('hidden');
+                back.classList.remove('hidden');
+                this.isFlipped = true;
+                console.log('🔍 Flipped to back');
+            } else {
+                front.classList.remove('hidden');
+                back.classList.add('hidden');
+                this.isFlipped = false;
+                console.log('🔍 Flipped to front');
+            }
+        };
+        
+        
+        MCATVictory.flashcards.nextCard = function() {
+            if (this.currentIndex < this.currentDeck.length - 1) {
+                this.currentIndex++;
+                this.showCurrentCard();
+            } else {
+                this.showSessionComplete();
+            }
+        };
+        
+        MCATVictory.flashcards.previousCard = function() {
+            if (this.currentIndex > 0) {
+                this.currentIndex--;
+                this.showCurrentCard();
+            }
+        };
+        
+        MCATVictory.flashcards.showSessionComplete = function() {
+            const flashcard = document.getElementById('flashcard');
+            const { total } = this.sessionStats;
+            
+            flashcard.innerHTML = `
+                <div class="p-8 text-center bg-gradient-to-br from-green-50 to-blue-50">
+                    <i class="fas fa-trophy text-6xl text-yellow-500 mb-4"></i>
+                    <h3 class="text-2xl font-bold mb-4">Session Complete!</h3>
+                    <div class="mb-6">
+                        <div class="text-6xl font-bold text-blue-600 mb-2">${total}</div>
+                        <div class="text-lg text-gray-600">Cards Completed</div>
+                    </div>
+                    <p class="text-gray-700 mb-6">Excellent work! You've reviewed ${total} MCAT flashcards. Keep up the great study momentum!</p>
+                    <button onclick="location.reload()" class="btn-medical-primary px-6 py-3">
+                        <i class="fas fa-refresh mr-2"></i>Start New Session
+                    </button>
+                </div>
+            `;
+        };
+        
+        // AI Tutor functionality
+        MCATVictory.tutor = {
+            chatHistory: [],
+            isTyping: false
+        };
+        
+        MCATVictory.tutor.init = function() {
+            // Initialize any event listeners if needed
+            const chatInput = document.getElementById('chat-input');
+            if (chatInput) {
+                chatInput.addEventListener('input', this.adjustTextareaHeight.bind(this));
+            }
+        };
+        
+        MCATVictory.tutor.sendMessage = async function() {
+            const input = document.getElementById('chat-input');
+            const message = input.value.trim();
+            
+            if (!message) return;
+            
+            // Add user message to chat
+            this.addMessage(message, 'user');
+            input.value = '';
+            this.adjustTextareaHeight();
+            
+            // Show typing indicator
+            this.showTyping();
+            
+            try {
+                // Call AI tutor API
+                const response = await fetch('/api/tutor/query', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message: message })
+                });
+                
+                const data = await response.json();
+                
+                setTimeout(() => {
+                    this.hideTyping();
+                    if (data.success) {
+                        const reply = data.response[0]?.text || data.response || 'I apologize, but I couldn\'t process that question right now.';
+                        this.addMessage(reply, 'ai');
+                    } else {
+                        const fallbackReply = data.fallback_response || this.getFallbackResponse(message);
+                        this.addMessage(fallbackReply, 'ai');
+                    }
+                }, 1500); // Simulate thinking time
+                
+            } catch (error) {
+                console.log('Network error, using fallback response:', error);
+                setTimeout(() => {
+                    this.hideTyping();
+                    this.addMessage(this.getFallbackResponse(message), 'ai');
+                }, 1500);
+            }
+        };
+        
+        MCATVictory.tutor.quickTopic = function(topic) {
+            document.getElementById('chat-input').value = topic;
+            this.sendMessage();
+        };
+        
+        MCATVictory.tutor.addMessage = function(message, sender) {
+            const chatHistory = document.getElementById('chat-history');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'mb-4';
+            
+            const timestamp = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+            
+            if (sender === 'user') {
+                messageDiv.innerHTML = `
+                    <div class="flex items-start space-x-3 justify-end">
+                        <div class="flex-1 text-right">
+                            <div class="bg-gradient-to-r from-blue-500 to-teal-500 text-white rounded-lg p-3 inline-block max-w-xs lg:max-w-md">
+                                <p>${this.escapeHtml(message)}</p>
+                            </div>
+                            <p class="text-xs text-gray-500 mt-1">${timestamp}</p>
+                        </div>
+                        <div class="flex-shrink-0">
+                            <div class="w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center">
+                                <i class="fas fa-user text-gray-600 text-sm"></i>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            } else {
+                messageDiv.innerHTML = `
+                    <div class="flex items-start space-x-3">
+                        <div class="flex-shrink-0">
+                            <div class="w-8 h-8 bg-gradient-to-r from-blue-500 to-teal-500 rounded-full flex items-center justify-center">
+                                <i class="fas fa-robot text-white text-sm"></i>
+                            </div>
+                        </div>
+                        <div class="flex-1">
+                            <div class="bg-gradient-to-r from-blue-50 to-teal-50 rounded-lg p-3 border border-blue-200">
+                                <p class="text-sm font-medium text-blue-800 mb-1">AI Medical Tutor</p>
+                                <div class="text-gray-700">${this.formatMessage(message)}</div>
+                            </div>
+                            <p class="text-xs text-gray-500 mt-1">${timestamp}</p>
+                        </div>
+                    </div>
+                `;
+            }
+            
+            chatHistory.appendChild(messageDiv);
+            chatHistory.scrollTop = chatHistory.scrollHeight;
+        };
+        
+        MCATVictory.tutor.showTyping = function() {
+            this.isTyping = true;
+            document.getElementById('typing-indicator').classList.remove('hidden');
+            document.getElementById('chat-history').scrollTop = document.getElementById('chat-history').scrollHeight;
+        };
+        
+        MCATVictory.tutor.hideTyping = function() {
+            this.isTyping = false;
+            document.getElementById('typing-indicator').classList.add('hidden');
+        };
+        
+        MCATVictory.tutor.clearChat = function() {
+            const chatHistory = document.getElementById('chat-history');
+            // Keep only the welcome message
+            const welcomeMessage = chatHistory.querySelector('.mb-4');
+            chatHistory.innerHTML = '';
+            if (welcomeMessage) {
+                chatHistory.appendChild(welcomeMessage);
+            }
+        };
+        
+        MCATVictory.tutor.adjustTextareaHeight = function() {
+            const textarea = document.getElementById('chat-input');
+            textarea.style.height = 'auto';
+            textarea.style.height = Math.min(textarea.scrollHeight, 120) + 'px';
+        };
+        
+        MCATVictory.tutor.escapeHtml = function(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        };
+        
+        MCATVictory.tutor.formatMessage = function(message) {
+            // Simple formatting for AI responses
+            return message
+                .replace(/\n\n/g, '</p><p class="mt-2">')
+                .replace(/\n/g, '<br>')
+                .replace(/^/, '<p>')
+                .replace(/$/, '</p>')
+                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                .replace(/\*(.*?)\*/g, '<em>$1</em>');
+        };
+        
+        MCATVictory.tutor.getFallbackResponse = function(message) {
+            const lowerMessage = message.toLowerCase();
+            
+            if (lowerMessage.includes('cellular respiration') || lowerMessage.includes('respiration')) {
+                return 'Cellular respiration is the process by which cells break down glucose to produce ATP energy. It occurs in three main stages: Glycolysis (in cytoplasm), Citric Acid Cycle (in mitochondria), and Electron Transport Chain (in mitochondria). The overall equation is: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ATP.';
+            }
+            
+            if (lowerMessage.includes('organic chemistry') || lowerMessage.includes('reactions')) {
+                return 'Organic chemistry reactions on the MCAT focus on functional groups and mechanisms. Key reaction types include: **Substitution** (SN1, SN2), **Elimination** (E1, E2), **Addition reactions**, and **Condensation reactions**. Remember to consider stereochemistry, especially for SN2 reactions which show inversion of configuration.';
+            }
+            
+            if (lowerMessage.includes('physics') || lowerMessage.includes('solve')) {
+                return 'For MCAT physics problems: **1)** Identify what\'s given and what you need to find, **2)** Choose the right equation or principle, **3)** Pay attention to units and conversions, **4)** Draw diagrams when helpful. Key topics include mechanics, waves, electricity, and optics with biological applications.';
+            }
+            
+            if (lowerMessage.includes('psychology') || lowerMessage.includes('psych')) {
+                return 'MCAT Psychology covers **Learning & Memory** (classical/operant conditioning), **Cognition** (problem solving, language), **Social Psychology** (attitudes, conformity), and **Research Methods**. Focus on how psychological concepts apply to healthcare and medical practice.';
+            }
+            
+            if (lowerMessage.includes('study') || lowerMessage.includes('strategy')) {
+                return 'Effective MCAT study strategies: **1)** Use active recall and spaced repetition, **2)** Practice with AAMC materials, **3)** Focus on high-yield topics, **4)** Connect concepts across subjects, **5)** Take regular practice tests to identify weak areas. Consistency is key!';
+            }
+            
+            if (lowerMessage.includes('biology') || lowerMessage.includes('bio')) {
+                return 'MCAT Biology emphasizes **molecular processes**, **genetics**, **evolution**, and **organ systems**. Key areas include DNA replication/transcription/translation, enzyme kinetics, cellular processes, and how biological systems maintain homeostasis. Always think about structure-function relationships.';
+            }
+            
+            if (lowerMessage.includes('chemistry') || lowerMessage.includes('chem')) {
+                return 'General Chemistry for MCAT includes **acid-base chemistry**, **thermodynamics**, **kinetics**, and **equilibrium**. Master the Henderson-Hasselbalch equation, understand Le Châtelier\'s principle, and practice balancing redox reactions. Units and dimensional analysis are crucial!';
+            }
+            
+            // Default response
+            return `I understand you're asking about "${message}". While I'm having trouble accessing my full medical database right now, I recommend reviewing this topic in your MCAT prep materials. Focus on understanding the underlying mechanisms and how concepts connect to biological systems. Feel free to ask me about specific aspects or try one of the quick topic buttons above!`;
+        };
+        
+        // Global wrapper functions for onclick handlers
+        function flipFlashcard() {
+            console.log('🔍 Global flipFlashcard called');
+            if (MCATVictory && MCATVictory.flashcards) {
+                MCATVictory.flashcards.flipCard();
+            } else {
+                console.error('MCATVictory.flashcards not available');
+            }
+        }
+        
+        // Initialize components when DOM is ready
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🔍 TESTING MODE: Initializing only Flashcards and AI Tutor');
+            if (typeof MCATVictory !== 'undefined') {
+                if (MCATVictory.flashcards) {
+                    MCATVictory.flashcards.init();
+                    console.log('✅ Flashcards component initialized');
+                }
+                if (MCATVictory.tutor) {
+                    MCATVictory.tutor.init();
+                    console.log('✅ AI Tutor component initialized');
+                }
+            }
+            console.log('🔍 Testing components ready');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,237 @@
+[
+  {
+    "id": "biochem_int_001",
+    "topic": "biochemistry_integration",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying metabolic integration discovered that the liver plays a central role in maintaining glucose homeostasis through coordinated regulation of glycolysis, gluconeogenesis, and glycogen metabolism. During fed states, insulin promotes glycogen synthesis via activation of glycogen synthase and inhibition of glycogen phosphorylase. During fasting states, glucagon and epinephrine activate glycogen phosphorylase and inhibit glycogen synthase, promoting glucose release. The researchers found that these hormonal signals use both allosteric regulation and covalent modification (phosphorylation/dephosphorylation) to rapidly switch between anabolic and catabolic modes.",
+    "question": "Based on this metabolic integration, what is the primary mechanism that allows rapid switching between glucose storage and glucose release?",
+    "options": {
+      "A": "Complete synthesis of new enzymes for each metabolic state",
+      "B": "Hormonal regulation through allosteric effects and covalent modification of existing enzymes",
+      "C": "Physical compartmentalization of enzymes in different organelles",
+      "D": "Irreversible conversion of all glucose to alternative storage molecules"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that 'hormonal signals use both allosteric regulation and covalent modification (phosphorylation/dephosphorylation) to rapidly switch between anabolic and catabolic modes.' These mechanisms allow quick modification of existing enzyme activity without requiring new protein synthesis. Option A would be too slow for rapid metabolic switching. Option C doesn't explain the switching mechanism. Option D contradicts the reversible nature of glucose metabolism.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Glucose Homeostasis",
+        "url": "https://www.khanacademy.org/science/biology/principles-of-physiology/metabolism-and-thermoregulation",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:25:00.000Z"
+  },
+  {
+    "id": "biochem_int_002",
+    "topic": "biochemistry_integration",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "During intense exercise, muscle cells primarily rely on which metabolic pathway for rapid ATP generation?",
+    "options": {
+      "A": "Fatty acid oxidation",
+      "B": "Glycolysis leading to lactate fermentation",
+      "C": "Pentose phosphate pathway",
+      "D": "Amino acid catabolism"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. During intense exercise when oxygen is limited, muscle cells rely heavily on anaerobic glycolysis, converting glucose to lactate while generating ATP quickly. This pathway can function without oxygen and provides rapid, though limited, ATP production. Option A requires oxygen and is slower. Option C generates NADPH, not primarily ATP. Option D is not a primary energy source during exercise.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Exercise Metabolism",
+        "url": "https://www.biointeractive.org/classroom-resources/exercise-metabolism",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:25:00.000Z"
+  },
+  {
+    "id": "biochem_int_003",
+    "topic": "biochemistry_integration",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating metabolic diseases discovered that insulin resistance involves defects in multiple biochemical pathways. In insulin-resistant tissues, glucose uptake is impaired due to reduced GLUT4 translocation to the plasma membrane. Additionally, insulin's ability to inhibit gluconeogenesis is compromised, leading to continued glucose production even when blood glucose is elevated. The researchers found that chronic inflammation and oxidative stress contribute to insulin resistance by activating stress kinases that phosphorylate and inhibit insulin receptor signaling components. This creates a vicious cycle where metabolic dysfunction promotes further inflammation.",
+    "question": "Based on this insulin resistance mechanism, how does chronic inflammation contribute to the development of metabolic dysfunction?",
+    "options": {
+      "A": "Inflammation directly destroys all insulin receptors",
+      "B": "Stress kinases activated by inflammation interfere with insulin receptor signaling",
+      "C": "Inflammation prevents the synthesis of all metabolic enzymes",
+      "D": "Inflammatory mediators convert glucose directly to fat"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that 'chronic inflammation and oxidative stress contribute to insulin resistance by activating stress kinases that phosphorylate and inhibit insulin receptor signaling components.' This interference with signaling, rather than receptor destruction, impairs insulin's metabolic effects. Option A is too extreme. Option C is incorrect - specific pathways are affected, not all enzymes. Option D misrepresents the role of inflammatory mediators.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Insulin Resistance",
+        "url": "https://www.nature.com/articles/nrendo.2011.192",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:25:00.000Z"
+  },
+  {
+    "id": "biochem_int_004",
+    "topic": "biochemistry_integration",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which metabolic pathway is the primary source of NADPH for biosynthetic reactions?",
+    "options": {
+      "A": "Glycolysis",
+      "B": "Citric acid cycle",
+      "C": "Pentose phosphate pathway",
+      "D": "Electron transport chain"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The pentose phosphate pathway (also called hexose monophosphate shunt) is the primary source of NADPH, which is essential for biosynthetic reactions including fatty acid synthesis, cholesterol synthesis, and nucleotide synthesis. Option A generates NADH, not NADPH. Option B produces NADH, not NADPH. Option D consumes NADH to produce ATP.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Pentose Phosphate Pathway",
+        "url": "https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation/variations-on-cellular-respiration",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:25:00.000Z"
+  },
+  {
+    "id": "biochem_int_005",
+    "topic": "biochemistry_integration",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying lipid metabolism found that fatty acid oxidation and synthesis are reciprocally regulated to prevent futile cycling. During fasting states, high glucagon levels activate adenylyl cyclase, raising cAMP levels and activating protein kinase A (PKA). PKA phosphorylates and inactivates acetyl-CoA carboxylase (ACC), the rate-limiting enzyme of fatty acid synthesis, while simultaneously activating hormone-sensitive lipase to promote lipolysis. Conversely, during fed states, insulin activates ACC through dephosphorylation and inhibits hormone-sensitive lipase, favoring fatty acid synthesis over oxidation.",
+    "question": "Based on this regulatory mechanism, how do cells prevent the simultaneous occurrence of fatty acid synthesis and oxidation?",
+    "options": {
+      "A": "By physically separating the pathways in different organelles",
+      "B": "Through reciprocal hormonal regulation that activates one pathway while inhibiting the other",
+      "C": "By completely degrading enzymes from the inactive pathway",
+      "D": "Through competitive inhibition between pathway intermediates"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes reciprocal regulation where the same hormonal signals (glucagon/insulin) and signaling molecules (PKA) simultaneously activate one pathway while inhibiting the other. This prevents futile cycling by coordinating the metabolic state. Option A is partially true but doesn't explain the regulation. Option C is incorrect - enzymes are regulated, not degraded. Option D describes a different regulatory mechanism not mentioned in the passage.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Lipid Metabolism Integration",
+        "url": "https://www.biointeractive.org/classroom-resources/lipid-metabolism",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:25:00.000Z"
+  },
+  {
+    "id": "biochem_int_006",
+    "topic": "biochemistry_integration",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "In liver cells during prolonged fasting, which process provides the carbon skeletons for gluconeogenesis?",
+    "options": {
+      "A": "Glycogen breakdown",
+      "B": "Amino acid deamination and transamination",
+      "C": "Direct conversion of fatty acids to glucose",
+      "D": "Pentose phosphate pathway"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. During prolonged fasting when glycogen stores are depleted, amino acids from muscle protein breakdown provide carbon skeletons for gluconeogenesis through deamination and transamination reactions. Option A occurs during short-term fasting but isn't gluconeogenesis. Option C is incorrect - fatty acids cannot be converted to glucose (except the glycerol backbone). Option D generates ribose and NADPH, not glucose precursors.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Gluconeogenesis",
+        "url": "https://www.nature.com/scitable/topicpage/dynamic-adaptation-of-nutrient-utilization-in-humans-14232807/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T04:25:00.000Z"
+  },
+  {
+    "id": "biochem_int_007",
+    "topic": "biochemistry_integration",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying cancer metabolism discovered that many tumor cells exhibit altered metabolic phenotypes compared to normal cells. Cancer cells often display increased glucose uptake and lactate production even in the presence of oxygen (Warburg effect). Additionally, they show enhanced glutamine metabolism, where glutamine serves as both a carbon source for biomolecule synthesis and a nitrogen source for nucleotide and amino acid production. The scientists found that these metabolic reprogramming events support the high biosynthetic demands of rapidly proliferating cells and may also help cancer cells survive in the harsh tumor microenvironment.",
+    "question": "Based on this cancer metabolism, why might enhanced glutamine metabolism be particularly important for rapidly dividing cancer cells?",
+    "options": {
+      "A": "Glutamine is the only amino acid that can be metabolized by cancer cells",
+      "B": "Glutamine provides both carbon and nitrogen for biosynthesis of macromolecules needed for cell division",
+      "C": "Glutamine directly inhibits apoptosis in all cell types",
+      "D": "Glutamine is required specifically for DNA replication but not RNA synthesis"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that glutamine 'serves as both a carbon source for biomolecule synthesis and a nitrogen source for nucleotide and amino acid production.' For rapidly dividing cells, this dual role is crucial because they need massive amounts of nucleotides (for DNA/RNA), amino acids (for proteins), and other biomolecules. Option A is incorrect - cancer cells can metabolize other amino acids. Option C overstates glutamine's role. Option D is too specific and incorrect.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Cancer Metabolism",
+        "url": "https://www.nature.com/articles/nrc2981",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:25:00.000Z"
+  },
+  {
+    "id": "biochem_int_008",
+    "topic": "biochemistry_integration",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which organ is primarily responsible for detoxifying ammonia produced from amino acid metabolism?",
+    "options": {
+      "A": "Kidney",
+      "B": "Liver",
+      "C": "Pancreas",
+      "D": "Spleen"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The liver detoxifies ammonia through the urea cycle, converting toxic ammonia to less toxic urea, which can then be excreted by the kidneys. This is essential because ammonia is highly toxic, especially to the nervous system. Option A (kidney) excretes urea but doesn't detoxify ammonia. Options C and D are not primarily involved in ammonia detoxification.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Urea Cycle",
+        "url": "https://www.khanacademy.org/science/biology/principles-of-physiology/metabolism-and-thermoregulation",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:25:00.000Z"
+  },
+  {
+    "id": "biochem_int_009",
+    "topic": "biochemistry_integration",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying metabolic adaptation during starvation found that the body undergoes distinct metabolic phases. Initially, glycogen stores provide glucose for about 12-24 hours. As glycogen depletes, gluconeogenesis from amino acids becomes increasingly important, while fatty acid oxidation provides energy for most tissues. After several days, the liver begins producing ketone bodies (acetoacetate, β-hydroxybutyrate) from fatty acid oxidation, which can cross the blood-brain barrier and serve as an alternative fuel for the brain. This metabolic flexibility allows survival during extended periods without food intake.",
+    "question": "Based on this starvation response, why is ketone body production particularly important during prolonged fasting?",
+    "options": {
+      "A": "Ketone bodies are more energy-dense than glucose",
+      "B": "Ketone bodies can fuel the brain when glucose becomes scarce, sparing muscle protein",
+      "C": "Ketone bodies directly synthesize new muscle tissue",
+      "D": "Ketone bodies prevent all protein breakdown in the body"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Ketone bodies provide an alternative fuel source for the brain during prolonged fasting when glucose is scarce. This is crucial because it reduces the need for gluconeogenesis from amino acids, thereby sparing muscle protein from breakdown. The passage notes that ketone bodies 'can cross the blood-brain barrier and serve as an alternative fuel for the brain.' Options A, C, and D misrepresent the role of ketone bodies.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Metabolic Adaptation",
+        "url": "https://www.biointeractive.org/classroom-resources/metabolic-adaptation",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:25:00.000Z"
+  },
+  {
+    "id": "biochem_int_010",
+    "topic": "biochemistry_integration",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "A patient with a deficiency in carnitine palmitoyltransferase I (CPT-1) would most likely experience:",
+    "options": {
+      "A": "Enhanced fatty acid synthesis",
+      "B": "Impaired fatty acid oxidation and ketone body production",
+      "C": "Increased glucose oxidation only",
+      "D": "Complete inability to metabolize any macromolecules"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. CPT-1 is the rate-limiting enzyme for fatty acid oxidation, catalyzing the formation of acyl-carnitine conjugates that can cross the mitochondrial membrane. Deficiency would impair fatty acid oxidation and subsequently reduce ketone body production (which depends on fatty acid oxidation). Option A might occur as compensation but isn't the primary defect. Option C is too limited. Option D is too extreme - other metabolic pathways would remain functional.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Fatty Acid Oxidation",
+        "url": "https://www.nature.com/articles/nrm1937",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:25:00.000Z"
+  }
+]

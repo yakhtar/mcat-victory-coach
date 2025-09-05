@@ -1,0 +1,237 @@
+[
+  {
+    "id": "genetics_001",
+    "topic": "genetics",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying Mendelian inheritance patterns examined a cross between two heterozygous individuals (Aa × Aa) for a single gene. They observed that in the F2 generation, approximately 25% of offspring showed the recessive phenotype, while 75% displayed the dominant phenotype. When they examined the molecular basis of this trait, they found that the dominant allele (A) codes for a functional enzyme, while the recessive allele (a) produces a non-functional enzyme due to a nonsense mutation. Individuals with the AA or Aa genotype produce sufficient enzyme for normal phenotype, while aa individuals lack functional enzyme and display the recessive phenotype.",
+    "question": "Based on this inheritance pattern, what can be concluded about the relationship between gene dosage and phenotype?",
+    "options": {
+      "A": "Two functional alleles are always required for normal phenotype",
+      "B": "One functional allele is sufficient to produce the dominant phenotype (haploinsufficiency does not occur)",
+      "C": "Recessive alleles always produce toxic proteins that interfere with normal function",
+      "D": "Heterozygotes always show an intermediate phenotype between the two homozygotes"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage shows that both AA and Aa genotypes produce the dominant phenotype, indicating that one functional allele provides sufficient enzyme activity for normal function. This demonstrates that haploinsufficiency (where one functional copy is insufficient) does not occur for this gene. Option A contradicts the observation that Aa individuals are normal. Option C is incorrect - the recessive allele produces non-functional, not toxic, protein. Option D contradicts the observation that Aa shows the dominant phenotype.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Mendelian Genetics",
+        "url": "https://www.khanacademy.org/science/biology/classical-genetics/mendelian--genetics",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:30:00.000Z"
+  },
+  {
+    "id": "genetics_002",
+    "topic": "genetics",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "A couple where both parents are carriers for cystic fibrosis (autosomal recessive) are planning to have children. What is the probability that their first three children will all be unaffected by the disease?",
+    "options": {
+      "A": "27/64",
+      "B": "9/16",
+      "C": "3/4",
+      "D": "1/4"
+    },
+    "correct_answer": "A",
+    "explanation": "The correct answer is A. For each child of two carriers (Aa × Aa), the probability of being unaffected (AA or Aa) is 3/4. For three independent children to all be unaffected, the probability is (3/4)³ = 27/64. Option B represents the probability for two children. Option C represents the probability for one child. Option D represents the probability of being affected.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Punnett Squares and Probability",
+        "url": "https://www.khanacademy.org/science/biology/classical-genetics/mendelian--genetics",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:30:00.000Z"
+  },
+  {
+    "id": "genetics_003",
+    "topic": "genetics",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists studying X-linked inheritance discovered that X-inactivation (lyonization) leads to mosaicism in heterozygous females. During early female development, one X chromosome is randomly inactivated in each cell, creating patches of cells expressing either the maternal or paternal X-linked allele. The researchers found that this process involves the long non-coding RNA Xist, which coats the inactivated X chromosome and recruits chromatin-modifying enzymes to establish heterochromatin. In some X-linked disorders, the severity of symptoms in heterozygous females depends on the pattern of X-inactivation - if most cells inactivate the normal X, symptoms may be severe.",
+    "question": "Based on this X-inactivation mechanism, why might two heterozygous females with the same X-linked mutation show different symptom severity?",
+    "options": {
+      "A": "They have different mutations in the same gene",
+      "B": "Random X-inactivation creates different ratios of cells expressing normal vs. mutant alleles",
+      "C": "X-inactivation only occurs in males, not females",
+      "D": "The Xist RNA functions differently in different individuals"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that X-inactivation is random in each cell during development, creating different patterns of which X chromosome is inactivated. If one female has mostly cells with the normal X active while another has mostly cells with the mutant X active, they will show different symptom severities despite having identical genotypes. Option A changes the premise. Option C contradicts the passage. Option D is not supported as the primary cause of variation.",
+    "study_resources": [
+      {
+        "title": "Nature Education: X-inactivation",
+        "url": "https://www.nature.com/scitable/topicpage/x-inactivation-x-linked-inheritance-and-xist-23279/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T04:30:00.000Z"
+  },
+  {
+    "id": "genetics_004",
+    "topic": "genetics",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "In a typical human karyotype, how many pairs of autosomes are present?",
+    "options": {
+      "A": "21 pairs",
+      "B": "22 pairs", 
+      "C": "23 pairs",
+      "D": "46 pairs"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Humans have 23 total chromosome pairs, consisting of 22 pairs of autosomes plus 1 pair of sex chromosomes (XX or XY). Autosomes are the non-sex chromosomes. Option A is one short. Option C includes the sex chromosomes. Option D represents total chromosomes, not pairs.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Human Chromosomes",
+        "url": "https://www.khanacademy.org/science/biology/classical-genetics/chromosomal-basis-of-genetics",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:30:00.000Z"
+  },
+  {
+    "id": "genetics_005",
+    "topic": "genetics",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying genetic linkage analyzed the inheritance of two traits in fruit flies: wing shape (normal vs. vestigial) and eye color (red vs. white). They performed a testcross between a heterozygous fly (normal wings, red eyes) and a homozygous recessive fly (vestigial wings, white eyes). In the offspring, they observed 42% parental combinations and 8% recombinant combinations. The researchers concluded that these genes are linked on the same chromosome, with a recombination frequency indicating their physical distance.",
+    "question": "Based on these results, what is the map distance between the wing shape and eye color genes?",
+    "options": {
+      "A": "8 map units",
+      "B": "16 map units", 
+      "C": "42 map units",
+      "D": "50 map units"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The recombination frequency equals the map distance in centimorgans (map units). The passage states there were 8% recombinant combinations, but this represents each of two recombinant classes. The total recombination frequency is 8% + 8% = 16%, corresponding to 16 map units. Option A only counts one recombinant class. Option C uses the parental frequency. Option D would indicate unlinked genes.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Gene Linkage and Mapping",
+        "url": "https://www.biointeractive.org/classroom-resources/gene-linkage-mapping",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:30:00.000Z"
+  },
+  {
+    "id": "genetics_006",
+    "topic": "genetics",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which type of chromosome rearrangement involves the transfer of a segment from one chromosome to a non-homologous chromosome?",
+    "options": {
+      "A": "Deletion",
+      "B": "Duplication",
+      "C": "Inversion",
+      "D": "Translocation"
+    },
+    "correct_answer": "D",
+    "explanation": "The correct answer is D. Translocation involves the transfer of a chromosomal segment from one chromosome to a non-homologous chromosome. This can be reciprocal (segments exchanged) or non-reciprocal (one-way transfer). Option A (deletion) involves loss of a segment. Option B (duplication) involves extra copies within the same chromosome. Option C (inversion) involves reversal of a segment within the same chromosome.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Chromosome Rearrangements",
+        "url": "https://www.nature.com/scitable/topicpage/chromosome-rearrangements-393/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T04:30:00.000Z"
+  },
+  {
+    "id": "genetics_007",
+    "topic": "genetics",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers investigating genomic imprinting discovered that certain genes are expressed differently depending on their parent of origin. For example, the IGF2 gene is only expressed from the paternally inherited chromosome, while the H19 gene is only expressed from the maternally inherited chromosome. This parent-specific expression is controlled by DNA methylation patterns established during gametogenesis. The scientists found that imprinting disorders can result from mutations in imprinting control regions, uniparental disomy (inheritance of both chromosomes from one parent), or assisted reproductive technologies that disrupt methylation patterns.",
+    "question": "Based on this imprinting mechanism, what would be the likely consequence of uniparental disomy for a region containing imprinted genes?",
+    "options": {
+      "A": "Normal expression of all genes in the region",
+      "B": "Loss of expression of genes that require the missing parent's chromosome",
+      "C": "Double expression of all genes in the region",
+      "D": "Random expression patterns unrelated to parental origin"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Uniparental disomy means both chromosomes come from the same parent. For imprinted genes that are only expressed from one parent (like IGF2 from father or H19 from mother), inheriting both chromosomes from the wrong parent would result in no expression of genes requiring the missing parent's chromosome. Option A ignores the imprinting effects. Option C assumes both copies would be expressed. Option D contradicts the established imprinting patterns.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Genomic Imprinting",
+        "url": "https://www.nature.com/articles/nrg2164",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:30:00.000Z"
+  },
+  {
+    "id": "genetics_008",
+    "topic": "genetics",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is the term for an individual's observable characteristics or traits?",
+    "options": {
+      "A": "Genotype",
+      "B": "Phenotype",
+      "C": "Karyotype", 
+      "D": "Haplotype"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Phenotype refers to an individual's observable characteristics or traits, which result from the interaction between genotype and environment. Option A (genotype) refers to the genetic makeup. Option C (karyotype) refers to the chromosome complement. Option D (haplotype) refers to a group of alleles inherited together.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Genotype vs Phenotype",
+        "url": "https://www.khanacademy.org/science/biology/classical-genetics/mendelian--genetics",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:30:00.000Z"
+  },
+  {
+    "id": "genetics_009",
+    "topic": "genetics",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying population genetics analyzed allele frequencies in a large population over several generations. They found that for a gene with two alleles (A and a), the frequencies remained constant over time when certain conditions were met: no mutations, no gene flow, no selection, random mating, and large population size. When the initial frequency of allele A was 0.6 and allele a was 0.4, the genotype frequencies in the population were AA = 0.36, Aa = 0.48, and aa = 0.16. This stability is described by Hardy-Weinberg equilibrium.",
+    "question": "Based on Hardy-Weinberg equilibrium, if the frequency of allele A increases to 0.7 in a population, what will be the expected frequency of heterozygotes (Aa)?",
+    "options": {
+      "A": "0.21",
+      "B": "0.42", 
+      "C": "0.49",
+      "D": "0.70"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Under Hardy-Weinberg equilibrium, if p = frequency of A = 0.7, then q = frequency of a = 0.3. The frequency of heterozygotes is 2pq = 2(0.7)(0.3) = 0.42. Option A represents q². Option C represents approximately p². Option D represents just p, not the heterozygote frequency.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Hardy-Weinberg Equilibrium",
+        "url": "https://www.khanacademy.org/science/biology/her/heredity-and-genetics/hardy-weinberg-equilibrium",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:30:00.000Z"
+  },
+  {
+    "id": "genetics_010",
+    "topic": "genetics",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "A mutation that changes a codon from GAG (glutamate) to GTG (valine) is an example of:",
+    "options": {
+      "A": "Silent mutation",
+      "B": "Nonsense mutation",
+      "C": "Missense mutation",
+      "D": "Frameshift mutation"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. A missense mutation changes one amino acid to another (glutamate to valine in this case). Option A (silent) would not change the amino acid. Option B (nonsense) would create a stop codon. Option D (frameshift) would involve insertion or deletion of nucleotides not divisible by three, changing the reading frame.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Types of Mutations",
+        "url": "https://www.nature.com/scitable/topicpage/dna-mutations-and-their-effects-441/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T04:30:00.000Z"
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "id": "cell_bio_101",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying cellular stress responses observed that when cells are exposed to endoplasmic reticulum (ER) stress, they activate a conserved signaling pathway called the unfolded protein response (UPR). The UPR involves three transmembrane sensors: IRE1α, PERK, and ATF6. Under normal conditions, these sensors are kept inactive by binding to the ER chaperone BiP (GRP78). When misfolded proteins accumulate in the ER lumen, BiP is recruited away from the sensors to assist with protein folding, allowing the sensors to become active. Each sensor then initiates distinct downstream signaling cascades that collectively reduce ER protein load, enhance folding capacity, and promote cell survival.",
+    "question": "Based on this mechanism, what is the key trigger that activates UPR sensors during ER stress?",
+    "options": {
+      "A": "Direct binding of misfolded proteins to the sensors",
+      "B": "Release of sensors from BiP inhibition when BiP is recruited to misfolded proteins",
+      "C": "Phosphorylation of sensors by stress-activated kinases",
+      "D": "Conformational changes in sensors due to elevated ER temperature"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage clearly describes that UPR sensors are normally kept inactive by binding to BiP, and that sensor activation occurs when 'BiP is recruited away from the sensors to assist with protein folding.' This release from BiP inhibition is the key mechanism for UPR activation. Option A is incorrect because sensors don't directly bind misfolded proteins. Option C describes a downstream event, not the initial trigger. Option D is not supported by the passage and temperature is not mentioned as the stress trigger.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Unfolded Protein Response",
+        "url": "https://www.nature.com/articles/nrm2199",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:45:00.000Z"
+  },
+  {
+    "id": "cell_bio_102",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which process is primarily responsible for generating the proton gradient across the inner mitochondrial membrane during cellular respiration?",
+    "options": {
+      "A": "ATP hydrolysis by ATP synthase",
+      "B": "Electron transport through complexes I, III, and IV",
+      "C": "Substrate-level phosphorylation in the citric acid cycle",
+      "D": "Direct proton import via mitochondrial transporters"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The electron transport chain complexes I, III, and IV pump protons from the mitochondrial matrix to the intermembrane space as electrons are transferred down the chain, creating the proton gradient (proton-motive force) that drives ATP synthesis. Option A is incorrect because ATP synthase uses the gradient to synthesize ATP, it doesn't create the gradient through hydrolysis. Option C occurs in the matrix and doesn't contribute to the transmembrane gradient. Option D is not the primary mechanism for gradient generation.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Electron Transport Chain",
+        "url": "https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation/oxidative-phosphorylation",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:45:00.000Z"
+  },
+  {
+    "id": "cell_bio_103",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating chromatin remodeling discovered that SWI/SNF complexes use ATP hydrolysis to alter nucleosome positioning and accessibility of DNA regulatory elements. These complexes can slide nucleosomes along DNA, eject nucleosomes entirely, or exchange histone variants. The researchers found that SWI/SNF activity is regulated by multiple mechanisms, including recruitment to specific genomic loci by transcription factors, post-translational modifications of complex subunits, and competition with chromatin compaction factors. Mutations in SWI/SNF subunits are frequently found in human cancers, highlighting the importance of proper chromatin remodeling for gene regulation and cellular homeostasis.",
+    "question": "Based on the described functions, SWI/SNF complexes primarily act to:",
+    "options": {
+      "A": "Directly synthesize new histones for chromatin assembly",
+      "B": "Modify chromatin structure to alter DNA accessibility for regulatory proteins",
+      "C": "Degrade chromatin proteins to permanently activate gene expression",
+      "D": "Replicate DNA during S-phase of the cell cycle"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes that SWI/SNF complexes 'alter nucleosome positioning and accessibility of DNA regulatory elements' through sliding, ejecting, or exchanging nucleosomes. This directly describes their role in modifying chromatin structure to make DNA more or less accessible to transcription factors and other regulatory proteins. Option A is incorrect because SWI/SNF complexes remodel existing chromatin rather than synthesize histones. Option C is wrong because they remodel rather than degrade chromatin, and the changes can be reversible. Option D is incorrect because these are gene regulation complexes, not DNA replication machinery.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Chromatin Remodeling",
+        "url": "https://www.nature.com/articles/nrg2154",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:45:00.000Z"
+  },
+  {
+    "id": "cell_bio_104",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is the primary function of lysosomes in animal cells?",
+    "options": {
+      "A": "Protein synthesis",
+      "B": "Energy production",
+      "C": "Digestion of cellular waste and worn-out organelles",
+      "D": "DNA storage"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Lysosomes are membrane-bound organelles containing digestive enzymes that break down cellular waste, worn-out organelles, and materials brought in through endocytosis. They function as the cell's 'recycling center' by digesting and recycling cellular components. Option A (protein synthesis) occurs at ribosomes. Option B (energy production) occurs in mitochondria. Option D (DNA storage) occurs in the nucleus.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Lysosomes",
+        "url": "https://www.khanacademy.org/science/biology/structure-of-a-cell/tour-of-organelles",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:45:00.000Z"
+  },
+  {
+    "id": "cell_bio_105",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying signal transduction discovered that many growth factor receptors undergo dimerization upon ligand binding, which is essential for their activation. Receptor dimerization brings the intracellular domains into close proximity, allowing for trans-autophosphorylation where each receptor phosphorylates tyrosine residues on its dimerization partner. These phosphorylated tyrosines then serve as docking sites for downstream signaling proteins containing SH2 or PTB domains. The researchers found that preventing receptor dimerization, either through mutations or competitive inhibitors, effectively blocks signal transduction even in the presence of saturating ligand concentrations.",
+    "question": "Based on this signaling mechanism, why is receptor dimerization essential for signal transduction?",
+    "options": {
+      "A": "Dimerization increases ligand binding affinity",
+      "B": "Dimerization enables trans-autophosphorylation and creates docking sites for signaling proteins",
+      "C": "Dimerization prevents receptor degradation by proteases",
+      "D": "Dimerization directly activates transcription factors in the nucleus"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that dimerization brings intracellular domains together, enabling 'trans-autophosphorylation where each receptor phosphorylates tyrosine residues on its dimerization partner,' and that these phosphorylated tyrosines 'serve as docking sites for downstream signaling proteins.' This directly explains why dimerization is essential for signal transduction. Option A is not supported by the passage. Option C describes a stability function not mentioned in the passage. Option D describes a downstream effect, not the direct role of dimerization.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Growth Factor Signaling",
+        "url": "https://www.biointeractive.org/classroom-resources/growth-factor-signaling",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T03:45:00.000Z"
+  },
+  {
+    "id": "cell_bio_106",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which checkpoint protein is primarily responsible for detecting DNA damage and initiating cell cycle arrest in G1 phase?",
+    "options": {
+      "A": "Cyclin B",
+      "B": "CDK2",
+      "C": "p53",
+      "D": "Mad2"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. p53 is known as the 'guardian of the genome' and is the primary checkpoint protein that detects DNA damage and initiates G1/S checkpoint arrest. When activated by DNA damage signals (often through ATM/ATR kinases), p53 upregulates p21, which inhibits CDK2-cyclin E complexes and prevents S-phase entry. Option A (cyclin B) promotes M-phase entry. Option B (CDK2) promotes S-phase entry and would be inhibited by p53. Option D (Mad2) functions in the spindle assembly checkpoint during mitosis.",
+    "study_resources": [
+      {
+        "title": "Nature Education: p53 and DNA Damage",
+        "url": "https://www.nature.com/scitable/topicpage/p53-and-the-cell-cycle-14045872/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T03:45:00.000Z"
+  },
+  {
+    "id": "cell_bio_107",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying bacterial biofilm formation observed that individual planktonic bacteria can undergo a developmental transition to form multicellular communities encased in a self-produced extracellular polymeric matrix. This transition involves sophisticated cell-cell communication through quorum sensing, where bacteria produce and detect signaling molecules to coordinate group behaviors. The researchers found that biofilm formation is regulated by c-di-GMP, a bacterial second messenger that controls the expression of genes involved in motility, adhesion, and matrix production. High c-di-GMP levels promote biofilm formation by reducing motility and increasing production of adhesins and matrix components, while low levels promote the planktonic lifestyle.",
+    "question": "Based on this regulatory mechanism, what role does c-di-GMP play in the planktonic-to-biofilm transition?",
+    "options": {
+      "A": "c-di-GMP directly degrades the extracellular matrix to prevent biofilm formation",
+      "B": "c-di-GMP acts as a molecular switch that coordinates the transition between motile and sessile lifestyles",
+      "C": "c-di-GMP only functions in quorum sensing signal detection",
+      "D": "c-di-GMP levels remain constant throughout biofilm development"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes c-di-GMP as a key regulatory molecule where 'high c-di-GMP levels promote biofilm formation by reducing motility and increasing production of adhesins and matrix components, while low levels promote the planktonic lifestyle.' This clearly demonstrates its role as a molecular switch coordinating the transition between motile (planktonic) and sessile (biofilm) lifestyles. Option A is incorrect because c-di-GMP promotes, not prevents, biofilm formation. Option C is too narrow as c-di-GMP affects gene expression beyond just quorum sensing. Option D contradicts the passage which shows c-di-GMP levels change to control lifestyle transitions.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Bacterial Biofilms",
+        "url": "https://www.nature.com/articles/nrmicro2415",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:45:00.000Z"
+  },
+  {
+    "id": "cell_bio_108",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which structure connects the cytoplasm of adjacent plant cells?",
+    "options": {
+      "A": "Tight junctions",
+      "B": "Plasmodesmata",
+      "C": "Gap junctions",
+      "D": "Desmosomes"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Plasmodesmata are cytoplasmic channels that traverse plant cell walls and connect the cytoplasm of adjacent plant cells, allowing for direct communication and transport of molecules. Option A (tight junctions) are found in animal cells, not plants. Option C (gap junctions) are also found in animal cells. Option D (desmosomes) provide mechanical adhesion in animal cells but don't connect cytoplasm.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Plant Cell Connections",
+        "url": "https://www.khanacademy.org/science/biology/structure-of-a-cell/cell-junctions",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:45:00.000Z"
+  },
+  {
+    "id": "cell_bio_109",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists investigating cellular aging discovered that senescent cells exhibit a senescence-associated secretory phenotype (SASP) characterized by the secretion of pro-inflammatory cytokines, chemokines, growth factors, and matrix-degrading enzymes. While senescence initially evolved as a tumor suppressor mechanism by permanently arresting potentially oncogenic cells, the researchers found that SASP factors can have both beneficial and detrimental effects. SASP can promote tissue repair by attracting immune cells and stimulating stem cell activation, but chronic SASP signaling can also promote inflammation, tissue dysfunction, and ironically, tumorigenesis in neighboring cells.",
+    "question": "Based on these findings, what is the dual nature of cellular senescence in tissue health?",
+    "options": {
+      "A": "Senescence always promotes cancer development",
+      "B": "Senescence acts as both a tumor suppressor and a potential promoter of tissue dysfunction",
+      "C": "SASP factors only have beneficial effects on tissue health",
+      "D": "Senescent cells are metabolically inactive and have no impact on surrounding tissues"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes senescence as having evolved as a 'tumor suppressor mechanism' while also noting that 'chronic SASP signaling can also promote inflammation, tissue dysfunction, and ironically, tumorigenesis in neighboring cells.' This illustrates the dual nature where senescence protects against cancer but can also contribute to tissue problems. Option A is incorrect because senescence can suppress as well as promote tumorigenesis. Option C is wrong because SASP has both beneficial and detrimental effects. Option D is incorrect because senescent cells actively secrete SASP factors that impact surrounding tissues.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Cellular Senescence",
+        "url": "https://www.nature.com/articles/nrg.2017.116",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:45:00.000Z"
+  },
+  {
+    "id": "cell_bio_110",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "A mutation affecting the enzyme topoisomerase II would most likely result in:",
+    "options": {
+      "A": "Defective mRNA splicing in the nucleus",
+      "B": "Impaired chromosome condensation and segregation during mitosis",
+      "C": "Reduced protein synthesis at ribosomes",
+      "D": "Defective lipid synthesis in the smooth ER"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Topoisomerase II relieves topological strain in DNA by creating transient double-strand breaks that allow DNA segments to pass through each other. This activity is essential for chromosome condensation during mitosis and for resolving interlinked chromosomes (catenanes) that form during DNA replication, allowing proper chromosome segregation. Option A is incorrect because mRNA splicing doesn't require topoisomerase II. Option C is wrong because protein synthesis occurs at ribosomes and doesn't directly depend on topoisomerase II. Option D is incorrect because lipid synthesis doesn't involve topoisomerase II.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: DNA Topoisomerases",
+        "url": "https://www.nature.com/articles/nrg1706",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:45:00.000Z"
+  }
+]

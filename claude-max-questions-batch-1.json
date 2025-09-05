@@ -1,0 +1,73 @@
+[
+  {
+    "id": "cell_bio_001",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying autophagy in mammalian cells observed that during nutrient starvation, certain cytoplasmic organelles and protein aggregates become enclosed within double-membrane vesicles. These vesicles subsequently fuse with lysosomes, leading to the degradation of their contents. The process is regulated by a series of autophagy-related (ATG) proteins, with ATG8 playing a crucial role in the elongation and closure of the autophagosome membrane. When cells were treated with 3-methyladenine (3-MA), a class III PI3K inhibitor, autophagosome formation was significantly reduced.",
+    "question": "Based on the passage, which of the following best explains why 3-methyladenine treatment reduces autophagosome formation?",
+    "options": {
+      "A": "3-MA directly inhibits ATG8 protein function",
+      "B": "3-MA blocks the class III PI3K pathway required for autophagosome initiation",
+      "C": "3-MA prevents lysosome fusion with autophagosomes",
+      "D": "3-MA inhibits nutrient starvation signals"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Class III PI3K (phosphatidylinositol 3-kinase) is essential for the early stages of autophagosome formation, specifically for the nucleation of the isolation membrane. 3-methyladenine (3-MA) is a well-known inhibitor of class III PI3K, which explains why autophagosome formation is reduced when cells are treated with this compound. Option A is incorrect because 3-MA does not directly target ATG8. Option C is wrong because 3-MA affects autophagosome formation, not fusion with lysosomes. Option D is incorrect because 3-MA doesn't block starvation signals but rather the cellular response to them.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Autophagy",
+        "url": "https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation/autophagy",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T02:50:00.000Z"
+  },
+  {
+    "id": "cell_bio_002", 
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "A researcher observes that a particular cell line exhibits defective protein trafficking from the endoplasmic reticulum to the Golgi apparatus. Upon further investigation, it is discovered that these cells have a mutation affecting COPII coat proteins. Which of the following cellular processes would be most directly impacted by this defect?",
+    "options": {
+      "A": "Endocytosis of extracellular materials",
+      "B": "Retrograde transport from Golgi to ER", 
+      "C": "Anterograde transport of newly synthesized proteins",
+      "D": "Autophagosome formation and maturation"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. COPII (Coat Protein Complex II) is specifically responsible for anterograde transport from the ER to the Golgi apparatus. COPII coats help form vesicles that carry newly synthesized proteins from the ER to the Golgi for further processing. Option A is incorrect because endocytosis involves clathrin-coated vesicles at the plasma membrane. Option B is wrong because retrograde transport (Golgi to ER) is mediated by COPI, not COPII. Option D is incorrect because autophagosome formation involves different machinery and is not directly related to COPII function.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Protein Trafficking", 
+        "url": "https://www.biointeractive.org/classroom-resources/protein-trafficking",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T02:50:00.000Z"
+  },
+  {
+    "id": "cell_bio_003",
+    "topic": "cell_biology", 
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "In studying mitochondrial dynamics, researchers found that cells expressing a dominant-negative form of dynamin-related protein 1 (Drp1) exhibit highly interconnected mitochondrial networks with reduced fragmentation. Conversely, cells overexpressing wild-type Drp1 show increased mitochondrial fragmentation. During apoptosis, mitochondrial fragmentation typically precedes cytochrome c release and caspase activation. Treatment with mdivi-1, a specific Drp1 inhibitor, was found to delay apoptotic cell death in response to various cellular stresses.",
+    "question": "Based on the experimental evidence provided, what can be concluded about the relationship between mitochondrial dynamics and cell death?",
+    "options": {
+      "A": "Mitochondrial fusion is required for cytochrome c release",
+      "B": "Drp1-mediated mitochondrial fission facilitates apoptotic progression", 
+      "C": "Cytochrome c release occurs independently of mitochondrial morphology",
+      "D": "Mdivi-1 directly inhibits caspase activation"
+    },
+    "correct_answer": "B", 
+    "explanation": "The correct answer is B. The evidence shows that Drp1 promotes mitochondrial fission (fragmentation), and this fragmentation precedes cytochrome c release during apoptosis. The fact that mdivi-1 (a Drp1 inhibitor) delays apoptotic cell death further supports that Drp1-mediated fission facilitates the apoptotic process. Option A is incorrect because the data suggests fission, not fusion, is associated with apoptosis. Option C is wrong because the temporal relationship (fragmentation precedes cytochrome c release) suggests dependence. Option D is incorrect because mdivi-1 acts on Drp1, not directly on caspases.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Mitochondrial Dynamics",
+        "url": "https://www.nature.com/scitable/topicpage/mitochondrial-dynamics-14121896/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T02:50:00.000Z"
+  }
+]

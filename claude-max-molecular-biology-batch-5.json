@@ -1,0 +1,237 @@
+[
+  {
+    "id": "mol_bio_041",
+    "topic": "molecular_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers investigating DNA repair mechanisms discovered that cells have multiple systems to detect and correct DNA damage. Base excision repair (BER) handles small base modifications like deamination or oxidation through glycosylases that remove damaged bases, followed by AP endonuclease and DNA polymerase to fill the gap. Nucleotide excision repair (NER) addresses bulky DNA lesions like thymine dimers by recognizing helical distortions and removing 12-30 nucleotide patches. The scientists found that defects in these repair systems lead to increased mutation rates and cancer susceptibility, demonstrating the critical importance of genome maintenance.",
+    "question": "Based on this DNA repair system, which type of repair mechanism would primarily handle UV-induced thymine dimers?",
+    "options": {
+      "A": "Base excision repair (BER)",
+      "B": "Nucleotide excision repair (NER)",
+      "C": "Mismatch repair (MMR)",
+      "D": "Homologous recombination"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that nucleotide excision repair (NER) 'addresses bulky DNA lesions like thymine dimers by recognizing helical distortions.' UV-induced thymine dimers create bulky lesions that distort the DNA helix, making NER the appropriate repair mechanism. Option A (BER) handles small base modifications. Options C and D address different types of DNA problems.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: DNA Repair Mechanisms",
+        "url": "https://www.nature.com/articles/nrm2951",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:50:00.000Z"
+  },
+  {
+    "id": "mol_bio_042",
+    "topic": "molecular_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which enzyme is responsible for adding the 5' cap structure to eukaryotic mRNA during transcription?",
+    "options": {
+      "A": "RNA polymerase II",
+      "B": "Guanylyltransferase (capping enzyme)",
+      "C": "Poly(A) polymerase",
+      "D": "Splicing endonuclease"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The 5' cap is added by guanylyltransferase (capping enzyme), which adds GMP to the 5' triphosphate of nascent mRNA and then methylates the cap structure. This occurs co-transcriptionally when the nascent mRNA is only 20-30 nucleotides long. Option A synthesizes RNA but doesn't add the cap. Option C adds the poly(A) tail. Option D is involved in splicing.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: mRNA Processing",
+        "url": "https://www.biointeractive.org/classroom-resources/mrna-processing",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:50:00.000Z"
+  },
+  {
+    "id": "mol_bio_043",
+    "topic": "molecular_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists studying post-transcriptional gene regulation discovered that microRNAs (miRNAs) play crucial roles in controlling gene expression. MiRNAs are initially transcribed as long primary transcripts (pri-miRNA) that are processed in the nucleus by the Drosha-DGCR8 complex to produce precursor miRNAs (pre-miRNA). These pre-miRNAs are exported to the cytoplasm and further processed by Dicer to generate mature miRNAs. The mature miRNA is loaded into the RNA-induced silencing complex (RISC), where it guides the complex to complementary sequences in target mRNAs, leading to translational repression or mRNA degradation.",
+    "question": "Based on this miRNA biogenesis pathway, what would be the consequence of Dicer deficiency in cells?",
+    "options": {
+      "A": "Accumulation of pri-miRNA in the nucleus",
+      "B": "Accumulation of pre-miRNA in the cytoplasm without mature miRNA production",
+      "C": "Enhanced RISC complex activity",
+      "D": "Increased mRNA stability for all genes"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Dicer processes pre-miRNA in the cytoplasm to generate mature miRNAs. Without Dicer, pre-miRNAs would accumulate in the cytoplasm but couldn't be processed to functional mature miRNAs, effectively blocking miRNA function. Option A describes Drosha deficiency. Option C is incorrect as RISC needs mature miRNAs. Option D is too broad - only miRNA targets would be affected.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: miRNA Biogenesis",
+        "url": "https://www.nature.com/articles/nrg2379",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:50:00.000Z"
+  },
+  {
+    "id": "mol_bio_044",
+    "topic": "molecular_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "During translation initiation in prokaryotes, which site on the ribosome first binds the initiator tRNA?",
+    "options": {
+      "A": "A site",
+      "B": "P site",
+      "C": "E site",
+      "D": "I site"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The initiator tRNA (fMet-tRNA) directly binds to the P site during translation initiation in prokaryotes, forming the initiation complex with the start codon. This is different from elongation, where aminoacyl-tRNAs first enter the A site. Option A is where subsequent tRNAs enter during elongation. Option C is the exit site. Option D doesn't exist.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Translation Initiation",
+        "url": "https://www.khanacademy.org/science/biology/gene-expression-central-dogma/translation-polypeptides",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:50:00.000Z"
+  },
+  {
+    "id": "mol_bio_045",
+    "topic": "molecular_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying protein targeting discovered that newly synthesized proteins contain signal sequences that determine their cellular destination. Proteins destined for the endoplasmic reticulum (ER) have N-terminal signal sequences that are recognized by signal recognition particles (SRP) during translation. This leads to ribosome docking at the ER membrane and co-translational translocation into the ER lumen. Proteins without signal sequences remain in the cytoplasm, while those with specific targeting sequences can be directed to mitochondria, peroxisomes, or the nucleus through post-translational import mechanisms.",
+    "question": "Based on this protein targeting system, when does translocation into the ER typically occur?",
+    "options": {
+      "A": "Before translation begins",
+      "B": "During translation (co-translational)",
+      "C": "After translation is complete (post-translational)",
+      "D": "Only during cell division"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that ER signal sequences 'lead to ribosome docking at the ER membrane and co-translational translocation into the ER lumen.' Co-translational means the protein enters the ER while it's still being synthesized by the ribosome. Option A is too early. Option C describes other organelles like mitochondria. Option D is unrelated to protein targeting.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Protein Targeting",
+        "url": "https://www.biointeractive.org/classroom-resources/protein-targeting",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:50:00.000Z"
+  },
+  {
+    "id": "mol_bio_046",
+    "topic": "molecular_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "In eukaryotic cells, which modification is added to histone H3 at lysine 4 to mark actively transcribed genes?",
+    "options": {
+      "A": "Acetylation",
+      "B": "Methylation",
+      "C": "Phosphorylation",
+      "D": "Ubiquitination"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Trimethylation of histone H3 at lysine 4 (H3K4me3) is a well-established mark of actively transcribed gene promoters. This modification is associated with open chromatin and active transcription. Option A (acetylation) also promotes transcription but typically occurs at different residues. Options C and D have different functions in chromatin regulation.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Histone Modifications",
+        "url": "https://www.nature.com/articles/nrg2015",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:50:00.000Z"
+  },
+  {
+    "id": "mol_bio_047",
+    "topic": "molecular_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying the molecular basis of cancer investigated how oncogenes and tumor suppressor genes contribute to malignant transformation. They found that oncogenes like MYC and RAS promote cell proliferation and survival when activated, while tumor suppressor genes like TP53 and RB normally prevent uncontrolled growth by inducing cell cycle arrest or apoptosis in response to cellular stress. The scientists discovered that cancer typically requires multiple hits - both oncogene activation and tumor suppressor inactivation - following Knudson's two-hit hypothesis for tumor suppressors and the multi-step model of carcinogenesis.",
+    "question": "Based on this cancer genetics model, why do most cancers require both oncogene activation and tumor suppressor loss?",
+    "options": {
+      "A": "Oncogenes alone are insufficient to overcome normal growth control mechanisms",
+      "B": "Tumor suppressors directly activate oncogenes",
+      "C": "Both types of genes are located on the same chromosome",
+      "D": "Cancer cells need to maintain some growth control"
+    },
+    "correct_answer": "A",
+    "explanation": "The correct answer is A. Normal cells have robust tumor suppressor mechanisms (like p53-mediated cell cycle checkpoints and apoptosis) that can counteract oncogene activation. Only when these protective mechanisms are also lost can cells achieve the full malignant phenotype. This explains why cancer is typically a multi-step process requiring multiple genetic hits. Option B is incorrect. Option C is irrelevant. Option D contradicts cancer biology.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Cancer Genetics",
+        "url": "https://www.nature.com/articles/nrc1299",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:50:00.000Z"
+  },
+  {
+    "id": "mol_bio_048",
+    "topic": "molecular_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is the function of the poly(A) tail added to eukaryotic mRNAs?",
+    "options": {
+      "A": "To facilitate nuclear export and increase mRNA stability",
+      "B": "To initiate transcription",
+      "C": "To splice out introns",
+      "D": "To add the 5' cap"
+    },
+    "correct_answer": "A",
+    "explanation": "The correct answer is A. The poly(A) tail enhances mRNA stability by protecting against 3' to 5' exonuclease digestion and facilitates nuclear export and translation efficiency. It also helps in translation initiation through interactions with cap-binding proteins. Option B describes promoter function. Option C describes splicing. Option D describes 5' capping.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: mRNA Processing",
+        "url": "https://www.khanacademy.org/science/biology/gene-expression-central-dogma/transcription-of-dna-into-rna",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:50:00.000Z"
+  },
+  {
+    "id": "mol_bio_049",
+    "topic": "molecular_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying DNA replication termination in eukaryotes discovered that replication forks from adjacent origins eventually converge and must be properly resolved. When two replication forks meet, they form converged replication intermediates that require specific machinery for proper completion. The researchers found that replication termination involves the removal of RNA primers, gap filling by DNA polymerases, and ligation of Okazaki fragments. Additionally, they discovered that topoisomerases are essential for relieving the tension created when replication forks converge, preventing the formation of problematic DNA structures.",
+    "question": "Based on this replication termination process, why are topoisomerases particularly important when replication forks converge?",
+    "options": {
+      "A": "They remove RNA primers from Okazaki fragments",
+      "B": "They relieve topological tension created by converging replication machinery",
+      "C": "They ligate DNA fragments together",
+      "D": "They synthesize DNA in the leading strand"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'topoisomerases are essential for relieving the tension created when replication forks converge.' When two replication forks meet, the unwinding of DNA by helicases creates significant topological strain that must be relieved to prevent problematic DNA structures and allow proper termination. Options A, C, and D describe other enzymes' functions (RNase H/FEN1, ligase, and polymerase respectively).",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: DNA Replication Termination",
+        "url": "https://www.nature.com/articles/nrm3450",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:50:00.000Z"
+  },
+  {
+    "id": "mol_bio_050",
+    "topic": "molecular_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which type of RNA editing involves the conversion of cytosine to uracil, effectively changing the coding sequence?",
+    "options": {
+      "A": "A-to-I editing",
+      "B": "C-to-U editing",
+      "C": "Pseudouridylation",
+      "D": "Methylation"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. C-to-U editing involves cytidine deaminases (like APOBEC1) that convert cytosine to uracil in mRNA, effectively changing codons and potentially altering protein sequences. A classic example is apolipoprotein B mRNA editing. Option A (A-to-I) converts adenosine to inosine. Options C and D are modifications, not editing that changes coding sequences.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: RNA Editing",
+        "url": "https://www.nature.com/articles/nrg2493",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:50:00.000Z"
+  }
+]

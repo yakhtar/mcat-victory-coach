@@ -1,0 +1,237 @@
+[
+  {
+    "id": "cell_bio_041",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying membrane transport observed that certain cells can rapidly uptake glucose even when extracellular glucose concentrations are very low. These cells express high levels of GLUT1 transporters in their plasma membrane. When cells were treated with cytochalasin B, glucose uptake was dramatically reduced. Further experiments showed that GLUT1-mediated transport does not require ATP hydrolysis and can transport glucose bidirectionally across the membrane depending on the concentration gradient.",
+    "question": "Based on the experimental observations, GLUT1-mediated glucose transport can best be classified as:",
+    "options": {
+      "A": "Active transport requiring ATP hydrolysis",
+      "B": "Facilitated diffusion using a carrier protein",
+      "C": "Simple diffusion through membrane pores",
+      "D": "Endocytosis followed by intracellular processing"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. GLUT1 mediates facilitated diffusion, which uses carrier proteins to transport substances down their concentration gradient without requiring energy. The key evidence includes: (1) transport occurs without ATP hydrolysis, ruling out active transport (option A), (2) cytochalasin B inhibition indicates protein-mediated transport, ruling out simple diffusion (option C), and (3) bidirectional transport based on concentration gradients is characteristic of facilitated diffusion, not endocytosis (option D). GLUT1 is a well-characterized glucose transporter that facilitates glucose movement across membranes.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Passive Transport",
+        "url": "https://www.khanacademy.org/science/biology/membranes-and-transport/passive-transport",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:15:00.000Z"
+  },
+  {
+    "id": "cell_bio_042",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "A mutation in the signal recognition particle (SRP) receptor would most likely affect which of the following cellular processes?",
+    "options": {
+      "A": "Targeting of proteins to mitochondria",
+      "B": "Co-translational insertion of proteins into the ER membrane",
+      "C": "Post-translational modification of cytosolic proteins",
+      "D": "Assembly of ribosomal subunits in the nucleolus"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The SRP receptor is located on the ER membrane and is essential for co-translational targeting of ribosomes to the ER. When SRP binds to signal sequences on nascent proteins, it guides the ribosome to the SRP receptor on the ER, allowing co-translational insertion of proteins into the ER membrane or lumen. Option A is incorrect because mitochondrial targeting uses different signal sequences and receptors (TOM/TIM complexes). Option C is wrong because SRP functions during translation, not post-translationally. Option D is incorrect because SRP receptor is not involved in ribosome assembly, which occurs in the nucleolus.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Signal Recognition Particle",
+        "url": "https://www.biointeractive.org/classroom-resources/signal-recognition-particle",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T03:15:00.000Z"
+  },
+  {
+    "id": "cell_bio_043",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "In a study of cell cycle regulation, researchers observed that cells lacking functional p53 protein continue to progress through the cell cycle despite DNA damage. Normal cells with intact p53 arrest at the G1/S checkpoint when DNA damage is detected. The researchers found that p53 acts as a transcription factor that upregulates p21, a cyclin-dependent kinase inhibitor. p21 specifically binds to and inhibits CDK2-cyclin E complexes, preventing phosphorylation of Rb protein. When Rb remains hypophosphorylated, it continues to bind E2F transcription factors, blocking S-phase gene expression.",
+    "question": "Based on this regulatory pathway, which of the following would be the most direct molecular consequence of p53 loss in damaged cells?",
+    "options": {
+      "A": "Increased CDK2-cyclin E kinase activity leading to Rb hyperphosphorylation",
+      "B": "Direct activation of E2F-dependent S-phase genes",
+      "C": "Constitutive binding of Rb to chromatin throughout the cell cycle",
+      "D": "Immediate progression to M-phase without DNA replication"
+    },
+    "correct_answer": "A",
+    "explanation": "The correct answer is A. The passage describes a regulatory cascade: p53 → p21 → CDK2-cyclin E inhibition → Rb hypophosphorylation → E2F sequestration. Loss of p53 would eliminate p21 upregulation, removing the brake on CDK2-cyclin E activity. This would lead to increased kinase activity and Rb hyperphosphorylation, which is the most direct consequence in the pathway. Option B is incorrect because E2F activation is downstream of Rb phosphorylation. Option C is wrong because Rb binding to E2F (not chromatin) is the mechanism, and this would actually decrease without p53. Option D is incorrect because the pathway specifically controls G1/S transition, not progression to M-phase.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Cell Cycle Control",
+        "url": "https://www.nature.com/scitable/topicpage/cell-cycle-control-13023266/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T03:15:00.000Z"
+  },
+  {
+    "id": "cell_bio_044",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "discrete",
+    "question": "During which phase of mitosis do sister chromatids separate and move toward opposite poles of the cell?",
+    "options": {
+      "A": "Prophase",
+      "B": "Metaphase",
+      "C": "Anaphase",
+      "D": "Telophase"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Anaphase is characterized by the separation of sister chromatids, which occurs when the cohesin proteins holding them together are cleaved by separase enzyme. The chromatids then move toward opposite poles of the cell along the spindle microtubules. Option A (prophase) is when chromosomes condense and the nuclear envelope breaks down. Option B (metaphase) is when chromosomes align at the cell's equator. Option D (telophase) is when nuclear envelopes reform around the separated chromosomes and the cell prepares for cytokinesis.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Mitosis",
+        "url": "https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation/mitosis",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:15:00.000Z"
+  },
+  {
+    "id": "cell_bio_045",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "passage",
+    "passage": "Researchers studying peroxisome biogenesis discovered that these organelles can form through two distinct pathways: de novo formation from the ER and growth and division of existing peroxisomes. Peroxisomal proteins are synthesized in the cytosol and imported post-translationally via peroxisomal targeting signals (PTS1 and PTS2). PTS1 proteins contain a C-terminal tripeptide sequence (typically SKL) and are imported by the PEX5 receptor. When cells were treated with a compound that disrupts PEX5 function, catalase and other PTS1-containing enzymes accumulated in the cytosol instead of localizing to peroxisomes.",
+    "question": "Based on the experimental results, which conclusion about peroxisomal protein import is most accurate?",
+    "options": {
+      "A": "Peroxisomal proteins are synthesized directly within the organelle",
+      "B": "PEX5 receptor is required for post-translational import of PTS1 proteins",
+      "C": "Catalase import occurs co-translationally during protein synthesis",
+      "D": "PTS2 proteins also require PEX5 for peroxisomal targeting"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The experimental evidence clearly shows that when PEX5 function is disrupted, PTS1-containing proteins (including catalase) accumulate in the cytosol instead of localizing to peroxisomes. This demonstrates that PEX5 receptor is required for the post-translational import of PTS1 proteins. Option A is incorrect because the passage states proteins are synthesized in the cytosol, not within peroxisomes. Option C is wrong because the import is described as post-translational, not co-translational. Option D cannot be concluded from the given data, as the experiment specifically tested PTS1 proteins and PEX5; PTS2 proteins use different import machinery.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Peroxisome Structure and Function",
+        "url": "https://www.biointeractive.org/classroom-resources/peroxisome-biogenesis",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T03:15:00.000Z"
+  },
+  {
+    "id": "cell_bio_046",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which cellular structure is primarily responsible for ATP synthesis in eukaryotic cells?",
+    "options": {
+      "A": "Nucleus",
+      "B": "Ribosome",
+      "C": "Mitochondrion",
+      "D": "Golgi apparatus"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Mitochondria are the primary sites of ATP synthesis in eukaryotic cells through oxidative phosphorylation. The inner mitochondrial membrane contains the electron transport chain and ATP synthase, which together produce the majority of cellular ATP. Option A (nucleus) is incorrect as it contains DNA and controls gene expression but doesn't produce ATP. Option B (ribosome) synthesizes proteins, not ATP. Option D (Golgi apparatus) modifies and packages proteins but doesn't generate ATP.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: ATP and Cellular Respiration",
+        "url": "https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:15:00.000Z"
+  },
+  {
+    "id": "cell_bio_047",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team investigated the role of centrioles in cell division by creating cells lacking functional centrosomes. Surprisingly, these cells could still complete mitosis, although the process took longer and showed increased rates of chromosome missegregation. The researchers observed that in the absence of centrosomes, spindle microtubules could still form through a pathway involving the Ran-GTP gradient around chromosomes and various microtubule-associated proteins. However, the resulting spindle was less focused and bipolar organization was compromised.",
+    "question": "What can be concluded about centrosome function in mitosis based on these experimental results?",
+    "options": {
+      "A": "Centrosomes are absolutely required for spindle formation",
+      "B": "Centrosomes enhance spindle organization but are not essential for mitosis",
+      "C": "Chromosome-mediated spindle formation is always more efficient than centrosome-mediated",
+      "D": "Ran-GTP gradient formation depends on functional centrosomes"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The experimental results demonstrate that cells can complete mitosis without functional centrosomes, indicating they are not absolutely essential. However, the longer process time and increased chromosome missegregation rates show that centrosomes enhance the efficiency and fidelity of mitotic spindle organization. Option A is incorrect because spindle formation still occurred without centrosomes. Option C is wrong because the data shows centrosome-mediated spindle formation is more efficient (faster, more accurate). Option D is incorrect because the Ran-GTP gradient formed independently of centrosomes in this experiment.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Mitotic Spindle",
+        "url": "https://www.nature.com/scitable/topicpage/mitotic-spindle-14049229/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T03:15:00.000Z"
+  },
+  {
+    "id": "cell_bio_048",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "A researcher observes that cells treated with an inhibitor of phospholipase C show reduced intracellular calcium levels following receptor activation. Which of the following best explains this observation?",
+    "options": {
+      "A": "Phospholipase C directly transports calcium across the plasma membrane",
+      "B": "Phospholipase C cleaves PIP2 to generate IP3, which releases calcium from ER stores",
+      "C": "Phospholipase C activates calcium pumps in the plasma membrane",
+      "D": "Phospholipase C prevents calcium binding to calmodulin"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Phospholipase C (PLC) is a key enzyme in the phosphoinositide signaling pathway. When activated by certain receptors, PLC cleaves PIP2 (phosphatidylinositol 4,5-bisphosphate) to generate two second messengers: IP3 (inositol 1,4,5-trisphosphate) and DAG (diacylglycerol). IP3 then binds to IP3 receptors on the ER membrane, causing calcium release from intracellular stores. Inhibiting PLC would prevent IP3 formation and subsequent calcium release. Option A is incorrect because PLC doesn't directly transport calcium. Option C is wrong because PLC doesn't activate calcium pumps. Option D is incorrect because PLC doesn't interact with calmodulin directly.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Signal Transduction",
+        "url": "https://www.biointeractive.org/classroom-resources/signal-transduction-pathways",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T03:15:00.000Z"
+  },
+  {
+    "id": "cell_bio_049",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists studying epithelial cell polarity discovered that the Par complex (Par3, Par6, and aPKC) localizes to tight junctions and is essential for establishing apical-basal polarity. When Par3 was experimentally depleted, cells lost their polarized organization and tight junction integrity was compromised. Further analysis revealed that Par3 interacts with Crumbs protein at the apical surface and with Scribble protein at the basolateral surface. The researchers found that aPKC phosphorylates Lgl (Lethal giant larvae) protein, preventing its interaction with Scribble and maintaining the boundary between apical and basolateral domains.",
+    "question": "Based on this polarity network, what would be the most likely consequence of constitutively active aPKC in epithelial cells?",
+    "options": {
+      "A": "Enhanced tight junction formation throughout the cell surface",
+      "B": "Expansion of apical characteristics at the expense of basolateral identity",
+      "C": "Complete loss of Par complex localization to tight junctions",
+      "D": "Increased Lgl-Scribble interactions promoting basolateral expansion"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes that aPKC phosphorylates Lgl, preventing its interaction with Scribble and maintaining the apical-basolateral boundary. Constitutively active aPKC would continuously phosphorylate Lgl, permanently preventing Lgl-Scribble interactions that are important for basolateral identity. This would lead to expansion of apical characteristics at the expense of basolateral polarity. Option A is incorrect because tight junctions are specifically apical structures, not distributed throughout the surface. Option C is wrong because constitutively active aPKC would likely enhance, not eliminate, Par complex function. Option D is incorrect because increased aPKC activity would decrease, not increase, Lgl-Scribble interactions.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Cell Polarity",
+        "url": "https://www.nature.com/articles/nrm2821",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:15:00.000Z"
+  },
+  {
+    "id": "cell_bio_050",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which of the following best describes the primary function of the rough endoplasmic reticulum (RER)?",
+    "options": {
+      "A": "Lipid synthesis and steroid hormone production",
+      "B": "Protein synthesis and modification of secreted proteins",
+      "C": "ATP production through oxidative phosphorylation",
+      "D": "DNA replication and histone modification"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The rough endoplasmic reticulum gets its 'rough' appearance from ribosomes attached to its surface. These ribosomes synthesize proteins that are destined for secretion, membrane incorporation, or organellar targeting. The RER also provides the first site for protein folding and post-translational modifications. Option A describes the smooth ER's function. Option C describes mitochondrial function. Option D describes nuclear processes.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Endoplasmic Reticulum",
+        "url": "https://www.khanacademy.org/science/biology/structure-of-a-cell/tour-of-organelles",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:15:00.000Z"
+  }
+]

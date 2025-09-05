@@ -1,0 +1,237 @@
+[
+  {
+    "id": "cell_bio_004",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "passage",
+    "passage": "Researchers investigating membrane dynamics in polarized epithelial cells discovered that disruption of tight junctions leads to altered distribution of membrane proteins between apical and basolateral domains. When cells were treated with calcium chelators to disrupt adherens junctions, they observed that Na+/K+-ATPase, normally restricted to the basolateral membrane, began appearing in the apical membrane. Additionally, alkaline phosphatase, typically localized to the apical surface, was found distributed throughout the lateral membranes. Electron microscopy revealed that tight junction proteins claudin-1 and occludin were no longer concentrated at cell-cell contacts.",
+    "question": "Based on the experimental observations, what is the primary function of tight junctions in maintaining epithelial cell polarity?",
+    "options": {
+      "A": "They provide mechanical strength to prevent cell separation",
+      "B": "They serve as a selective barrier preventing lateral diffusion of membrane proteins",
+      "C": "They regulate transcytosis between apical and basolateral compartments", 
+      "D": "They control the expression of polarity-specific membrane proteins"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The experimental evidence shows that when tight junctions are disrupted, membrane proteins lose their polarized distribution - Na+/K+-ATPase moves from basolateral to apical, and alkaline phosphatase spreads from apical to lateral domains. This demonstrates that tight junctions function as a selective barrier that prevents the lateral diffusion of membrane proteins between apical and basolateral domains, thus maintaining epithelial polarity. Option A is incorrect because adherens junctions, not tight junctions, primarily provide mechanical strength. Option C is wrong because the experiment doesn't address transcytosis. Option D is incorrect because the proteins are still expressed but mislocalized, indicating tight junctions don't control expression but rather distribution.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Cell Junctions",
+        "url": "https://www.khanacademy.org/science/biology/structure-of-a-cell/cell-junctions",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T02:55:00.000Z"
+  },
+  {
+    "id": "cell_bio_005",
+    "topic": "cell_biology", 
+    "difficulty": "elite",
+    "type": "discrete",
+    "question": "A novel compound is discovered that selectively inhibits the GTPase activity of Ran without affecting its GTP binding. In cells treated with this compound, which of the following processes would be most directly impacted?",
+    "options": {
+      "A": "Ribosome assembly in the nucleolus",
+      "B": "Nuclear export of mRNA and proteins",
+      "C": "DNA replication initiation", 
+      "D": "Chromatin condensation during mitosis"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Ran is crucial for nuclear transport, existing as RanGTP in the nucleus and RanGDP in the cytoplasm. This gradient drives both nuclear import and export. If the GTPase activity of Ran is inhibited while GTP binding remains intact, Ran would remain in the GTP-bound state. This would disrupt the normal cycling between RanGTP and RanGDP that is essential for nuclear export. Export complexes depend on RanGTP hydrolysis to release cargo in the cytoplasm. Option A is incorrect because ribosome assembly doesn't directly depend on Ran GTPase cycling. Option C is wrong because DNA replication initiation involves other regulatory mechanisms. Option D is incorrect because chromatin condensation is primarily regulated by condensins and histone modifications, not directly by Ran.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Nuclear Transport",
+        "url": "https://www.biointeractive.org/classroom-resources/nuclear-transport",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T02:55:00.000Z"
+  },
+  {
+    "id": "cell_bio_006",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage", 
+    "passage": "During muscle contraction, calcium ions are released from the sarcoplasmic reticulum and bind to troponin C, causing a conformational change that moves tropomyosin away from myosin-binding sites on actin filaments. This allows myosin heads to bind to actin, forming cross-bridges. ATP hydrolysis provides the energy for the power stroke, during which myosin heads pivot and pull actin filaments toward the center of the sarcomere. A new ATP molecule then binds to myosin, causing cross-bridge dissociation and resetting the myosin head for another cycle.",
+    "question": "What would be the immediate consequence if ATP became unavailable during the cross-bridge cycle?",
+    "options": {
+      "A": "Calcium would not be released from the sarcoplasmic reticulum",
+      "B": "Tropomyosin would remain bound to myosin-binding sites",
+      "C": "Cross-bridges would remain formed, preventing muscle relaxation",
+      "D": "Myosin heads would lose their ability to bind to actin"
+    },
+    "correct_answer": "C", 
+    "explanation": "The correct answer is C. ATP is required for cross-bridge dissociation - when a new ATP molecule binds to myosin, it causes the myosin head to detach from actin. Without ATP, the cross-bridges would remain formed in a permanent contractile state, similar to rigor mortis. This prevents muscle relaxation because the myosin heads cannot detach from actin filaments. Option A is incorrect because calcium release from the sarcoplasmic reticulum doesn't directly require ATP (though calcium reuptake does). Option B is wrong because tropomyosin movement is calcium-dependent, not ATP-dependent. Option D is incorrect because myosin can bind to actin without ATP; ATP is needed for detachment, not binding.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Muscle Contraction",
+        "url": "https://www.khanacademy.org/science/biology/human-biology/muscle-contraction",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T02:55:00.000Z"
+  },
+  {
+    "id": "cell_bio_007",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Researchers studying peroxisome biogenesis found that cells lacking functional PEX19 protein accumulate peroxisomal matrix proteins in the cytoplasm but cannot form normal peroxisomal structures. PEX19 is known to bind to peroxisomal membrane proteins (PMPs) in the cytoplasm. Based on this information, what is the most likely function of PEX19?",
+    "options": {
+      "A": "It imports matrix proteins across the peroxisomal membrane",
+      "B": "It facilitates the insertion of PMPs into peroxisomal membranes", 
+      "C": "It catalyzes the beta-oxidation of fatty acids",
+      "D": "It regulates the expression of peroxisomal genes"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The evidence shows that without functional PEX19, peroxisomal structures cannot form normally, even though matrix proteins are present. Since PEX19 binds to peroxisomal membrane proteins (PMPs) in the cytoplasm, its most likely function is to facilitate the insertion of these PMPs into peroxisomal membranes, which is essential for peroxisome biogenesis. Without proper membrane formation, peroxisomes cannot assemble correctly. Option A is incorrect because matrix proteins accumulate in the cytoplasm, suggesting that membrane formation (not matrix protein import) is the primary defect. Option C is wrong because PEX19 is involved in biogenesis, not metabolic function. Option D is incorrect because the proteins are made but cannot assemble properly, indicating a post-translational rather than transcriptional defect.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Peroxisomes",
+        "url": "https://www.nature.com/scitable/topicpage/peroxisomes-14051284/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T02:55:00.000Z"
+  },
+  {
+    "id": "cell_bio_008",
+    "topic": "cell_biology",
+    "difficulty": "foundation", 
+    "type": "discrete",
+    "question": "Which of the following best describes the primary difference between rough and smooth endoplasmic reticulum (ER)?",
+    "options": {
+      "A": "Rough ER synthesizes lipids while smooth ER synthesizes proteins",
+      "B": "Rough ER has ribosomes attached while smooth ER does not",
+      "C": "Rough ER is found in plant cells while smooth ER is found in animal cells", 
+      "D": "Rough ER detoxifies substances while smooth ER processes proteins"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The primary structural difference between rough and smooth ER is the presence of ribosomes. Rough ER has ribosomes attached to its cytoplasmic surface, giving it a 'rough' appearance, while smooth ER lacks attached ribosomes. This structural difference determines their functional specializations: rough ER is involved in protein synthesis and processing, while smooth ER is involved in lipid synthesis, carbohydrate metabolism, and detoxification. Option A is incorrect because it reverses the functions. Option C is wrong because both types of ER are found in both plant and animal cells. Option D incorrectly assigns the detoxification function to rough ER when it's actually a function of smooth ER.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Endoplasmic Reticulum",
+        "url": "https://www.khanacademy.org/science/biology/structure-of-a-cell/endoplasmic-reticulum",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T02:55:00.000Z"
+  },
+  {
+    "id": "cell_bio_009",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating the unfolded protein response (UPR) in mammalian cells found that accumulation of misfolded proteins in the ER activates three distinct signaling pathways mediated by IRE1α, PERK, and ATF6. When cells were treated with tunicamycin to induce ER stress, IRE1α undergoes autophosphorylation and its endoribonuclease domain becomes active, leading to unconventional splicing of XBP1 mRNA. The spliced XBP1 then translocates to the nucleus and upregulates genes involved in ER protein folding capacity. Simultaneously, PERK phosphorylates eIF2α, leading to general translational attenuation but paradoxically increased translation of ATF4.",
+    "question": "Why does PERK-mediated phosphorylation of eIF2α lead to increased translation of ATF4 despite general translational attenuation?",
+    "options": {
+      "A": "ATF4 mRNA is transcriptionally upregulated during ER stress",
+      "B": "ATF4 has upstream open reading frames that are bypassed when eIF2α is phosphorylated",
+      "C": "ATF4 protein is stabilized by post-translational modifications during UPR",
+      "D": "ATF4 mRNA is spliced by IRE1α to increase its translation efficiency"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. ATF4 mRNA contains upstream open reading frames (uORFs) in its 5' untranslated region. Under normal conditions, ribosomes translate these uORFs and then dissociate, preventing translation of the main ATF4 coding sequence. However, when eIF2α is phosphorylated during ER stress, translation initiation is generally inhibited, but this paradoxically allows ribosomes to bypass the inhibitory uORFs and instead initiate translation at the main ATF4 start codon. This mechanism allows selective translation of specific stress response genes like ATF4 even when general protein synthesis is reduced. Option A is incorrect because the question specifically asks about translational, not transcriptional, regulation. Option C is wrong because it doesn't explain the translational mechanism. Option D is incorrect because IRE1α splices XBP1, not ATF4 mRNA.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Unfolded Protein Response",
+        "url": "https://www.nature.com/articles/nrm2199",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T02:55:00.000Z"
+  },
+  {
+    "id": "cell_bio_010",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "discrete",
+    "question": "During cytokinesis in animal cells, which protein complex is primarily responsible for generating the contractile force that pinches the cell in two?",
+    "options": {
+      "A": "Actin and myosin II filaments",
+      "B": "Microtubules and dynein motors", 
+      "C": "Intermediate filaments and plectins",
+      "D": "Actin and myosin I complexes"
+    },
+    "correct_answer": "A",
+    "explanation": "The correct answer is A. Cytokinesis in animal cells is mediated by the contractile ring, which consists primarily of actin filaments and non-muscle myosin II. The myosin II motor proteins generate contractile force by sliding along actin filaments, similar to muscle contraction but in a ring-like structure at the cell equator. This contractile ring gradually constricts, eventually pinching the cytoplasm in two to complete cell division. Option B is incorrect because microtubules and dynein are involved in chromosome segregation during mitosis but not in the actual cytokinesis process. Option C is wrong because intermediate filaments provide structural support but don't generate contractile force. Option D is incorrect because myosin I is involved in various cellular processes but myosin II is the specific motor protein required for cytokinesis.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Cell Division",
+        "url": "https://www.khanacademy.org/science/biology/cellular-molecular-biology/mitosis",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T02:55:00.000Z"
+  },
+  {
+    "id": "cell_bio_011",
+    "topic": "cell_biology", 
+    "difficulty": "advanced",
+    "type": "passage",
+    "passage": "Researchers studying stem cell differentiation observed that pluripotent embryonic stem cells express high levels of the transcription factors Oct4, Sox2, and Nanog. When these cells begin to differentiate, the expression of these factors decreases while lineage-specific transcription factors are upregulated. Interestingly, forced overexpression of Oct4, Sox2, and Nanog in differentiated fibroblasts can reprogram them back to a pluripotent state. ChIP-seq analysis revealed that these transcription factors bind to enhancer regions of genes involved in maintaining stemness while simultaneously repressing genes associated with differentiation.",
+    "question": "Based on the experimental evidence, what can be concluded about the role of Oct4, Sox2, and Nanog in stem cell biology?",
+    "options": {
+      "A": "They are necessary for DNA replication in stem cells",
+      "B": "They function as master regulators that maintain pluripotency and prevent differentiation",
+      "C": "They are required for the formation of the three germ layers during development", 
+      "D": "They regulate the cell cycle progression in stem cells"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The evidence clearly shows that Oct4, Sox2, and Nanog function as master regulators of pluripotency. They are highly expressed in pluripotent stem cells, their levels decrease during differentiation, and forced overexpression can reprogram differentiated cells back to pluripotency. The ChIP-seq data showing they bind to stemness genes while repressing differentiation genes further confirms their role as master regulators that maintain the pluripotent state and prevent inappropriate differentiation. Option A is incorrect because the evidence doesn't suggest a role in DNA replication. Option C is wrong because the passage doesn't discuss germ layer formation specifically. Option D is incorrect because there's no evidence presented about cell cycle regulation - the focus is on differentiation state, not cell division.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Stem Cell Biology", 
+        "url": "https://www.nature.com/scitable/topicpage/stem-cells-14051200/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T02:55:00.000Z"
+  },
+  {
+    "id": "cell_bio_012",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which cellular organelle is primarily responsible for producing ATP through aerobic respiration?",
+    "options": {
+      "A": "Chloroplast",
+      "B": "Mitochondrion",
+      "C": "Ribosome", 
+      "D": "Lysosome"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Mitochondria are the powerhouses of the cell and are primarily responsible for producing ATP through aerobic respiration. This process involves glycolysis (which occurs in the cytoplasm), the citric acid cycle, and oxidative phosphorylation (both occurring in the mitochondria). The inner mitochondrial membrane contains the electron transport chain and ATP synthase, which together generate the majority of cellular ATP. Option A is incorrect because chloroplasts are found in plant cells and are responsible for photosynthesis, not aerobic respiration. Option C is wrong because ribosomes synthesize proteins, not ATP. Option D is incorrect because lysosomes digest cellular waste and don't produce ATP.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Mitochondria",
+        "url": "https://www.khanacademy.org/science/biology/structure-of-a-cell/mitochondria-and-chloroplasts",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T02:55:00.000Z"
+  },
+  {
+    "id": "cell_bio_013",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Investigators studying cellular aging found that telomeres, the protective DNA-protein structures at chromosome ends, progressively shorten with each cell division. Telomerase, an enzyme complex containing both protein and RNA components, can add telomeric DNA sequences to chromosome ends. Most somatic cells have low telomerase activity and their telomeres shorten over time, eventually leading to cellular senescence. However, stem cells, germ cells, and many cancer cells maintain high telomerase activity, allowing them to divide indefinitely.",
+    "question": "What would be the most likely consequence if telomerase activity were completely eliminated in rapidly dividing stem cells?",
+    "options": {
+      "A": "The cells would become cancerous due to loss of growth control",
+      "B": "The cells would lose their ability to differentiate into specialized cell types",
+      "C": "The cells would eventually undergo senescence and lose their self-renewal capacity",
+      "D": "The cells would increase their rate of DNA repair mechanisms"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. If telomerase activity were eliminated in rapidly dividing stem cells, their telomeres would progressively shorten with each division, just like in normal somatic cells. Eventually, critically short telomeres would trigger cellular senescence pathways, causing the cells to stop dividing and lose their self-renewal capacity - a defining characteristic of stem cells. This would eliminate the stem cell population over time. Option A is incorrect because loss of telomerase typically leads to growth arrest, not cancer (though some cancers do arise secondarily from genomic instability). Option B is wrong because telomerase doesn't directly control differentiation pathways. Option D is incorrect because while DNA damage responses might be activated due to critically short telomeres, this doesn't compensate for the loss of telomerase function.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Telomeres",
+        "url": "https://www.khanacademy.org/science/biology/dna-as-the-genetic-material/telomeres-telomerase",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T02:55:00.000Z"
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "id": "evolution_021",
+    "topic": "evolution",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying sexual selection discovered that this process can drive the evolution of elaborate traits that may actually reduce survival but increase mating success. They investigated peacock tail displays, finding that females preferentially choose males with larger, more colorful tail feathers despite these ornaments making males more visible to predators and requiring significant energy to maintain. The scientists concluded that sexual selection can lead to runaway processes where female preferences and male traits co-evolve to increasingly extreme forms, demonstrating how reproductive success can sometimes conflict with natural selection for survival.",
+    "question": "Based on this sexual selection research, why might elaborate male ornaments persist despite reducing survival?",
+    "options": {
+      "A": "Elaborate ornaments always improve survival chances",
+      "B": "Increased mating success can offset survival costs if reproductive benefits outweigh survival disadvantages",
+      "C": "Sexual selection and natural selection always favor the same traits",
+      "D": "Elaborate ornaments have no impact on predation risk"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that sexual selection can drive traits that 'reduce survival but increase mating success.' If the reproductive advantage from attracting mates outweighs the survival cost, the trait can persist and spread. This demonstrates how fitness includes both survival and reproduction. Option A contradicts the survival cost mentioned. Option C ignores the conflict described. Option D contradicts the predation risk mentioned.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Sexual Selection",
+        "url": "https://www.biointeractive.org/classroom-resources/sexual-selection",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T05:20:00.000Z"
+  },
+  {
+    "id": "evolution_022",
+    "topic": "evolution",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which type of natural selection would increase the frequency of heterozygotes in a population?",
+    "options": {
+      "A": "Directional selection",
+      "B": "Disruptive selection", 
+      "C": "Balancing selection (overdominance)",
+      "D": "Stabilizing selection"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Balancing selection through overdominance (heterozygote advantage) maintains both alleles in the population because heterozygotes have higher fitness than either homozygote. This increases heterozygote frequency and maintains genetic diversity. The classic example is sickle cell anemia resistance to malaria. Options A and D typically reduce variation. Option B favors extreme phenotypes, not heterozygotes specifically.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Balancing Selection",
+        "url": "https://www.nature.com/scitable/topicpage/natural-selection-genetic-drift-and-gene-flow-15186648/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T05:20:00.000Z"
+  },
+  {
+    "id": "evolution_023",
+    "topic": "evolution",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating evolutionary game theory discovered that the evolution of cooperation presents a paradox: cooperative behaviors benefit others at a cost to the cooperator, yet cooperation is widespread in nature. They found that several mechanisms can explain cooperation's evolution: kin selection (helping relatives who share genes), reciprocal altruism (helping others who may return the favor), and group selection (groups with more cooperators outcompeting less cooperative groups). The researchers discovered that the evolution of cooperation depends critically on the relatedness between individuals, the probability of future interactions, and the costs and benefits of cooperative acts.",
+    "question": "Based on this evolutionary game theory, under what conditions is kin selection most likely to favor the evolution of altruistic behavior?",
+    "options": {
+      "A": "When the cost to the altruist is always greater than the benefit to the recipient",
+      "B": "When individuals are unrelated and unlikely to meet again", 
+      "C": "When the benefit to related recipients, weighted by relatedness, exceeds the cost to the altruist",
+      "D": "When altruistic acts are performed randomly without regard to recipients"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Hamilton's rule states that altruistic behavior evolves when rB > C, where r is relatedness, B is benefit to recipient, and C is cost to altruist. The passage mentions that cooperation depends on 'relatedness between individuals' and 'costs and benefits.' When related individuals receive benefits that exceed the altruist's costs, the shared genes are propagated. Option A ignores the relatedness factor. Option B describes conditions unfavorable for kin selection. Option D lacks the genetic basis for kin selection.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Evolution of Cooperation",
+        "url": "https://www.nature.com/articles/nature07921",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:20:00.000Z"
+  },
+  {
+    "id": "evolution_024",
+    "topic": "evolution",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is fitness in evolutionary terms?",
+    "options": {
+      "A": "Physical strength and endurance",
+      "B": "The ability to survive environmental challenges",
+      "C": "The relative reproductive success of an individual",
+      "D": "The size of an organism"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. In evolutionary biology, fitness refers to an individual's reproductive success relative to others in the population - how many offspring they produce that survive to reproduce themselves. It's not about physical fitness in the common sense. Option A confuses biological fitness with physical fitness. Option B only considers survival, not reproduction. Option D relates to size, not reproductive success.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Fitness and Natural Selection",
+        "url": "https://www.khanacademy.org/science/biology/evolution-and-natural-selection/darwin-evolution-natural-selection",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:20:00.000Z"
+  },
+  {
+    "id": "evolution_025",
+    "topic": "evolution",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying evolutionary arms races examined the co-evolutionary relationship between predators and prey. They found that as prey species evolve better defenses (faster running, better camouflage, toxic chemicals), predators respond by evolving improved hunting abilities (better vision, faster speed, toxin resistance). This creates an ongoing cycle where each species continually evolves in response to the other, similar to countries developing increasingly sophisticated weapons systems. The researchers observed that these arms races can drive rapid evolutionary change and promote biodiversity as species diversify into different defensive and offensive strategies.",
+    "question": "Based on this evolutionary arms race concept, what drives the continued evolution of both predator and prey species?",
+    "options": {
+      "A": "Predators and prey eventually reach a stable equilibrium and stop evolving",
+      "B": "Reciprocal selection pressure where improvements in one species create selection for counter-adaptations in the other",
+      "C": "Only environmental changes, not species interactions, drive evolution",
+      "D": "Random mutations that have no relationship to species interactions"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes how 'prey species evolve better defenses' and 'predators respond by evolving improved hunting abilities,' creating 'ongoing cycles where each species continually evolves in response to the other.' This reciprocal selection pressure maintains the evolutionary race. Option A contradicts the ongoing nature described. Option C ignores the species interactions that drive the arms race. Option D ignores the selective pressure from interactions.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Predator-Prey Coevolution",
+        "url": "https://www.biointeractive.org/classroom-resources/coevolution-predator-prey",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T05:20:00.000Z"
+  },
+  {
+    "id": "evolution_026",
+    "topic": "evolution",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which mechanism can lead to reproductive isolation without geographic separation?",
+    "options": {
+      "A": "Allopatric speciation only",
+      "B": "Sympatric speciation through mechanisms like polyploidy or chromosomal rearrangements",
+      "C": "Gene flow prevention",
+      "D": "Identical selective pressures"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Sympatric speciation occurs without geographic separation through mechanisms like polyploidy (especially in plants), chromosomal rearrangements, or behavioral/temporal isolation. These create reproductive barriers within the same location. Option A specifically requires geographic separation. Option C describes a result, not a mechanism. Option D would reduce, not promote, speciation.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Modes of Speciation",
+        "url": "https://www.nature.com/scitable/topicpage/speciation-the-origin-of-new-species-26230527/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T05:20:00.000Z"
+  },
+  {
+    "id": "evolution_027",
+    "topic": "evolution",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying neutral evolution discovered that many molecular changes are selectively neutral, meaning they don't significantly affect fitness. The neutral theory, proposed by Motoo Kimura, suggests that most evolutionary changes at the molecular level are due to random genetic drift rather than natural selection. The scientists found evidence supporting this in the molecular clock - the observation that neutral mutations accumulate at roughly constant rates over time, allowing estimation of divergence times between species. However, they also found that functionally important regions evolve more slowly than neutral regions, indicating that natural selection does act on mutations affecting protein function.",
+    "question": "Based on neutral evolution theory, why do functionally important protein regions evolve more slowly than non-functional regions?",
+    "options": {
+      "A": "Functionally important regions have lower mutation rates",
+      "B": "Natural selection removes harmful mutations from functionally important regions while allowing neutral changes in non-functional regions",
+      "C": "Functionally important regions are replicated more accurately",
+      "D": "Non-functional regions are subject to stronger positive selection"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage indicates that 'functionally important regions evolve more slowly than neutral regions' because 'natural selection does act on mutations affecting protein function.' Purifying selection removes deleterious mutations in important functional regions, while neutral regions can accumulate changes without fitness consequences. Option A would affect mutation input, not evolutionary rate. Option C relates to replication fidelity, not selection. Option D contradicts the slower evolution of non-functional regions.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Neutral Theory of Evolution",
+        "url": "https://www.nature.com/articles/nrg1672",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:20:00.000Z"
+  },
+  {
+    "id": "evolution_028",
+    "topic": "evolution",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which process increases genetic variation within populations?",
+    "options": {
+      "A": "Genetic bottleneck",
+      "B": "Inbreeding",
+      "C": "Sexual reproduction",
+      "D": "Genetic drift in small populations"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Sexual reproduction increases genetic variation through independent assortment of chromosomes, crossing over during meiosis, and combining genetic material from two parents. This creates new gene combinations in offspring. Option A reduces variation by eliminating individuals. Option B reduces heterozygosity. Option D causes random changes but typically reduces variation in small populations.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Sexual Reproduction and Genetic Variation",
+        "url": "https://www.khanacademy.org/science/biology/evolution-and-natural-selection/population-genetics",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:20:00.000Z"
+  },
+  {
+    "id": "evolution_029",
+    "topic": "evolution",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying the evolution of complex organs investigated how structures like the vertebrate eye could evolve gradually through natural selection. They found that simple light-sensitive spots can provide survival advantages by detecting shadows of predators or prey. Gradual improvements - forming eye cups to determine light direction, developing lenses to focus light, and adding muscles for accommodation - each provide incremental benefits. The researchers discovered that eyes have evolved independently at least 40 times across different animal lineages, demonstrating that complex structures can arise through step-by-step improvements where each intermediate stage is advantageous.",
+    "question": "Based on this eye evolution research, how do complex organs evolve through natural selection?",
+    "options": {
+      "A": "Complex organs appear suddenly in their final form",
+      "B": "Each intermediate stage provides some advantage, allowing gradual improvement over many generations",
+      "C": "Complex organs can only evolve once and then spread to other species", 
+      "D": "Natural selection cannot produce complex structures"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that 'gradual improvements...each provide incremental benefits' and that complex structures arise 'through step-by-step improvements where each intermediate stage is advantageous.' This demonstrates that complexity can evolve when each step provides some fitness benefit. Option A contradicts gradual evolution. Option C contradicts the independent evolution mentioned (40 times). Option D contradicts the evidence for complex structure evolution.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Evolution of Complex Structures",
+        "url": "https://www.biointeractive.org/classroom-resources/evolution-eye",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T05:20:00.000Z"
+  },
+  {
+    "id": "evolution_030",
+    "topic": "evolution",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "What is the primary difference between microevolution and macroevolution?",
+    "options": {
+      "A": "Microevolution occurs rapidly while macroevolution is slow",
+      "B": "Microevolution involves changes within species while macroevolution involves formation of new species and higher taxonomic groups",
+      "C": "Microevolution affects morphology while macroevolution affects behavior",
+      "D": "Microevolution and macroevolution use different mechanisms"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Microevolution refers to evolutionary changes within species (allele frequency changes, adaptation), while macroevolution encompasses larger-scale evolutionary changes including speciation and the origin of higher taxonomic groups. The time scale and scope differ, but both use the same basic mechanisms. Option A oversimplifies timing. Option C incorrectly categorizes by trait type. Option D is incorrect - both use the same evolutionary mechanisms.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Micro vs Macroevolution",
+        "url": "https://www.nature.com/scitable/topicpage/microevolution-and-the-genetics-of-populations-23772273/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T05:20:00.000Z"
+  }
+]

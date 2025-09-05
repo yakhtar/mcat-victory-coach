@@ -1,0 +1,237 @@
+[
+  {
+    "id": "cell_bio_051",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers investigating lysosomal function observed that cells treated with chloroquine accumulated undigested material in their lysosomes. Chloroquine is a weak base that becomes protonated and trapped in acidic compartments, raising their internal pH. The researchers noted that lysosomal enzymes such as cathepsins have optimal activity at pH 5.0 and lose activity as pH increases toward neutral. Additionally, they found that the vacuolar H+-ATPase is responsible for maintaining the acidic pH gradient across lysosomal membranes.",
+    "question": "Based on the experimental observations, why does chloroquine treatment lead to accumulation of undigested material in lysosomes?",
+    "options": {
+      "A": "Chloroquine directly inhibits cathepsin enzyme synthesis",
+      "B": "Chloroquine disrupts lysosomal membrane integrity",
+      "C": "Chloroquine raises lysosomal pH, reducing enzyme activity",
+      "D": "Chloroquine prevents autophagosome-lysosome fusion"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Chloroquine is a weak base that becomes protonated and trapped in acidic lysosomes, effectively acting as a buffer that raises the internal pH. Since lysosomal enzymes like cathepsins have optimal activity at pH 5.0 and lose activity as pH rises, the chloroquine-induced pH increase reduces their digestive capacity, leading to accumulation of undigested material. Option A is incorrect because chloroquine doesn't affect enzyme synthesis. Option B is wrong because the passage doesn't indicate membrane disruption. Option D is incorrect because the issue is with digestion within lysosomes, not fusion with autophagosomes.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Lysosomes",
+        "url": "https://www.khanacademy.org/science/biology/structure-of-a-cell/tour-of-organelles",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:20:00.000Z"
+  },
+  {
+    "id": "cell_bio_052",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "During meiosis I, homologous chromosomes pair and undergo crossing over. Which protein complex is primarily responsible for holding homologous chromosomes together during this process?",
+    "options": {
+      "A": "Cohesin",
+      "B": "Condensin",
+      "C": "Synaptonemal complex",
+      "D": "Kinetochore proteins"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The synaptonemal complex is a specialized protein structure that forms between homologous chromosomes during prophase I of meiosis, facilitating their pairing (synapsis) and providing the structural framework for crossing over. Option A (cohesin) holds sister chromatids together, not homologous chromosomes. Option B (condensin) is involved in chromosome condensation. Option D (kinetochore proteins) are involved in chromosome attachment to spindle fibers during chromosome segregation, not in homolog pairing.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Meiosis and Crossing Over",
+        "url": "https://www.biointeractive.org/classroom-resources/meiosis-tutorial",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T03:20:00.000Z"
+  },
+  {
+    "id": "cell_bio_053",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists studying telomerase regulation discovered that the enzyme consists of a catalytic protein subunit (TERT) and an RNA component (TERC) that provides the template for telomere synthesis. In most somatic cells, telomerase activity is very low, leading to progressive telomere shortening with each cell division. However, in stem cells and cancer cells, telomerase is highly active. The researchers found that TERT expression is tightly regulated at the transcriptional level by factors such as c-Myc and p53. Additionally, they observed that telomerase assembly and activity are regulated post-translationally through TERT phosphorylation and subcellular localization.",
+    "question": "Based on this regulatory mechanism, which of the following would most likely result in increased cellular senescence?",
+    "options": {
+      "A": "Overexpression of c-Myc transcription factor",
+      "B": "Mutation leading to constitutively active p53",
+      "C": "Increased TERT phosphorylation and nuclear localization",
+      "D": "Enhanced TERC RNA stability and expression"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. p53 is a tumor suppressor that generally represses TERT transcription as part of its growth-inhibitory functions. A constitutively active p53 mutation would lead to persistent repression of TERT expression, resulting in low telomerase activity, accelerated telomere shortening, and increased cellular senescence. Option A is incorrect because c-Myc typically activates TERT transcription, which would promote telomerase activity and delay senescence. Options C and D would both enhance telomerase function through post-transcriptional mechanisms, reducing rather than increasing senescence.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Telomeres and Aging",
+        "url": "https://www.nature.com/scitable/topicpage/telomeres-and-telomerase-14121596/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T03:20:00.000Z"
+  },
+  {
+    "id": "cell_bio_054",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which of the following organelles contains its own DNA and ribosomes?",
+    "options": {
+      "A": "Lysosomes",
+      "B": "Peroxisomes",
+      "C": "Chloroplasts",
+      "D": "Golgi apparatus"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Chloroplasts, like mitochondria, are semi-autonomous organelles that contain their own circular DNA molecules and 70S ribosomes, reflecting their endosymbiotic origin. This allows them to synthesize some of their own proteins independently of the nuclear genome. Options A, B, and D are organelles that do not contain their own genetic material or protein synthesis machinery and depend entirely on nuclear genes for their proteins.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Chloroplast Structure",
+        "url": "https://www.khanacademy.org/science/biology/photosynthesis-in-plants/the-light-dependent-reactions-of-photosynthesis",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:20:00.000Z"
+  },
+  {
+    "id": "cell_bio_055",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying G protein-coupled receptor (GPCR) signaling observed that when cells are stimulated with a hormone, there is a rapid increase in cAMP levels within seconds. This response requires the activation of adenylyl cyclase by the Gs alpha subunit. However, when the same cells were pretreated with pertussis toxin, which ADP-ribosylates and inactivates Gi/o proteins, the magnitude of the cAMP response was significantly enhanced. The researchers concluded that both stimulatory and inhibitory G proteins can be activated simultaneously by different GPCRs in the same cell.",
+    "question": "What does the pertussis toxin experiment reveal about GPCR signaling in these cells?",
+    "options": {
+      "A": "Pertussis toxin directly activates adenylyl cyclase",
+      "B": "Gi/o proteins normally provide inhibitory input that limits cAMP production",
+      "C": "The hormone only activates Gs proteins, not Gi/o proteins",
+      "D": "Pertussis toxin blocks all G protein signaling pathways"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The enhanced cAMP response following pertussis toxin treatment indicates that Gi/o proteins were normally providing inhibitory input to limit cAMP production. By inactivating Gi/o proteins, pertussis toxin removes this inhibitory brake, allowing the stimulatory Gs pathway to produce higher cAMP levels. Option A is incorrect because pertussis toxin doesn't directly affect adenylyl cyclase. Option C is wrong because the enhanced response suggests Gi/o proteins were also being activated. Option D is incorrect because pertussis toxin specifically targets Gi/o proteins, not all G proteins.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: GPCR Signaling",
+        "url": "https://www.biointeractive.org/classroom-resources/gpcr-signaling",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T03:20:00.000Z"
+  },
+  {
+    "id": "cell_bio_056",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "A mutation in the gene encoding clathrin heavy chain would most likely affect which of the following cellular processes?",
+    "options": {
+      "A": "Receptor-mediated endocytosis",
+      "B": "Exocytosis of secretory vesicles",
+      "C": "Mitochondrial protein import",
+      "D": "Nuclear protein export"
+    },
+    "correct_answer": "A",
+    "explanation": "The correct answer is A. Clathrin is the key structural protein that forms the characteristic cage-like coat around endocytic vesicles during receptor-mediated endocytosis. Clathrin heavy chains, along with light chains, assemble into triskelions that polymerize to form the clathrin coat. A mutation affecting clathrin heavy chain would directly impair the formation of clathrin-coated vesicles and thus receptor-mediated endocytosis. Options B, C, and D involve different molecular mechanisms and protein complexes that don't depend on clathrin.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Endocytosis",
+        "url": "https://www.nature.com/scitable/topicpage/endocytosis-14121656/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T03:20:00.000Z"
+  },
+  {
+    "id": "cell_bio_057",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying ribosome biogenesis found that the process involves the coordinated assembly of ribosomal RNA (rRNA) and ribosomal proteins in the nucleolus. The 45S pre-rRNA precursor undergoes extensive processing, including pseudouridylation and methylation guided by small nucleolar RNAs (snoRNAs). These modifications are crucial for proper rRNA folding and ribosome function. When cells were treated with a drug that specifically inhibits RNA polymerase I, which transcribes the 45S pre-rRNA, ribosome production ceased and cells eventually underwent apoptosis due to the inability to maintain protein synthesis.",
+    "question": "Based on the experimental results, which statement best explains why RNA polymerase I inhibition leads to cell death?",
+    "options": {
+      "A": "RNA polymerase I inhibition directly damages existing ribosomes",
+      "B": "Loss of rRNA transcription prevents new ribosome assembly, eventually depleting the ribosome pool",
+      "C": "RNA polymerase I is required for mRNA transcription in addition to rRNA",
+      "D": "SnoRNA-guided modifications cannot occur without ongoing RNA polymerase I activity"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. RNA polymerase I specifically transcribes the 45S pre-rRNA, which is processed to generate the major rRNA species (18S, 5.8S, 28S) needed for ribosome assembly. Inhibiting RNA pol I stops new rRNA production, preventing new ribosome assembly. Since existing ribosomes are gradually degraded during normal cellular turnover, the ribosome pool becomes depleted, leading to insufficient protein synthesis capacity and eventual cell death. Option A is incorrect because the drug doesn't damage existing ribosomes. Option C is wrong because mRNA is transcribed by RNA polymerase II. Option D is incorrect because snoRNA modifications occur on existing pre-rRNA, not during transcription itself.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Ribosome Biogenesis",
+        "url": "https://www.nature.com/articles/nrm1944",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:20:00.000Z"
+  },
+  {
+    "id": "cell_bio_058",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is the primary function of the cell wall in plant cells?",
+    "options": {
+      "A": "Photosynthesis",
+      "B": "Structural support and protection",
+      "C": "Protein synthesis",
+      "D": "DNA replication"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The plant cell wall, composed primarily of cellulose, provides structural support and protection to the cell. It maintains cell shape, prevents over-expansion when the cell takes up water, and provides mechanical strength to the plant. Option A (photosynthesis) occurs in chloroplasts, not the cell wall. Option C (protein synthesis) occurs at ribosomes. Option D (DNA replication) occurs in the nucleus.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Plant Cell Structures",
+        "url": "https://www.khanacademy.org/science/biology/structure-of-a-cell/plant-vs-animal-cells",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:20:00.000Z"
+  },
+  {
+    "id": "cell_bio_059",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying stem cell differentiation observed that embryonic stem cells maintain their pluripotency through the expression of key transcription factors including Oct4, Sox2, and Nanog. These factors form a regulatory network that promotes self-renewal while repressing differentiation genes. When researchers experimentally reduced Oct4 levels below a critical threshold, the cells lost pluripotency and began differentiating. Conversely, overexpression of Oct4 beyond optimal levels also led to differentiation, but toward different cell lineages. This suggests that Oct4 functions within a narrow concentration window to maintain stemness.",
+    "question": "What does this research reveal about Oct4's role in stem cell biology?",
+    "options": {
+      "A": "Oct4 levels must be precisely regulated within an optimal range for pluripotency maintenance",
+      "B": "Oct4 completely blocks all differentiation pathways when present",
+      "C": "Oct4 concentration has no effect on cell fate decisions",
+      "D": "Higher Oct4 levels always enhance stem cell self-renewal"
+    },
+    "correct_answer": "A",
+    "explanation": "The correct answer is A. The experimental results demonstrate that Oct4 functions within a narrow concentration window - both too little and too much Oct4 lead to loss of pluripotency and differentiation. This indicates that Oct4 levels must be precisely regulated within an optimal range to maintain stemness. Option B is incorrect because the data shows differentiation can occur with Oct4 present (when overexpressed). Option C is wrong because the experiments clearly show Oct4 concentration affects cell fate. Option D is incorrect because overexpression of Oct4 led to differentiation, not enhanced self-renewal.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Stem Cell Biology",
+        "url": "https://www.nature.com/scitable/topicpage/stem-cells-13438559/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T03:20:00.000Z"
+  },
+  {
+    "id": "cell_bio_060",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which of the following best describes the mechanism by which cytotoxic T lymphocytes kill target cells?",
+    "options": {
+      "A": "Release of antibodies that bind to target cell antigens",
+      "B": "Secretion of perforin and granzymes that induce apoptosis",
+      "C": "Direct phagocytosis of the target cell",
+      "D": "Production of inflammatory cytokines that recruit neutrophils"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Cytotoxic T lymphocytes (CTLs) kill target cells primarily through the granule exocytosis pathway. They release perforin, which forms pores in the target cell membrane, and granzymes (serine proteases) that enter through these pores and trigger apoptosis by cleaving key cellular proteins and activating caspases. Option A describes B cell function, not CTLs. Option C is incorrect because CTLs don't phagocytose their targets. Option D describes inflammatory responses rather than direct cytotoxicity.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Immune System Function",
+        "url": "https://www.biointeractive.org/classroom-resources/immune-system-overview",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T03:20:00.000Z"
+  }
+]

@@ -1,0 +1,637 @@
+[
+  {
+    "id": "cell_bio_141",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying cellular differentiation discovered that lineage commitment involves progressive restriction of cellular potency through epigenetic mechanisms. As cells differentiate from pluripotent to multipotent to fully committed states, they undergo chromatin remodeling that makes certain gene programs increasingly inaccessible. The scientists found that this process involves the establishment of repressive histone marks like H3K27me3 and DNA methylation at key regulatory regions. However, they also discovered that differentiation is not always irreversible, as demonstrated by cellular reprogramming and transdifferentiation experiments.",
+    "question": "Based on this differentiation mechanism, what drives the progressive restriction of cellular potency?",
+    "options": {
+      "A": "Complete degradation of pluripotency genes during development",
+      "B": "Establishment of increasingly restrictive epigenetic modifications",
+      "C": "Physical loss of chromosome segments during cell division",
+      "D": "Irreversible mutations in developmental regulatory genes"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes how differentiation involves 'chromatin remodeling' and 'the establishment of repressive histone marks like H3K27me3 and DNA methylation' that make gene programs 'increasingly inaccessible.' These epigenetic modifications progressively restrict potency without permanently altering the DNA sequence itself. Option A is incorrect because genes are silenced, not degraded. Option C is wrong because chromosome segments aren't lost. Option D contradicts the reversibility mentioned in the passage.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Epigenetics in Development",
+        "url": "https://www.nature.com/articles/nrg2719",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_142",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "A researcher observes that cells with defective proteasome function accumulate polyubiquitinated proteins. This observation demonstrates that proteasomes primarily function in:",
+    "options": {
+      "A": "Protein synthesis and folding",
+      "B": "Selective protein degradation of ubiquitin-tagged substrates",
+      "C": "DNA repair and replication",
+      "D": "Lipid metabolism and membrane synthesis"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The accumulation of polyubiquitinated proteins when proteasomes are defective directly demonstrates that proteasomes normally degrade proteins that have been tagged with ubiquitin chains. This is the primary function of the 26S proteasome in selective protein degradation. Option A describes ribosomal and chaperone functions. Option C is not the primary proteasome function, though some DNA repair proteins are regulated by proteasomal degradation. Option D is unrelated to proteasome function.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Proteasome Function",
+        "url": "https://www.nature.com/articles/nrm2731",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_143",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating cellular aging mechanisms discovered that telomere dysfunction triggers a DNA damage response that can lead to cellular senescence. Critically short telomeres are recognized as DNA double-strand breaks, activating ATM and ATR kinases and downstream checkpoint pathways. The researchers found that this telomere-induced senescence differs from replicative senescence in that it can occur independently of cell division and involves more severe DNA damage signaling. Additionally, they observed that telomerase reactivation in aged cells can sometimes reverse senescence, but may also increase genomic instability if extensive damage has already occurred.",
+    "question": "Based on this aging mechanism, why might telomerase reactivation have contradictory effects in aged cells?",
+    "options": {
+      "A": "Telomerase always prevents cellular senescence regardless of cell condition",
+      "B": "Telomerase can reverse senescence but may also promote genomic instability in damaged cells",
+      "C": "Telomerase only functions in rapidly dividing cells",
+      "D": "Telomerase directly repairs DNA damage in addition to extending telomeres"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'telomerase reactivation in aged cells can sometimes reverse senescence, but may also increase genomic instability if extensive damage has already occurred.' This captures the contradictory nature where telomerase can be beneficial (reversing senescence) but also potentially harmful (promoting instability) depending on the cellular context. Option A is too absolute. Option C is not supported by the passage. Option D is incorrect as telomerase specifically extends telomeres rather than directly repairing DNA damage.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Telomeres and Aging",
+        "url": "https://www.nature.com/articles/nrg2656",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_144",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which process allows bacteria to exchange genetic material through direct cell contact?",
+    "options": {
+      "A": "Binary fission",
+      "B": "Conjugation",
+      "C": "Endocytosis",
+      "D": "Mitosis"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Bacterial conjugation involves direct transfer of genetic material (usually plasmids) from one bacterium to another through physical contact via a pilus. This is a form of horizontal gene transfer that increases genetic diversity. Option A (binary fission) is bacterial reproduction, not genetic exchange. Option C (endocytosis) occurs in eukaryotic cells. Option D (mitosis) is eukaryotic cell division.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Bacterial Conjugation",
+        "url": "https://www.khanacademy.org/science/biology/bacteria-archaea/prokaryote-metabolism-ecology",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_145",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying calcium homeostasis discovered that cells maintain very low cytosolic calcium levels (~100 nM) despite high extracellular (~1 mM) and intracellular store (~1 mM) concentrations. This steep gradient is maintained by ATP-dependent calcium pumps including the plasma membrane Ca²⁺-ATPase (PMCA) and the sarcoplasmic/endoplasmic reticulum Ca²⁺-ATPase (SERCA). The researchers found that calcium serves as a critical second messenger, and even small increases in cytosolic calcium can trigger significant cellular responses including muscle contraction, neurotransmitter release, and changes in gene expression.",
+    "question": "Based on this calcium signaling system, why do cells maintain such low cytosolic calcium levels?",
+    "options": {
+      "A": "High calcium levels would be toxic to all cellular processes",
+      "B": "Low baseline levels allow small increases to serve as effective signaling events",
+      "C": "Calcium pumps cannot function at higher calcium concentrations",
+      "D": "High calcium levels would prevent ATP synthesis"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that maintaining low baseline calcium (~100 nM) despite much higher external and store concentrations allows 'even small increases in cytosolic calcium to trigger significant cellular responses.' This creates a sensitive signaling system where small changes can have large effects. Option A is too broad - many processes can tolerate higher calcium. Option C is incorrect because pumps can function at various concentrations. Option D is not supported by the passage.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Calcium Signaling",
+        "url": "https://www.biointeractive.org/classroom-resources/calcium-signaling",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_146",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which cellular mechanism is primarily responsible for quality control of newly synthesized proteins in the endoplasmic reticulum?",
+    "options": {
+      "A": "Ribosomal proofreading during translation",
+      "B": "ER-associated degradation (ERAD) of misfolded proteins",
+      "C": "Proteasomal degradation in the cytoplasm",
+      "D": "Lysosomal digestion of protein aggregates"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. ERAD (ER-associated degradation) is the specific quality control mechanism that identifies misfolded proteins in the ER, retrotranslocates them to the cytoplasm, and targets them for proteasomal degradation. This prevents accumulation of misfolded proteins in the ER. Option A occurs during translation but not specifically for ER quality control. Option C is part of ERAD but not the complete mechanism. Option D is not the primary ER quality control pathway.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: ER Quality Control",
+        "url": "https://www.nature.com/articles/nrm2755",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_147",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying cellular metabolism discovered that metabolic enzymes can form dynamic, reversible complexes called metabolons that channel substrates between consecutive enzymatic steps. These complexes increase catalytic efficiency by reducing substrate diffusion times and preventing loss of intermediates. The scientists found that metabolon formation is regulated by cellular conditions - during high energy demand, glycolytic enzymes associate more strongly, while during stress, enzymes involved in alternative pathways like the pentose phosphate pathway form complexes. This dynamic organization allows cells to rapidly adapt their metabolic flux to changing conditions.",
+    "question": "Based on this metabolic organization, what is the primary advantage of metabolon formation?",
+    "options": {
+      "A": "Metabolons permanently lock enzymes into fixed pathway configurations",
+      "B": "Metabolons increase efficiency by channeling substrates and enabling rapid pathway switching",
+      "C": "Metabolons prevent all metabolic reactions except glycolysis",
+      "D": "Metabolons eliminate the need for enzyme regulation"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes how metabolons 'increase catalytic efficiency by reducing substrate diffusion times' through substrate channeling, and how their 'dynamic organization allows cells to rapidly adapt their metabolic flux to changing conditions.' This captures both the efficiency advantage and the adaptive flexibility. Option A contradicts the dynamic nature described. Option C is too restrictive. Option D contradicts the regulated formation of metabolons.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Metabolon Organization",
+        "url": "https://www.nature.com/articles/nrm3251",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_148",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is the primary difference between prokaryotic and eukaryotic cells?",
+    "options": {
+      "A": "Prokaryotes are always smaller than eukaryotes",
+      "B": "Prokaryotes lack a membrane-bound nucleus",
+      "C": "Prokaryotes cannot perform photosynthesis",
+      "D": "Prokaryotes do not contain DNA"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The fundamental distinction between prokaryotes and eukaryotes is that prokaryotic cells lack a membrane-bound nucleus - their genetic material is located in the cytoplasm. Eukaryotic cells have their DNA enclosed within a nuclear membrane. Option A is not always true. Option C is incorrect as some prokaryotes (cyanobacteria) perform photosynthesis. Option D is wrong as all cells contain DNA.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Prokaryotes vs Eukaryotes",
+        "url": "https://www.khanacademy.org/science/biology/structure-of-a-cell/prokaryotic-and-eukaryotic-cells",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_149",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists investigating cellular stress responses found that cells have evolved multiple interconnected pathways to detect and respond to different types of stress. Heat shock activates heat shock factors (HSFs), oxidative stress activates Nrf2, and ER stress activates the unfolded protein response (UPR). The researchers discovered that these pathways share common downstream effectors and can influence each other through crosstalk mechanisms. For example, chronic ER stress can lead to oxidative stress, and heat shock can affect protein folding in multiple organelles. This integrated stress response allows cells to coordinate their response to complex, multi-factorial stress conditions.",
+    "question": "Based on this stress response network, what advantage does pathway crosstalk provide to cells?",
+    "options": {
+      "A": "It prevents any stress response from being activated",
+      "B": "It allows coordinated responses to complex, multi-factorial stress conditions",
+      "C": "It ensures that only one stress pathway is active at any time",
+      "D": "It eliminates the need for specific stress sensors"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that pathway crosstalk and shared effectors create an 'integrated stress response' that 'allows cells to coordinate their response to complex, multi-factorial stress conditions.' This coordination is advantageous because real-world stresses often involve multiple factors simultaneously. Option A contradicts the existence of stress responses. Option C contradicts the crosstalk concept. Option D is wrong because specific sensors are still needed to detect different stress types.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Integrated Stress Response",
+        "url": "https://www.nature.com/articles/nrm3951",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_150",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "A cell biologist observes that treatment with colchicine, which depolymerizes microtubules, leads to Golgi apparatus fragmentation. This observation suggests that:",
+    "options": {
+      "A": "The Golgi apparatus is directly made of microtubules",
+      "B": "Microtubules are required for maintaining Golgi organization and positioning",
+      "C": "Colchicine directly attacks Golgi membranes",
+      "D": "The Golgi apparatus can only function during cell division"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The observation that microtubule depolymerization causes Golgi fragmentation indicates that intact microtubules are necessary for maintaining proper Golgi organization and positioning within the cell. Microtubules provide structural support and tracks for organelle positioning. Option A is incorrect because the Golgi is made of membranes, not microtubules. Option C is wrong because colchicine specifically targets microtubules. Option D is not supported by the observation.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Golgi Organization",
+        "url": "https://www.nature.com/scitable/topicpage/the-golgi-apparatus-14120228/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_151",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying cellular decision-making discovered that individual cells in genetically identical populations can exhibit different responses to the same stimulus, a phenomenon called cell-to-cell variability or noise. This variability arises from stochastic fluctuations in gene expression, differences in protein numbers between cells, and cell cycle phase variations. The scientists found that while this noise might seem detrimental, it actually provides important advantages including bet-hedging strategies for survival in unpredictable environments and enabling cell fate decisions during development where identical cells must adopt different fates.",
+    "question": "Based on this cellular variability, what evolutionary advantage does cell-to-cell noise provide?",
+    "options": {
+      "A": "It ensures all cells respond identically to environmental changes",
+      "B": "It provides population-level resilience through bet-hedging and enables cell fate diversification",
+      "C": "It eliminates the need for cellular communication",
+      "D": "It prevents any cellular responses to stimuli"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes how cell-to-cell variability provides 'bet-hedging strategies for survival in unpredictable environments' (population-level resilience) and enables 'cell fate decisions during development where identical cells must adopt different fates' (diversification). Option A contradicts the concept of variability. Option C is not mentioned and cell communication remains important. Option D contradicts the described cellular responses.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Cell-to-Cell Variability",
+        "url": "https://www.nature.com/articles/nrg2098",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_152",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which organelle is responsible for modifying and packaging proteins received from the endoplasmic reticulum?",
+    "options": {
+      "A": "Mitochondrion",
+      "B": "Golgi apparatus",
+      "C": "Lysosome",
+      "D": "Peroxisome"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The Golgi apparatus receives proteins from the rough endoplasmic reticulum and modifies them through processes like glycosylation, then packages them into vesicles for transport to their final destinations. Option A (mitochondrion) produces ATP. Option C (lysosome) digests cellular waste. Option D (peroxisome) is involved in detoxification and fatty acid metabolism.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Golgi Apparatus",
+        "url": "https://www.khanacademy.org/science/biology/structure-of-a-cell/tour-of-organelles",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_153",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying cell migration observed that migrating cells establish a front-rear polarity with distinct molecular compositions. The leading edge is characterized by actin polymerization, Rac GTPase activity, and formation of lamellipodia, while the trailing edge shows myosin II activation, RhoA GTPase activity, and contractile activity. The researchers found that this polarity is maintained by positive feedback loops - actin polymerization at the front inhibits contractility there, while contractility at the rear prevents actin polymerization. This mutual inhibition ensures stable polarity during migration.",
+    "question": "Based on this polarity mechanism, what maintains the distinct front and rear regions during cell migration?",
+    "options": {
+      "A": "Random distribution of signaling molecules throughout the cell",
+      "B": "Mutual inhibition between front and rear molecular activities",
+      "C": "Complete physical separation of front and rear cytoplasm",
+      "D": "External directional cues that constantly reorganize the cell"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explicitly describes how 'mutual inhibition' maintains polarity: 'actin polymerization at the front inhibits contractility there, while contractility at the rear prevents actin polymerization.' This mutual inhibition creates stable, distinct front and rear regions. Option A contradicts the organized polarity described. Option C is incorrect as the cytoplasm remains connected. Option D is not mentioned as the primary maintenance mechanism.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Cell Migration",
+        "url": "https://www.biointeractive.org/classroom-resources/cell-migration",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_154",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which cellular process would be most directly impacted by a deficiency in Ran-GTP gradient across the nuclear envelope?",
+    "options": {
+      "A": "DNA replication in the nucleus",
+      "B": "Nuclear import and export of proteins and RNAs",
+      "C": "Transcription by RNA polymerase II",
+      "D": "Chromatin compaction during mitosis"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The Ran-GTP gradient across the nuclear envelope is essential for nucleocytoplasmic transport. Ran-GTP in the nucleus and Ran-GDP in the cytoplasm drive the directional transport of proteins and RNAs through nuclear pores via importin and exportin proteins. Without this gradient, nuclear transport would be severely impaired. Options A, C, and D can occur within the nucleus but don't directly depend on the Ran gradient.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Nuclear Transport",
+        "url": "https://www.nature.com/scitable/topicpage/nuclear-transport-14121692/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_155",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists studying cellular reprogramming discovered that the conversion of somatic cells to induced pluripotent stem cells (iPSCs) occurs through distinct intermediate states rather than a direct transition. Single-cell analysis revealed that cells first lose their original identity markers, then gradually acquire pluripotency markers through a series of transcriptional and epigenetic changes. The researchers found that many cells become trapped in intermediate states and fail to complete reprogramming, explaining the low efficiency of the process. They also discovered that different cell types follow different reprogramming trajectories, suggesting that cellular history influences the path to pluripotency.",
+    "question": "Based on this reprogramming analysis, what does the existence of intermediate states suggest about cellular identity?",
+    "options": {
+      "A": "Cellular identity changes occur through instantaneous switches",
+      "B": "Cellular identity transitions involve gradual, multi-step processes with potential intermediate states",
+      "C": "All cell types follow identical pathways during reprogramming",
+      "D": "Cellular identity is completely irreversible once established"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes reprogramming as occurring 'through distinct intermediate states rather than a direct transition' and involving 'a series of transcriptional and epigenetic changes.' This demonstrates that cellular identity changes are gradual, multi-step processes. Option A contradicts the gradual nature described. Option C contradicts the finding that 'different cell types follow different reprogramming trajectories.' Option D contradicts the existence of successful reprogramming.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: iPSC Reprogramming",
+        "url": "https://www.nature.com/articles/nrm3904",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_156",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is the main function of the smooth endoplasmic reticulum?",
+    "options": {
+      "A": "Protein synthesis with ribosomes",
+      "B": "Lipid synthesis and detoxification",
+      "C": "DNA storage and replication",
+      "D": "Cellular respiration and ATP production"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The smooth endoplasmic reticulum (smooth ER) lacks ribosomes and is primarily involved in lipid synthesis, steroid hormone production, and detoxification processes. Option A describes the rough ER function. Option C describes nuclear function. Option D describes mitochondrial function.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Endoplasmic Reticulum",
+        "url": "https://www.khanacademy.org/science/biology/structure-of-a-cell/tour-of-organelles",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_157",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying autophagy discovered that this cellular degradation pathway is highly selective and can target specific organelles, protein aggregates, or pathogens for destruction. This selectivity is achieved through autophagy receptors that recognize specific molecular tags, such as ubiquitin on damaged organelles or bacterial surface proteins. The researchers found that selective autophagy pathways include mitophagy (mitochondria), pexophagy (peroxisomes), ER-phagy (ER), and xenophagy (pathogens). Each pathway uses specialized receptors and adaptor proteins to ensure that only appropriate targets are degraded while healthy cellular components are spared.",
+    "question": "Based on this selective degradation system, what ensures that autophagy targets only appropriate cellular components?",
+    "options": {
+      "A": "Autophagy randomly degrades all cellular components equally",
+      "B": "Specific molecular tags and autophagy receptors provide targeting selectivity",
+      "C": "Autophagy only occurs during cell division when all organelles are degraded",
+      "D": "Physical size determines what can be degraded by autophagy"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes how selectivity is achieved through 'autophagy receptors that recognize specific molecular tags, such as ubiquitin on damaged organelles' and 'specialized receptors and adaptor proteins.' This molecular recognition system ensures appropriate targeting. Option A contradicts the selective nature described. Option C is incorrect as autophagy occurs throughout the cell cycle, not just during division. Option D is not mentioned as a primary selection mechanism.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Selective Autophagy",
+        "url": "https://www.nature.com/articles/nrm4106",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_158",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "A researcher studying cell cycle regulation observes that cells with defective APC/C (Anaphase Promoting Complex) remain arrested in metaphase. This suggests that APC/C is primarily required for:",
+    "options": {
+      "A": "Chromosome condensation during prophase",
+      "B": "Spindle formation and chromosome attachment",
+      "C": "Sister chromatid separation and mitotic exit",
+      "D": "DNA replication during S phase"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. APC/C (Anaphase Promoting Complex) is an E3 ubiquitin ligase that targets securin and cyclins for degradation, allowing separase to cleave cohesin and enable sister chromatid separation. The metaphase arrest observed with defective APC/C indicates its essential role in the metaphase-to-anaphase transition and mitotic progression. Options A, B, and D occur before the point where APC/C deficiency causes arrest.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: APC/C Function",
+        "url": "https://www.nature.com/articles/nrm1988",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_159",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating cellular memory mechanisms discovered that transcriptional memory involves the formation of gene bookmarking - a process where certain transcription factors remain bound to mitotic chromatin even when most other factors are displaced. This bookmarking allows rapid reactivation of gene expression after cell division. The researchers found that bookmarking factors often have unique properties, such as the ability to bind condensed chromatin or association with specific histone modifications that persist through mitosis. Additionally, they discovered that some genes maintain transcriptional memory through the inheritance of permissive chromatin states marked by specific histone modifications.",
+    "question": "Based on this gene bookmarking mechanism, how do cells maintain transcriptional memory through cell division?",
+    "options": {
+      "A": "All transcription factors remain bound to chromatin throughout mitosis",
+      "B": "Specific transcription factors with unique properties bookmark genes for rapid post-mitotic reactivation",
+      "C": "Transcriptional memory is completely reset after each cell division",
+      "D": "mRNA molecules carry transcriptional information to daughter cells"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes how 'certain transcription factors remain bound to mitotic chromatin' and that these 'bookmarking factors often have unique properties' that allow them to maintain gene accessibility through mitosis for 'rapid reactivation' afterward. Option A is too broad - not all factors remain bound. Option C contradicts the memory concept. Option D describes a different mechanism not mentioned in the passage.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Transcriptional Memory",
+        "url": "https://www.nature.com/articles/nrg3748",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_160",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is the primary energy currency of cells?",
+    "options": {
+      "A": "Glucose",
+      "B": "NADH",
+      "C": "ATP",
+      "D": "DNA"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. ATP (Adenosine Triphosphate) is the primary energy currency of cells, providing readily available energy through hydrolysis of its phosphate bonds. All cellular processes requiring energy ultimately depend on ATP. Option A (glucose) is an energy source that must be converted to ATP. Option B (NADH) is an electron carrier used in energy production. Option D (DNA) stores genetic information, not energy.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: ATP and Energy",
+        "url": "https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation/intro-to-cellular-respiration",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_161",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying wound healing discovered that epithelial cells coordinate their migration through collective cell movement rather than individual cell migration. During collective migration, cells maintain cell-cell junctions while the entire sheet moves as a unit. The researchers found that leader cells at the migration front extend protrusions and guide the direction, while follower cells are pulled along by mechanical coupling through adherens junctions. This coordinated movement allows for efficient wound closure while maintaining tissue integrity and barrier function.",
+    "question": "Based on this collective migration mechanism, what is the key advantage over individual cell migration during wound healing?",
+    "options": {
+      "A": "Individual cells move faster than cell sheets",
+      "B": "Collective migration maintains tissue integrity while enabling coordinated movement",
+      "C": "Only leader cells need to be replaced during healing",
+      "D": "Cell-cell junctions are completely lost during migration"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage emphasizes that collective migration allows 'efficient wound closure while maintaining tissue integrity and barrier function' because cells 'maintain cell-cell junctions while the entire sheet moves as a unit.' This preserves tissue organization during repair. Option A contradicts the described efficiency of collective migration. Option C is not mentioned as an advantage. Option D contradicts the maintenance of junctions described in the passage.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Collective Cell Migration",
+        "url": "https://www.biointeractive.org/classroom-resources/collective-cell-migration",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_162",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which cellular process would be most severely affected by a mutation in genes encoding components of the spliceosome?",
+    "options": {
+      "A": "DNA replication",
+      "B": "mRNA processing and intron removal",
+      "C": "Protein folding in the ER",
+      "D": "Lipid synthesis in the Golgi"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The spliceosome is the ribonucleoprotein complex responsible for removing introns from pre-mRNA and joining exons during mRNA processing. Mutations in spliceosome components would directly impair this essential step of gene expression. Options A, C, and D involve different cellular processes and would not be directly affected by spliceosome defects.",
+    "study_resources": [
+      {
+        "title": "Nature Education: mRNA Splicing",
+        "url": "https://www.nature.com/scitable/topicpage/rna-splicing-introns-exons-and-spliceosome-12375/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_163",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying cellular compartmentalization discovered that membrane-less organelles, also called biomolecular condensates, can form through liquid-liquid phase separation. These structures, including stress granules, P-bodies, and nucleoli, concentrate specific proteins and RNAs without requiring membrane boundaries. The scientists found that phase separation is driven by multivalent interactions between proteins with intrinsically disordered regions and RNA molecules. These condensates exhibit liquid-like properties, can fuse and divide, and their formation is regulated by cellular conditions such as stress, temperature, and salt concentration.",
+    "question": "Based on this condensate formation mechanism, what distinguishes membrane-less organelles from traditional membrane-bound organelles?",
+    "options": {
+      "A": "Membrane-less organelles are completely static and cannot change",
+      "B": "Membrane-less organelles form through liquid-liquid phase separation rather than membrane enclosure",
+      "C": "Membrane-less organelles only contain DNA, not proteins or RNA",
+      "D": "Membrane-less organelles exist outside of living cells"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage clearly distinguishes membrane-less organelles by explaining they 'form through liquid-liquid phase separation' and 'concentrate specific proteins and RNAs without requiring membrane boundaries,' unlike traditional organelles that are enclosed by lipid membranes. Option A contradicts their described liquid-like, dynamic properties. Option C is wrong as they contain proteins and RNAs. Option D is incorrect as they exist within cells.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Biomolecular Condensates",
+        "url": "https://www.nature.com/articles/s41580-020-0264-6",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_164",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which structure regulates what enters and exits the cell?",
+    "options": {
+      "A": "Cell wall",
+      "B": "Nuclear envelope",
+      "C": "Cell membrane",
+      "D": "Cytoskeleton"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The cell membrane (plasma membrane) controls the passage of substances in and out of the cell through its selective permeability properties. It maintains cellular homeostasis by regulating transport. Option A (cell wall) provides structural support but isn't primarily regulatory. Option B (nuclear envelope) regulates nuclear transport, not cellular transport. Option D (cytoskeleton) provides structure but doesn't regulate cellular entry/exit.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Cell Membrane Transport",
+        "url": "https://www.khanacademy.org/science/biology/membranes-and-transport",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_165",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying cellular responses to mechanical forces discovered that cells can sense and respond to physical stimuli through mechanotransduction pathways. Mechanosensitive ion channels open in response to membrane tension, allowing calcium influx that triggers downstream signaling cascades. The researchers found that mechanical forces also affect focal adhesions, where integrins connect the extracellular matrix to the cytoskeleton. Under tension, focal adhesions mature and recruit additional proteins, strengthening the cell-matrix connection. This mechanosensitive response allows cells to adapt their behavior to their physical environment.",
+    "question": "Based on this mechanotransduction system, how do cells convert physical forces into biochemical signals?",
+    "options": {
+      "A": "Physical forces directly alter gene expression without any intermediate steps",
+      "B": "Mechanosensitive channels and focal adhesions convert mechanical stimuli into biochemical signals",
+      "C": "Cells ignore physical forces and only respond to chemical signals",
+      "D": "Physical forces only affect cell death pathways"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes two key mechanotransduction mechanisms: 'mechanosensitive ion channels open in response to membrane tension, allowing calcium influx that triggers downstream signaling cascades' and focal adhesions that 'mature and recruit additional proteins' under tension. These structures convert mechanical forces into biochemical signals. Option A skips intermediate signaling steps. Option C contradicts the described mechanosensitive responses. Option D is too narrow in scope.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Mechanotransduction",
+        "url": "https://www.biointeractive.org/classroom-resources/mechanotransduction",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_166",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "A cell biologist observes that cells treated with an inhibitor of DNA methyltransferases show reactivation of silenced tumor suppressor genes. This observation suggests that DNA methylation primarily functions to:",
+    "options": {
+      "A": "Directly repair DNA double-strand breaks",
+      "B": "Repress gene expression through epigenetic silencing",
+      "C": "Enhance transcriptional activation of all genes",
+      "D": "Prevent DNA replication during S phase"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The observation that methyltransferase inhibition leads to reactivation of silenced genes directly demonstrates that DNA methylation functions to repress gene expression. DNA methylation is a key epigenetic mechanism for gene silencing, particularly at CpG islands in promoter regions. Option A describes DNA repair, not methylation function. Option C is the opposite effect. Option D is not a primary function of DNA methylation.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: DNA Methylation",
+        "url": "https://www.nature.com/articles/nrg2732",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_167",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers investigating cellular decision-making discovered that cells can exhibit bistable switches - systems where cells can exist in one of two stable states and switch between them in response to signals. These switches often involve positive feedback loops that reinforce the chosen state and negative feedback that provides stability. The scientists found that bistable switches are common in development, cell cycle control, and stress responses. For example, the p53-Mdm2 circuit can exist in low-p53 (normal) or high-p53 (stress response) states. The presence of bistability allows cells to make decisive, all-or-nothing responses rather than graded responses to stimuli.",
+    "question": "Based on this bistable switch mechanism, what advantage do all-or-nothing cellular responses provide?",
+    "options": {
+      "A": "They prevent cells from responding to any stimuli",
+      "B": "They enable decisive cellular responses and clear differentiation between cellular states",
+      "C": "They ensure all cells in a population respond identically to stimuli",
+      "D": "They eliminate the need for cellular signaling pathways"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes how bistable switches 'allow cells to make decisive, all-or-nothing responses' and exist in 'one of two stable states.' This enables clear decision-making and distinct cellular states rather than ambiguous intermediate responses. Option A contradicts the described responses to stimuli. Option C contradicts the concept of individual cellular decision-making. Option D is wrong because bistability involves sophisticated signaling pathways.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Cellular Bistability",
+        "url": "https://www.nature.com/articles/nrg2750",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:05:00.000Z"
+  }
+]

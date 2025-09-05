@@ -1,0 +1,237 @@
+[
+  {
+    "id": "biochem_int_011",
+    "topic": "biochemistry_integration",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying metabolic regulation during exercise discovered that skeletal muscle adapts its energy production pathways based on exercise intensity and duration. During short, high-intensity exercise, muscles rely primarily on phosphocreatine and anaerobic glycolysis for rapid ATP generation, producing lactate as a byproduct. As exercise continues and oxygen becomes available, muscles shift toward aerobic metabolism, utilizing the citric acid cycle and electron transport chain for more efficient ATP production. The scientists found that this metabolic flexibility requires coordinated regulation of enzyme activity, substrate availability, and cellular signaling pathways.",
+    "question": "Based on this exercise metabolism, why do muscles produce lactate during high-intensity exercise?",
+    "options": {
+      "A": "Lactate is the preferred fuel for muscle contraction",
+      "B": "Anaerobic glycolysis produces lactate when oxygen is insufficient for aerobic metabolism",
+      "C": "Lactate synthesis directly generates ATP for muscle contraction", 
+      "D": "The citric acid cycle requires lactate as a substrate"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that during high-intensity exercise, muscles rely on 'anaerobic glycolysis for rapid ATP generation, producing lactate as a byproduct.' When oxygen is insufficient for aerobic metabolism, pyruvate from glycolysis is converted to lactate to regenerate NAD+ and allow glycolysis to continue. Option A is incorrect - lactate is a byproduct. Option C is wrong - lactate formation doesn't generate ATP. Option D is incorrect - the citric acid cycle uses acetyl-CoA.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Exercise Metabolism",
+        "url": "https://www.biointeractive.org/classroom-resources/exercise-metabolism",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T05:10:00.000Z"
+  },
+  {
+    "id": "biochem_int_012",
+    "topic": "biochemistry_integration",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which metabolic pathway is primarily responsible for generating NADPH needed for fatty acid synthesis?",
+    "options": {
+      "A": "Glycolysis",
+      "B": "Citric acid cycle",
+      "C": "Pentose phosphate pathway",
+      "D": "Beta-oxidation"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The pentose phosphate pathway (also called hexose monophosphate shunt) is the primary source of NADPH for biosynthetic processes, including fatty acid synthesis. It generates NADPH through glucose-6-phosphate dehydrogenase and 6-phosphogluconolactone dehydrogenase reactions. Option A generates NADH, not NADPH. Option B generates NADH and FADH2. Option D consumes NADH for ATP production.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Pentose Phosphate Pathway",
+        "url": "https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation/variations-on-cellular-respiration",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:10:00.000Z"
+  },
+  {
+    "id": "biochem_int_013",
+    "topic": "biochemistry_integration",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating metabolic integration during fasting discovered that the body maintains glucose homeostasis through coordinated metabolic adaptations. Initially, liver glycogen is broken down to release glucose. As fasting continues and glycogen stores are depleted, gluconeogenesis becomes crucial, using amino acids from muscle protein breakdown, lactate from red blood cells, and glycerol from fat metabolism. The researchers found that ketogenesis also activates, producing ketone bodies from fatty acid oxidation to provide an alternative fuel for the brain, sparing glucose for tissues that absolutely require it.",
+    "question": "Based on this fasting metabolism, what is the primary purpose of ketogenesis during prolonged fasting?",
+    "options": {
+      "A": "To produce glucose directly from fatty acids",
+      "B": "To provide an alternative fuel source for the brain, sparing glucose for glucose-dependent tissues",
+      "C": "To increase protein breakdown for gluconeogenesis",
+      "D": "To stimulate glycogen synthesis in the liver"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that ketogenesis 'produces ketone bodies from fatty acid oxidation to provide an alternative fuel for the brain, sparing glucose for tissues that absolutely require it.' This glucose-sparing effect is crucial during fasting when glucose availability is limited. Option A is impossible - fatty acids cannot be converted to glucose. Option C describes a different process. Option D contradicts the fasting state.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Fasting Metabolism",
+        "url": "https://www.nature.com/articles/nrendo.2014.189",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:10:00.000Z"
+  },
+  {
+    "id": "biochem_int_014",
+    "topic": "biochemistry_integration",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which hormone promotes glucose uptake by muscle and adipose tissue?",
+    "options": {
+      "A": "Glucagon",
+      "B": "Insulin",
+      "C": "Cortisol",
+      "D": "Growth hormone"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Insulin promotes glucose uptake by stimulating GLUT4 translocation to cell membranes in muscle and adipose tissue, lowering blood glucose levels. It's the primary anabolic hormone for glucose storage. Option A (glucagon) raises blood glucose. Option C (cortisol) promotes gluconeogenesis. Option D (growth hormone) has complex effects on glucose metabolism.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Insulin and Blood Sugar",
+        "url": "https://www.khanacademy.org/science/biology/principles-of-physiology/metabolism-and-thermoregulation",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:10:00.000Z"
+  },
+  {
+    "id": "biochem_int_015",
+    "topic": "biochemistry_integration",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying lipid metabolism discovered that cholesterol synthesis is tightly regulated to maintain cellular membrane integrity and steroid hormone production. The rate-limiting enzyme, HMG-CoA reductase, controls cholesterol synthesis and is regulated by multiple mechanisms: feedback inhibition by cholesterol itself, hormonal control by insulin and glucagon, and post-translational modifications including phosphorylation. The researchers found that when dietary cholesterol intake increases, cells downregulate cholesterol synthesis to maintain balance, demonstrating the importance of metabolic homeostasis.",
+    "question": "Based on this cholesterol regulation system, what happens to cholesterol synthesis when dietary cholesterol intake increases?",
+    "options": {
+      "A": "Cholesterol synthesis increases to match dietary intake",
+      "B": "Cholesterol synthesis decreases through feedback inhibition of HMG-CoA reductase",
+      "C": "HMG-CoA reductase activity is unaffected by dietary cholesterol",
+      "D": "Only steroid hormone production is affected, not cholesterol synthesis"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that HMG-CoA reductase experiences 'feedback inhibition by cholesterol itself' and that 'when dietary cholesterol intake increases, cells downregulate cholesterol synthesis to maintain balance.' This negative feedback prevents cholesterol overproduction. Option A would lead to dangerous cholesterol accumulation. Option C ignores the feedback mechanism. Option D doesn't address the synthesis regulation described.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Cholesterol Metabolism",
+        "url": "https://www.biointeractive.org/classroom-resources/cholesterol-metabolism",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T05:10:00.000Z"
+  },
+  {
+    "id": "biochem_int_016",
+    "topic": "biochemistry_integration",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "During intense exercise, which metabolic change helps maintain muscle ATP levels?",
+    "options": {
+      "A": "Increased protein synthesis",
+      "B": "Creatine phosphate donation of phosphate to ADP",
+      "C": "Enhanced fatty acid synthesis",
+      "D": "Reduced oxygen consumption"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The creatine phosphate (phosphocreatine) system provides immediate ATP regeneration by donating its high-energy phosphate to ADP, forming ATP. This system provides rapid energy during the first few seconds of intense exercise before glycolysis ramps up. Option A is anabolic and wouldn't help immediate energy needs. Option C is also anabolic. Option D would decrease ATP production.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Energy Systems in Exercise",
+        "url": "https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:10:00.000Z"
+  },
+  {
+    "id": "biochem_int_017",
+    "topic": "biochemistry_integration",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying metabolic syndrome investigated how insulin resistance disrupts normal metabolic coordination. In insulin-resistant individuals, muscle and adipose tissues become less responsive to insulin signaling, leading to impaired glucose uptake and persistent hyperglycemia. The scientists found that the pancreas initially compensates by producing more insulin, but over time, pancreatic beta cells become exhausted and insulin production decreases. Additionally, they discovered that insulin resistance promotes increased lipolysis in adipose tissue, elevating free fatty acid levels that further impair glucose metabolism and contribute to ectopic fat deposition.",
+    "question": "Based on this metabolic syndrome progression, how do elevated free fatty acids contribute to glucose metabolism problems?",
+    "options": {
+      "A": "Free fatty acids directly improve glucose uptake by muscle",
+      "B": "Free fatty acids are converted directly into glucose through gluconeogenesis",
+      "C": "Free fatty acids impair glucose metabolism and worsen insulin resistance",
+      "D": "Free fatty acids stimulate insulin production by pancreatic beta cells"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The passage states that elevated free fatty acid levels 'further impair glucose metabolism and contribute to ectopic fat deposition.' This describes the Randle cycle (glucose-fatty acid cycle) where increased fatty acid oxidation inhibits glucose utilization, worsening insulin resistance. Option A contradicts the impairment described. Option B is incorrect - fatty acids cannot be converted to glucose. Option D contradicts the beta cell exhaustion described.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Insulin Resistance and Metabolic Syndrome",
+        "url": "https://www.nature.com/articles/nrendo.2016.162",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:10:00.000Z"
+  },
+  {
+    "id": "biochem_int_018",
+    "topic": "biochemistry_integration",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is the primary storage form of glucose in the liver and muscle?",
+    "options": {
+      "A": "Starch",
+      "B": "Glycogen",
+      "C": "Cellulose",
+      "D": "Sucrose"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Glycogen is the primary glucose storage polysaccharide in animals, concentrated in liver and skeletal muscle. It can be rapidly broken down to release glucose when needed. Option A (starch) is the plant storage form. Option C (cellulose) is a structural carbohydrate. Option D (sucrose) is a disaccharide, not a storage form.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Carbohydrate Storage",
+        "url": "https://www.khanacademy.org/science/biology/macromolecules/carbohydrates",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:10:00.000Z"
+  },
+  {
+    "id": "biochem_int_019",
+    "topic": "biochemistry_integration",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying alcohol metabolism discovered that ethanol is primarily metabolized in the liver through a two-step enzymatic process. First, alcohol dehydrogenase converts ethanol to acetaldehyde while generating NADH. Then, aldehyde dehydrogenase converts acetaldehyde to acetate, also producing NADH. The researchers found that chronic alcohol consumption leads to increased NADH/NAD+ ratios, which inhibits gluconeogenesis and fatty acid oxidation while promoting fatty acid synthesis. This metabolic shift contributes to fatty liver disease and hypoglycemia in alcoholics.",
+    "question": "Based on this alcohol metabolism pathway, why does chronic alcohol consumption lead to fatty liver disease?",
+    "options": {
+      "A": "Alcohol directly damages liver cells causing fat accumulation",
+      "B": "Increased NADH/NAD+ ratio inhibits fatty acid oxidation while promoting fatty acid synthesis",
+      "C": "Alcohol prevents the liver from producing enzymes",
+      "D": "Acetaldehyde accumulation directly causes fat deposition"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that alcohol metabolism generates excess NADH, increasing the NADH/NAD+ ratio, which 'inhibits gluconeogenesis and fatty acid oxidation while promoting fatty acid synthesis.' This metabolic shift favors fat synthesis over fat breakdown, leading to fatty liver. Option A oversimplifies the mechanism. Option C is not mentioned. Option D focuses on the wrong metabolite.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Alcohol Metabolism",
+        "url": "https://www.biointeractive.org/classroom-resources/alcohol-metabolism",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T05:10:00.000Z"
+  },
+  {
+    "id": "biochem_int_020",
+    "topic": "biochemistry_integration",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which allosteric regulator activates phosphofructokinase-1 (PFK-1), the key regulatory enzyme of glycolysis?",
+    "options": {
+      "A": "ATP",
+      "B": "Citrate",
+      "C": "AMP",
+      "D": "Glucose-6-phosphate"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. AMP (adenosine monophosphate) is a key allosteric activator of PFK-1. When energy levels are low (high AMP), PFK-1 is activated to increase glycolytic flux and ATP production. Option A (ATP) actually inhibits PFK-1 when energy is abundant. Option B (citrate) also inhibits PFK-1. Option D is not a major regulator of PFK-1.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Glycolysis Regulation",
+        "url": "https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation/glycolysis",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:10:00.000Z"
+  }
+]

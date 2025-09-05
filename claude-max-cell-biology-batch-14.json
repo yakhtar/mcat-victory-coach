@@ -1,0 +1,237 @@
+[
+  {
+    "id": "cell_bio_131",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying cellular energy metabolism discovered that cells can switch between different metabolic programs depending on nutrient availability and energy demands. During glucose abundance, cells primarily use glycolysis and oxidative phosphorylation. However, under glucose deprivation, cells activate gluconeogenesis and fatty acid oxidation to maintain energy homeostasis. The researchers found that this metabolic flexibility is regulated by key enzymes and transcription factors, including AMPK (AMP-activated protein kinase), which acts as a cellular energy sensor. When ATP levels drop, AMPK becomes activated and promotes catabolic pathways while inhibiting anabolic processes.",
+    "question": "Based on this metabolic regulation, what is the primary role of AMPK in cellular energy homeostasis?",
+    "options": {
+      "A": "AMPK directly synthesizes ATP through substrate-level phosphorylation",
+      "B": "AMPK acts as an energy sensor that activates catabolic pathways when ATP is low",
+      "C": "AMPK permanently shuts down all metabolic processes during stress",
+      "D": "AMPK only functions during glucose-rich conditions"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes AMPK as a 'cellular energy sensor' that 'becomes activated' when 'ATP levels drop' and then 'promotes catabolic pathways while inhibiting anabolic processes.' This clearly identifies AMPK's role as an energy sensor that responds to low energy by activating pathways that generate ATP. Option A is incorrect because AMPK regulates but doesn't directly synthesize ATP. Option C is wrong because AMPK activates specific pathways rather than shutting everything down. Option D contradicts the passage which describes AMPK function during energy stress.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: AMPK Energy Sensing",
+        "url": "https://www.nature.com/articles/nrm3311",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:00:00.000Z"
+  },
+  {
+    "id": "cell_bio_132",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which cellular process would be most directly affected by a mutation in the gene encoding histone deacetylase (HDAC)?",
+    "options": {
+      "A": "DNA replication initiation",
+      "B": "Transcriptional regulation through chromatin modification",
+      "C": "Protein synthesis at ribosomes",
+      "D": "Mitochondrial ATP production"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Histone deacetylases (HDACs) remove acetyl groups from histones, leading to chromatin compaction and generally repressive effects on transcription. A mutation affecting HDAC would directly impact transcriptional regulation by altering chromatin structure and accessibility. Option A could be indirectly affected but transcriptional regulation is the primary function. Option C (protein synthesis) and Option D (ATP production) are not directly regulated by HDAC activity.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Histone Deacetylases",
+        "url": "https://www.nature.com/articles/nrd1331",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:00:00.000Z"
+  },
+  {
+    "id": "cell_bio_133",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists studying cellular reprogramming discovered that the process of converting differentiated cells back to pluripotency involves overcoming multiple epigenetic barriers. These barriers include DNA methylation patterns, repressive histone modifications, and chromatin compaction that maintain cell-type-specific gene expression programs. The researchers found that reprogramming factors like Oct4, Sox2, Klf4, and c-Myc work together to disrupt these barriers by recruiting chromatin remodeling complexes, DNA demethylases, and histone-modifying enzymes. The process is initially stochastic and inefficient, with only a small percentage of cells successfully transitioning through intermediate states to achieve full pluripotency.",
+    "question": "Based on this reprogramming mechanism, why is cellular reprogramming initially inefficient?",
+    "options": {
+      "A": "The Yamanaka factors are inherently toxic to most cells",
+      "B": "Cells lack the necessary metabolic resources for reprogramming",
+      "C": "Multiple stable epigenetic barriers must be overcome in a coordinated manner",
+      "D": "Reprogramming can only occur during specific cell cycle phases"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The passage describes 'multiple epigenetic barriers' including 'DNA methylation patterns, repressive histone modifications, and chromatin compaction' that must be overcome for successful reprogramming. The complexity of coordinating the disruption of these stable barriers explains why the process is 'initially stochastic and inefficient' with only 'a small percentage of cells successfully transitioning.' Option A is not supported by the passage. Option B is not mentioned as a limiting factor. Option D is not discussed in the context of cell cycle dependence.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Cellular Reprogramming",
+        "url": "https://www.nature.com/articles/nrg3035",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:00:00.000Z"
+  },
+  {
+    "id": "cell_bio_134",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which organelle is primarily responsible for cellular detoxification and contains catalase enzyme?",
+    "options": {
+      "A": "Mitochondrion",
+      "B": "Peroxisome",
+      "C": "Lysosome",
+      "D": "Endoplasmic reticulum"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Peroxisomes contain catalase enzyme, which breaks down hydrogen peroxide (H2O2) produced during various oxidative reactions. Peroxisomes are specialized for detoxification reactions and also perform fatty acid oxidation. Option A (mitochondrion) is primarily for energy production. Option C (lysosome) contains digestive enzymes but not catalase. Option D (ER) synthesizes proteins and lipids but doesn't contain catalase.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Peroxisomes",
+        "url": "https://www.khanacademy.org/science/biology/structure-of-a-cell/tour-of-organelles",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:00:00.000Z"
+  },
+  {
+    "id": "cell_bio_135",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying cell-matrix interactions discovered that integrins serve as bidirectional signaling receptors that connect the extracellular matrix (ECM) to the intracellular cytoskeleton. Outside-in signaling occurs when ECM binding to integrins activates intracellular signaling cascades that affect cell behavior, including proliferation, survival, and migration. Inside-out signaling occurs when intracellular signals increase integrin affinity for ECM ligands, strengthening cell-matrix adhesion. The researchers found that this bidirectional communication is essential for proper tissue organization and wound healing, as cells must both respond to their matrix environment and actively modify their adhesion strength.",
+    "question": "Based on this signaling system, what distinguishes integrin-mediated signaling from other cell surface receptors?",
+    "options": {
+      "A": "Integrins only function during cell division",
+      "B": "Integrins mediate bidirectional signaling between intracellular and extracellular environments",
+      "C": "Integrins exclusively bind to soluble growth factors",
+      "D": "Integrins function independently of the cytoskeleton"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage emphasizes that integrins are unique because they mediate 'bidirectional signaling' with both 'outside-in signaling' (ECM to cell) and 'inside-out signaling' (cell to ECM), making them distinct from typical unidirectional receptors. Option A is incorrect because integrins function beyond just cell division. Option C is wrong because integrins bind to matrix components, not just soluble factors. Option D contradicts the passage which describes integrin connection to the cytoskeleton.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Integrin Signaling",
+        "url": "https://www.biointeractive.org/classroom-resources/integrin-signaling",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:00:00.000Z"
+  },
+  {
+    "id": "cell_bio_136",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "A cell biologist observes that cells lacking functional p21 protein show defects in G1/S checkpoint control. This observation suggests that p21 primarily functions to:",
+    "options": {
+      "A": "Promote rapid progression through S phase",
+      "B": "Inhibit CDK2 activity to prevent premature S phase entry",
+      "C": "Activate DNA polymerase during replication",
+      "D": "Enhance cyclin E expression in G1 phase"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. p21 is a CDK inhibitor that blocks CDK2-cyclin E activity, preventing cells from entering S phase when conditions are not appropriate (such as after DNA damage). The observation that p21 loss causes G1/S checkpoint defects indicates its role in restraining cell cycle progression. Option A is the opposite of p21's function. Option C is incorrect because p21 doesn't directly activate DNA polymerase. Option D is wrong because p21 generally opposes, rather than enhances, cell cycle progression.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Cell Cycle Control",
+        "url": "https://www.nature.com/scitable/topicpage/cell-cycle-control-13023266/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T04:00:00.000Z"
+  },
+  {
+    "id": "cell_bio_137",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers investigating organelle inheritance during cell division found that mitochondria and other organelles are not synthesized de novo but must be inherited from the parent cell. During cytokinesis, organelles are distributed between daughter cells through a combination of passive partitioning and active transport mechanisms. The scientists discovered that some organelles, like mitochondria, are actively transported to specific cellular regions by motor proteins before division, while others rely on their abundance to ensure adequate distribution. This inheritance mechanism is critical because organelle biogenesis is a slow process that cannot quickly replace lost organelles.",
+    "question": "Based on this inheritance mechanism, why is proper organelle distribution critical during cell division?",
+    "options": {
+      "A": "Organelles are rapidly synthesized de novo in daughter cells as needed",
+      "B": "Organelles can only function in specific daughter cell types",
+      "C": "Organelle biogenesis is slow, making inheritance essential for immediate cellular function",
+      "D": "Daughter cells automatically synthesize new organelles regardless of inheritance"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The passage states that 'organelle biogenesis is a slow process that cannot quickly replace lost organelles,' making inheritance from the parent cell critical for daughter cell viability. Without proper organelle distribution, daughter cells would lack essential organelles and cannot quickly synthesize replacements. Option A contradicts the passage which states organelles are not synthesized de novo quickly. Option B is not supported by the passage. Option D contradicts the passage's emphasis on the importance of inheritance.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Organelle Inheritance",
+        "url": "https://www.nature.com/articles/nrm2424",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:00:00.000Z"
+  },
+  {
+    "id": "cell_bio_138",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is the primary function of ribosomes?",
+    "options": {
+      "A": "DNA replication",
+      "B": "Protein synthesis",
+      "C": "Lipid metabolism",
+      "D": "Cellular respiration"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Ribosomes are the cellular machinery responsible for protein synthesis (translation), where they read mRNA and assemble amino acids into polypeptide chains. This is their primary and essential function in all living cells. Option A (DNA replication) occurs in the nucleus with different machinery. Option C (lipid metabolism) involves various enzymes and pathways. Option D (cellular respiration) primarily occurs in mitochondria.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Ribosomes and Translation",
+        "url": "https://www.khanacademy.org/science/biology/gene-expression-central-dogma/translation-polypeptides",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:00:00.000Z"
+  },
+  {
+    "id": "cell_bio_139",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying cellular adhesion discovered that adherens junctions, tight junctions, and desmosomes work together to maintain tissue integrity in epithelial sheets. Adherens junctions, containing cadherins, provide strong cell-cell adhesion and connect to the actin cytoskeleton. Tight junctions create selective barriers that control paracellular permeability. Desmosomes provide mechanical strength by connecting to intermediate filaments. The researchers found that disruption of any one junction type can compromise overall tissue function, demonstrating the interconnected nature of these adhesive structures.",
+    "question": "Based on this junction organization, what would be the most likely consequence of cadherin dysfunction in epithelial tissues?",
+    "options": {
+      "A": "Loss of selective permeability control only",
+      "B": "Weakened cell-cell adhesion and compromised tissue integrity",
+      "C": "Enhanced mechanical strength between cells",
+      "D": "Improved barrier function at cell boundaries"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that adherens junctions containing cadherins 'provide strong cell-cell adhesion,' so cadherin dysfunction would weaken this adhesion. Since the passage also notes that 'disruption of any one junction type can compromise overall tissue function,' cadherin problems would compromise tissue integrity. Option A is too narrow as it only mentions permeability. Option C is the opposite effect. Option D contradicts the expected loss of function.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Cell Junctions",
+        "url": "https://www.biointeractive.org/classroom-resources/cell-junctions",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:00:00.000Z"
+  },
+  {
+    "id": "cell_bio_140",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which mechanism is primarily responsible for the specificity of vesicle targeting in intracellular transport?",
+    "options": {
+      "A": "Random collision and fusion of all vesicles with all membranes",
+      "B": "SNARE protein pairing between vesicles and target membranes",
+      "C": "Size-based sorting of vesicles at the Golgi apparatus",
+      "D": "pH-dependent vesicle fusion throughout the cell"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. SNARE (Soluble NSF Attachment Protein REceptor) proteins provide specificity in vesicle targeting through specific pairing between v-SNAREs on vesicles and t-SNAREs on target membranes. This ensures that vesicles fuse with the correct destination membranes rather than random locations. Option A describes random, non-specific fusion. Option C is too narrow and doesn't explain general targeting specificity. Option D is not the primary mechanism for targeting specificity.",
+    "study_resources": [
+      {
+        "title": "Nature Education: SNARE Proteins",
+        "url": "https://www.nature.com/scitable/topicpage/snare-proteins-and-membrane-fusion-14121652/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T04:00:00.000Z"
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "id": "evolution_011",
+    "topic": "evolution",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying adaptive radiation examined the diversification of Darwin's finches in the Galápagos Islands. They found that from a single ancestral species, multiple finch species evolved different beak shapes and sizes corresponding to their feeding strategies. Ground finches developed large, strong beaks for cracking seeds, while warbler finches evolved thin, pointed beaks for extracting insects from bark. The scientists discovered that this rapid diversification occurred through natural selection acting on existing genetic variation in beak development genes like BMP4 and calmodulin. They concluded that adaptive radiation demonstrates how environmental opportunities can drive rapid morphological evolution.",
+    "question": "Based on this adaptive radiation example, what conditions facilitate rapid evolutionary diversification?",
+    "options": {
+      "A": "Genetic bottlenecks that reduce variation",
+      "B": "Environmental opportunities with diverse ecological niches and existing genetic variation",
+      "C": "Complete geographic isolation preventing gene flow",
+      "D": "Uniform environmental conditions across all habitats"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Adaptive radiation requires both diverse ecological opportunities (different niches like seed-cracking vs. insect-extraction) and existing genetic variation that selection can act upon (like variation in beak development genes). This combination allows rapid diversification into multiple specialized forms. Option A would reduce the raw material for evolution. Option C might prevent diversification. Option D wouldn't provide selective pressure for diversification.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Adaptive Radiation",
+        "url": "https://www.biointeractive.org/classroom-resources/adaptive-radiation-darwins-finches",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:55:00.000Z"
+  },
+  {
+    "id": "evolution_012",
+    "topic": "evolution",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which evolutionary pattern describes the independent evolution of similar traits in distantly related lineages due to similar environmental pressures?",
+    "options": {
+      "A": "Parallel evolution",
+      "B": "Convergent evolution",
+      "C": "Divergent evolution",
+      "D": "Coevolution"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Convergent evolution occurs when distantly related species independently evolve similar traits due to similar environmental pressures (like echolocation in bats and dolphins). Option A (parallel evolution) involves similar changes in closely related species. Option C (divergent evolution) describes increasing differences between populations. Option D (coevolution) involves reciprocal evolutionary changes between interacting species.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Patterns of Evolution",
+        "url": "https://www.nature.com/scitable/topicpage/patterns-of-evolution-996/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T04:55:00.000Z"
+  },
+  {
+    "id": "evolution_013",
+    "topic": "evolution",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists studying the evolution of sexual reproduction investigated why this costly process persists despite the advantages of asexual reproduction. They found that sexual reproduction reduces individual reproductive output (the 'cost of sex') but provides benefits through genetic recombination that creates novel gene combinations. The researchers discovered that the Red Queen hypothesis suggests sexual reproduction helps organisms keep pace with rapidly evolving parasites and pathogens. Additionally, they found evidence that sexual reproduction accelerates adaptation in changing environments by combining beneficial mutations from different individuals, overcoming the limitations of asexual lineages that must wait for favorable mutations to occur sequentially.",
+    "question": "Based on this analysis of sexual reproduction evolution, what is the primary evolutionary advantage that compensates for its reproductive costs?",
+    "options": {
+      "A": "Sexual reproduction always produces more offspring than asexual reproduction",
+      "B": "Genetic recombination creates novel combinations that enhance adaptation to changing environments and parasites",
+      "C": "Sexual reproduction prevents all harmful mutations from occurring",
+      "D": "Sexual reproduction eliminates the need for natural selection"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that genetic recombination 'creates novel gene combinations' that help organisms 'keep pace with rapidly evolving parasites' and 'accelerates adaptation in changing environments by combining beneficial mutations.' This genetic diversity advantage compensates for the reproductive cost. Option A contradicts the 'cost of sex.' Option C overstates the effect - mutations still occur. Option D is incorrect - selection still operates.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Evolution of Sexual Reproduction",
+        "url": "https://www.nature.com/articles/nrg1901",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:55:00.000Z"
+  },
+  {
+    "id": "evolution_014",
+    "topic": "evolution",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "According to Darwin's theory, which individuals in a population are most likely to survive and reproduce?",
+    "options": {
+      "A": "The largest individuals",
+      "B": "The individuals best adapted to their environment",
+      "C": "The oldest individuals",
+      "D": "The individuals with the most mutations"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Darwin's theory of natural selection states that individuals with traits that make them better adapted to their environment are more likely to survive and reproduce, passing these advantageous traits to their offspring. Fitness is environment-specific. Options A and C are too simplistic. Option D is incorrect as most mutations are neutral or harmful.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Darwin and Natural Selection",
+        "url": "https://www.khanacademy.org/science/biology/evolution-and-natural-selection/darwin-evolution-natural-selection",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:55:00.000Z"
+  },
+  {
+    "id": "evolution_015",
+    "topic": "evolution",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying island biogeography examined how species diversity relates to island characteristics. They found that larger islands support more species than smaller islands because they provide more habitats and resources, and can sustain larger populations that are less prone to extinction. Islands closer to mainland sources also have higher species diversity due to greater colonization rates. The researchers observed that over time, islands reach an equilibrium between colonization and extinction rates, where the number of species remains relatively stable despite turnover in species composition.",
+    "question": "Based on this island biogeography theory, which factor would most likely increase species diversity on an island?",
+    "options": {
+      "A": "Increasing the island's distance from the mainland",
+      "B": "Decreasing the island's size",
+      "C": "Increasing the island's size while keeping distance constant",
+      "D": "Eliminating all existing species to start fresh"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The passage states that 'larger islands support more species than smaller islands because they provide more habitats and resources, and can sustain larger populations that are less prone to extinction.' Increasing island size while keeping distance constant would increase carrying capacity and reduce extinction risk. Option A would reduce colonization. Option B would reduce carrying capacity. Option D would eliminate existing diversity.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Island Biogeography",
+        "url": "https://www.biointeractive.org/classroom-resources/island-biogeography",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:55:00.000Z"
+  },
+  {
+    "id": "evolution_016",
+    "topic": "evolution",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "In a population experiencing directional selection, what happens to the mean and variance of the selected trait over time?",
+    "options": {
+      "A": "Mean stays constant, variance increases",
+      "B": "Mean shifts in the direction of selection, variance typically decreases",
+      "C": "Mean shifts opposite to selection, variance increases",
+      "D": "Both mean and variance remain constant"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Directional selection favors individuals at one extreme of the trait distribution, causing the population mean to shift in that direction over generations. Variance typically decreases because selection eliminates individuals at the unfavored extreme, reducing the range of variation in the population. Option A doesn't reflect the shift in mean. Option C has the wrong direction. Option D describes no selection.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Types of Selection",
+        "url": "https://www.nature.com/scitable/topicpage/natural-selection-genetic-drift-and-gene-flow-15186648/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T04:55:00.000Z"
+  },
+  {
+    "id": "evolution_017",
+    "topic": "evolution",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers investigating evolutionary constraints discovered that not all theoretically possible evolutionary outcomes occur due to various limitations. Phylogenetic constraints arise from evolutionary history - organisms can only evolve from their current state, not design optimal solutions from scratch. Developmental constraints result from limitations in how body plans can be modified during development. Genetic constraints occur when traits are linked through pleiotropy (one gene affecting multiple traits) or linkage disequilibrium. The scientists found that these constraints explain why many organisms have suboptimal designs and why certain evolutionary paths appear repeatedly while others never occur.",
+    "question": "Based on this analysis of evolutionary constraints, why might organisms retain apparently suboptimal traits?",
+    "options": {
+      "A": "Natural selection always produces perfect adaptations",
+      "B": "Constraints from evolutionary history, development, and genetics limit the possible evolutionary modifications",
+      "C": "Organisms choose to keep inefficient traits",
+      "D": "Suboptimal traits are always beneficial in hidden ways"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that evolutionary constraints from 'evolutionary history,' 'developmental' limitations, and 'genetic' factors like pleiotropy mean that organisms 'can only evolve from their current state, not design optimal solutions from scratch.' These constraints explain 'suboptimal designs.' Option A contradicts the constraint concept. Option C implies conscious choice. Option D overstates hidden benefits.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Evolutionary Constraints",
+        "url": "https://www.nature.com/articles/nrg2398",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:55:00.000Z"
+  },
+  {
+    "id": "evolution_018",
+    "topic": "evolution",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which mechanism introduces new genetic variation into populations?",
+    "options": {
+      "A": "Natural selection",
+      "B": "Genetic drift",
+      "C": "Mutation",
+      "D": "Genetic bottlenecks"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Mutation is the ultimate source of all genetic variation in populations, creating new alleles that provide the raw material for evolution. Option A (natural selection) acts on existing variation but doesn't create new variation. Option B (genetic drift) causes random changes in existing allele frequencies. Option D (genetic bottlenecks) reduces variation.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Sources of Genetic Variation",
+        "url": "https://www.khanacademy.org/science/biology/evolution-and-natural-selection/population-genetics",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:55:00.000Z"
+  },
+  {
+    "id": "evolution_019",
+    "topic": "evolution",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying coevolution examined the relationship between flowering plants and their pollinators. They discovered that many plant-pollinator pairs have evolved specialized relationships through reciprocal evolutionary changes. For example, some orchids have evolved flower shapes that precisely match the body size and behavior of specific bee species, while the bees have evolved behaviors and morphology that maximize nectar extraction from these flowers. The researchers found that this coevolutionary process can lead to both mutualistic relationships (beneficial to both parties) and evolutionary arms races where each species continually evolves to overcome the other's defenses.",
+    "question": "Based on this coevolution example, what drives the reciprocal evolutionary changes between plants and pollinators?",
+    "options": {
+      "A": "Plants and pollinators make conscious decisions to help each other",
+      "B": "Selective pressures from the interaction favor traits that improve fitness in the relationship",
+      "C": "Genetic drift randomly aligns plant and pollinator traits",
+      "D": "Environmental factors unrelated to the interaction"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Coevolution occurs because the interaction between species creates selective pressures that favor traits improving fitness in that relationship. Plants with flowers better suited to their pollinators get more pollination success, while pollinators better adapted to extract nectar from their plant partners gain more energy. This reciprocal selection drives the evolutionary changes. Option A implies conscious intent. Option C is random, not selective. Option D ignores the interspecific interaction.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Coevolution",
+        "url": "https://www.biointeractive.org/classroom-resources/coevolution",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:55:00.000Z"
+  },
+  {
+    "id": "evolution_020",
+    "topic": "evolution",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which concept explains why vestigial structures persist in organisms despite having no apparent function?",
+    "options": {
+      "A": "Vestigial structures are always beneficial",
+      "B": "Natural selection can only eliminate traits that are strongly harmful",
+      "C": "Vestigial structures are recent evolutionary innovations",
+      "D": "All traits must have a current function to persist"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Vestigial structures persist because natural selection primarily acts against traits that significantly reduce fitness. If a vestigial structure has little or no fitness cost, selection pressure to eliminate it is weak, and it may persist due to genetic drift or lack of strong selective pressure. Examples include the appendix in humans or pelvic bones in whales. Option A contradicts their vestigial nature. Option C is backwards - they're evolutionary remnants. Option D contradicts the existence of vestigial structures.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Vestigial Structures",
+        "url": "https://www.nature.com/scitable/topicpage/vestigial-structures-41542/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T04:55:00.000Z"
+  }
+]

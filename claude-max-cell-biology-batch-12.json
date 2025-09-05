@@ -1,0 +1,237 @@
+[
+  {
+    "id": "cell_bio_111",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying cellular motility discovered that actin filament treadmilling is essential for cell migration. In treadmilling, actin monomers are continuously added to the barbed end (plus end) of filaments while being removed from the pointed end (minus end), creating a net forward movement of the filament without changing its overall length. This process is driven by ATP hydrolysis and is regulated by proteins such as profilin, which promotes monomer addition, and ADF/cofilin, which accelerates depolymerization at the pointed end. The researchers observed that disrupting treadmilling severely impairs the formation of lamellipodia and cell motility.",
+    "question": "Based on this mechanism, what is the primary driving force for actin treadmilling?",
+    "options": {
+      "A": "Mechanical tension applied by myosin motors",
+      "B": "ATP hydrolysis coupled with asymmetric assembly and disassembly",
+      "C": "Direct interaction with microtubules",
+      "D": "Passive diffusion of actin monomers"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that treadmilling 'is driven by ATP hydrolysis' and involves asymmetric dynamics where monomers are 'continuously added to the barbed end...while being removed from the pointed end.' This ATP-driven asymmetric assembly/disassembly creates the net forward movement characteristic of treadmilling. Option A describes myosin function but not the driving force of treadmilling itself. Option C is not mentioned in the passage. Option D is incorrect because treadmilling is an active, energy-requiring process, not passive diffusion.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Actin Dynamics",
+        "url": "https://www.biointeractive.org/classroom-resources/actin-dynamics-cell-motility",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T03:50:00.000Z"
+  },
+  {
+    "id": "cell_bio_112",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which enzyme is responsible for the final step of apoptosis execution by cleaving key cellular proteins?",
+    "options": {
+      "A": "Caspase-3",
+      "B": "Bcl-2",
+      "C": "p53",
+      "D": "Cytochrome c"
+    },
+    "correct_answer": "A",
+    "explanation": "The correct answer is A. Caspase-3 is an executioner caspase that cleaves numerous cellular substrates during the execution phase of apoptosis, including structural proteins, DNA repair enzymes, and other targets that lead to the characteristic features of apoptotic cell death. Option B (Bcl-2) is an anti-apoptotic protein that prevents apoptosis. Option C (p53) can trigger apoptosis but doesn't execute it. Option D (cytochrome c) is released from mitochondria and helps activate caspases but doesn't directly cleave cellular proteins.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Apoptosis",
+        "url": "https://www.nature.com/scitable/topicpage/apoptosis-14109872/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T03:50:00.000Z"
+  },
+  {
+    "id": "cell_bio_113",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating the DNA damage checkpoint discovered that the ATR (Ataxia Telangiectasia and Rad3-related) kinase is specifically activated by single-stranded DNA coated with RPA protein. This occurs commonly at stalled replication forks where DNA polymerase encounters obstacles like DNA lesions or difficult-to-replicate sequences. Upon activation, ATR phosphorylates numerous downstream targets including Chk1 kinase, which then inhibits CDC25 phosphatases, preventing activation of S-phase and G2/M CDKs. This checkpoint mechanism allows time for fork restart mechanisms to resolve the problem and complete DNA replication accurately.",
+    "question": "Based on this checkpoint pathway, what would be the most likely consequence of ATR kinase deficiency during DNA replication stress?",
+    "options": {
+      "A": "Enhanced DNA repair and increased replication accuracy",
+      "B": "Inappropriate cell cycle progression despite incomplete replication, leading to genomic instability",
+      "C": "Complete blockade of DNA replication initiation",
+      "D": "Immediate apoptosis upon encountering any replication obstacle"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. ATR deficiency would eliminate the checkpoint that normally detects replication problems and arrests cell cycle progression. Without ATR-Chk1 signaling to inhibit CDKs, cells would inappropriately progress through S-phase and into mitosis with incompletely replicated or damaged DNA, leading to genomic instability. Option A is incorrect because ATR deficiency would reduce, not enhance, the cellular response to replication stress. Option C is wrong because ATR responds to problems during replication, not initiation. Option D is incorrect because while ATR deficiency can eventually lead to cell death, the immediate consequence is checkpoint failure, not apoptosis.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: ATR Signaling",
+        "url": "https://www.nature.com/articles/nrm1704",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:50:00.000Z"
+  },
+  {
+    "id": "cell_bio_114",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which type of RNA carries amino acids to the ribosome during protein synthesis?",
+    "options": {
+      "A": "mRNA (messenger RNA)",
+      "B": "rRNA (ribosomal RNA)",
+      "C": "tRNA (transfer RNA)",
+      "D": "snRNA (small nuclear RNA)"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. tRNA (transfer RNA) molecules carry specific amino acids to the ribosome and deliver them to the growing polypeptide chain during translation. Each tRNA has an anticodon that base-pairs with specific codons on mRNA and an amino acid attachment site. Option A (mRNA) carries the genetic information from DNA to the ribosome. Option B (rRNA) is a structural component of ribosomes. Option D (snRNA) is involved in mRNA processing, not protein synthesis.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: tRNA and Translation",
+        "url": "https://www.khanacademy.org/science/biology/gene-expression-central-dogma/translation-polypeptides",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:50:00.000Z"
+  },
+  {
+    "id": "cell_bio_115",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying bacterial conjugation observed that F+ bacteria can transfer genetic material to F- bacteria through direct cell-cell contact. The F+ cells possess an F plasmid that encodes the machinery for pilus formation and DNA transfer. During conjugation, the F+ cell extends a pilus that contacts the F- cell and retracts, bringing the cells together. The F plasmid then undergoes rolling circle replication, and the newly synthesized single strand is transferred through the conjugation bridge to the recipient cell. After transfer, both cells synthesize complementary strands, resulting in two F+ cells.",
+    "question": "Based on this conjugation mechanism, what is the primary outcome of bacterial conjugation?",
+    "options": {
+      "A": "Production of genetically identical daughter cells through binary fission",
+      "B": "Horizontal gene transfer resulting in increased genetic diversity",
+      "C": "Formation of bacterial spores for survival under stress conditions",
+      "D": "Direct fusion of two bacterial cells to form a single larger cell"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Bacterial conjugation represents horizontal gene transfer where genetic material (the F plasmid) is transferred from one bacterium to another, increasing genetic diversity in the bacterial population. The F- recipient gains new genetic material and becomes F+. Option A describes binary fission, not conjugation. Option C describes sporulation, which is unrelated to conjugation. Option D is incorrect because the cells remain separate - they don't fuse permanently.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Bacterial Conjugation",
+        "url": "https://www.biointeractive.org/classroom-resources/bacterial-conjugation",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T03:50:00.000Z"
+  },
+  {
+    "id": "cell_bio_116",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "A researcher observes that cells treated with brefeldin A, which disrupts the Golgi apparatus, show defects in protein glycosylation. This observation best demonstrates that the Golgi apparatus is primarily responsible for:",
+    "options": {
+      "A": "Initial protein synthesis and folding",
+      "B": "Post-translational modification of proteins",
+      "C": "Protein degradation and recycling",
+      "D": "Protein import into the nucleus"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The observation that Golgi disruption leads to defects in protein glycosylation directly demonstrates the Golgi's role in post-translational modification. The Golgi apparatus modifies proteins received from the ER through various processes including glycosylation, phosphorylation, and proteolytic processing. Option A is incorrect because initial protein synthesis occurs at ribosomes and folding begins in the ER. Option C describes lysosomal function. Option D describes nuclear import mechanisms.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Golgi Apparatus",
+        "url": "https://www.nature.com/scitable/topicpage/the-golgi-apparatus-14120228/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T03:50:00.000Z"
+  },
+  {
+    "id": "cell_bio_117",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists studying the regulation of gene expression discovered that enhancer sequences can function over long distances to increase transcription of target genes. These regulatory elements are bound by sequence-specific transcription factors and can be located thousands of base pairs away from the genes they regulate. The researchers found that enhancers work through DNA looping, where the enhancer region physically contacts the promoter region through the formation of chromatin loops stabilized by architectural proteins like CTCF and cohesin. This three-dimensional chromatin organization allows enhancers to deliver activating signals directly to promoters despite linear genomic distance.",
+    "question": "Based on this mechanism, how do distant enhancers overcome the spatial challenge of regulating remote promoters?",
+    "options": {
+      "A": "Enhancers duplicate themselves near target promoters",
+      "B": "Transcription factors slide along DNA from enhancer to promoter",
+      "C": "DNA looping brings enhancers into physical proximity with target promoters",
+      "D": "Enhancers produce diffusible RNA molecules that travel to promoters"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The passage explicitly states that enhancers work 'through DNA looping, where the enhancer region physically contacts the promoter region through the formation of chromatin loops.' This three-dimensional chromatin organization allows direct contact between distant regulatory elements. Option A is incorrect because enhancers don't duplicate themselves. Option B is wrong because transcription factors don't slide along DNA over such long distances. Option D is not supported by the mechanism described in the passage.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Chromatin Loops and Gene Regulation",
+        "url": "https://www.nature.com/articles/nrg2640",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:50:00.000Z"
+  },
+  {
+    "id": "cell_bio_118",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "During cellular respiration, where does glycolysis occur?",
+    "options": {
+      "A": "Mitochondrial matrix",
+      "B": "Cytoplasm",
+      "C": "Nucleus",
+      "D": "Endoplasmic reticulum"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Glycolysis occurs in the cytoplasm of both prokaryotic and eukaryotic cells. This metabolic pathway breaks down glucose into pyruvate and generates ATP and NADH. Option A (mitochondrial matrix) is where the citric acid cycle occurs. Option C (nucleus) is not involved in glycolysis. Option D (ER) is involved in protein and lipid synthesis, not glycolysis.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Glycolysis",
+        "url": "https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation/glycolysis",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:50:00.000Z"
+  },
+  {
+    "id": "cell_bio_119",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying cellular differentiation found that master transcription factors can reprogram cell identity by activating entire gene regulatory networks. These factors, such as MyoD for muscle differentiation or GATA1 for erythroid differentiation, bind to specific DNA sequences and recruit chromatin remodeling complexes and other transcriptional machinery. The researchers observed that ectopic expression of these master regulators in different cell types can force transdifferentiation, converting one differentiated cell type into another. This process involves both activation of lineage-specific genes and repression of genes associated with the original cell identity.",
+    "question": "Based on this mechanism, what is the primary function of master transcription factors in cellular differentiation?",
+    "options": {
+      "A": "They directly synthesize the proteins needed for cell type-specific functions",
+      "B": "They coordinate the expression of gene networks that define cell identity",
+      "C": "They prevent all gene expression except for essential housekeeping genes",
+      "D": "They only function during embryonic development and are inactive in adult cells"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes master transcription factors as activating 'entire gene regulatory networks' and coordinating both 'activation of lineage-specific genes and repression of genes associated with the original cell identity.' This demonstrates their role in coordinating gene expression programs that define cell identity. Option A is incorrect because transcription factors regulate gene expression, they don't directly synthesize proteins. Option C is wrong because these factors activate, not repress, cell type-specific genes. Option D is incorrect because the passage shows they can function in adult cells through transdifferentiation.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Master Transcription Factors",
+        "url": "https://www.nature.com/articles/nrg2618",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:50:00.000Z"
+  },
+  {
+    "id": "cell_bio_120",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which cellular process is primarily defective in cells lacking functional autophagy machinery?",
+    "options": {
+      "A": "DNA replication and repair",
+      "B": "Clearance of damaged organelles and protein aggregates",
+      "C": "mRNA translation at ribosomes",
+      "D": "Cell-cell adhesion and communication"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Autophagy is the cellular process responsible for degrading and recycling damaged organelles, misfolded protein aggregates, and other cellular components. Cells lacking functional autophagy machinery accumulate these damaged components, leading to cellular dysfunction and increased susceptibility to stress. Options A, C, and D describe important cellular processes but are not the primary functions of autophagy machinery.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Autophagy",
+        "url": "https://www.nature.com/articles/nrm1692",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:50:00.000Z"
+  }
+]

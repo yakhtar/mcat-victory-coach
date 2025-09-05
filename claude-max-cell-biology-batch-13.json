@@ -1,0 +1,237 @@
+[
+  {
+    "id": "cell_bio_121",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying protein folding in the endoplasmic reticulum discovered that molecular chaperones play crucial roles in ensuring proper protein conformation. BiP (Binding immunoglobulin Protein), a major ER chaperone, uses ATP hydrolysis to assist protein folding and prevent aggregation. When BiP binds to exposed hydrophobic regions of unfolded proteins, it prevents inappropriate intermolecular interactions. The researchers found that BiP works in conjunction with other ER chaperones like calnexin and calreticulin, which specifically assist glycoprotein folding through recognition of N-linked oligosaccharides. Properly folded proteins are then transported to the Golgi, while misfolded proteins are retained and may be targeted for degradation.",
+    "question": "Based on this protein folding system, what is the primary mechanism by which BiP prevents protein aggregation?",
+    "options": {
+      "A": "BiP directly degrades misfolded proteins to prevent aggregation",
+      "B": "BiP binds to hydrophobic regions to shield them from inappropriate interactions",
+      "C": "BiP transports proteins immediately to the Golgi to avoid aggregation",
+      "D": "BiP adds carbohydrate modifications to stabilize protein structure"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'BiP binds to exposed hydrophobic regions of unfolded proteins' and that this 'prevents inappropriate intermolecular interactions.' By shielding hydrophobic regions that would otherwise interact with other proteins, BiP prevents aggregation while allowing proper folding. Option A is incorrect because BiP assists folding rather than degrading proteins. Option C is wrong because transport occurs only after proper folding. Option D describes the function of other chaperones, not BiP.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: ER Chaperones",
+        "url": "https://www.nature.com/articles/nrm1492",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:55:00.000Z"
+  },
+  {
+    "id": "cell_bio_122",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "A cell biologist observes that treatment with taxol, which stabilizes microtubules, leads to cell cycle arrest. This observation suggests that normal cell cycle progression requires:",
+    "options": {
+      "A": "Continuous microtubule polymerization throughout all phases",
+      "B": "Dynamic instability of microtubules for proper spindle function",
+      "C": "Complete absence of microtubules during interphase",
+      "D": "Microtubule interaction with actin filaments only"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Taxol prevents microtubule depolymerization, eliminating their dynamic instability. The observation that this leads to cell cycle arrest indicates that dynamic microtubules are essential for normal cell division, particularly for proper spindle function during mitosis where microtubules must be able to grow and shrink to capture and segregate chromosomes. Option A is incorrect because continuous polymerization without dynamics would be problematic. Option C is wrong because cells need microtubules during interphase for various functions. Option D is not specifically related to the cell cycle arrest observed.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Microtubule Dynamics",
+        "url": "https://www.biointeractive.org/classroom-resources/microtubule-dynamics",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T03:55:00.000Z"
+  },
+  {
+    "id": "cell_bio_123",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating transcriptional memory discovered that some genes can 'remember' previous activation states through epigenetic mechanisms that persist even after the original stimulus is removed. This memory involves the establishment of chromatin domains marked by specific histone modifications, such as H3K4me3 at promoters and H3K36me3 in gene bodies of previously active genes. Additionally, transcriptional memory can involve the formation of transcription factories - nuclear compartments where RNA polymerase II and associated factors are concentrated. The researchers found that genes with transcriptional memory show faster reactivation kinetics when re-exposed to the same stimulus, providing cells with a form of molecular memory that can influence future responses.",
+    "question": "Based on this mechanism, what is the primary adaptive advantage of transcriptional memory?",
+    "options": {
+      "A": "It permanently locks genes in an active state to prevent silencing",
+      "B": "It enables faster transcriptional responses to recurring environmental stimuli",
+      "C": "It prevents any future changes in gene expression patterns",
+      "D": "It eliminates the need for transcription factors in gene regulation"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'genes with transcriptional memory show faster reactivation kinetics when re-exposed to the same stimulus,' indicating that the primary advantage is accelerated response to recurring stimuli. This molecular memory allows cells to respond more efficiently to environmental conditions they have encountered before. Option A is incorrect because transcriptional memory doesn't permanently activate genes. Option C is wrong because the system still allows for regulation and changes. Option D is incorrect because transcription factors are still needed for gene regulation.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Transcriptional Memory",
+        "url": "https://www.nature.com/articles/nrg3748",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:55:00.000Z"
+  },
+  {
+    "id": "cell_bio_124",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which cellular structure is responsible for maintaining cell shape and providing mechanical support?",
+    "options": {
+      "A": "Endoplasmic reticulum",
+      "B": "Cytoskeleton",
+      "C": "Golgi apparatus",
+      "D": "Ribosomes"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The cytoskeleton, composed of actin filaments, microtubules, and intermediate filaments, provides structural support and maintains cell shape. It also facilitates organelle movement and cell motility. Option A (ER) is involved in protein and lipid synthesis. Option C (Golgi) processes and packages proteins. Option D (ribosomes) synthesize proteins but don't provide structural support.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Cytoskeleton",
+        "url": "https://www.khanacademy.org/science/biology/structure-of-a-cell/cytoskeleton-junctions",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:55:00.000Z"
+  },
+  {
+    "id": "cell_bio_125",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying vesicle trafficking discovered that coat proteins play essential roles in vesicle formation and cargo selection. COPII coats facilitate vesicle formation from the ER to the Golgi, while COPI coats mediate retrograde transport from Golgi to ER and intra-Golgi transport. Clathrin coats are involved in endocytosis and transport from the trans-Golgi network. Each coat protein complex recognizes specific signal sequences on cargo proteins, ensuring that the right proteins are packaged into the appropriate vesicles. After vesicle formation, coat proteins are typically removed before membrane fusion occurs.",
+    "question": "Based on this trafficking system, what would be the most likely consequence of a defect in COPII coat proteins?",
+    "options": {
+      "A": "Impaired endocytosis at the plasma membrane",
+      "B": "Defective protein transport from ER to Golgi",
+      "C": "Enhanced retrograde transport from Golgi to ER",
+      "D": "Increased lysosomal protein degradation"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'COPII coats facilitate vesicle formation from the ER to the Golgi,' so defects in COPII would impair this anterograde transport pathway. Option A is incorrect because endocytosis involves clathrin, not COPII. Option C is wrong because retrograde transport uses COPI, not COPII. Option D is unrelated to COPII function.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Vesicle Transport",
+        "url": "https://www.nature.com/scitable/topicpage/vesicle-transport-14120504/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T03:55:00.000Z"
+  },
+  {
+    "id": "cell_bio_126",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which process is primarily responsible for generating genetic diversity during meiosis?",
+    "options": {
+      "A": "DNA replication during S phase",
+      "B": "Crossing over between homologous chromosomes",
+      "C": "Sister chromatid cohesion",
+      "D": "Spindle checkpoint activation"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Crossing over (recombination) between homologous chromosomes during prophase I of meiosis creates new combinations of alleles, generating genetic diversity in gametes. This process, combined with independent assortment, produces genetically unique offspring. Option A (DNA replication) produces identical copies. Option C (cohesion) holds chromatids together but doesn't create diversity. Option D (spindle checkpoint) ensures proper chromosome segregation but doesn't generate diversity.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Meiosis and Genetic Diversity",
+        "url": "https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation/meiosis",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:55:00.000Z"
+  },
+  {
+    "id": "cell_bio_127",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying cellular stress adaptation found that cells can develop tolerance to lethal stresses through a process called hormesis, where low-level stress exposure enhances resistance to subsequent higher stress levels. This adaptive response involves the activation of stress response pathways, including heat shock proteins, antioxidant enzymes, and DNA repair systems. The scientists observed that hormetic responses are mediated by transcription factors like Nrf2 (for oxidative stress) and HSF1 (for proteotoxic stress), which upregulate protective gene expression programs. Interestingly, hormesis exhibits a biphasic dose-response relationship where low doses are beneficial but high doses remain harmful.",
+    "question": "Based on this stress adaptation mechanism, what characterizes the hormetic response?",
+    "options": {
+      "A": "Linear dose-response where more stress always provides greater protection",
+      "B": "Biphasic response where low-level stress enhances resistance to subsequent high stress",
+      "C": "Complete elimination of cellular stress response pathways",
+      "D": "Immediate cell death upon any stress exposure"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explicitly states that 'hormesis exhibits a biphasic dose-response relationship where low doses are beneficial but high doses remain harmful' and that 'low-level stress exposure enhances resistance to subsequent higher stress levels.' This defines the characteristic biphasic nature of hormesis. Option A is incorrect because the relationship is biphasic, not linear. Option C is wrong because hormesis involves activation, not elimination, of stress pathways. Option D contradicts the protective nature of hormetic responses.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Cellular Hormesis",
+        "url": "https://www.nature.com/articles/nrm2670",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:55:00.000Z"
+  },
+  {
+    "id": "cell_bio_128",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is the primary function of the cell membrane?",
+    "options": {
+      "A": "DNA storage and replication",
+      "B": "Protein synthesis",
+      "C": "Selective permeability and cellular boundary maintenance",
+      "D": "Energy production through photosynthesis"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The cell membrane (plasma membrane) serves as the cellular boundary and controls what substances enter and leave the cell through selective permeability. It maintains cellular integrity while allowing necessary exchange with the environment. Option A (DNA storage) occurs in the nucleus. Option B (protein synthesis) occurs at ribosomes. Option D (photosynthesis) occurs in chloroplasts and is not universal to all cells.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Cell Membrane",
+        "url": "https://www.khanacademy.org/science/biology/structure-of-a-cell/plasma-membrane",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:55:00.000Z"
+  },
+  {
+    "id": "cell_bio_129",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying cell surface receptors discovered that many signaling pathways exhibit signal amplification, where binding of a single ligand molecule can trigger thousands of downstream responses. For example, when epinephrine binds to β-adrenergic receptors, it activates a G-protein coupled cascade involving adenylyl cyclase activation, cAMP production, and protein kinase A (PKA) activation. Each activated adenylyl cyclase can produce hundreds of cAMP molecules, and each activated PKA can phosphorylate numerous target proteins. This amplification ensures that even low concentrations of hormones can produce robust cellular responses.",
+    "question": "What is the primary advantage of signal amplification in cellular communication?",
+    "options": {
+      "A": "It prevents any cellular response to hormonal signals",
+      "B": "It allows weak signals to generate strong, coordinated cellular responses",
+      "C": "It ensures that only one protein is activated per ligand molecule",
+      "D": "It completely blocks signal termination mechanisms"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that signal amplification allows 'even low concentrations of hormones to produce robust cellular responses' through cascading effects where 'binding of a single ligand molecule can trigger thousands of downstream responses.' This enables cells to respond strongly to weak signals. Option A is incorrect because amplification enhances, not prevents, responses. Option C contradicts the amplification concept. Option D is unrelated to the advantages of amplification.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Signal Amplification",
+        "url": "https://www.biointeractive.org/classroom-resources/signal-amplification",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T03:55:00.000Z"
+  },
+  {
+    "id": "cell_bio_130",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "A researcher studying cell division observes that cells treated with an aurora kinase inhibitor show defects in chromosome condensation and spindle formation. This suggests that aurora kinases are primarily involved in:",
+    "options": {
+      "A": "DNA replication during S phase",
+      "B": "Cell cycle checkpoints and mitotic processes",
+      "C": "Transcription initiation in interphase",
+      "D": "Apoptosis execution pathways"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Aurora kinases are key regulators of mitosis, involved in chromosome condensation, spindle assembly, and other mitotic processes. The observation that inhibiting these kinases affects chromosome condensation and spindle formation directly demonstrates their role in cell cycle regulation and mitotic progression. Option A is incorrect because these defects are mitotic, not S-phase related. Option C is wrong because the observed defects are in mitosis, not transcription. Option D is incorrect because the defects described relate to mitosis, not apoptosis.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Aurora Kinases",
+        "url": "https://www.nature.com/articles/nrm1831",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:55:00.000Z"
+  }
+]

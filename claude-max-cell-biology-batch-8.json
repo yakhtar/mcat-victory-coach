@@ -1,0 +1,237 @@
+[
+  {
+    "id": "cell_bio_071",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying protein quality control discovered that misfolded proteins in the endoplasmic reticulum can trigger the unfolded protein response (UPR). The UPR involves three main sensors: IRE1, PERK, and ATF6. When unfolded proteins accumulate, these sensors become activated and initiate signaling pathways that reduce protein synthesis, enhance ER folding capacity by upregulating chaperones like BiP, and activate ER-associated degradation (ERAD) to remove terminally misfolded proteins. If the stress cannot be resolved, the UPR can ultimately trigger apoptosis.",
+    "question": "Based on the UPR mechanism described, which cellular response would be most beneficial during the initial stages of ER stress?",
+    "options": {
+      "A": "Immediate activation of apoptosis to prevent protein aggregation",
+      "B": "Increased translation of all proteins to overwhelm the folding machinery",
+      "C": "Upregulation of ER chaperones and reduction of new protein synthesis",
+      "D": "Complete shutdown of all cellular metabolic processes"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. During initial ER stress, the most beneficial response is to increase the ER's protein-folding capacity (by upregulating chaperones like BiP) while simultaneously reducing the load of new proteins entering the ER (by decreasing translation). This gives the cell time to resolve the protein folding problems. Option A is premature - apoptosis is a last resort when stress cannot be resolved. Option B would worsen the situation by adding more proteins to an already overwhelmed system. Option D is too extreme and would prevent necessary cellular functions.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Unfolded Protein Response",
+        "url": "https://www.nature.com/articles/nrm2199",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:30:00.000Z"
+  },
+  {
+    "id": "cell_bio_072",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "A researcher observes that cells treated with latrunculin A, which prevents actin polymerization, show defects in cytokinesis but can still complete mitosis. What does this observation suggest about the role of actin in cell division?",
+    "options": {
+      "A": "Actin is essential for chromosome segregation during anaphase",
+      "B": "Actin is required for contractile ring formation during cytokinesis",
+      "C": "Actin is necessary for spindle pole organization during metaphase",
+      "D": "Actin prevents premature sister chromatid separation"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The observation that mitosis can complete normally but cytokinesis is defective indicates that actin is specifically required for cytokinesis, not for the earlier mitotic processes. During cytokinesis, actin and myosin form the contractile ring that pinches the cell in two. Latrunculin A prevents actin polymerization, disrupting contractile ring formation and thus cytokinesis. Options A, C, and D all relate to mitotic processes that were observed to proceed normally in the experiment, ruling out essential roles for actin in those processes.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Cytokinesis",
+        "url": "https://www.biointeractive.org/classroom-resources/cytokinesis-and-contractile-ring",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T03:30:00.000Z"
+  },
+  {
+    "id": "cell_bio_073",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists studying epigenetic regulation discovered that DNA methylation at CpG sites is maintained during DNA replication by the enzyme DNMT1 (DNA methyltransferase 1). DNMT1 recognizes hemimethylated CpG sites created after replication and adds methyl groups to the unmethylated cytosines on the newly synthesized strand. This process requires the protein PCNA (proliferating cell nuclear antigen) and UHRF1 (ubiquitin-like PHD and RING finger domain 1), which helps recruit DNMT1 to replication foci. When DNMT1 activity is inhibited, cells show progressive loss of DNA methylation with each cell division, leading to reactivation of silenced genes.",
+    "question": "Based on this methylation maintenance system, what would be the most likely long-term consequence of UHRF1 deficiency in dividing cells?",
+    "options": {
+      "A": "Immediate global hypermethylation of all CpG sites",
+      "B": "Progressive demethylation and gene reactivation over multiple cell divisions",
+      "C": "Enhanced de novo DNA methylation by DNMT3A and DNMT3B",
+      "D": "Complete loss of all epigenetic modifications within one cell cycle"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. UHRF1 is essential for recruiting DNMT1 to replication foci for maintenance methylation. Without UHRF1, DNMT1 cannot efficiently methylate newly synthesized DNA strands, leading to progressive loss of methylation with each cell division (passive demethylation). This would result in gradual reactivation of silenced genes over multiple generations. Option A is incorrect because UHRF1 deficiency would reduce, not increase, methylation. Option C is wrong because UHRF1 specifically affects maintenance methylation, not de novo methylation. Option D is incorrect because the loss would be gradual over multiple divisions, not immediate.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: DNA Methylation",
+        "url": "https://www.nature.com/articles/nrg2732",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:30:00.000Z"
+  },
+  {
+    "id": "cell_bio_074",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which cellular organelle is primarily responsible for detoxifying harmful substances and producing hydrogen peroxide as a byproduct?",
+    "options": {
+      "A": "Mitochondrion",
+      "B": "Lysosome",
+      "C": "Peroxisome",
+      "D": "Ribosome"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Peroxisomes contain enzymes that detoxify various harmful substances, including alcohol and other toxins. These reactions often produce hydrogen peroxide (H2O2) as a byproduct, which is then broken down by the enzyme catalase also found in peroxisomes. Option A (mitochondrion) is primarily involved in energy production. Option B (lysosome) digests cellular waste but doesn't typically produce H2O2. Option D (ribosome) synthesizes proteins.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Peroxisomes",
+        "url": "https://www.khanacademy.org/science/biology/structure-of-a-cell/tour-of-organelles",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:30:00.000Z"
+  },
+  {
+    "id": "cell_bio_075",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers investigating cellular aging found that senescent cells exhibit several characteristic features: they stop dividing despite receiving growth signals, show increased expression of cyclin-dependent kinase inhibitors like p21 and p16, and secrete inflammatory factors in what is called the senescence-associated secretory phenotype (SASP). The team discovered that senescence can be triggered by various stresses including DNA damage, telomere shortening, and oncogene activation. While senescence acts as a tumor suppressor mechanism by preventing potentially cancerous cells from dividing, the accumulation of senescent cells during aging may contribute to tissue dysfunction and inflammation.",
+    "question": "Based on the described features, cellular senescence can best be characterized as:",
+    "options": {
+      "A": "A temporary cell cycle arrest that is easily reversible",
+      "B": "A permanent growth arrest with continued metabolic activity and secretion",
+      "C": "A form of programmed cell death similar to apoptosis",
+      "D": "An enhanced proliferative state triggered by DNA damage"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Cellular senescence is characterized by permanent growth arrest (cells stop dividing and don't respond to growth signals) but the cells remain metabolically active and continue secreting factors (SASP). This is distinct from temporary cell cycle arrests which can be reversed. Option A is incorrect because senescence involves permanent, not temporary, arrest. Option C is wrong because senescent cells remain alive and active, unlike apoptotic cells which die. Option D is the opposite of what occurs - senescence involves growth arrest, not enhanced proliferation.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Cellular Senescence",
+        "url": "https://www.nature.com/articles/nrg.2017.116",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:30:00.000Z"
+  },
+  {
+    "id": "cell_bio_076",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "During mRNA processing in eukaryotes, which modification occurs at the 5' end of the transcript?",
+    "options": {
+      "A": "Addition of a poly-A tail",
+      "B": "Splicing out of introns",
+      "C": "Addition of a 7-methylguanosine cap",
+      "D": "Cleavage by ribonuclease"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The 5' cap consists of a 7-methylguanosine residue linked to the first transcribed nucleotide via an unusual 5'-5' triphosphate linkage. This cap is essential for mRNA stability, nuclear export, and translation initiation. Option A (poly-A tail) is added to the 3' end, not the 5' end. Option B (splicing) removes introns from the interior of the transcript. Option D describes degradation, not a processing modification.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: mRNA Processing",
+        "url": "https://www.khanacademy.org/science/biology/gene-expression-central-dogma/transcription-of-dna-into-rna",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:30:00.000Z"
+  },
+  {
+    "id": "cell_bio_077",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists studying mechanotransduction discovered that cells can sense and respond to mechanical forces through various mechanisms. Integrin-mediated focal adhesions serve as key mechanosensory structures that connect the extracellular matrix to the actin cytoskeleton. When mechanical tension is applied, focal adhesions undergo maturation, recruiting additional proteins like vinculin, talin, and α-actinin that strengthen the connection. The researchers found that this mechanosensitive recruitment follows a catch-bond mechanism, where increased force actually stabilizes rather than disrupts the protein interactions, allowing cells to adapt to mechanical stress.",
+    "question": "Based on the catch-bond mechanism described, how do focal adhesions respond to increased mechanical tension?",
+    "options": {
+      "A": "They immediately disassemble to prevent cellular damage",
+      "B": "They recruit additional proteins and become more stable under force",
+      "C": "They reduce their connection to the cytoskeleton to minimize stress",
+      "D": "They trigger immediate cell detachment from the substrate"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes a catch-bond mechanism where increased mechanical force actually stabilizes protein interactions rather than disrupting them. This leads to focal adhesion maturation through recruitment of additional proteins (vinculin, talin, α-actinin), making the adhesions stronger and more stable under force. This is the opposite of normal intuition where increased force would destabilize interactions. Options A, C, and D all describe weakening or disruption of adhesions, which is contrary to the catch-bond mechanism described.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Mechanotransduction",
+        "url": "https://www.nature.com/articles/nrm2592",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:30:00.000Z"
+  },
+  {
+    "id": "cell_bio_078",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is the primary function of ribosomes in cells?",
+    "options": {
+      "A": "DNA replication",
+      "B": "Protein synthesis",
+      "C": "Lipid metabolism",
+      "D": "Carbohydrate storage"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Ribosomes are the cellular machinery responsible for protein synthesis (translation). They read mRNA sequences and assemble amino acids into polypeptide chains according to the genetic code. This occurs both on free ribosomes in the cytoplasm and on ribosomes bound to the rough endoplasmic reticulum. Option A (DNA replication) occurs in the nucleus. Option C (lipid metabolism) involves various enzymes and organelles. Option D (carbohydrate storage) is not a primary cellular function of ribosomes.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Ribosomes and Translation",
+        "url": "https://www.khanacademy.org/science/biology/gene-expression-central-dogma/translation-polypeptides",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:30:00.000Z"
+  },
+  {
+    "id": "cell_bio_079",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying membrane fusion processes observed that SNARE (Soluble NSF Attachment Protein REceptor) proteins are essential for vesicle fusion with target membranes. These proteins form trans-SNARE complexes that bring membranes into close proximity. The researchers found that v-SNAREs (vesicle SNAREs) on transport vesicles interact with t-SNAREs (target SNAREs) on the destination membrane. This interaction forms a four-helix bundle that provides the energy needed to overcome the electrostatic repulsion between membranes and drive membrane fusion. After fusion, NSF (N-ethylmaleimide-Sensitive Factor) and SNAP proteins disassemble the SNARE complex for recycling.",
+    "question": "Based on this mechanism, what would be the most likely consequence of NSF inhibition?",
+    "options": {
+      "A": "Enhanced membrane fusion throughout the cell",
+      "B": "Accumulation of stable SNARE complexes and reduced vesicle fusion",
+      "C": "Immediate disassembly of all cellular membranes",
+      "D": "Increased v-SNARE and t-SNARE expression"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. NSF is responsible for disassembling SNARE complexes after fusion, which is necessary to recycle the SNARE proteins for subsequent fusion events. Without NSF activity, used SNARE complexes would accumulate and not be available for new fusion reactions, leading to reduced overall membrane fusion capacity. Option A is incorrect because NSF inhibition would reduce, not enhance, fusion. Option C is wrong because NSF affects SNARE recycling, not membrane stability. Option D is incorrect because NSF affects protein recycling, not expression levels.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Membrane Fusion",
+        "url": "https://www.biointeractive.org/classroom-resources/snare-proteins-membrane-fusion",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T03:30:00.000Z"
+  },
+  {
+    "id": "cell_bio_080",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "A mutation affecting the enzyme telomerase reverse transcriptase (TERT) would most likely result in:",
+    "options": {
+      "A": "Immediate cell death in all cell types",
+      "B": "Accelerated cellular aging and reduced replicative lifespan",
+      "C": "Enhanced DNA repair in response to genotoxic stress",
+      "D": "Increased chromosomal stability during cell division"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. TERT is the catalytic subunit of telomerase, which adds telomeric repeats to chromosome ends. Without functional TERT, telomeres shorten with each cell division, eventually leading to cellular senescence and reduced replicative lifespan. This particularly affects highly proliferative cells. Option A is incorrect because cells can survive initially but will eventually senesce. Option C is wrong because telomerase affects telomeres, not general DNA repair. Option D is incorrect because shorter telomeres actually increase chromosomal instability.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Telomerase and Aging",
+        "url": "https://www.nature.com/scitable/topicpage/telomeres-and-telomerase-14121596/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T03:30:00.000Z"
+  }
+]

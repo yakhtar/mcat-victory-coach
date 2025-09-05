@@ -1,0 +1,237 @@
+[
+  {
+    "id": "evolution_001",
+    "topic": "evolution",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying evolutionary mechanisms discovered that natural selection acts on phenotypes, which are the observable traits resulting from the interaction between genotype and environment. They observed that in a population of beetles, individuals with darker coloration had higher survival rates in polluted environments due to better camouflage against predators. Over several generations, the frequency of alleles coding for darker pigmentation increased in the population. This process, where environmental pressures favor certain traits, demonstrates how natural selection drives evolutionary change at the molecular level through differential reproduction of individuals with advantageous genotypes.",
+    "question": "Based on this example, what is the relationship between natural selection and genetic change in populations?",
+    "options": {
+      "A": "Natural selection directly creates new mutations to solve environmental problems",
+      "B": "Natural selection acts on phenotypes but changes allele frequencies in the gene pool",
+      "C": "Natural selection only affects individual organisms, not population genetics",
+      "D": "Natural selection eliminates all genetic variation from populations"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Natural selection acts on phenotypes (observable traits), but the evolutionary consequence is changes in allele frequencies within the population's gene pool. The passage shows that darker beetles survived better, leading to increased frequency of dark pigmentation alleles over generations. Option A is incorrect - selection doesn't create mutations. Option C is wrong because population-level genetic changes result from selection on individuals. Option D contradicts the preservation of advantageous variants.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Natural Selection",
+        "url": "https://www.khanacademy.org/science/biology/evolution-and-natural-selection/darwin-evolution-natural-selection",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:40:00.000Z"
+  },
+  {
+    "id": "evolution_002",
+    "topic": "evolution",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which evolutionary mechanism is most likely responsible for the loss of sight in cave-dwelling animals?",
+    "options": {
+      "A": "Directional selection favoring blindness",
+      "B": "Genetic drift and relaxed selection on vision",
+      "C": "Gene flow from surface populations",
+      "D": "Balancing selection maintaining multiple eye phenotypes"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. In cave environments, vision provides no advantage (relaxed selection), so mutations that impair eye development are not selected against. Over time, genetic drift and the accumulation of neutral mutations in vision-related genes lead to eye loss. Option A is incorrect - there's no selective advantage to blindness per se. Option C would introduce functional vision genes. Option D would maintain variation, not lead to consistent eye loss.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Evolutionary Mechanisms",
+        "url": "https://www.nature.com/scitable/topicpage/mechanisms-of-evolution-607/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T04:40:00.000Z"
+  },
+  {
+    "id": "evolution_003",
+    "topic": "evolution",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists studying speciation investigated how reproductive isolation can arise between populations. They found that geographic separation (allopatric speciation) often leads to genetic divergence through different selective pressures and genetic drift. However, they also discovered that speciation can occur without geographic barriers (sympatric speciation) through mechanisms like chromosomal rearrangements or polyploidy in plants. The researchers observed that reproductive isolation can evolve through pre-zygotic mechanisms (preventing mating or fertilization) or post-zygotic mechanisms (reducing hybrid fitness). They concluded that speciation is a gradual process where populations become increasingly reproductively isolated until gene flow is effectively eliminated.",
+    "question": "Based on this speciation research, what is the key criterion that defines when two populations have become separate species?",
+    "options": {
+      "A": "When they live in different geographic locations",
+      "B": "When they have different physical appearances",
+      "C": "When they are reproductively isolated and no longer exchange genes",
+      "D": "When they have different ecological niches"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The passage emphasizes that speciation occurs when populations become 'reproductively isolated until gene flow is effectively eliminated.' The biological species concept defines species as groups of actually or potentially interbreeding populations that are reproductively isolated from other such groups. Options A, B, and D can contribute to speciation but are not defining criteria - many species can coexist geographically, look similar, or share niches while remaining reproductively isolated.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Speciation",
+        "url": "https://www.biointeractive.org/classroom-resources/speciation-reproductive-isolation",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:40:00.000Z"
+  },
+  {
+    "id": "evolution_004",
+    "topic": "evolution",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which of the following provides the strongest evidence for common ancestry between different species?",
+    "options": {
+      "A": "Similar body size",
+      "B": "Homologous anatomical structures",
+      "C": "Living in the same habitat",
+      "D": "Similar diet preferences"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Homologous structures are anatomical features that share common evolutionary origin, regardless of their current function. For example, the bone structure of human hands, bat wings, and whale flippers are homologous, indicating common ancestry. Options A, C, and D can result from convergent evolution or similar environmental pressures rather than common ancestry.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Evidence for Evolution",
+        "url": "https://www.khanacademy.org/science/biology/evolution-and-natural-selection/evidence-of-evolution",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:40:00.000Z"
+  },
+  {
+    "id": "evolution_005",
+    "topic": "evolution",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying antibiotic resistance examined how bacterial populations evolve resistance to antimicrobial drugs. They found that when bacteria are exposed to sub-lethal concentrations of antibiotics, mutations that confer slight resistance advantages become more common in the population through natural selection. Over time, multiple resistance mutations can accumulate, leading to highly resistant strains. The researchers observed that this process is accelerated by horizontal gene transfer, where resistance genes spread between bacterial species through conjugation, transformation, and transduction. They concluded that antibiotic resistance evolution demonstrates natural selection operating on human timescales.",
+    "question": "Based on this bacterial evolution study, what accelerates the spread of antibiotic resistance beyond what would occur through mutation and selection alone?",
+    "options": {
+      "A": "Increased mutation rates in the presence of antibiotics",
+      "B": "Horizontal gene transfer allowing resistance genes to spread between species",
+      "C": "Decreased bacterial reproduction rates",
+      "D": "Elimination of all susceptible bacteria immediately"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that horizontal gene transfer 'accelerates' resistance evolution by allowing 'resistance genes [to] spread between bacterial species through conjugation, transformation, and transduction.' This mechanism allows rapid acquisition of resistance without waiting for mutations to arise and be selected. Option A may occur but isn't the primary accelerating mechanism mentioned. Option C would slow evolution. Option D is too extreme and doesn't explain the acceleration.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Antibiotic Resistance Evolution",
+        "url": "https://www.nature.com/articles/nrmicro1614",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:40:00.000Z"
+  },
+  {
+    "id": "evolution_006",
+    "topic": "evolution",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "In a small, isolated population, which evolutionary mechanism is most likely to cause random changes in allele frequencies?",
+    "options": {
+      "A": "Natural selection",
+      "B": "Gene flow",
+      "C": "Genetic drift",
+      "D": "Mutation"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Genetic drift is the random change in allele frequencies due to sampling effects, and its impact is inversely related to population size - it has stronger effects in smaller populations. In small, isolated populations, genetic drift can overpower weak selection and cause random fluctuations in allele frequencies. Option A (selection) is non-random. Option B (gene flow) is unlikely in isolated populations. Option D (mutation) introduces new alleles but doesn't primarily change existing frequencies randomly.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Genetic Drift",
+        "url": "https://www.khanacademy.org/science/biology/evolution-and-natural-selection/population-genetics",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:40:00.000Z"
+  },
+  {
+    "id": "evolution_007",
+    "topic": "evolution",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying molecular evolution discovered that different parts of genes evolve at different rates. They found that synonymous substitutions (changes that don't alter amino acid sequence) occur more frequently than non-synonymous substitutions (changes that do alter amino acid sequence) in protein-coding genes. Additionally, they observed that functionally important regions of proteins, such as active sites, evolve more slowly than less critical regions. The researchers concluded that this pattern reflects the action of purifying selection, which eliminates deleterious mutations while allowing neutral mutations to persist. This molecular clock concept allows scientists to estimate evolutionary distances and divergence times between species.",
+    "question": "Based on this molecular evolution research, why do synonymous substitutions occur more frequently than non-synonymous substitutions?",
+    "options": {
+      "A": "Synonymous mutations are more likely to occur during DNA replication",
+      "B": "Non-synonymous mutations are more likely to be eliminated by purifying selection",
+      "C": "Synonymous substitutions provide adaptive advantages",
+      "D": "Non-synonymous substitutions always cause immediate cell death"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that purifying selection 'eliminates deleterious mutations while allowing neutral mutations to persist.' Non-synonymous substitutions are more likely to affect protein function and thus be subject to purifying selection, while synonymous substitutions are often neutral and persist. Option A suggests differential mutation rates, which isn't supported. Option C is incorrect - synonymous changes are typically neutral. Option D is too extreme.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Molecular Evolution",
+        "url": "https://www.nature.com/articles/nrg1672",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:40:00.000Z"
+  },
+  {
+    "id": "evolution_008",
+    "topic": "evolution",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is the source of the genetic variation upon which natural selection acts?",
+    "options": {
+      "A": "Environmental changes",
+      "B": "Mutations and genetic recombination",
+      "C": "Natural selection itself",
+      "D": "Geographic isolation"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Genetic variation in populations comes primarily from mutations (creating new alleles) and genetic recombination during sexual reproduction (creating new combinations of alleles). Natural selection then acts on this existing variation. Option A can influence selection but doesn't create genetic variation. Option C is backwards - selection acts on variation, not creates it. Option D can lead to speciation but doesn't generate the initial genetic variation.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Sources of Genetic Variation",
+        "url": "https://www.khanacademy.org/science/biology/evolution-and-natural-selection/population-genetics",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:40:00.000Z"
+  },
+  {
+    "id": "evolution_009",
+    "topic": "evolution",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying convergent evolution examined how unrelated species can evolve similar traits when facing similar environmental challenges. They investigated echolocation in bats and dolphins, finding that both groups independently evolved sophisticated biosonar systems despite their distant evolutionary relationship. The researchers discovered that while the underlying anatomical structures differ (bats use larynx-based calls, dolphins use specialized nasal structures), both systems achieve similar functional outcomes through high-frequency sound production and analysis. They concluded that convergent evolution demonstrates how similar selective pressures can lead to analogous solutions in different lineages.",
+    "question": "Based on this convergent evolution study, what does the independent evolution of echolocation in bats and dolphins demonstrate?",
+    "options": {
+      "A": "Bats and dolphins share a recent common ancestor that used echolocation",
+      "B": "Similar environmental pressures can lead to analogous traits in unrelated species",
+      "C": "All mammals have the genetic potential for echolocation",
+      "D": "Echolocation always evolves through identical molecular mechanisms"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes how 'unrelated species can evolve similar traits when facing similar environmental challenges' and that 'similar selective pressures can lead to analogous solutions in different lineages.' This is the definition of convergent evolution. Option A contradicts their distant relationship. Option C is too broad. Option D contradicts the finding that they use different anatomical structures.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Convergent Evolution",
+        "url": "https://www.biointeractive.org/classroom-resources/convergent-evolution",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:40:00.000Z"
+  },
+  {
+    "id": "evolution_010",
+    "topic": "evolution",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which type of selection maintains genetic diversity by favoring heterozygotes over both homozygote classes?",
+    "options": {
+      "A": "Directional selection",
+      "B": "Disruptive selection",
+      "C": "Balancing selection",
+      "D": "Stabilizing selection"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Balancing selection (specifically overdominance or heterozygote advantage) maintains genetic diversity by favoring heterozygotes over both homozygous classes. This keeps both alleles in the population at intermediate frequencies. The classic example is sickle cell anemia, where heterozygotes have malaria resistance. Options A and D reduce variation, while Option B favors extremes rather than heterozygotes specifically.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Types of Selection",
+        "url": "https://www.nature.com/scitable/topicpage/natural-selection-genetic-drift-and-gene-flow-15186648/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T04:40:00.000Z"
+  }
+]

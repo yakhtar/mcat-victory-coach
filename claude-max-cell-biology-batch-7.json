@@ -1,0 +1,237 @@
+[
+  {
+    "id": "cell_bio_061",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying bacterial resistance mechanisms discovered that some bacteria can survive antibiotic treatment by entering a dormant state called persistence. These persister cells show dramatically reduced metabolic activity, including decreased ATP synthesis, reduced protein synthesis, and minimal DNA replication. When the antibiotic is removed, persister cells can resume normal growth and division. Interestingly, persister cells are genetically identical to non-persister cells in the same population, indicating that persistence is a phenotypic rather than genetic adaptation.",
+    "question": "Based on the experimental observations, bacterial persistence can best be described as:",
+    "options": {
+      "A": "A genetic mutation that confers permanent antibiotic resistance",
+      "B": "A reversible phenotypic state that reduces cellular activity to survive stress",
+      "C": "An irreversible differentiation process leading to spore formation",
+      "D": "A mechanism that actively degrades antibiotics in the environment"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Persistence is a reversible phenotypic state where genetically identical bacteria temporarily reduce their metabolic activity to survive antibiotic stress. Key evidence includes: (1) reduced metabolic activities like ATP synthesis and protein synthesis, (2) ability to resume growth after antibiotic removal, and (3) genetic identity with non-persister cells. Option A is incorrect because persistence is phenotypic, not genetic. Option C is wrong because the state is reversible, not an irreversible differentiation. Option D is incorrect because persistence involves cellular dormancy, not active antibiotic degradation.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Bacterial Persistence",
+        "url": "https://www.nature.com/articles/nrmicro1557",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:25:00.000Z"
+  },
+  {
+    "id": "cell_bio_062",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "During eukaryotic DNA replication, the leading strand is synthesized continuously while the lagging strand is synthesized discontinuously. Which enzyme is primarily responsible for joining the Okazaki fragments on the lagging strand?",
+    "options": {
+      "A": "DNA helicase",
+      "B": "DNA polymerase α",
+      "C": "DNA ligase",
+      "D": "Topoisomerase"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. DNA ligase is the enzyme responsible for joining Okazaki fragments by forming phosphodiester bonds between the 3'-OH of one fragment and the 5'-phosphate of the adjacent fragment. This creates the continuous lagging strand from the discontinuous fragments. Option A (DNA helicase) unwinds the double helix but doesn't join fragments. Option B (DNA polymerase α) initiates Okazaki fragment synthesis but doesn't join them. Option D (topoisomerase) relieves supercoiling tension but doesn't join DNA fragments.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: DNA Replication",
+        "url": "https://www.khanacademy.org/science/biology/dna-as-the-genetic-material/dna-replication",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:25:00.000Z"
+  },
+  {
+    "id": "cell_bio_063",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating circadian clock mechanisms found that the core molecular clock consists of transcriptional feedback loops involving CLOCK, BMAL1, Period (PER), and Cryptochrome (CRY) proteins. CLOCK and BMAL1 form a heterodimer that activates transcription of Per and Cry genes. As PER and CRY proteins accumulate, they form complexes that translocate to the nucleus and inhibit their own transcription by interacting with the CLOCK:BMAL1 complex. The researchers discovered that this cycle takes approximately 24 hours due to time delays in protein synthesis, post-translational modifications, nuclear translocation, and protein degradation.",
+    "question": "What is the essential feature that makes this molecular mechanism function as a circadian clock?",
+    "options": {
+      "A": "The positive feedback between CLOCK:BMAL1 and PER:CRY complexes",
+      "B": "The negative feedback loop with built-in time delays creating ~24-hour periodicity",
+      "C": "The nuclear localization of all clock proteins throughout the cycle",
+      "D": "The constitutive expression of CLOCK and BMAL1 proteins"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The circadian clock functions through a negative feedback loop where the products (PER and CRY) inhibit their own production by the CLOCK:BMAL1 complex. The critical feature is that this negative feedback loop has built-in time delays (protein synthesis, modifications, translocation, degradation) that create the ~24-hour periodicity characteristic of circadian rhythms. Option A is incorrect because the feedback is negative, not positive. Option C is wrong because clock proteins have different subcellular localizations during the cycle. Option D is incorrect because while CLOCK and BMAL1 expression is important, the time delays in the negative feedback loop are what create the clock function.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Circadian Clocks",
+        "url": "https://www.nature.com/articles/nrm2061",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:25:00.000Z"
+  },
+  {
+    "id": "cell_bio_064",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which of the following is the primary function of the nucleolus?",
+    "options": {
+      "A": "DNA replication",
+      "B": "Ribosome assembly",
+      "C": "Protein degradation",
+      "D": "Lipid synthesis"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The nucleolus is a specialized nuclear compartment where ribosomal RNA (rRNA) is transcribed, processed, and assembled with ribosomal proteins to form ribosomal subunits. This is the primary site of ribosome biogenesis in eukaryotic cells. Option A (DNA replication) occurs throughout the nucleus, not specifically in the nucleolus. Option C (protein degradation) primarily occurs in proteasomes and lysosomes. Option D (lipid synthesis) occurs in the smooth endoplasmic reticulum.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Nucleus and Nucleolus",
+        "url": "https://www.khanacademy.org/science/biology/structure-of-a-cell/tour-of-organelles",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:25:00.000Z"
+  },
+  {
+    "id": "cell_bio_065",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying calcium signaling observed that when cells are stimulated with ATP, there is a rapid and transient increase in cytosolic calcium levels. This response involves the activation of phospholipase C, which cleaves PIP2 to generate IP3 and DAG. IP3 then binds to IP3 receptors on the endoplasmic reticulum membrane, causing calcium release from ER stores. The researchers noted that the calcium response is terminated by several mechanisms, including calcium reuptake by the ER via SERCA pumps and calcium efflux across the plasma membrane.",
+    "question": "Based on this signaling pathway, what would be the most likely effect of inhibiting SERCA pumps?",
+    "options": {
+      "A": "Complete blockade of ATP-induced calcium release",
+      "B": "Prolonged elevation of cytosolic calcium levels",
+      "C": "Enhanced IP3 production by phospholipase C",
+      "D": "Reduced sensitivity of IP3 receptors to IP3"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. SERCA (Sarcoplasmic/Endoplasmic Reticulum Calcium ATPase) pumps are responsible for removing calcium from the cytosol and storing it back in the ER. Inhibiting SERCA would impair calcium reuptake, leading to prolonged elevation of cytosolic calcium levels after ATP stimulation. Option A is incorrect because SERCA inhibition wouldn't block the initial calcium release, only the clearance. Option C is wrong because SERCA doesn't affect phospholipase C activity. Option D is incorrect because SERCA inhibition doesn't directly affect IP3 receptor sensitivity.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Calcium Signaling",
+        "url": "https://www.biointeractive.org/classroom-resources/calcium-signaling",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T03:25:00.000Z"
+  },
+  {
+    "id": "cell_bio_066",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "A researcher observes that cells lacking functional autophagy show accumulation of damaged mitochondria and increased sensitivity to oxidative stress. Which autophagy-related process is most likely impaired in these cells?",
+    "options": {
+      "A": "Macroautophagy of cytosolic proteins",
+      "B": "Mitophagy of dysfunctional mitochondria",
+      "C": "Chaperone-mediated autophagy",
+      "D": "Microautophagy of lipid droplets"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Mitophagy is the selective autophagic degradation of damaged or dysfunctional mitochondria. The observation that cells accumulate damaged mitochondria and show increased oxidative stress sensitivity specifically points to impaired mitophagy. Healthy mitochondria are crucial for cellular energy production and managing reactive oxygen species. Option A is too general and doesn't explain the mitochondrial-specific phenotype. Option C (chaperone-mediated autophagy) doesn't typically handle entire organelles. Option D focuses on lipid droplets, not mitochondria.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Mitophagy",
+        "url": "https://www.nature.com/articles/nrm3270",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:25:00.000Z"
+  },
+  {
+    "id": "cell_bio_067",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "In studying cancer cell metabolism, researchers found that many tumor cells exhibit the Warburg effect, preferentially using glycolysis for ATP production even in the presence of oxygen, when oxidative phosphorylation would be more efficient. This metabolic reprogramming is often driven by oncogenes like c-Myc and tumor suppressors like p53. The researchers observed that Warburg effect cells produce more lactate, consume more glucose, and have altered mitochondrial function. Interestingly, this metabolic shift also provides biosynthetic precursors needed for rapid cell proliferation, including nucleotides, amino acids, and lipids.",
+    "question": "Which statement best explains why the Warburg effect might provide a selective advantage to cancer cells despite being less efficient for ATP production?",
+    "options": {
+      "A": "Glycolysis produces ATP faster than oxidative phosphorylation under all conditions",
+      "B": "The Warburg effect generates biosynthetic precursors needed for rapid proliferation",
+      "C": "Lactate production directly promotes tumor growth and metastasis",
+      "D": "Glycolysis is completely independent of oxygen availability"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. While glycolysis is less efficient for ATP production per glucose molecule, the Warburg effect provides biosynthetic advantages for rapidly proliferating cancer cells. Glycolytic intermediates can be diverted into pathways that produce nucleotides (pentose phosphate pathway), amino acids (serine synthesis), and lipids (acetyl-CoA production), which are essential building blocks for cell division. Option A is incorrect because glycolysis is not always faster than oxidative phosphorylation. Option C overstates lactate's direct role. Option D is incorrect because while glycolysis doesn't require oxygen, this alone doesn't explain the selective advantage in oxygen-rich conditions.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Warburg Effect",
+        "url": "https://www.nature.com/articles/nrc2981",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:25:00.000Z"
+  },
+  {
+    "id": "cell_bio_068",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "During which phase of the cell cycle does DNA synthesis occur?",
+    "options": {
+      "A": "G1 phase",
+      "B": "S phase",
+      "C": "G2 phase",
+      "D": "M phase"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. DNA synthesis (replication) occurs during S phase (synthesis phase) of the cell cycle. During this phase, the entire genome is duplicated, resulting in sister chromatids joined at the centromere. Option A (G1 phase) is when cells grow and prepare for DNA replication. Option C (G2 phase) occurs after DNA synthesis and involves preparation for mitosis. Option D (M phase) is when mitosis and cytokinesis occur.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Cell Cycle Phases",
+        "url": "https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation/cell-cycle-and-mitosis",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:25:00.000Z"
+  },
+  {
+    "id": "cell_bio_069",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying wound healing observed that migrating cells at the leading edge of a wound show dramatic changes in their cytoskeleton. These cells extend lamellipodia and filopodia, which are rich in actin filaments. The researchers found that actin polymerization at the leading edge is regulated by the Arp2/3 complex, which nucleates new actin filaments and creates branched networks. Additionally, they observed that cofilin protein plays a crucial role by severing old actin filaments, allowing for rapid turnover and dynamic rearrangement of the actin cytoskeleton during cell migration.",
+    "question": "Based on these observations, what is the primary role of cofilin in cell migration?",
+    "options": {
+      "A": "Nucleating new actin filaments at the leading edge",
+      "B": "Cross-linking actin filaments into stable bundles",
+      "C": "Severing actin filaments to promote cytoskeletal turnover",
+      "D": "Stabilizing mature actin networks against depolymerization"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The passage explicitly states that cofilin severs old actin filaments, allowing for rapid turnover and dynamic rearrangement of the actin cytoskeleton during migration. This function is essential for cell motility because it allows the cytoskeleton to be continuously remodeled as the cell moves. Option A describes the function of the Arp2/3 complex, not cofilin. Option B describes actin cross-linking proteins like α-actinin. Option D is the opposite of cofilin's function - cofilin destabilizes rather than stabilizes actin networks.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Cell Migration",
+        "url": "https://www.biointeractive.org/classroom-resources/cell-migration",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T03:25:00.000Z"
+  },
+  {
+    "id": "cell_bio_070",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "In eukaryotic cells, which component of the nuclear pore complex is responsible for the energy-dependent transport of large molecules across the nuclear envelope?",
+    "options": {
+      "A": "Nucleoporins forming the central channel",
+      "B": "Ran-GTP gradient and importin/exportin proteins",
+      "C": "Nuclear lamins lining the inner nuclear membrane",
+      "D": "Chromatin packaging proteins near the nuclear envelope"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Active nuclear transport requires the Ran-GTP gradient across the nuclear envelope and importin/exportin proteins (karyopherins) that recognize nuclear localization/export signals. The energy for this process comes from GTP hydrolysis by Ran-GTPase. Importins bind cargo in the cytoplasm and release it in the nucleus upon Ran-GTP binding, while exportins do the reverse. Option A describes the structural scaffold of the pore but not the transport machinery. Options C and D are not directly involved in nuclear transport.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Nuclear Transport",
+        "url": "https://www.nature.com/scitable/topicpage/nuclear-transport-14121692/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T03:25:00.000Z"
+  }
+]

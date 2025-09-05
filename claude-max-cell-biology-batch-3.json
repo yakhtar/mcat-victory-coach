@@ -1,0 +1,237 @@
+[
+  {
+    "id": "cell_bio_014",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "passage",
+    "passage": "Research on Hedgehog signaling revealed that in the absence of Hedgehog ligand, the Patched (Ptc) receptor inhibits Smoothened (Smo), keeping it in an inactive state. This allows the transcription factor Gli to be processed into its repressor form (GliR) by protein kinase A (PKA), which then enters the nucleus and represses target genes. However, when Hedgehog binds to Patched, this inhibition is relieved, allowing Smoothened to become active. Active Smoothened then prevents Gli processing, allowing full-length Gli to act as an activator (GliA) and upregulate target genes including Ptc itself and other developmental regulators.",
+    "question": "What is the functional consequence of Hedgehog signaling creating a negative feedback loop by upregulating Patched expression?",
+    "options": {
+      "A": "It ensures continuous activation of the pathway once initiated",
+      "B": "It provides a mechanism to attenuate signaling and prevent overstimulation",
+      "C": "It amplifies the signal to neighboring cells",
+      "D": "It prevents cross-talk with other signaling pathways"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The upregulation of Patched (Ptc) by Hedgehog signaling creates a negative feedback loop because Patched is the receptor that inhibits Smoothened when not bound by Hedgehog. By increasing Patched levels, the cell increases its capacity to bind and sequester Hedgehog ligand, and also increases the inhibitory activity on Smoothened. This provides a mechanism to attenuate signaling and prevent overstimulation, which is crucial for proper development and tissue homeostasis. Option A is incorrect because the feedback is negative, not positive. Option C is wrong because this feedback doesn't directly relate to signal amplification to other cells. Option D is incorrect because the primary function isn't to prevent pathway cross-talk.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Hedgehog Signaling",
+        "url": "https://www.nature.com/articles/nrm2475",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T03:00:00.000Z"
+  },
+  {
+    "id": "cell_bio_015",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "discrete",
+    "question": "Researchers studying ciliopathies found that mutations in IFT (intraflagellar transport) proteins lead to defective cilia formation and multiple developmental abnormalities. IFT involves bidirectional movement of protein complexes along axonemal microtubules. Which of the following cellular processes would be most directly affected by loss of anterograde IFT?",
+    "options": {
+      "A": "Ciliary resorption during cell cycle progression",
+      "B": "Assembly and maintenance of ciliary axoneme structure",
+      "C": "Ciliary membrane receptor recycling",
+      "D": "Basal body positioning and orientation"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Anterograde IFT (toward the ciliary tip) is essential for transporting structural components needed for ciliary assembly and maintenance, including tubulin subunits for microtubule extension and other axonemal proteins. Loss of anterograde IFT would prevent proper delivery of these building blocks, directly affecting the assembly and maintenance of the ciliary axoneme structure. Option A is incorrect because ciliary resorption involves different mechanisms and would more likely be affected by retrograde IFT. Option C is wrong because receptor recycling primarily involves retrograde IFT. Option D is incorrect because basal body positioning occurs before ciliary assembly and doesn't directly depend on anterograde IFT within the cilium.",
+    "study_resources": [
+      {
+        "title": "Nature Cell Biology: Cilia and IFT",
+        "url": "https://www.nature.com/articles/ncb1536",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T03:00:00.000Z"
+  },
+  {
+    "id": "cell_bio_016",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists investigating apoptosis discovered that mitochondria play a central role in the intrinsic apoptotic pathway. During cellular stress, pro-apoptotic proteins like Bax and Bak oligomerize in the outer mitochondrial membrane, forming pores that allow cytochrome c to leak into the cytoplasm. Cytoplasmic cytochrome c then binds to Apaf-1, promoting the formation of the apoptosome complex. This complex recruits and activates procaspase-9, which then cleaves and activates executioner caspases like caspase-3 and caspase-7, leading to systematic dismantling of cellular components.",
+    "question": "What would be the expected result if cells were treated with a compound that specifically prevents cytochrome c release from mitochondria without affecting other mitochondrial functions?",
+    "options": {
+      "A": "Apoptosis would be completely blocked in all pathways",
+      "B": "Only the intrinsic apoptotic pathway would be inhibited",
+      "C": "Caspase-independent cell death would be enhanced",
+      "D": "The extrinsic apoptotic pathway would be upregulated"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The compound would specifically block the intrinsic (mitochondrial) apoptotic pathway because cytochrome c release is a critical step unique to this pathway. Without cytochrome c in the cytoplasm, the apoptosome cannot form, procaspase-9 cannot be activated, and the downstream executioner caspases cannot be triggered through this route. However, the extrinsic apoptotic pathway, which is initiated by death receptors and directly activates caspase-8, would remain functional and could still induce apoptosis. Option A is incorrect because other apoptotic pathways would still function. Option C is wrong because blocking apoptosis wouldn't enhance caspase-independent death. Option D is incorrect because there's no mechanism by which blocking cytochrome c release would upregulate the extrinsic pathway.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Apoptosis",
+        "url": "https://www.khanacademy.org/science/biology/developmental-biology/apoptosis",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:00:00.000Z"
+  },
+  {
+    "id": "cell_bio_017",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which of the following correctly describes the function of the Golgi apparatus?",
+    "options": {
+      "A": "Synthesis of ribosomal RNA",
+      "B": "Modification and packaging of proteins from the endoplasmic reticulum",
+      "C": "Generation of ATP through oxidative phosphorylation",
+      "D": "Digestion of cellular waste materials"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The Golgi apparatus receives proteins from the rough endoplasmic reticulum and performs various modifications including glycosylation, proteolytic processing, and sorting. It then packages these modified proteins into vesicles for transport to their final destinations, such as lysosomes, the plasma membrane, or secretion from the cell. Option A is incorrect because ribosomal RNA synthesis occurs in the nucleolus. Option C is wrong because ATP generation through oxidative phosphorylation occurs in mitochondria. Option D is incorrect because digestion of cellular waste is the primary function of lysosomes.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Golgi Apparatus",
+        "url": "https://www.khanacademy.org/science/biology/structure-of-a-cell/golgi-apparatus",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:00:00.000Z"
+  },
+  {
+    "id": "cell_bio_018",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "passage",
+    "passage": "Researchers studying epithelial-mesenchymal transition (EMT) observed that cancer cells undergoing EMT lose epithelial characteristics such as E-cadherin expression and tight junctions while gaining mesenchymal properties including increased motility and invasiveness. The process is regulated by transcription factors like Snail, Slug, and Twist, which directly repress E-cadherin gene expression. Additionally, these cells showed increased expression of N-cadherin and vimentin, cytoskeletal reorganization from cortical actin to stress fibers, and enhanced matrix metalloproteinase (MMP) production.",
+    "question": "Based on the described changes, which of the following best explains why EMT promotes cancer cell invasion and metastasis?",
+    "options": {
+      "A": "Loss of E-cadherin reduces cell-cell adhesion while increased MMPs degrade surrounding matrix",
+      "B": "Increased N-cadherin expression enhances cell proliferation rates",
+      "C": "Vimentin upregulation directly activates oncogenes",
+      "D": "Stress fiber formation improves cellular energy metabolism"
+    },
+    "correct_answer": "A",
+    "explanation": "The correct answer is A. EMT promotes invasion and metastasis through multiple coordinated changes: loss of E-cadherin reduces cell-cell adhesion, allowing cells to detach from the primary tumor; cytoskeletal reorganization (cortical actin to stress fibers) enhances cell motility; and increased MMP production degrades extracellular matrix components, creating pathways for cell migration. Together, these changes enable cancer cells to break away from the original tumor mass and invade surrounding tissues. Option B is incorrect because N-cadherin doesn't primarily affect proliferation but rather cell-matrix interactions. Option C is wrong because vimentin is a structural protein that doesn't directly activate oncogenes. Option D is incorrect because stress fibers are involved in motility, not metabolism.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: EMT in Cancer",
+        "url": "https://www.nature.com/articles/nrc2131",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T03:00:00.000Z"
+  },
+  {
+    "id": "cell_bio_019",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "discrete",
+    "question": "During which phase of the cell cycle does DNA replication occur?",
+    "options": {
+      "A": "G1 phase",
+      "B": "S phase",
+      "C": "G2 phase",
+      "D": "M phase"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. DNA replication occurs during the S (synthesis) phase of the cell cycle. This is when the cell duplicates its entire genome, ensuring that each daughter cell will receive a complete copy of genetic information during cell division. The S phase is preceded by G1 (gap 1) phase, where the cell grows and prepares for DNA synthesis, and followed by G2 (gap 2) phase, where the cell continues to grow and prepares for mitosis. Option A is incorrect because G1 is the growth phase before DNA synthesis. Option C is wrong because G2 occurs after DNA replication. Option D is incorrect because M phase (mitosis) is when the replicated chromosomes are segregated into daughter cells.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Cell Cycle",
+        "url": "https://www.khanacademy.org/science/biology/cellular-molecular-biology/cell-cycle-and-mitosis",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:00:00.000Z"
+  },
+  {
+    "id": "cell_bio_020",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Studies on mechanotransduction revealed that cells can sense and respond to mechanical forces through various mechanisms. Focal adhesions, composed of integrins and associated proteins like focal adhesion kinase (FAK), connect the extracellular matrix to the actin cytoskeleton. When mechanical tension is applied, these structures undergo force-dependent conformational changes that expose cryptic binding sites and activate signaling cascades. Additionally, mechanosensitive ion channels in the plasma membrane can open in response to membrane deformation, leading to rapid calcium influx and immediate cellular responses.",
+    "question": "Which of the following best explains how mechanical force can lead to changes in gene expression through focal adhesion signaling?",
+    "options": {
+      "A": "Direct mechanical deformation of the nucleus alters DNA accessibility",
+      "B": "Force-induced conformational changes in focal adhesion proteins activate kinase cascades that phosphorylate transcription factors",
+      "C": "Mechanical tension directly breaks DNA-histone interactions",
+      "D": "Force causes immediate translocation of pre-existing transcription factors from cytoplasm to nucleus"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Mechanotransduction through focal adhesions involves force-induced conformational changes in proteins like FAK and other focal adhesion components. These conformational changes expose cryptic binding sites and activate kinase signaling cascades, which can phosphorylate various downstream targets including transcription factors. Phosphorylation can alter transcription factor activity, localization, or stability, ultimately leading to changes in gene expression. This represents a classical signal transduction pathway from mechanical stimulus to transcriptional response. Option A is incorrect because while nuclear mechanotransduction exists, the question specifically asks about focal adhesion signaling. Option C is wrong because mechanical forces don't directly break histone-DNA interactions through focal adhesions. Option D is incorrect because the process involves activation of signaling cascades, not just simple translocation.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Mechanotransduction",
+        "url": "https://www.nature.com/articles/nrm2594",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T03:00:00.000Z"
+  },
+  {
+    "id": "cell_bio_021",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "discrete",
+    "question": "What is the primary function of peroxisomes in mammalian cells?",
+    "options": {
+      "A": "Protein synthesis and folding",
+      "B": "Beta-oxidation of fatty acids and detoxification reactions",
+      "C": "Ribosome assembly and processing",
+      "D": "Calcium storage and release"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Peroxisomes are specialized organelles that perform beta-oxidation of fatty acids (particularly very long-chain fatty acids that cannot be processed by mitochondria) and various detoxification reactions. They contain catalase, which breaks down hydrogen peroxide (a toxic byproduct of oxidation reactions) into water and oxygen. Peroxisomes also play roles in plasmalogen synthesis and amino acid metabolism. Option A is incorrect because protein synthesis occurs on ribosomes and folding occurs in the ER. Option C is wrong because ribosome assembly occurs in the nucleolus. Option D is incorrect because calcium storage and release is primarily a function of the endoplasmic reticulum and mitochondria.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Peroxisomes",
+        "url": "https://www.khanacademy.org/science/biology/structure-of-a-cell/peroxisomes",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:00:00.000Z"
+  },
+  {
+    "id": "cell_bio_022",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "passage",
+    "passage": "Investigation of lysosomal storage diseases revealed that deficiencies in specific lysosomal enzymes lead to accumulation of undigested substrates within lysosomes. In Tay-Sachs disease, mutations in the HEXA gene result in deficiency of β-hexosaminidase A, leading to accumulation of GM2 ganglioside primarily in neurons. The enzyme deficiency prevents normal breakdown of this sphingolipid, causing progressive neurodegeneration. Interestingly, while the enzyme can be produced normally in other cell types, neurons are particularly vulnerable due to their high ganglioside content and limited regenerative capacity.",
+    "question": "Why are neurons particularly susceptible to damage in Tay-Sachs disease compared to other cell types?",
+    "options": {
+      "A": "Neurons produce more β-hexosaminidase A than other cells",
+      "B": "Neurons have higher concentrations of GM2 ganglioside substrate and cannot regenerate",
+      "C": "Neurons lack functional lysosomes compared to other cell types",
+      "D": "Neurons are more sensitive to oxidative stress from enzyme deficiency"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Neurons are particularly susceptible to Tay-Sachs disease because they have high concentrations of GM2 ganglioside (the substrate that accumulates when β-hexosaminidase A is deficient) and have limited regenerative capacity. The high substrate load means more material accumulates in neuronal lysosomes, and unlike many other cell types, neurons cannot be easily replaced once damaged, making the progressive accumulation particularly devastating. Option A is incorrect because the passage indicates the enzyme can be produced in other cell types, and the problem is deficiency, not overproduction. Option C is wrong because neurons do have functional lysosomes; the issue is the missing enzyme within them. Option D is not supported by the passage, which focuses on substrate accumulation rather than oxidative stress.",
+    "study_resources": [
+      {
+        "title": "Nature Genetics: Lysosomal Storage Diseases",
+        "url": "https://www.nature.com/articles/ng.2062",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T03:00:00.000Z"
+  },
+  {
+    "id": "cell_bio_023",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which cellular structure is responsible for maintaining cell shape and providing mechanical support?",
+    "options": {
+      "A": "Ribosomes",
+      "B": "Cytoskeleton",
+      "C": "Nucleolus",
+      "D": "Smooth endoplasmic reticulum"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The cytoskeleton is a network of protein filaments that provides structural support, maintains cell shape, and enables cellular movement. It consists of three main components: microfilaments (actin), intermediate filaments, and microtubules. These structures work together to give cells their shape, organize organelles, and facilitate various cellular processes including cell division and intracellular transport. Option A is incorrect because ribosomes are involved in protein synthesis, not structural support. Option C is wrong because the nucleolus is involved in ribosome assembly. Option D is incorrect because smooth ER is involved in lipid synthesis and detoxification, not structural support.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Cytoskeleton",
+        "url": "https://www.khanacademy.org/science/biology/structure-of-a-cell/cytoskeleton",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:00:00.000Z"
+  }
+]

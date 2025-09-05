@@ -1,0 +1,237 @@
+[
+  {
+    "id": "cell_bio_024",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Research on CRISPR-Cas9 gene editing revealed that the system requires both guide RNA (gRNA) and trans-activating CRISPR RNA (tracrRNA) to function properly in mammalian cells. The Cas9 protein forms a complex with these RNAs, and the gRNA directs the complex to complementary DNA sequences. However, successful gene editing also depends on the cell's DNA repair mechanisms. Non-homologous end joining (NHEJ) often results in insertions or deletions at the cut site, while homology-directed repair (HDR) can incorporate donor DNA sequences for precise editing. The efficiency of HDR versus NHEJ varies significantly across different cell types and cell cycle phases.",
+    "question": "Why might CRISPR-Cas9 gene editing be more successful for gene knockout experiments than for precise gene correction?",
+    "options": {
+      "A": "Gene knockouts require less gRNA specificity than gene corrections",
+      "B": "NHEJ-mediated repair, which often causes disrupting mutations, is more frequent than HDR",
+      "C": "Cas9 protein is more stable when performing gene knockouts",
+      "D": "Gene corrections require multiple gRNAs while knockouts need only one"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. NHEJ (non-homologous end joining) is the predominant DNA repair pathway in most mammalian cells and often introduces insertions or deletions (indels) at the double-strand break site created by Cas9. These indels frequently disrupt gene function, making NHEJ ideal for gene knockout experiments. In contrast, precise gene correction requires HDR (homology-directed repair), which is much less frequent than NHEJ and occurs primarily during S and G2 phases when sister chromatids are available as templates. The low efficiency of HDR makes precise corrections more challenging. Option A is incorrect because both applications require similar gRNA specificity. Option C is wrong because Cas9 stability doesn't differ between applications. Option D is incorrect because both knockouts and corrections typically use single gRNAs.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: CRISPR Gene Editing",
+        "url": "https://www.nature.com/articles/nrg.2016.169",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T03:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_025",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "During meiosis, crossing over between homologous chromosomes is facilitated by the synaptonemal complex. At which stage of meiosis does this recombination primarily occur?",
+    "options": {
+      "A": "Prophase I",
+      "B": "Metaphase I",
+      "C": "Anaphase I",
+      "D": "Prophase II"
+    },
+    "correct_answer": "A",
+    "explanation": "The correct answer is A. Crossing over occurs during prophase I of meiosis, specifically during the pachytene stage when homologous chromosomes are fully paired and the synaptonemal complex is complete. This is when sister chromatids from homologous chromosomes exchange genetic material through recombination. The synaptonemal complex holds the homologs together and facilitates the precise alignment necessary for crossing over. Option B is incorrect because by metaphase I, crossing over is complete and chromosomes are aligning at the metaphase plate. Option C is wrong because anaphase I is when homologous chromosomes separate. Option D is incorrect because prophase II occurs after the first meiotic division and homologous chromosomes are no longer paired.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Meiosis",
+        "url": "https://www.khanacademy.org/science/biology/cellular-molecular-biology/meiosis",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_026",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying cellular senescence found that senescent cells stop dividing but remain metabolically active, secreting various inflammatory molecules in what's termed the senescence-associated secretory phenotype (SASP). These cells accumulate with age and contribute to tissue dysfunction and age-related diseases. The senescent state can be triggered by various stresses including telomere shortening, DNA damage, and oncogene activation. Interestingly, researchers discovered that selective elimination of senescent cells in aged mice improved healthspan and reduced age-related pathologies.",
+    "question": "Based on the passage, which of the following best explains why senescent cells contribute to age-related tissue dysfunction despite no longer dividing?",
+    "options": {
+      "A": "They consume excessive nutrients needed by healthy cells",
+      "B": "They secrete inflammatory molecules that can damage surrounding tissues",
+      "C": "They physically block healthy cell division through contact inhibition",
+      "D": "They produce excess reactive oxygen species that damage DNA"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage specifically mentions that senescent cells secrete inflammatory molecules as part of the SASP (senescence-associated secretory phenotype). These inflammatory factors can damage surrounding healthy tissues and contribute to chronic inflammation, which is a hallmark of aging and age-related diseases. Even though senescent cells don't divide, their continued secretion of harmful factors makes them detrimental to tissue function. Option A is not mentioned in the passage and isn't a primary mechanism. Option C is incorrect because contact inhibition typically affects dividing cells, but senescent cells aren't dividing. Option D, while potentially true, isn't specifically mentioned in the passage as the mechanism by which SASP contributes to dysfunction.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Cellular Senescence",
+        "url": "https://www.nature.com/articles/s43018-019-0020-1",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T03:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_027",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which of the following is the correct order of protein synthesis and processing in eukaryotic cells?",
+    "options": {
+      "A": "Cytoplasm → Nucleus → Golgi → ER",
+      "B": "ER → Golgi → Vesicles → Destination",
+      "C": "Golgi → ER → Ribosomes → Cytoplasm",
+      "D": "Nucleus → Cytoplasm → ER → Golgi"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. For proteins destined for secretion or membrane insertion, the correct pathway is: synthesis begins on ribosomes in the cytoplasm, continues on ER-bound ribosomes where the protein enters the ER lumen, then the protein moves to the Golgi apparatus for further modification and packaging, and finally travels in vesicles to its final destination (plasma membrane, lysosomes, or secretion). Option A incorrectly places the nucleus in the pathway and has the wrong order. Option C reverses the ER-Golgi relationship. Option D incorrectly suggests proteins are made in the nucleus and doesn't properly represent the secretory pathway sequence.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Protein Synthesis",
+        "url": "https://www.khanacademy.org/science/biology/gene-expression-central-dogma/translation",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_028",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Studies on cancer cell metabolism revealed that many tumors exhibit the Warburg effect, preferentially using glycolysis for energy production even in the presence of oxygen, rather than the more efficient oxidative phosphorylation. This metabolic reprogramming is associated with activation of oncogenes like MYC and loss of tumor suppressors like p53. Additionally, cancer cells often upregulate glutamine metabolism to fuel biosynthetic pathways for rapid cell division. The enzyme glutaminase converts glutamine to glutamate, which then enters the TCA cycle as α-ketoglutarate, providing both energy and carbon skeletons for biosynthesis.",
+    "question": "What advantage might the Warburg effect provide to rapidly growing cancer cells despite being less energy-efficient than oxidative phosphorylation?",
+    "options": {
+      "A": "Glycolysis produces more ATP per glucose molecule than oxidative phosphorylation",
+      "B": "Glycolysis generates biosynthetic intermediates needed for rapid cell division",
+      "C": "Glycolysis requires less oxygen, allowing growth in hypoxic tumor environments",
+      "D": "Glycolysis produces fewer reactive oxygen species that could damage DNA"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. While glycolysis produces less ATP per glucose than oxidative phosphorylation, it generates important biosynthetic intermediates that rapidly dividing cancer cells need. Glycolytic intermediates can be diverted into pathways that produce nucleotides (pentose phosphate pathway), amino acids (serine synthesis), and lipids (acetyl-CoA production), all essential for making new biomass during rapid cell division. Option A is factually incorrect - oxidative phosphorylation produces much more ATP per glucose. Option C is partially correct but not the primary advantage, as the Warburg effect occurs even in oxygen-rich conditions. Option D is not the main advantage, and the passage doesn't emphasize ROS reduction as the primary benefit.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Cancer Metabolism",
+        "url": "https://www.nature.com/articles/nrc3038",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T03:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_029",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "discrete",
+    "question": "What is the primary function of chaperone proteins in cells?",
+    "options": {
+      "A": "To transport proteins across membranes",
+      "B": "To assist in proper protein folding and prevent aggregation",
+      "C": "To degrade misfolded proteins through proteolysis",
+      "D": "To modify proteins through post-translational modifications"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Chaperone proteins, such as heat shock proteins (Hsp70, Hsp90) and chaperonins (GroEL/GroES in bacteria, CCT in eukaryotes), assist in the proper folding of newly synthesized proteins and help prevent protein aggregation. They provide a protected environment for protein folding and can also help refold proteins that have become misfolded due to stress. Option A is incorrect because protein transport is primarily handled by signal recognition particles and translocases, not chaperones. Option C is wrong because protein degradation is carried out by proteases and the proteasome system, not chaperones. Option D is incorrect because post-translational modifications are performed by specific modifying enzymes, not chaperones.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Protein Folding",
+        "url": "https://www.khanacademy.org/science/biology/macromolecules/proteins-and-amino-acids/protein-folding",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_030",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "passage",
+    "passage": "Research on bacterial conjugation revealed that F+ bacteria contain F plasmids with genes encoding proteins necessary for pilus formation and DNA transfer. During conjugation, the F+ donor cell extends a pilus to contact an F- recipient cell, creating a bridge for DNA transfer. The F plasmid undergoes rolling circle replication, with one strand being transferred to the recipient while the complementary strand is synthesized in the donor. This process can also mobilize chromosomal DNA when the F plasmid integrates into the bacterial chromosome, creating Hfr (high frequency of recombination) strains.",
+    "question": "What is the key difference between F+ × F- and Hfr × F- conjugation in terms of the DNA transferred?",
+    "options": {
+      "A": "F+ transfers only plasmid DNA while Hfr transfers only chromosomal DNA",
+      "B": "F+ transfers plasmid DNA while Hfr transfers chromosomal DNA followed by plasmid sequences",
+      "C": "F+ requires physical contact while Hfr can transfer DNA through the medium",
+      "D": "F+ results in two F+ cells while Hfr produces two Hfr cells"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. In F+ × F- conjugation, the independent F plasmid is transferred, converting the F- recipient to F+. In Hfr × F- conjugation, the F plasmid has integrated into the chromosome, so during rolling circle replication, chromosomal DNA is transferred first in a linear fashion, followed by the integrated F plasmid sequences. However, the connection usually breaks before the entire chromosome (including the complete F plasmid) is transferred, so the recipient typically remains F-. Option A is incorrect because Hfr can transfer plasmid sequences as well. Option C is wrong because both require physical contact through pili. Option D is incorrect because Hfr conjugation rarely results in two Hfr cells due to incomplete transfer.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Bacterial Genetics",
+        "url": "https://www.khanacademy.org/science/biology/biology-of-viruses-bacteria/bacterial-genetics",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_031",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which of the following best describes the fluid mosaic model of cell membrane structure?",
+    "options": {
+      "A": "A rigid structure composed entirely of phospholipids",
+      "B": "A flexible bilayer of phospholipids with embedded proteins",
+      "C": "A single layer of proteins surrounded by lipids",
+      "D": "A solid barrier preventing all molecular movement"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The fluid mosaic model describes the cell membrane as a flexible phospholipid bilayer with various proteins embedded within it (integral proteins) or attached to its surface (peripheral proteins). The 'fluid' aspect refers to the ability of lipids and proteins to move laterally within the membrane, while 'mosaic' refers to the patchwork pattern of different proteins scattered throughout the lipid bilayer. This model explains the selective permeability and dynamic nature of cell membranes. Option A is incorrect because membranes are not rigid and contain proteins. Option C is wrong because membranes have a bilayer structure, not a single layer. Option D is incorrect because membranes are selectively permeable, not completely impermeable.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Cell Membrane",
+        "url": "https://www.khanacademy.org/science/biology/structure-of-a-cell/cell-membrane",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_032",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists investigating oxidative stress found that cells have multiple antioxidant defense systems to protect against reactive oxygen species (ROS). These include enzymatic defenses like superoxide dismutase (SOD), which converts superoxide radicals to hydrogen peroxide, and catalase, which breaks down hydrogen peroxide to water and oxygen. Non-enzymatic antioxidants include glutathione, vitamin E, and vitamin C. When ROS production exceeds antioxidant capacity, oxidative damage occurs to proteins, lipids, and DNA, potentially leading to cellular dysfunction and death.",
+    "question": "Based on the antioxidant pathway described, what would be the expected consequence if cells had functional superoxide dismutase but defective catalase?",
+    "options": {
+      "A": "Superoxide radicals would accumulate to toxic levels",
+      "B": "Hydrogen peroxide would accumulate, potentially causing cellular damage",
+      "C": "Vitamin E levels would decrease significantly",
+      "D": "DNA repair mechanisms would be upregulated"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. If superoxide dismutase (SOD) is functional but catalase is defective, SOD would still convert superoxide radicals to hydrogen peroxide, but the defective catalase couldn't efficiently break down the hydrogen peroxide to harmless water and oxygen. This would lead to hydrogen peroxide accumulation, which can cause cellular damage through oxidation of proteins, lipids, and DNA. The cell would have completed only the first step of the detoxification process. Option A is incorrect because SOD would still be removing superoxide radicals. Option C is wrong because vitamin E levels wouldn't necessarily change due to catalase deficiency. Option D might occur as a secondary response but isn't the direct consequence of the enzyme defect described.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Antioxidants",
+        "url": "https://www.khanacademy.org/science/biology/energy-and-enzymes/oxidative-stress",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:05:00.000Z"
+  },
+  {
+    "id": "cell_bio_033",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "discrete",
+    "question": "In studying the complement system, researchers found that C3 convertase cleaves C3 into C3a and C3b fragments. C3b can covalently attach to pathogen surfaces and serve as an opsonin. Which aspect of C3b structure most likely enables its covalent attachment to target surfaces?",
+    "options": {
+      "A": "Exposure of a cryptic binding site after C3 cleavage",
+      "B": "Formation of a highly reactive thioester bond that can attack nucleophiles",
+      "C": "Increased hydrophobic regions that promote membrane insertion",
+      "D": "Conformational changes that expose complement receptors"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. C3 contains an internal thioester bond that becomes highly reactive upon cleavage by C3 convertase. This activated thioester can form covalent bonds with hydroxyl or amino groups on pathogen surfaces, allowing C3b to become permanently attached. This covalent attachment is crucial for opsonization because it ensures that the opsonin remains bound to the target. Option A is too general and doesn't explain the covalent bonding mechanism. Option C is incorrect because the attachment isn't primarily through hydrophobic interactions. Option D is wrong because complement receptors are on phagocytes, not on the C3b fragment itself.",
+    "study_resources": [
+      {
+        "title": "Nature Immunology: Complement System",
+        "url": "https://www.nature.com/articles/ni.2094",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T03:05:00.000Z"
+  }
+]

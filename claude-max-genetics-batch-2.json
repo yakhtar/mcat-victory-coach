@@ -1,0 +1,237 @@
+[
+  {
+    "id": "genetics_011",
+    "topic": "genetics",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying pedigree analysis examined inheritance patterns in human families to identify disease susceptibility genes. They found that autosomal dominant disorders appear in every generation, affect both sexes equally, and show vertical transmission from parent to child. In contrast, autosomal recessive disorders often skip generations, may affect siblings but not parents, and require both parents to be carriers. X-linked recessive disorders predominantly affect males, show oblique transmission (from affected grandfather through carrier daughter to affected grandson), and are never passed from father to son.",
+    "question": "Based on these inheritance patterns, which mode of inheritance would most likely show affected males in multiple generations but never father-to-son transmission?",
+    "options": {
+      "A": "Autosomal dominant",
+      "B": "Autosomal recessive",
+      "C": "X-linked recessive",
+      "D": "Mitochondrial inheritance"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. X-linked recessive inheritance shows affected males in multiple generations through oblique transmission (grandfather to grandson via carrier daughters) but never shows father-to-son transmission because fathers pass their Y chromosome, not X chromosome, to sons. Option A would show father-to-son transmission. Option B typically skips generations. Option D shows maternal inheritance.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Pedigree Analysis",
+        "url": "https://www.khanacademy.org/science/biology/classical-genetics/sex-linkage-non-nuclear-inherit",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:00:00.000Z"
+  },
+  {
+    "id": "genetics_012",
+    "topic": "genetics",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "In a dihybrid cross (AaBb × AaBb), what is the probability of obtaining offspring with the genotype AaBb?",
+    "options": {
+      "A": "1/16",
+      "B": "1/4", 
+      "C": "1/2",
+      "D": "9/16"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. For a dihybrid cross, the probability of AaBb offspring is calculated as: P(Aa) × P(Bb) = (1/2) × (1/2) = 1/4. From Aa × Aa, the probability of Aa is 1/2, and from Bb × Bb, the probability of Bb is 1/2. Option A is for specific homozygous combinations. Option C is for one gene only. Option D is for the dominant phenotype.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Dihybrid Crosses",
+        "url": "https://www.khanacademy.org/science/biology/classical-genetics/mendelian--genetics",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:00:00.000Z"
+  },
+  {
+    "id": "genetics_013",
+    "topic": "genetics",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists studying epigenetic inheritance investigated how environmental factors can influence gene expression patterns that persist across generations. They discovered that DNA methylation and histone modifications can be maintained through cell divisions and sometimes through meiosis, creating heritable changes in gene expression without altering DNA sequence. The researchers found that environmental stresses like famine or toxin exposure can alter methylation patterns in germ cells, affecting not only the directly exposed individual but also their offspring and even grandchildren. This transgenerational epigenetic inheritance challenges the traditional view that inheritance is solely determined by DNA sequence changes.",
+    "question": "Based on this epigenetic inheritance research, how can environmental factors affect future generations without changing DNA sequence?",
+    "options": {
+      "A": "Environmental factors directly mutate DNA in all cells",
+      "B": "Epigenetic modifications like DNA methylation can be inherited and alter gene expression",
+      "C": "Environmental factors only affect the exposed individual, not their offspring",
+      "D": "DNA sequence changes are required for all heritable traits"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that 'DNA methylation and histone modifications can be maintained through cell divisions and sometimes through meiosis, creating heritable changes in gene expression without altering DNA sequence.' Environmental stresses can alter these epigenetic marks in germ cells, which are then inherited by offspring. Option A involves sequence changes. Option C contradicts the transgenerational effects described. Option D ignores epigenetic inheritance.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Transgenerational Epigenetic Inheritance",
+        "url": "https://www.nature.com/articles/nrg3564",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:00:00.000Z"
+  },
+  {
+    "id": "genetics_014",
+    "topic": "genetics",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "In humans, which chromosomes determine biological sex?",
+    "options": {
+      "A": "Chromosomes 21 and 22",
+      "B": "X and Y chromosomes",
+      "C": "All 23 chromosome pairs equally",
+      "D": "Only the Y chromosome"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. In humans, biological sex is primarily determined by the X and Y sex chromosomes. Individuals with XY are typically male, while individuals with XX are typically female. The Y chromosome carries the SRY gene that initiates male development. Options A involve autosomal chromosomes. Option C is too broad. Option D ignores the X chromosome's role.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Sex Determination",
+        "url": "https://www.khanacademy.org/science/biology/classical-genetics/sex-linkage-non-nuclear-inherit",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:00:00.000Z"
+  },
+  {
+    "id": "genetics_015",
+    "topic": "genetics",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying gene expression regulation discovered that enhancers and silencers can control transcription from great distances. They found that enhancer sequences can be located thousands of base pairs away from gene promoters but still regulate transcription through DNA looping that brings distant regulatory elements into contact with promoter regions. The scientists observed that tissue-specific transcription factors bind to these enhancers, creating unique gene expression patterns in different cell types. They concluded that this complex regulatory network allows the same genome to produce vastly different cell types during development.",
+    "question": "Based on this gene regulation system, how can enhancers regulate distant genes?",
+    "options": {
+      "A": "Enhancers physically move along the DNA to reach target promoters",
+      "B": "DNA looping brings distant enhancers into contact with target promoters",
+      "C": "Enhancers only work when located immediately adjacent to promoters",
+      "D": "RNA polymerase travels from enhancers to promoters along the DNA"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that enhancers 'can be located thousands of base pairs away from gene promoters but still regulate transcription through DNA looping that brings distant regulatory elements into contact with promoter regions.' This chromatin looping mechanism allows long-range gene regulation. Option A is incorrect - enhancers don't move. Option C contradicts the distance effect. Option D describes transcription, not regulation.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Gene Expression Regulation",
+        "url": "https://www.biointeractive.org/classroom-resources/gene-expression-regulation",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T05:00:00.000Z"
+  },
+  {
+    "id": "genetics_016",
+    "topic": "genetics",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "What is the relationship between genotype frequency and allele frequency described by Hardy-Weinberg equilibrium?",
+    "options": {
+      "A": "Genotype frequencies are always equal to allele frequencies",
+      "B": "Genotype frequencies equal the square of allele frequencies (p² + 2pq + q² = 1)",
+      "C": "Genotype frequencies are independent of allele frequencies",
+      "D": "Only dominant allele frequencies matter for genotype frequencies"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Under Hardy-Weinberg equilibrium, if p and q are the frequencies of two alleles, then genotype frequencies are p² (AA), 2pq (Aa), and q² (aa), which sum to 1. This relationship allows calculation of genotype frequencies from allele frequencies and vice versa. Option A is only true for the heterozygote case. Option C ignores the mathematical relationship. Option D ignores recessive alleles.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Hardy-Weinberg Equation",
+        "url": "https://www.khanacademy.org/science/biology/her/heredity-and-genetics/hardy-weinberg-equilibrium",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:00:00.000Z"
+  },
+  {
+    "id": "genetics_017",
+    "topic": "genetics",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers investigating CRISPR-Cas9 gene editing discovered how this system can precisely modify specific DNA sequences. The Cas9 nuclease is guided by a single guide RNA (sgRNA) that contains a 20-nucleotide sequence complementary to the target DNA and a scaffold region that binds Cas9. When the sgRNA-Cas9 complex encounters target DNA with a matching sequence adjacent to a protospacer adjacent motif (PAM), Cas9 creates a double-strand break. The researchers found that cells repair these breaks through either non-homologous end joining (NHEJ), which often introduces small insertions or deletions, or homology-directed repair (HDR) when a donor template is provided.",
+    "question": "Based on this CRISPR mechanism, what determines the specificity of Cas9 targeting?",
+    "options": {
+      "A": "The Cas9 protein itself recognizes specific DNA sequences",
+      "B": "The 20-nucleotide guide sequence in the sgRNA and the presence of a PAM sequence",
+      "C": "Only the PAM sequence is required for targeting",
+      "D": "Random binding occurs throughout the genome"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that specificity requires both 'a 20-nucleotide sequence complementary to the target DNA' in the sgRNA and the presence of 'a protospacer adjacent motif (PAM)' next to the target site. Both elements are necessary for Cas9 to cut at the correct location. Option A is incorrect - Cas9 needs the guide RNA. Option C ignores the guide sequence requirement. Option D contradicts the specific targeting described.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: CRISPR-Cas9 Gene Editing",
+        "url": "https://www.nature.com/articles/nrg3686",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:00:00.000Z"
+  },
+  {
+    "id": "genetics_018",
+    "topic": "genetics",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is a dominant allele?",
+    "options": {
+      "A": "An allele that is always more common in the population",
+      "B": "An allele whose phenotype is expressed in heterozygotes",
+      "C": "An allele that causes harmful effects",
+      "D": "An allele located on the dominant chromosome"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. A dominant allele is one whose phenotype is expressed when present in a heterozygote (Aa), masking the expression of the recessive allele. Dominance is about phenotype expression, not population frequency or harmfulness. Option A confuses dominance with frequency. Option C relates to fitness, not dominance. Option D doesn't make genetic sense.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Dominance and Recessiveness",
+        "url": "https://www.khanacademy.org/science/biology/classical-genetics/mendelian--genetics",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:00:00.000Z"
+  },
+  {
+    "id": "genetics_019",
+    "topic": "genetics",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying pharmacogenomics investigated how genetic variations affect drug metabolism and response. They discovered that polymorphisms in cytochrome P450 enzymes create different metabolizer phenotypes: poor metabolizers (lacking functional enzymes), extensive metabolizers (normal activity), and ultrarapid metabolizers (increased activity). For example, variations in CYP2D6 affect metabolism of many psychiatric medications, while CYP2C19 polymorphisms influence proton pump inhibitor effectiveness. The researchers found that these genetic differences can dramatically alter drug efficacy and toxicity, highlighting the importance of personalized medicine approaches.",
+    "question": "Based on this pharmacogenomics research, why do genetic variations in drug-metabolizing enzymes affect treatment outcomes?",
+    "options": {
+      "A": "All drugs are metabolized by the same pathway",
+      "B": "Genetic variations alter enzyme activity, changing drug concentration and duration in the body",
+      "C": "Drug metabolism variations only affect drug absorption, not elimination",
+      "D": "Genetic variations have no significant impact on drug effectiveness"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that genetic polymorphisms create different metabolizer phenotypes with varying enzyme activities. Poor metabolizers may have dangerously high drug levels, while ultrarapid metabolizers may have ineffective low levels. This directly affects 'drug efficacy and toxicity.' Option A is too simplistic. Option C ignores elimination effects. Option D contradicts the described impact.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Pharmacogenomics",
+        "url": "https://www.nature.com/articles/nrg1897",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:00:00.000Z"
+  },
+  {
+    "id": "genetics_020",
+    "topic": "genetics",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which genetic phenomenon explains why some traits show incomplete penetrance?",
+    "options": {
+      "A": "The trait is always expressed when the genotype is present",
+      "B": "Environmental factors and modifier genes can influence whether a genotype produces the expected phenotype",
+      "C": "The trait is controlled by multiple genes acting additively",
+      "D": "The trait shows simple Mendelian inheritance"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Incomplete penetrance occurs when individuals with a disease-associated genotype don't always express the phenotype due to environmental factors, modifier genes, or other genetic background effects. This explains why genetic diseases sometimes 'skip' individuals who carry disease alleles. Option A describes complete penetrance. Option C describes polygenic inheritance. Option D would show complete penetrance.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Penetrance and Expressivity",
+        "url": "https://www.nature.com/scitable/topicpage/penetrance-expressivity-and-the-effects-of-genetic-609/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T05:00:00.000Z"
+  }
+]

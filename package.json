@@ -1,0 +1,42 @@
+{
+  "name": "mcat-victory-platform",
+  "version": "1.0.0",
+  "description": "MCP-Powered Interactive MCAT Study Platform",
+  "main": "mcat-victory-platform.js",
+  "type": "module",
+  "scripts": {
+    "start": "node mcat-victory-platform.js",
+    "dev": "node --watch mcat-victory-platform.js",
+    "setup": "npm install && echo 'Platform ready! Run: npm start'",
+    "build": "echo 'No build step required - ES modules'",
+    "test": "echo 'Tests coming in Phase 2'",
+    "render-build": "npm install",
+    "render-start": "node mcat-victory-platform.js",
+    "seed-questions": "node scripts/seed-questions.js",
+    "generate-sample": "node -e \"import('./generators/question-generator.js').then(module => { const gen = new module.default(); gen.generateQuestionBatch(['amino_acids'], 5); })\""
+  },
+  "keywords": [
+    "MCAT",
+    "medical-education",
+    "interactive-learning",
+    "MCP-server",
+    "AI-powered",
+    "study-platform"
+  ],
+  "author": "MCAT Victory Coach",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.20.0",
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "openai": "^4.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,237 @@
+[
+  {
+    "id": "genetics_021",
+    "topic": "genetics",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying genetic counseling examined how family history information is used to assess disease risk. They analyzed pedigrees for Huntington's disease, an autosomal dominant disorder with complete penetrance and late onset. The scientists found that individuals with one affected parent have a 50% chance of inheriting the disease allele, but symptoms typically don't appear until age 35-50. This creates ethical dilemmas about genetic testing: should asymptomatic individuals be tested if there's no cure? The researchers concluded that genetic counseling must balance autonomy (right to know/not know) with beneficence (preventing harm) and non-maleficence (avoiding psychological harm).",
+    "question": "Based on this genetic counseling scenario, what makes Huntington's disease particularly challenging for genetic counseling?",
+    "options": {
+      "A": "It's a recessive disorder that's hard to trace in families",
+      "B": "The late onset means people may have children before knowing their status, and there's no cure",
+      "C": "It shows incomplete penetrance making predictions difficult",
+      "D": "It's caused by environmental factors rather than genetics"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage emphasizes that 'symptoms typically don't appear until age 35-50' and asks 'should asymptomatic individuals be tested if there's no cure?' The late onset means people may reproduce before knowing they carry the allele, potentially passing it to children, while the lack of cure makes testing emotionally difficult. Option A is wrong - it's dominant and easily traced. Option C contradicts the 'complete penetrance' mentioned. Option D ignores the genetic basis described.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Genetic Counseling",
+        "url": "https://www.nature.com/scitable/topicpage/genetic-counseling-and-screening-15115907/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T05:25:00.000Z"
+  },
+  {
+    "id": "genetics_022",
+    "topic": "genetics",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "In a population where the frequency of a recessive allele (q) is 0.3, what is the frequency of heterozygous carriers?",
+    "options": {
+      "A": "0.09",
+      "B": "0.21",
+      "C": "0.42", 
+      "D": "0.49"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Using Hardy-Weinberg equilibrium: if q = 0.3, then p = 1 - 0.3 = 0.7. The frequency of heterozygotes is 2pq = 2(0.7)(0.3) = 0.42. Option A represents q² (homozygous recessive). Option B represents pq (half the heterozygote frequency). Option D represents approximately p².",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Hardy-Weinberg Calculations",
+        "url": "https://www.khanacademy.org/science/biology/her/heredity-and-genetics/hardy-weinberg-equilibrium",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:25:00.000Z"
+  },
+  {
+    "id": "genetics_023",
+    "topic": "genetics",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists studying somatic mosaicism discovered that not all cells in an organism carry identical DNA sequences. During development, spontaneous mutations can arise in somatic cells, creating patches of genetically distinct tissue within the same individual. The researchers found this phenomenon in cancer, where tumor cells accumulate mutations that differ from normal tissue, and in neurological disorders, where brain mosaicism can cause focal epilepsy. They also discovered that somatic mosaicism is more common than previously thought, with studies showing that even healthy individuals carry numerous somatic mutations in different tissues, challenging the concept of a uniform genetic identity.",
+    "question": "Based on this somatic mosaicism research, why does somatic mosaicism complicate the traditional view of an individual's genetic identity?",
+    "options": {
+      "A": "All individuals have identical DNA sequences in every cell",
+      "B": "Somatic mutations create patches of genetically distinct cells within the same individual, so not all cells are genetically identical",
+      "C": "Somatic mosaicism only occurs in diseased tissues, not healthy ones",
+      "D": "Genetic identity is determined only by germline mutations"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'spontaneous mutations can arise in somatic cells, creating patches of genetically distinct tissue within the same individual' and that 'even healthy individuals carry numerous somatic mutations in different tissues.' This challenges the idea that all cells in an individual are genetically identical. Option A represents the traditional (incorrect) view. Option C contradicts the finding in healthy individuals. Option D ignores the impact of somatic mutations on identity.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Somatic Mosaicism",
+        "url": "https://www.nature.com/articles/nrg3706",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:25:00.000Z"
+  },
+  {
+    "id": "genetics_024",
+    "topic": "genetics",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is a carrier in genetic terms?",
+    "options": {
+      "A": "An individual who expresses a recessive trait",
+      "B": "An individual who is heterozygous for a recessive allele but doesn't express the trait",
+      "C": "An individual with two dominant alleles",
+      "D": "An individual with a chromosomal abnormality"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. A carrier is an individual who has one copy of a recessive allele (heterozygous) but doesn't express the recessive phenotype because they also have a dominant allele. Carriers can pass the recessive allele to their offspring. Option A describes someone who expresses the trait (homozygous recessive). Option C describes homozygous dominant. Option D describes chromosomal disorders.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Carriers and Genetic Inheritance",
+        "url": "https://www.khanacademy.org/science/biology/classical-genetics/mendelian--genetics",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:25:00.000Z"
+  },
+  {
+    "id": "genetics_025",
+    "topic": "genetics",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying genetic diseases examined the inheritance pattern of phenylketonuria (PKU), a metabolic disorder where individuals cannot break down the amino acid phenylalanine due to deficiency in phenylalanine hydroxylase enzyme. They found that PKU follows autosomal recessive inheritance - affected individuals must have two copies of the mutant allele. The scientists discovered that untreated PKU leads to intellectual disability because phenylalanine accumulates to toxic levels, but early detection through newborn screening and dietary restriction (low-phenylalanine diet) can prevent symptoms entirely.",
+    "question": "Based on this PKU inheritance pattern, what is the risk for two PKU carriers (heterozygotes) to have an affected child?",
+    "options": {
+      "A": "0% (no risk)",
+      "B": "25% (1 in 4)",
+      "C": "50% (1 in 2)", 
+      "D": "100% (certain)"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. For autosomal recessive inheritance, two carriers (Aa × Aa) have a 25% chance of having an affected child (aa). The Punnett square shows: AA (25%), Aa (50%), aa (25%). Only the aa genotype expresses PKU. Option A ignores the recessive alleles. Option C is the carrier probability. Option D would require both parents to be affected.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Autosomal Recessive Inheritance",
+        "url": "https://www.biointeractive.org/classroom-resources/autosomal-recessive-inheritance",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T05:25:00.000Z"
+  },
+  {
+    "id": "genetics_026",
+    "topic": "genetics",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which mechanism explains why some genes show parent-of-origin effects in their expression?",
+    "options": {
+      "A": "Sex linkage",
+      "B": "Genomic imprinting",
+      "C": "Codominance",
+      "D": "Multiple alleles"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Genomic imprinting causes genes to be expressed differently depending on whether they are inherited from the mother or father, due to epigenetic marks (usually DNA methylation) applied during gametogenesis. Examples include IGF2 (expressed from paternal chromosome) and H19 (expressed from maternal chromosome). Option A involves X or Y chromosomes. Option C involves both alleles being expressed. Option D involves more than two alleles at a locus.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Genomic Imprinting",
+        "url": "https://www.nature.com/articles/nrg2164",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:25:00.000Z"
+  },
+  {
+    "id": "genetics_027",
+    "topic": "genetics",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers investigating genetic anticipation discovered that certain genetic disorders become more severe or have earlier onset in successive generations. They studied Huntington's disease and myotonic dystrophy, finding that both are caused by expanding trinucleotide repeats (CAG in Huntington's, CTG in myotonic dystrophy). The scientists found that these repeat sequences are unstable during DNA replication and tend to expand when passed from parent to child, particularly through paternal inheritance in Huntington's disease. Longer repeat lengths correlate with earlier onset and more severe symptoms, explaining the anticipation phenomenon.",
+    "question": "Based on this genetic anticipation research, what molecular mechanism causes diseases to become more severe in successive generations?",
+    "options": {
+      "A": "Accumulation of random mutations over time",
+      "B": "Expanding trinucleotide repeats that become longer and more unstable with each generation",
+      "C": "Increasing environmental toxin exposure in each generation",
+      "D": "Loss of protective alleles over multiple generations"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that 'expanding trinucleotide repeats...are unstable during DNA replication and tend to expand when passed from parent to child' and that 'longer repeat lengths correlate with earlier onset and more severe symptoms.' This expansion mechanism directly causes anticipation. Option A describes general mutation accumulation, not the specific repeat expansion. Option C involves environmental factors. Option D describes allele loss, not expansion.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Trinucleotide Repeat Disorders",
+        "url": "https://www.nature.com/articles/nrg1042",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:25:00.000Z"
+  },
+  {
+    "id": "genetics_028",
+    "topic": "genetics",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "In a test cross, an individual with unknown genotype is crossed with which type of individual?",
+    "options": {
+      "A": "Heterozygous individual",
+      "B": "Homozygous dominant individual",
+      "C": "Homozygous recessive individual",
+      "D": "Another individual with unknown genotype"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. A test cross involves crossing an individual of unknown genotype with a homozygous recessive individual. This allows determination of the unknown genotype based on the offspring phenotype ratios. If the unknown is heterozygous, offspring show 1:1 phenotype ratio. If homozygous dominant, all offspring show dominant phenotype. Options A, B, and D wouldn't provide clear genotype determination.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Test Crosses",
+        "url": "https://www.khanacademy.org/science/biology/classical-genetics/mendelian--genetics",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:25:00.000Z"
+  },
+  {
+    "id": "genetics_029",
+    "topic": "genetics",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying multifactorial inheritance investigated how complex traits like height, blood pressure, and diabetes risk are determined by multiple genes plus environmental factors. They found that these traits show continuous variation rather than discrete categories, and that many genes with small individual effects contribute to the phenotype. The researchers discovered that genome-wide association studies (GWAS) can identify genetic variants associated with complex traits, but these variants typically explain only a small fraction of the heritability, leading to the 'missing heritability' problem.",
+    "question": "Based on this multifactorial inheritance research, why do individual genetic variants identified in GWAS studies typically have small effects on complex traits?",
+    "options": {
+      "A": "Complex traits are not influenced by genetics",
+      "B": "Many genes with individually small effects contribute to the phenotype, so no single variant has a large impact",
+      "C": "GWAS studies are technically flawed and cannot detect real effects",
+      "D": "Complex traits are determined by single genes with large effects"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'many genes with small individual effects contribute to the phenotype' for complex traits. This polygenic architecture means that while genetics is important overall, each individual variant contributes only a small amount to the trait variation. Option A contradicts the genetic basis described. Option C mischaracterizes GWAS methodology. Option D contradicts the multifactorial nature described.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Complex Traits and GWAS",
+        "url": "https://www.nature.com/articles/nrg2344",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:25:00.000Z"
+  },
+  {
+    "id": "genetics_030",
+    "topic": "genetics",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which type of mutation is most likely to have no effect on protein function?",
+    "options": {
+      "A": "Nonsense mutation",
+      "B": "Frameshift mutation",
+      "C": "Silent (synonymous) mutation",
+      "D": "Missense mutation in the active site"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Silent (synonymous) mutations change the DNA sequence but don't change the amino acid due to the degeneracy of the genetic code. Most occur in the third codon position and have no effect on protein function. Option A creates premature stop codons. Option B alters the reading frame. Option D changes amino acids in functionally critical regions.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Types of Mutations",
+        "url": "https://www.khanacademy.org/science/biology/gene-expression-central-dogma/mutations-tutorial",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:25:00.000Z"
+  }
+]

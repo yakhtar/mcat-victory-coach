@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: mcat-victory-platform
+    env: node
+    plan: free
+    buildCommand: npm run render-build
+    startCommand: npm run render-start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: ANTHROPIC_API_KEY  
+        sync: false
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: LOG_LEVEL
+        value: info

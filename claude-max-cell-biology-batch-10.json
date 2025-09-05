@@ -1,0 +1,237 @@
+[
+  {
+    "id": "cell_bio_091",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying plant cell division observed that cytokinesis in plant cells differs significantly from animal cells due to the presence of a rigid cell wall. Instead of forming a contractile ring, plant cells construct a new cell wall structure called the cell plate at the site of division. The cell plate forms from the center of the cell outward through the fusion of Golgi-derived vesicles containing cell wall materials. These vesicles are guided to the division site by the phragmoplast, a modified spindle apparatus that persists after chromosome segregation. The process requires precise coordination between vesicle trafficking, cytoskeletal organization, and cell wall synthesis.",
+    "question": "Based on this mechanism, what is the primary role of the phragmoplast in plant cell cytokinesis?",
+    "options": {
+      "A": "Synthesizing new cell wall materials in Golgi vesicles",
+      "B": "Contracting to physically separate the two daughter cells",
+      "C": "Guiding vesicle fusion to form the cell plate at the division site",
+      "D": "Degrading the old cell wall to allow for cell separation"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The passage states that vesicles containing cell wall materials 'are guided to the division site by the phragmoplast,' indicating its role in directing vesicle trafficking and fusion to form the cell plate. Option A is incorrect because the Golgi apparatus, not the phragmoplast, synthesizes cell wall materials. Option B describes animal cell cytokinesis with contractile rings, not plant cells. Option D is wrong because the phragmoplast helps construct new cell wall, not degrade old ones.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Plant Cell Division",
+        "url": "https://www.biointeractive.org/classroom-resources/plant-cell-division",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T03:40:00.000Z"
+  },
+  {
+    "id": "cell_bio_092",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which histone modification is most commonly associated with transcriptionally active chromatin regions?",
+    "options": {
+      "A": "H3K9me3 (trimethylation of lysine 9 on histone H3)",
+      "B": "H3K27me3 (trimethylation of lysine 27 on histone H3)",
+      "C": "H3K4me3 (trimethylation of lysine 4 on histone H3)",
+      "D": "H3K36me2 (dimethylation of lysine 36 on histone H3)"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. H3K4me3 is a well-established active histone mark that is enriched at promoters of actively transcribed genes. This modification is associated with open chromatin structure and active transcription. Option A (H3K9me3) is associated with heterochromatin and transcriptional repression. Option B (H3K27me3) is a repressive mark associated with Polycomb-mediated silencing. Option D (H3K36me2) is found in transcribed gene bodies but is not as strongly associated with active promoters as H3K4me3.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Histone Modifications",
+        "url": "https://www.nature.com/articles/nrg1351",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:40:00.000Z"
+  },
+  {
+    "id": "cell_bio_093",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating autophagy regulation discovered that mTORC1 (mechanistic target of rapamycin complex 1) serves as a central hub integrating growth signals and nutrient availability. Under nutrient-rich conditions, active mTORC1 phosphorylates and inhibits ULK1 (Unc-51-like kinase 1), a key autophagy initiator. When nutrients become scarce, mTORC1 activity decreases, allowing ULK1 to become active and initiate autophagosome formation. The researchers found that AMPK (AMP-activated protein kinase), which senses cellular energy status, can both directly activate ULK1 and inhibit mTORC1, creating a coherent feed-forward loop that promotes autophagy during energy stress.",
+    "question": "Based on this regulatory network, what would be the most likely effect of chronically active mTORC1 signaling?",
+    "options": {
+      "A": "Enhanced autophagy and improved cellular quality control",
+      "B": "Suppressed autophagy and accumulation of cellular debris",
+      "C": "Increased AMPK activation and energy conservation",
+      "D": "Enhanced ULK1 phosphorylation and autophagosome formation"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Chronically active mTORC1 would persistently phosphorylate and inhibit ULK1, preventing autophagy initiation even when the cell needs to clear damaged components. This would lead to suppressed autophagy and accumulation of cellular debris, potentially causing cellular dysfunction. Option A is incorrect because active mTORC1 inhibits rather than enhances autophagy. Option C is wrong because mTORC1 activity typically suppresses rather than activates AMPK signaling. Option D is incorrect because while mTORC1 does phosphorylate ULK1, this phosphorylation is inhibitory, not activating.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: mTOR and Autophagy",
+        "url": "https://www.nature.com/articles/nrm2983",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:40:00.000Z"
+  },
+  {
+    "id": "cell_bio_094",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which organelle is responsible for producing most of the cell's ATP through oxidative phosphorylation?",
+    "options": {
+      "A": "Nucleus",
+      "B": "Endoplasmic reticulum",
+      "C": "Mitochondrion",
+      "D": "Lysosome"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Mitochondria contain the electron transport chain and ATP synthase on their inner membrane, which together carry out oxidative phosphorylation to produce the majority of cellular ATP. This process uses oxygen as the final electron acceptor and is much more efficient than glycolysis. Option A (nucleus) controls gene expression but doesn't produce ATP. Option B (ER) synthesizes proteins and lipids but doesn't generate ATP. Option D (lysosome) degrades cellular waste but doesn't produce ATP.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Mitochondria and ATP",
+        "url": "https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation/oxidative-phosphorylation",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:40:00.000Z"
+  },
+  {
+    "id": "cell_bio_095",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying cell cycle checkpoints discovered that the spindle assembly checkpoint (SAC) ensures proper chromosome segregation during mitosis. The SAC monitors kinetochore attachment to spindle microtubules and delays anaphase onset until all chromosomes are properly bi-oriented. Unattached kinetochores recruit checkpoint proteins including Mad2, BubR1, and Bub3, which inhibit the anaphase-promoting complex (APC/C) by sequestering its activator Cdc20. Only when all kinetochores are properly attached and the checkpoint is satisfied does APC/C become active, leading to separase activation and sister chromatid separation.",
+    "question": "Based on this checkpoint mechanism, what would be the most likely consequence of a defective spindle assembly checkpoint?",
+    "options": {
+      "A": "Prolonged metaphase arrest with no chromosome movement",
+      "B": "Premature anaphase onset with potential chromosome missegregation",
+      "C": "Enhanced kinetochore-microtubule attachment stability",
+      "D": "Increased time for proper chromosome bi-orientation"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. A defective SAC would fail to detect improperly attached chromosomes and would not effectively inhibit APC/C. This would allow premature progression to anaphase even when some chromosomes are not properly bi-oriented, leading to chromosome missegregation and aneuploidy. Option A describes a hyperactive checkpoint, not a defective one. Option C is unrelated to checkpoint function. Option D would occur with a hyperactive checkpoint, not a defective one.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Spindle Checkpoint",
+        "url": "https://www.nature.com/articles/nrm1435",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:40:00.000Z"
+  },
+  {
+    "id": "cell_bio_096",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "During which stage of meiosis do homologous chromosomes separate and move to opposite poles of the cell?",
+    "options": {
+      "A": "Prophase I",
+      "B": "Metaphase I",
+      "C": "Anaphase I",
+      "D": "Anaphase II"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. During anaphase I of meiosis, homologous chromosome pairs (bivalents) separate and move to opposite poles of the cell. This is the reductional division that reduces chromosome number from diploid to haploid. Option A (prophase I) is when homologs pair and cross over. Option B (metaphase I) is when bivalents align at the metaphase plate. Option D (anaphase II) is when sister chromatids separate, similar to mitotic anaphase.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Meiosis",
+        "url": "https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation/meiosis",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:40:00.000Z"
+  },
+  {
+    "id": "cell_bio_097",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists studying cellular reprogramming found that induced pluripotent stem cells (iPSCs) can be generated by introducing specific transcription factors (Oct4, Sox2, Klf4, and c-Myc, known as Yamanaka factors) into differentiated cells. This reprogramming process involves extensive epigenetic remodeling, including DNA demethylation at pluripotency gene promoters and reactivation of the endogenous pluripotency network. The researchers discovered that reprogramming is not immediate but occurs through distinct intermediate states, and that the process can be enhanced by small molecules that modulate chromatin structure, DNA methylation, or signaling pathways. Only a small fraction of treated cells successfully undergo complete reprogramming to pluripotency.",
+    "question": "What does the low efficiency of iPSC generation suggest about the cellular reprogramming process?",
+    "options": {
+      "A": "Yamanaka factors are not sufficient for reprogramming and additional factors are always required",
+      "B": "Reprogramming involves overcoming multiple epigenetic barriers, making it a rare stochastic event",
+      "C": "All differentiated cells have completely lost their capacity for dedifferentiation",
+      "D": "The reprogramming process damages cellular DNA, preventing successful conversion"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The low efficiency of iPSC generation indicates that successful reprogramming requires overcoming multiple epigenetic barriers established during differentiation. The process involves extensive remodeling of chromatin structure, DNA methylation patterns, and gene expression networks, making it a complex, multi-step process that only occasionally succeeds. Option A is incorrect because Yamanaka factors alone can induce reprogramming, though inefficiently. Option C is wrong because some cells do successfully reprogram. Option D is incorrect because successful iPSCs maintain genomic integrity.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Cellular Reprogramming",
+        "url": "https://www.nature.com/articles/nrg3035",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:40:00.000Z"
+  },
+  {
+    "id": "cell_bio_098",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is the primary component of the plant cell wall?",
+    "options": {
+      "A": "Chitin",
+      "B": "Peptidoglycan",
+      "C": "Cellulose",
+      "D": "Keratin"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Cellulose, a polymer of glucose molecules linked by β-1,4-glycosidic bonds, is the main structural component of plant cell walls. It provides rigidity and strength to plant cells. Option A (chitin) is found in fungal cell walls and arthropod exoskeletons. Option B (peptidoglycan) is found in bacterial cell walls. Option D (keratin) is a protein found in animal structures like hair and skin.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Plant Cell Walls",
+        "url": "https://www.khanacademy.org/science/biology/structure-of-a-cell/plant-vs-animal-cells",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:40:00.000Z"
+  },
+  {
+    "id": "cell_bio_099",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team investigating DNA damage responses found that cells possess multiple mechanisms to detect and repair different types of DNA lesions. Double-strand breaks (DSBs) are particularly dangerous and activate the DNA damage checkpoint through ATM and ATR kinases. These kinases phosphorylate numerous downstream targets, including the tumor suppressor p53, leading to cell cycle arrest to allow time for repair. The researchers observed that cells can repair DSBs through two main pathways: homologous recombination (HR), which is highly accurate, and non-homologous end joining (NHEJ), which is faster but more error-prone. The choice between pathways depends on cell cycle phase and the nature of the break.",
+    "question": "Based on this DNA repair system, why might cells preferentially use homologous recombination during S and G2 phases?",
+    "options": {
+      "A": "NHEJ enzymes are not expressed during these phases",
+      "B": "Sister chromatids are available as homologous templates for accurate repair",
+      "C": "Double-strand breaks occur more frequently during S and G2",
+      "D": "ATM kinase is only active during S and G2 phases"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. During S and G2 phases, DNA has been replicated and sister chromatids are present, providing homologous templates for accurate HR repair. This allows for high-fidelity repair of double-strand breaks using the sister chromatid as a template. During G1 phase, sister chromatids are not available, making NHEJ the primary option despite its error-prone nature. Option A is incorrect because NHEJ components are present throughout the cell cycle. Option C is wrong because this doesn't explain pathway choice. Option D is incorrect because ATM can be activated by DSBs throughout the cell cycle.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: DNA Repair",
+        "url": "https://www.nature.com/articles/nrg1932",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:40:00.000Z"
+  },
+  {
+    "id": "cell_bio_100",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "A researcher observes that cells treated with nocodazole, which depolymerizes microtubules, show defects in organelle positioning and vesicle transport. This observation best demonstrates that microtubules function as:",
+    "options": {
+      "A": "Structural components of the nuclear envelope",
+      "B": "Tracks for motor protein-mediated intracellular transport",
+      "C": "Sites of ribosomal protein synthesis",
+      "D": "Channels for direct cytoplasmic communication"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Microtubules serve as tracks along which motor proteins (dynein and kinesin) transport organelles, vesicles, and other cargo throughout the cell. Disrupting microtubules with nocodazole eliminates these transport highways, leading to defects in organelle positioning and vesicle movement. Option A is incorrect because nuclear envelopes are made of membranes, not microtubules. Option C is wrong because ribosomes synthesize proteins, not microtubules. Option D describes gap junctions, not microtubules.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Cytoskeleton and Transport",
+        "url": "https://www.biointeractive.org/classroom-resources/cytoskeleton-cell-transport",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T03:40:00.000Z"
+  }
+]

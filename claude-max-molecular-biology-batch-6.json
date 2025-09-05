@@ -1,0 +1,237 @@
+[
+  {
+    "id": "mol_bio_051",
+    "topic": "molecular_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying alternative splicing discovered that a single gene can produce multiple protein isoforms through differential intron removal and exon inclusion. They found that tissue-specific splicing factors and regulatory sequences called exonic splicing enhancers (ESEs) and intronic splicing silencers (ISSs) control which exons are included in the mature mRNA. The scientists observed that approximately 95% of human multi-exon genes undergo alternative splicing, greatly expanding the diversity of the proteome beyond what would be predicted from genome size alone.",
+    "question": "Based on this alternative splicing mechanism, how does the number of possible proteins compare to the number of genes?",
+    "options": {
+      "A": "The number of proteins equals the number of genes",
+      "B": "The number of possible proteins can exceed the number of genes due to alternative splicing creating multiple isoforms",
+      "C": "Alternative splicing reduces the number of proteins below the gene count",
+      "D": "Only genes with introns can produce proteins"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that alternative splicing allows 'a single gene to produce multiple protein isoforms' and that this 'greatly expanding the diversity of the proteome beyond what would be predicted from genome size alone.' Since 95% of multi-exon genes undergo alternative splicing, the protein diversity far exceeds gene number. Option A ignores alternative splicing. Option C is backwards. Option D is incorrect about protein production.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Alternative Splicing",
+        "url": "https://www.nature.com/articles/nrg1896",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:15:00.000Z"
+  },
+  {
+    "id": "mol_bio_052",
+    "topic": "molecular_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which checkpoint mechanism prevents cells from entering mitosis when DNA replication is incomplete?",
+    "options": {
+      "A": "G1/S checkpoint",
+      "B": "Intra-S checkpoint", 
+      "C": "G2/M checkpoint",
+      "D": "Spindle checkpoint"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The G2/M checkpoint (also called DNA damage checkpoint) prevents entry into mitosis until DNA replication is complete and any DNA damage is repaired. It's mediated by proteins like ATM, ATR, and p53. Option A controls G1 to S transition. Option B responds to replication stress during S phase. Option D ensures proper chromosome attachment during mitosis.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Cell Cycle Checkpoints",
+        "url": "https://www.biointeractive.org/classroom-resources/cell-cycle-checkpoints",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T05:15:00.000Z"
+  },
+  {
+    "id": "mol_bio_053",
+    "topic": "molecular_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating chromatin remodeling discovered that ATP-dependent chromatin remodeling complexes can alter nucleosome positioning to regulate gene access. These complexes, including SWI/SNF, ISWI, and CHD families, use ATP hydrolysis to slide, eject, or restructure nucleosomes. The researchers found that different remodeling complexes have distinct functions: SWI/SNF complexes promote transcriptional activation by ejecting or sliding nucleosomes away from promoters, while ISWI complexes often space nucleosomes regularly for chromatin organization. They concluded that chromatin remodeling is essential for all DNA-templated processes including transcription, replication, and repair.",
+    "question": "Based on this chromatin remodeling research, how do ATP-dependent remodeling complexes regulate gene expression?",
+    "options": {
+      "A": "They directly bind to DNA and prevent transcription factor access",
+      "B": "They use ATP to alter nucleosome positioning, controlling DNA accessibility for transcription",
+      "C": "They synthesize histones to package DNA more tightly",
+      "D": "They degrade DNA to prevent gene expression"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that chromatin remodeling complexes 'use ATP hydrolysis to slide, eject, or restructure nucleosomes' and that 'SWI/SNF complexes promote transcriptional activation by ejecting or sliding nucleosomes away from promoters.' This ATP-dependent nucleosome repositioning controls DNA accessibility. Option A describes direct DNA binding, not remodeling. Option C describes histone synthesis. Option D describes degradation, not remodeling.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Chromatin Remodeling",
+        "url": "https://www.nature.com/articles/nrg2733",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:15:00.000Z"
+  },
+  {
+    "id": "mol_bio_054",
+    "topic": "molecular_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is the primary function of the ribosome during translation?",
+    "options": {
+      "A": "To unwind DNA for transcription",
+      "B": "To catalyze peptide bond formation between amino acids",
+      "C": "To add the poly(A) tail to mRNA",
+      "D": "To splice introns from pre-mRNA"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The ribosome's primary function is to catalyze peptide bond formation between amino acids during protein synthesis (translation). The peptidyl transferase center in the large ribosomal subunit catalyzes this reaction. Option A describes helicase function during transcription. Option C occurs during mRNA processing. Option D describes splicing machinery function.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Ribosome Structure and Function",
+        "url": "https://www.khanacademy.org/science/biology/gene-expression-central-dogma/translation-polypeptides",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:15:00.000Z"
+  },
+  {
+    "id": "mol_bio_055",
+    "topic": "molecular_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying telomeres discovered that these DNA-protein structures protect chromosome ends from degradation and fusion. Telomeres consist of repetitive DNA sequences (TTAGGG in humans) bound by shelterin proteins that form protective caps. The scientists found that during DNA replication, telomeres shorten due to the end-replication problem - DNA polymerases cannot fully replicate the 3' ends of linear chromosomes. Telomerase, an enzyme containing both protein and RNA components, can extend telomeres by adding telomeric repeats, but it's only active in stem cells, germ cells, and unfortunately, many cancer cells.",
+    "question": "Based on this telomere biology, why do telomeres shorten during normal DNA replication?",
+    "options": {
+      "A": "Telomeres are actively degraded by nucleases",
+      "B": "DNA polymerases cannot fully replicate the 3' ends of linear chromosomes (end-replication problem)",
+      "C": "Shelterin proteins prevent telomere replication",
+      "D": "Telomerase is overactive in normal cells"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explicitly states that 'telomeres shorten due to the end-replication problem - DNA polymerases cannot fully replicate the 3' ends of linear chromosomes.' This is because DNA polymerase requires a 3'-OH primer and synthesizes 5' to 3', making complete replication of chromosome ends impossible without telomerase. Option A describes degradation, not replication issues. Option C contradicts shelterin's protective role. Option D contradicts the limited telomerase activity described.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Telomeres and Aging",
+        "url": "https://www.biointeractive.org/classroom-resources/telomeres",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T05:15:00.000Z"
+  },
+  {
+    "id": "mol_bio_056",
+    "topic": "molecular_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which RNA interference (RNAi) component is responsible for cleaving target mRNAs?",
+    "options": {
+      "A": "Dicer",
+      "B": "Argonaute (AGO) proteins",
+      "C": "Drosha",
+      "D": "Exportin-5"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Argonaute (AGO) proteins are the catalytic components of the RISC complex that cleave target mRNAs when guided by siRNAs or miRNAs with perfect or near-perfect complementarity. AGO2 specifically has endonuclease activity for mRNA cleavage. Option A (Dicer) processes dsRNA into siRNAs. Option C (Drosha) processes pri-miRNA. Option D transports pre-miRNA from nucleus to cytoplasm.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: RNA Interference",
+        "url": "https://www.nature.com/articles/nrg1379",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:15:00.000Z"
+  },
+  {
+    "id": "mol_bio_057",
+    "topic": "molecular_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying p53 tumor suppressor function discovered that this protein acts as the 'guardian of the genome' by responding to various cellular stresses. When DNA damage is detected, kinases like ATM and ATR phosphorylate p53, stabilizing it and preventing MDM2-mediated degradation. Activated p53 functions as a transcription factor, upregulating genes involved in cell cycle arrest (p21), apoptosis (PUMA, BAX), and DNA repair. The scientists found that p53 mutations occur in over 50% of human cancers, highlighting its critical role in preventing malignant transformation.",
+    "question": "Based on this p53 function, why is p53 phosphorylation important for its tumor suppressor activity?",
+    "options": {
+      "A": "Phosphorylation directly repairs DNA damage",
+      "B": "Phosphorylation stabilizes p53 and prevents its degradation by MDM2, allowing it to function as a transcription factor",
+      "C": "Phosphorylation converts p53 into an oncogene",
+      "D": "Phosphorylation prevents p53 from entering the nucleus"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that phosphorylation 'stabilizes p53 and prevents MDM2-mediated degradation' and that 'activated p53 functions as a transcription factor.' This stabilization is crucial because it allows p53 to accumulate and transcriptionally activate genes that promote cell cycle arrest or apoptosis. Option A confuses p53's role - it responds to damage but doesn't repair it directly. Option C is opposite to tumor suppressor function. Option D contradicts p53's nuclear transcription factor role.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: p53 Tumor Suppressor",
+        "url": "https://www.nature.com/articles/nrc1206",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:15:00.000Z"
+  },
+  {
+    "id": "mol_bio_058",
+    "topic": "molecular_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "During which phase of the cell cycle is DNA replicated?",
+    "options": {
+      "A": "G1 phase",
+      "B": "S phase",
+      "C": "G2 phase",
+      "D": "M phase"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. DNA replication occurs during S phase (synthesis phase) of the cell cycle, when the entire genome is duplicated in preparation for cell division. Option A (G1) is the growth phase before replication. Option C (G2) is the growth phase after replication. Option D (M) is mitosis when chromosomes are segregated.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Cell Cycle Phases",
+        "url": "https://www.khanacademy.org/science/biology/cellular-molecular-biology/mitosis",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:15:00.000Z"
+  },
+  {
+    "id": "mol_bio_059",
+    "topic": "molecular_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying transcriptional regulation discovered that enhancers can function over large distances and in an orientation-independent manner. These regulatory sequences bind specific transcription factors and can be located upstream, downstream, or within introns of target genes. The researchers found that enhancers work by forming chromatin loops that bring them into physical contact with target promoters, facilitated by mediator complexes and architectural proteins like CTCF. This looping allows coordinate regulation of multiple genes and explains how distant regulatory elements can influence transcription.",
+    "question": "Based on this enhancer function, how can regulatory sequences located far from a gene still influence its transcription?",
+    "options": {
+      "A": "Transcription factors walk along the DNA from enhancers to promoters",
+      "B": "Enhancers send chemical signals through the cytoplasm to reach promoters",
+      "C": "Chromatin looping brings distant enhancers into physical contact with target promoters",
+      "D": "Enhancers only work when located immediately adjacent to promoters"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The passage states that 'enhancers work by forming chromatin loops that bring them into physical contact with target promoters, facilitated by mediator complexes and architectural proteins like CTCF.' This three-dimensional chromatin organization allows long-range gene regulation. Option A describes a linear mechanism that doesn't occur. Option B involves cytoplasmic signaling rather than chromatin structure. Option D contradicts the distant action described.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Gene Regulation and Chromatin Structure",
+        "url": "https://www.biointeractive.org/classroom-resources/gene-regulation-chromatin",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T05:15:00.000Z"
+  },
+  {
+    "id": "mol_bio_060",
+    "topic": "molecular_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "What is the role of the signal recognition particle (SRP) in protein synthesis?",
+    "options": {
+      "A": "To initiate translation at the ribosome",
+      "B": "To recognize signal sequences and target ribosomes to the endoplasmic reticulum",
+      "C": "To terminate translation at stop codons",
+      "D": "To splice introns from mRNA"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. SRP recognizes N-terminal signal sequences on nascent proteins and binds to both the signal sequence and the ribosome, targeting the entire complex to SRP receptors on the ER membrane for co-translational protein translocation. Option A describes initiation factors. Option C describes release factors. Option D describes splicing machinery.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Protein Targeting",
+        "url": "https://www.nature.com/articles/nrm1471",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:15:00.000Z"
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "id": "organ_sys_001",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying cardiac physiology discovered that the heart's electrical conduction system ensures coordinated contraction of cardiac muscle. The sinoatrial (SA) node initiates electrical impulses that spread through the atria, causing atrial contraction. The impulse then reaches the atrioventricular (AV) node, which delays transmission to allow complete atrial emptying before ventricular contraction begins. From the AV node, the impulse travels through the bundle of His, bundle branches, and Purkinje fibers to stimulate ventricular contraction. The researchers found that this intrinsic conduction system allows the heart to beat independently of nervous system control, though it can be modulated by autonomic input.",
+    "question": "Based on this cardiac conduction system, what is the functional significance of the delay at the AV node?",
+    "options": {
+      "A": "To prevent the heart from beating too rapidly",
+      "B": "To ensure complete atrial emptying before ventricular contraction begins",
+      "C": "To allow time for coronary blood flow during systole",
+      "D": "To coordinate contraction with respiratory cycles"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage specifically states that the AV node 'delays transmission to allow complete atrial emptying before ventricular contraction begins.' This delay ensures proper filling of the ventricles and optimal cardiac output. Option A is not the primary function of the AV delay. Option C relates to coronary perfusion but not the AV delay. Option D describes a different physiological mechanism.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Cardiac Conduction System",
+        "url": "https://www.khanacademy.org/science/health-and-medicine/circulatory-system",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:35:00.000Z"
+  },
+  {
+    "id": "organ_sys_002",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which part of the nephron is primarily responsible for the regulation of sodium and potassium balance through aldosterone action?",
+    "options": {
+      "A": "Glomerulus",
+      "B": "Proximal convoluted tubule",
+      "C": "Loop of Henle",
+      "D": "Distal convoluted tubule and collecting duct"
+    },
+    "correct_answer": "D",
+    "explanation": "The correct answer is D. Aldosterone primarily acts on the distal convoluted tubule and collecting duct, where it increases sodium reabsorption and potassium secretion through regulation of epithelial sodium channels (ENaC) and Na+/K+-ATPase pumps. Option A (glomerulus) is the site of filtration. Option B (proximal tubule) handles bulk reabsorption but is less responsive to aldosterone. Option C (loop of Henle) is primarily involved in concentrating urine.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Kidney Function",
+        "url": "https://www.biointeractive.org/classroom-resources/kidney-function",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:35:00.000Z"
+  },
+  {
+    "id": "organ_sys_003",
+    "topic": "organ_systems",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating respiratory physiology found that ventilation is controlled by multiple mechanisms to maintain appropriate blood gas levels. The medullary respiratory center contains the pre-Bötzinger complex, which generates the basic respiratory rhythm. Chemoreceptors in the medulla are primarily sensitive to CO2/H+ levels in cerebrospinal fluid, while peripheral chemoreceptors in the carotid and aortic bodies respond to decreased O2, increased CO2, and decreased pH. The researchers discovered that under normal conditions, CO2 levels are the primary driver of breathing, but during severe hypoxia, oxygen levels become the dominant stimulus. Additionally, they found that voluntary control from the cerebral cortex can temporarily override automatic control.",
+    "question": "Based on this respiratory control system, why might administering high-concentration oxygen to patients with chronic CO2 retention be potentially dangerous?",
+    "options": {
+      "A": "Oxygen is toxic at high concentrations",
+      "B": "High oxygen may eliminate the hypoxic drive to breathe in patients dependent on low O2 for respiratory stimulation",
+      "C": "Oxygen interferes with CO2 transport in the blood",
+      "D": "High oxygen always causes immediate respiratory depression in all patients"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Patients with chronic CO2 retention may become dependent on hypoxic drive (low oxygen stimulation of peripheral chemoreceptors) rather than the normal CO2 drive for breathing. Administering high-concentration oxygen could eliminate this hypoxic stimulus, potentially leading to respiratory depression. Option A is true but not the mechanism relevant here. Option C is incorrect. Option D overstates the effect - this primarily affects patients with chronic CO2 retention.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Respiratory Control",
+        "url": "https://www.nature.com/scitable/topicpage/control-of-respiration-13238891/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T04:35:00.000Z"
+  },
+  {
+    "id": "organ_sys_004",
+    "topic": "organ_systems",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which chamber of the heart receives oxygenated blood from the lungs?",
+    "options": {
+      "A": "Right atrium",
+      "B": "Right ventricle", 
+      "C": "Left atrium",
+      "D": "Left ventricle"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The left atrium receives oxygenated blood returning from the lungs via the pulmonary veins. This blood then flows to the left ventricle and is pumped to the systemic circulation. Option A (right atrium) receives deoxygenated blood from the systemic circulation. Options B and D are ventricles that pump blood rather than receive it from the lungs.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Heart Anatomy",
+        "url": "https://www.khanacademy.org/science/health-and-medicine/circulatory-system",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:35:00.000Z"
+  },
+  {
+    "id": "organ_sys_005",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying digestive physiology examined the role of different regions in nutrient absorption. The stomach primarily secretes gastric acid and pepsinogen, beginning protein digestion. The duodenum receives pancreatic enzymes and bile, continuing digestion of all major macronutrients. The jejunum is the primary site for absorption of carbohydrates, proteins, and water-soluble vitamins, while the ileum specializes in absorbing vitamin B12, bile salts, and fat-soluble vitamins. The researchers found that this regional specialization maximizes absorption efficiency and prevents nutrient loss.",
+    "question": "Based on this digestive specialization, malabsorption of vitamin B12 would most likely result from damage to which region?",
+    "options": {
+      "A": "Stomach",
+      "B": "Duodenum",
+      "C": "Jejunum",
+      "D": "Ileum"
+    },
+    "correct_answer": "D",
+    "explanation": "The correct answer is D. The passage states that 'the ileum specializes in absorbing vitamin B12, bile salts, and fat-soluble vitamins.' Vitamin B12 absorption specifically occurs in the ileum and requires intrinsic factor from the stomach. Option A (stomach) produces intrinsic factor but doesn't absorb B12. Options B and C handle other nutrients but not B12 absorption.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Digestive System Function",
+        "url": "https://www.biointeractive.org/classroom-resources/digestive-system",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:35:00.000Z"
+  },
+  {
+    "id": "organ_sys_006",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "During the luteal phase of the menstrual cycle, which hormone maintains the corpus luteum and supports the endometrial lining?",
+    "options": {
+      "A": "Follicle-stimulating hormone (FSH)",
+      "B": "Luteinizing hormone (LH)",
+      "C": "Estrogen",
+      "D": "Progesterone"
+    },
+    "correct_answer": "D",
+    "explanation": "The correct answer is D. During the luteal phase, the corpus luteum secretes progesterone, which maintains the thickened endometrial lining in preparation for potential implantation. Progesterone also provides negative feedback to prevent further ovulation. Option A (FSH) stimulates follicle development. Option B (LH) triggers ovulation but doesn't maintain the luteal phase. Option C (estrogen) is important but progesterone is the primary maintaining hormone.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Menstrual Cycle",
+        "url": "https://www.khanacademy.org/science/health-and-medicine/reproductive-system",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:35:00.000Z"
+  },
+  {
+    "id": "organ_sys_007",
+    "topic": "organ_systems",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying immune system function discovered that T cell activation requires two distinct signals to prevent inappropriate immune responses. Signal 1 involves recognition of antigen presented on MHC molecules by the T cell receptor (TCR). Signal 2 comes from costimulatory molecules like CD28 on T cells binding to B7 molecules on antigen-presenting cells. Without both signals, T cells become anergic (unresponsive) or undergo apoptosis. The scientists found that this two-signal requirement prevents autoimmune responses by ensuring T cells are only activated when professional antigen-presenting cells are present, indicating a legitimate immune threat.",
+    "question": "Based on this T cell activation mechanism, what would be the likely consequence of T cells receiving only Signal 1 without Signal 2?",
+    "options": {
+      "A": "Enhanced T cell activation and proliferation",
+      "B": "T cell anergy or apoptosis",
+      "C": "Immediate antibody production",
+      "D": "Conversion to regulatory T cells"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explicitly states that 'without both signals, T cells become anergic (unresponsive) or undergo apoptosis.' This safety mechanism prevents inappropriate T cell activation when antigen is presented without proper costimulation. Option A contradicts the two-signal requirement. Option C describes B cell function. Option D describes a specific differentiation pathway not mentioned in the passage.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: T Cell Activation",
+        "url": "https://www.nature.com/articles/nri1376",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:35:00.000Z"
+  },
+  {
+    "id": "organ_sys_008",
+    "topic": "organ_systems",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which structure in the brain is primarily responsible for maintaining balance and coordinating voluntary movements?",
+    "options": {
+      "A": "Cerebrum",
+      "B": "Cerebellum",
+      "C": "Brain stem",
+      "D": "Thalamus"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The cerebellum is responsible for maintaining balance, coordinating voluntary movements, and motor learning. It receives input from sensory systems and the cerebral cortex to fine-tune motor control. Option A (cerebrum) handles higher cognitive functions. Option C (brain stem) controls vital functions like breathing. Option D (thalamus) is a relay station for sensory information.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Brain Structure and Function",
+        "url": "https://www.khanacademy.org/science/health-and-medicine/nervous-system-and-sensory-infor",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:35:00.000Z"
+  },
+  {
+    "id": "organ_sys_009",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying endocrine regulation examined how blood glucose levels are maintained within a narrow range despite varying food intake and metabolic demands. When blood glucose rises after a meal, pancreatic beta cells secrete insulin, which promotes glucose uptake by muscle and fat cells and stimulates glycogen synthesis in the liver. When blood glucose falls, pancreatic alpha cells secrete glucagon, which stimulates hepatic glucose production through glycogenolysis and gluconeogenesis. The researchers found that this reciprocal regulation by insulin and glucagon represents a classic example of negative feedback control in physiological systems.",
+    "question": "Based on this glucose regulation system, what type of feedback mechanism maintains blood glucose homeostasis?",
+    "options": {
+      "A": "Positive feedback, where changes amplify the initial stimulus",
+      "B": "Negative feedback, where responses counteract changes from the set point",
+      "C": "Feed-forward regulation, where responses anticipate future changes",
+      "D": "No feedback regulation is involved"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes classic negative feedback where insulin response to high glucose counteracts the elevation, and glucagon response to low glucose counteracts the decrease, maintaining homeostasis around the set point. The passage explicitly states this 'represents a classic example of negative feedback control.' Options A and C describe different regulatory mechanisms. Option D contradicts the described system.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Glucose Homeostasis",
+        "url": "https://www.biointeractive.org/classroom-resources/glucose-regulation",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:35:00.000Z"
+  },
+  {
+    "id": "organ_sys_010",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which type of muscle tissue is characterized by involuntary control, single nuclei, and gap junctions for coordinated contraction?",
+    "options": {
+      "A": "Skeletal muscle",
+      "B": "Cardiac muscle",
+      "C": "Smooth muscle",
+      "D": "Both cardiac and smooth muscle"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Cardiac muscle is involuntarily controlled, has single nuclei (unlike multinucleated skeletal muscle), and contains gap junctions (intercalated discs) that allow coordinated contraction across the heart. Option A (skeletal) is voluntary and multinucleated. Option C (smooth) is involuntary and single nucleated but typically lacks the specialized gap junctions for coordinated contraction seen in cardiac muscle. Option D is incorrect because smooth muscle doesn't have the same gap junction organization.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Muscle Tissue Types",
+        "url": "https://www.nature.com/scitable/topicpage/muscle-tissue-14074969/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T04:35:00.000Z"
+  }
+]

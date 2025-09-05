@@ -1,0 +1,237 @@
+[
+  {
+    "id": "mol_bio_021",
+    "topic": "molecular_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying DNA repair mechanisms discovered that cells have evolved multiple pathways to correct different types of DNA damage. Base excision repair (BER) corrects small base modifications like oxidation or alkylation by removing the damaged base and replacing it. Nucleotide excision repair (NER) removes bulky DNA lesions that distort the double helix, such as pyrimidine dimers caused by UV radiation. Mismatch repair (MMR) corrects replication errors by recognizing and removing mismatched bases. The researchers found that defects in these repair systems are associated with increased cancer risk and genetic disorders.",
+    "question": "Based on these repair mechanisms, which type of DNA damage would most likely be repaired by nucleotide excision repair?",
+    "options": {
+      "A": "A single oxidized guanine base",
+      "B": "A thymine dimer caused by UV radiation",
+      "C": "An A-C mismatch from replication error",
+      "D": "A missing phosphate group in the DNA backbone"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that NER 'removes bulky DNA lesions that distort the double helix, such as pyrimidine dimers caused by UV radiation.' Thymine dimers are bulky lesions that distort DNA structure. Option A would be repaired by BER (small base modification). Option C would be repaired by MMR (mismatch). Option D describes a backbone break requiring different repair mechanisms.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: DNA Repair",
+        "url": "https://www.nature.com/articles/nrg1932",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:20:00.000Z"
+  },
+  {
+    "id": "mol_bio_022",
+    "topic": "molecular_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "In prokaryotic transcription, what is the function of the sigma factor?",
+    "options": {
+      "A": "To terminate transcription at specific sites",
+      "B": "To help RNA polymerase recognize and bind to promoter sequences",
+      "C": "To process newly synthesized mRNA",
+      "D": "To translate mRNA into protein"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The sigma factor is a protein subunit that helps bacterial RNA polymerase recognize and bind to specific promoter sequences, enabling transcription initiation at the correct sites. Different sigma factors recognize different sets of promoters, allowing for coordinated gene expression. Option A describes termination factors. Option C describes RNA processing (not found in prokaryotes). Option D describes translation, not transcription.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Prokaryotic Transcription",
+        "url": "https://www.khanacademy.org/science/biology/gene-expression-central-dogma/transcription-of-dna-into-rna",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:20:00.000Z"
+  },
+  {
+    "id": "mol_bio_023",
+    "topic": "molecular_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating chromatin structure discovered that nucleosomes, composed of histone octamers wrapped by DNA, are the basic repeating units of chromatin. The researchers found that histone modifications, such as acetylation, methylation, and phosphorylation, can alter chromatin structure and gene accessibility. Histone acetyltransferases (HATs) add acetyl groups that generally promote transcription by loosening chromatin structure, while histone deacetylases (HDACs) remove acetyl groups and typically repress transcription. These modifications create an 'epigenetic code' that can be inherited through cell divisions without changing the underlying DNA sequence.",
+    "question": "Based on this chromatin regulation, how do histone acetyl modifications affect gene transcription?",
+    "options": {
+      "A": "Acetylation always permanently silences genes",
+      "B": "Acetylation neutralizes positive histone charges, loosening DNA binding and promoting transcription",
+      "C": "Acetylation only affects DNA replication, not transcription",
+      "D": "Acetylation causes immediate DNA degradation"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Histone acetylation neutralizes the positive charges on lysine residues, weakening the electrostatic attraction between histones and negatively charged DNA. This loosening allows transcription factors and RNA polymerase better access to DNA, promoting transcription. The passage confirms that HATs 'generally promote transcription by loosening chromatin structure.' Options A, C, and D misrepresent the effects of acetylation.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Histone Modifications",
+        "url": "https://www.nature.com/articles/nrg1351",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:20:00.000Z"
+  },
+  {
+    "id": "mol_bio_024",
+    "topic": "molecular_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which enzyme synthesizes the RNA primers needed for DNA replication?",
+    "options": {
+      "A": "DNA polymerase",
+      "B": "DNA helicase",
+      "C": "DNA primase",
+      "D": "DNA ligase"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. DNA primase synthesizes short RNA primers (8-12 nucleotides) that provide the 3'-OH group required for DNA polymerase to begin synthesis. DNA polymerases cannot start synthesis de novo and require these primers. Option A (DNA polymerase) extends from primers but doesn't make them. Option B (helicase) unwinds DNA. Option D (ligase) joins DNA fragments.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: DNA Replication Enzymes",
+        "url": "https://www.khanacademy.org/science/biology/dna-as-the-genetic-material/dna-replication",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:20:00.000Z"
+  },
+  {
+    "id": "mol_bio_025",
+    "topic": "molecular_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying enzyme regulation found that allosteric enzymes can exist in two conformational states: a tense (T) state with low substrate affinity and a relaxed (R) state with high substrate affinity. According to the concerted model, all subunits of the enzyme switch between states simultaneously. Positive allosteric effectors (activators) bind preferentially to the R state and shift the equilibrium toward the active form, while negative allosteric effectors (inhibitors) bind preferentially to the T state and shift the equilibrium toward the inactive form. This regulation allows sensitive control of enzyme activity.",
+    "question": "Based on this allosteric model, how do positive allosteric effectors increase enzyme activity?",
+    "options": {
+      "A": "They compete directly with the substrate for the active site",
+      "B": "They bind to the R state and stabilize the high-affinity conformation",
+      "C": "They permanently modify the enzyme structure through covalent bonds",
+      "D": "They increase the total number of enzyme molecules in the cell"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that positive allosteric effectors 'bind preferentially to the R state and shift the equilibrium toward the active form.' By binding to and stabilizing the R state (high substrate affinity), they increase the proportion of enzyme molecules in the active conformation. Option A describes competitive inhibition, not allosteric activation. Option C describes covalent modification, not allosteric binding. Option D refers to enzyme expression, not allosteric regulation.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Allosteric Regulation",
+        "url": "https://www.biointeractive.org/classroom-resources/allosteric-regulation",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:20:00.000Z"
+  },
+  {
+    "id": "mol_bio_026",
+    "topic": "molecular_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which mechanism allows prokaryotic cells to rapidly respond to environmental changes in gene expression?",
+    "options": {
+      "A": "Alternative splicing of pre-mRNA",
+      "B": "Chromatin remodeling",
+      "C": "Operon-based transcriptional control",
+      "D": "Nuclear compartmentalization"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Prokaryotes use operons to coordinately regulate groups of functionally related genes, allowing rapid response to environmental changes. Examples include the lac operon (responds to lactose) and trp operon (responds to tryptophan levels). Options A and D are eukaryotic features. Option B occurs in eukaryotes where chromatin structure needs to be modified, but prokaryotes lack histones and chromatin.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Gene Regulation in Bacteria",
+        "url": "https://www.khanacademy.org/science/biology/gene-regulation/gene-regulation-in-bacteria",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:20:00.000Z"
+  },
+  {
+    "id": "mol_bio_027",
+    "topic": "molecular_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying protein quality control discovered that the unfolded protein response (UPR) is activated when misfolded proteins accumulate in the endoplasmic reticulum. The UPR involves three main pathways: IRE1α splices XBP1 mRNA to produce an active transcription factor; PERK phosphorylates eIF2α to reduce protein synthesis; and ATF6 is cleaved to release an active transcription factor. These pathways coordinately reduce ER protein load, increase folding capacity, and activate ER-associated degradation (ERAD) to remove terminally misfolded proteins. If the stress cannot be resolved, the UPR can trigger apoptosis.",
+    "question": "Based on this UPR mechanism, what is the primary strategy for resolving ER protein folding stress?",
+    "options": {
+      "A": "Immediately triggering apoptosis to eliminate stressed cells",
+      "B": "Completely shutting down all protein synthesis permanently",
+      "C": "Coordinating reduced protein influx with increased folding capacity and protein removal",
+      "D": "Converting all ER proteins to cytosolic proteins"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The passage describes how the UPR 'coordinately reduce[s] ER protein load, increase[s] folding capacity, and activate[s] ER-associated degradation (ERAD)' - a three-pronged approach that reduces incoming proteins (PERK pathway), enhances folding ability (IRE1α/XBP1 and ATF6 pathways), and removes unfoldable proteins (ERAD). Option A is a last resort, not the primary strategy. Option B is too extreme - synthesis is reduced, not eliminated. Option D is not described in the passage.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Unfolded Protein Response",
+        "url": "https://www.nature.com/articles/nrm2199",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:20:00.000Z"
+  },
+  {
+    "id": "mol_bio_028",
+    "topic": "molecular_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is the directionality of RNA polymerase synthesis?",
+    "options": {
+      "A": "3' to 5' direction",
+      "B": "5' to 3' direction",
+      "C": "Both directions simultaneously",
+      "D": "Direction varies by gene type"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. RNA polymerase synthesizes RNA in the 5' to 3' direction, adding nucleotides to the growing 3' end of the RNA chain. This directionality is the same as DNA polymerase and is determined by the mechanism of phosphodiester bond formation. Option A is incorrect - synthesis is always 5' to 3'. Options C and D are wrong because the directionality is universal for all RNA polymerases.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Transcription",
+        "url": "https://www.khanacademy.org/science/biology/gene-expression-central-dogma/transcription-of-dna-into-rna",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:20:00.000Z"
+  },
+  {
+    "id": "mol_bio_029",
+    "topic": "molecular_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying post-transcriptional gene regulation discovered that riboswitches are structured regulatory RNA sequences that can directly bind to specific metabolites and alter gene expression without requiring protein factors. These RNA elements undergo conformational changes upon ligand binding that can affect transcription termination, mRNA stability, or translation efficiency. The researchers found that riboswitches are particularly common in bacteria and plants, and they typically regulate genes involved in the metabolism of their cognate ligands. This represents an ancient form of gene regulation that predates protein-based regulatory systems.",
+    "question": "Based on this riboswitch mechanism, what makes riboswitches unique among gene regulatory elements?",
+    "options": {
+      "A": "They require multiple protein cofactors to function",
+      "B": "They can directly bind metabolites and regulate gene expression without proteins",
+      "C": "They only function during DNA replication",
+      "D": "They are only found in eukaryotic cells"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage emphasizes that riboswitches 'can directly bind to specific metabolites and alter gene expression without requiring protein factors.' This direct RNA-metabolite interaction distinguishes riboswitches from most other regulatory systems that require protein intermediates. Option A contradicts the protein-independent nature. Option C is wrong as they regulate transcription and translation, not replication. Option D contradicts the statement that they're 'particularly common in bacteria and plants.'",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Riboswitches",
+        "url": "https://www.nature.com/articles/nrg1359",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:20:00.000Z"
+  },
+  {
+    "id": "mol_bio_030",
+    "topic": "molecular_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "A researcher observing an enzyme kinetics experiment notices that the presence of a competitive inhibitor increases the Km but does not change the Vmax. What does this pattern indicate?",
+    "options": {
+      "A": "The inhibitor permanently damages the enzyme",
+      "B": "The inhibitor competes with substrate for the same binding site",
+      "C": "The inhibitor binds to an allosteric site",
+      "D": "The inhibitor increases enzyme concentration"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Competitive inhibition occurs when an inhibitor competes with substrate for the same active site. This increases the apparent Km (more substrate needed to reach half-maximal velocity as it must outcompete the inhibitor) but doesn't affect Vmax (the enzyme can still achieve maximum activity with sufficient substrate). Option A would decrease Vmax permanently. Option C describes non-competitive inhibition. Option D doesn't explain the kinetic pattern observed.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Enzyme Inhibition",
+        "url": "https://www.nature.com/scitable/topicpage/enzyme-inhibition-14117963/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T04:20:00.000Z"
+  }
+]

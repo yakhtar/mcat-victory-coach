@@ -1,0 +1,237 @@
+[
+  {
+    "id": "organ_sys_021",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying pulmonary gas exchange discovered that efficient oxygen and carbon dioxide transfer depends on the structural properties of the respiratory membrane. The alveolar-capillary membrane consists of the alveolar epithelium, basement membrane, and capillary endothelium - collectively only 0.5 micrometers thick to facilitate rapid diffusion. The scientists found that surface tension in alveoli is reduced by surfactant produced by type II pneumocytes, preventing alveolar collapse during expiration. They calculated that the lungs' 300 million alveoli provide approximately 70 square meters of surface area for gas exchange.",
+    "question": "Based on this pulmonary structure, what is the primary function of surfactant in the alveoli?",
+    "options": {
+      "A": "To increase oxygen solubility in blood",
+      "B": "To reduce surface tension and prevent alveolar collapse during expiration",
+      "C": "To actively transport gases across the respiratory membrane",
+      "D": "To increase the thickness of the respiratory membrane"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'surface tension in alveoli is reduced by surfactant produced by type II pneumocytes, preventing alveolar collapse during expiration.' Surfactant is crucial for maintaining alveolar stability, especially in newborns. Option A relates to gas solubility, not surface tension. Option C describes active transport, but gas exchange is passive. Option D would impair gas exchange.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Alveolar Gas Exchange",
+        "url": "https://www.khanacademy.org/science/health-and-medicine/respiratory-system",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:30:00.000Z"
+  },
+  {
+    "id": "organ_sys_022",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which hormone directly stimulates red blood cell production in the bone marrow?",
+    "options": {
+      "A": "Insulin",
+      "B": "Erythropoietin (EPO)",
+      "C": "Growth hormone",
+      "D": "Thyroxine"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Erythropoietin (EPO) is produced primarily by the kidneys in response to hypoxia and directly stimulates erythropoiesis (red blood cell production) in the bone marrow. This increases oxygen-carrying capacity when needed. Option A regulates glucose metabolism. Option C stimulates overall growth. Option D regulates metabolism.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Erythropoietin and Red Blood Cell Production",
+        "url": "https://www.biointeractive.org/classroom-resources/erythropoietin",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T05:30:00.000Z"
+  },
+  {
+    "id": "organ_sys_023",
+    "topic": "organ_systems",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating synaptic transmission discovered that neurotransmitter release is a highly regulated process involving calcium-dependent vesicle fusion. When an action potential reaches the synaptic terminal, voltage-gated calcium channels open, allowing Ca2+ influx. The increased intracellular calcium triggers SNARE protein conformational changes that promote vesicle fusion with the presynaptic membrane, releasing neurotransmitters into the synaptic cleft. The researchers found that different neurotransmitters have distinct receptors and effects: acetylcholine activates nicotinic receptors (excitatory) at neuromuscular junctions, while GABA activates GABA_A receptors (inhibitory) in the brain.",
+    "question": "Based on this synaptic transmission mechanism, what is the direct trigger for neurotransmitter vesicle fusion with the presynaptic membrane?",
+    "options": {
+      "A": "Sodium influx during the action potential",
+      "B": "Potassium efflux during repolarization",
+      "C": "Calcium influx through voltage-gated channels",
+      "D": "Neurotransmitter binding to postsynaptic receptors"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The passage clearly states that 'voltage-gated calcium channels open, allowing Ca2+ influx' and that 'increased intracellular calcium triggers SNARE protein conformational changes that promote vesicle fusion.' Calcium is the key trigger for exocytosis. Option A relates to action potential propagation, not vesicle fusion. Option B relates to repolarization. Option D describes the consequence, not the cause, of neurotransmitter release.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Synaptic Vesicle Fusion",
+        "url": "https://www.nature.com/articles/nrn1888",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:30:00.000Z"
+  },
+  {
+    "id": "organ_sys_024",
+    "topic": "organ_systems",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which part of the digestive system is primarily responsible for water absorption?",
+    "options": {
+      "A": "Stomach",
+      "B": "Small intestine",
+      "C": "Large intestine (colon)",
+      "D": "Esophagus"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The large intestine (colon) is primarily responsible for water absorption from the remaining digestive contents, forming solid feces. While some water is absorbed in the small intestine, the colon's main function is water reabsorption. Option A (stomach) primarily digests protein. Option B (small intestine) primarily absorbs nutrients. Option D (esophagus) transports food.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Large Intestine Function",
+        "url": "https://www.khanacademy.org/science/health-and-medicine/digestive-system",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:30:00.000Z"
+  },
+  {
+    "id": "organ_sys_025",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying hormonal regulation of metabolism examined how insulin and glucagon work together to maintain blood glucose homeostasis. During fed states, rising blood glucose stimulates pancreatic beta cells to secrete insulin, which promotes glucose uptake by muscle and fat cells and stimulates glycogen synthesis in the liver. During fasting states, falling blood glucose stimulates pancreatic alpha cells to secrete glucagon, which promotes hepatic glucose production through glycogenolysis and gluconeogenesis. The scientists found that this dual hormonal system maintains blood glucose within a narrow range despite varying dietary intake and metabolic demands.",
+    "question": "Based on this glucose homeostasis system, what would happen to blood glucose levels if pancreatic alpha cells were selectively destroyed?",
+    "options": {
+      "A": "Blood glucose would remain constantly elevated",
+      "B": "Blood glucose would be unable to rise during fasting, leading to hypoglycemia",
+      "C": "Insulin secretion would increase dramatically",
+      "D": "Glycogen synthesis would be completely blocked"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Alpha cells secrete glucagon, which 'promotes hepatic glucose production through glycogenolysis and gluconeogenesis' during fasting. Without alpha cells, the body couldn't mobilize glucose from liver stores during fasting, leading to potentially dangerous hypoglycemia. Option A describes the opposite effect. Option C might occur as compensation but isn't the primary problem. Option D relates to insulin's effects, which would still function.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Pancreatic Hormone Regulation",
+        "url": "https://www.biointeractive.org/classroom-resources/glucose-regulation",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T05:30:00.000Z"
+  },
+  {
+    "id": "organ_sys_026",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which cell type in the immune system is primarily responsible for antibody production?",
+    "options": {
+      "A": "T helper cells",
+      "B": "Cytotoxic T cells",
+      "C": "Plasma cells (differentiated B cells)",
+      "D": "Natural killer (NK) cells"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Plasma cells are differentiated B cells that specialize in producing and secreting large quantities of antibodies specific to particular antigens. They are the antibody factories of the immune system. Option A (T helper cells) coordinate immune responses but don't produce antibodies. Option B (cytotoxic T cells) kill infected cells. Option D (NK cells) provide innate immunity.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: B Cells and Antibody Production",
+        "url": "https://www.khanacademy.org/science/health-and-medicine/immune-system",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:30:00.000Z"
+  },
+  {
+    "id": "organ_sys_027",
+    "topic": "organ_systems",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying cardiac electrophysiology discovered that the heart's electrical activity follows a predictable sequence that can be monitored using electrocardiograms (ECGs). The P wave represents atrial depolarization, the QRS complex represents ventricular depolarization (which masks atrial repolarization), and the T wave represents ventricular repolarization. The scientists found that the PR interval reflects conduction time through the AV node, while the QT interval represents the duration of ventricular depolarization and repolarization. Abnormalities in these intervals can indicate various cardiac pathologies.",
+    "question": "Based on this cardiac electrophysiology, what does a prolonged PR interval on an ECG typically indicate?",
+    "options": {
+      "A": "Rapid conduction through the AV node",
+      "B": "Delayed conduction through the AV node (first-degree heart block)",
+      "C": "Ventricular tachycardia",
+      "D": "Atrial fibrillation"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'the PR interval reflects conduction time through the AV node.' A prolonged PR interval indicates slower than normal conduction through the AV node, characteristic of first-degree heart block. This is a delay, not a complete block. Option A describes the opposite - rapid conduction would shorten the PR interval. Options C and D describe different arrhythmias not specifically related to PR interval prolongation.",
+    "study_resources": [
+      {
+        "title": "Nature Education: ECG Interpretation",
+        "url": "https://www.nature.com/scitable/topicpage/electrocardiogram-ecg-664/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T05:30:00.000Z"
+  },
+  {
+    "id": "organ_sys_028",
+    "topic": "organ_systems",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is the primary function of the liver in metabolism?",
+    "options": {
+      "A": "Producing digestive enzymes",
+      "B": "Storing and metabolizing nutrients, detoxifying substances",
+      "C": "Producing insulin",
+      "D": "Absorbing nutrients from food"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The liver is the body's primary metabolic organ, storing glycogen and fat, metabolizing proteins and fats, producing plasma proteins, and detoxifying harmful substances. It also produces bile for fat digestion. Option A describes the pancreas's exocrine function. Option C describes pancreatic beta cell function. Option D describes intestinal function.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Liver Function",
+        "url": "https://www.khanacademy.org/science/health-and-medicine/digestive-system",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:30:00.000Z"
+  },
+  {
+    "id": "organ_sys_029",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying renal regulation of acid-base balance discovered that the kidneys play a crucial role in maintaining blood pH within the narrow range of 7.35-7.45. The kidneys regulate pH through several mechanisms: reabsorbing filtered bicarbonate in the proximal tubule, secreting hydrogen ions in the distal tubule and collecting duct, and generating new bicarbonate through ammonia production and titratable acid formation. The researchers found that these processes can take hours to days to fully compensate for acid-base disturbances, unlike the immediate respiratory compensation that adjusts CO2 levels.",
+    "question": "Based on this renal acid-base regulation, how do the kidneys generate new bicarbonate to help maintain blood pH?",
+    "options": {
+      "A": "By directly absorbing bicarbonate from dietary sources",
+      "B": "By producing ammonia and titratable acids, which consume H+ ions and generate HCO3-",
+      "C": "By increasing respiratory rate to eliminate CO2",
+      "D": "By secreting more sodium ions into the urine"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that kidneys generate new bicarbonate 'through ammonia production and titratable acid formation.' When the kidneys produce ammonia (NH3) and titratable acids, these processes consume hydrogen ions and generate new bicarbonate ions, helping to buffer acid loads. Option A involves reabsorption, not generation. Option C describes respiratory, not renal, compensation. Option D relates to sodium balance, not acid-base regulation.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Renal Acid-Base Regulation",
+        "url": "https://www.biointeractive.org/classroom-resources/kidney-acid-base",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T05:30:00.000Z"
+  },
+  {
+    "id": "organ_sys_030",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which type of sensory receptor is responsible for detecting changes in muscle length and tension?",
+    "options": {
+      "A": "Nociceptors",
+      "B": "Mechanoreceptors (muscle spindles and Golgi tendon organs)",
+      "C": "Thermoreceptors",
+      "D": "Chemoreceptors"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Muscle spindles detect changes in muscle length (stretch) and contribute to stretch reflexes, while Golgi tendon organs detect changes in muscle tension and help prevent excessive force that could damage muscles or tendons. Both are mechanoreceptors specialized for proprioception. Option A detects painful stimuli. Option C detects temperature. Option D detects chemical changes.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Proprioception and Muscle Sensors",
+        "url": "https://www.nature.com/scitable/topicpage/proprioception-14696567/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T05:30:00.000Z"
+  }
+]

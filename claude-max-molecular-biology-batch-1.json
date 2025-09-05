@@ -1,0 +1,237 @@
+[
+  {
+    "id": "mol_bio_001",
+    "topic": "molecular_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying DNA replication discovered that the leading and lagging strands are synthesized differently due to the antiparallel nature of DNA and the unidirectional activity of DNA polymerases. The leading strand is synthesized continuously in the 5' to 3' direction, while the lagging strand is synthesized discontinuously in short fragments called Okazaki fragments. The researchers found that DNA polymerase III synthesizes both strands, but requires different mechanisms: the leading strand uses a single primer, while the lagging strand requires multiple primers synthesized by primase. DNA ligase subsequently joins the Okazaki fragments to create a continuous lagging strand.",
+    "question": "Based on this replication mechanism, why does the lagging strand require synthesis in short fragments rather than continuously?",
+    "options": {
+      "A": "DNA polymerase III cannot synthesize long DNA strands",
+      "B": "The antiparallel structure and unidirectional polymerase activity require discontinuous synthesis",
+      "C": "Okazaki fragments are more chemically stable than continuous strands",
+      "D": "The lagging strand template has a different chemical composition"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that DNA strands are antiparallel and DNA polymerases work unidirectionally (5' to 3'). Since replication proceeds in one direction, the leading strand can be synthesized continuously in the same direction as the replication fork movement, but the lagging strand must be synthesized in the opposite direction, requiring discontinuous Okazaki fragments. Option A is incorrect because DNA polymerase can synthesize long strands. Option C is not mentioned as a reason. Option D is wrong because both template strands have the same chemical composition.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: DNA Replication",
+        "url": "https://www.khanacademy.org/science/biology/dna-as-the-genetic-material/dna-replication",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:10:00.000Z"
+  },
+  {
+    "id": "mol_bio_002",
+    "topic": "molecular_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which type of RNA polymerase is responsible for transcribing transfer RNA (tRNA) genes in eukaryotic cells?",
+    "options": {
+      "A": "RNA polymerase I",
+      "B": "RNA polymerase II",
+      "C": "RNA polymerase III",
+      "D": "Reverse transcriptase"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. RNA polymerase III transcribes tRNA genes, as well as 5S rRNA and other small RNAs in eukaryotic cells. Option A (RNA pol I) transcribes most rRNA genes (18S, 5.8S, 28S). Option B (RNA pol II) transcribes mRNA and most non-coding RNAs. Option D (reverse transcriptase) is not a cellular RNA polymerase but a viral enzyme that synthesizes DNA from RNA templates.",
+    "study_resources": [
+      {
+        "title": "Nature Education: RNA Polymerases",
+        "url": "https://www.nature.com/scitable/topicpage/eukaryotic-transcription-initiation-14120016/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T04:10:00.000Z"
+  },
+  {
+    "id": "mol_bio_003",
+    "topic": "molecular_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating enzyme kinetics discovered that allosteric regulation allows enzymes to be controlled by molecules binding at sites distant from the active site. Allosteric enzymes typically exhibit sigmoidal (S-shaped) kinetic curves rather than hyperbolic Michaelis-Menten curves, indicating cooperative binding. The researchers found that positive allosteric effectors increase enzyme activity by stabilizing the active conformation, while negative effectors decrease activity by stabilizing the inactive conformation. This regulation is crucial for metabolic control, as it allows end products to inhibit their own biosynthetic pathways through feedback inhibition.",
+    "question": "Based on this allosteric regulation mechanism, why do allosteric enzymes show sigmoidal rather than hyperbolic kinetic curves?",
+    "options": {
+      "A": "Allosteric enzymes have multiple active sites that bind substrate independently",
+      "B": "Cooperative binding means that substrate binding at one site affects binding at other sites",
+      "C": "Allosteric effectors directly compete with substrate for the active site",
+      "D": "Sigmoidal curves indicate that the enzyme is permanently inhibited"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that allosteric enzymes exhibit 'sigmoidal (S-shaped) kinetic curves' due to 'cooperative binding.' In cooperative binding, the binding of substrate to one subunit affects the binding affinity of other subunits, creating the characteristic S-shaped curve where initial binding is slow, then accelerates, then plateaus. Option A describes independent binding, which would give hyperbolic curves. Option C describes competitive inhibition, not allosteric effects. Option D misinterprets the sigmoidal shape.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Allosteric Regulation",
+        "url": "https://www.biointeractive.org/classroom-resources/allosteric-regulation",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:10:00.000Z"
+  },
+  {
+    "id": "mol_bio_004",
+    "topic": "molecular_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is the complementary DNA sequence to 5'-ATGCGT-3'?",
+    "options": {
+      "A": "5'-TACGCA-3'",
+      "B": "3'-TACGCA-5'",
+      "C": "5'-ACGCAT-3'",
+      "D": "3'-ACGCAT-5'"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. DNA strands are antiparallel and complementary. For the sequence 5'-ATGCGT-3', the complementary strand runs in the opposite direction (3' to 5') with complementary bases: A pairs with T, T with A, G with C, and C with G. Therefore: 5'-ATGCGT-3' pairs with 3'-TACGCA-5'. Option A has the correct sequence but wrong directionality. Options C and D have incorrect base pairing.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: DNA Structure",
+        "url": "https://www.khanacademy.org/science/biology/dna-as-the-genetic-material/structure-of-dna",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:10:00.000Z"
+  },
+  {
+    "id": "mol_bio_005",
+    "topic": "molecular_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying protein folding found that molecular chaperones assist in proper protein folding without being incorporated into the final protein structure. Heat shock protein 70 (Hsp70) binds to hydrophobic regions of unfolded proteins, preventing aggregation and allowing time for proper folding. The chaperone uses ATP hydrolysis to cycle between high-affinity (ADP-bound) and low-affinity (ATP-bound) states for substrate proteins. The researchers observed that without functional chaperones, many proteins misfold and form toxic aggregates, particularly under stress conditions like elevated temperature.",
+    "question": "Based on this chaperone mechanism, what is the primary function of ATP hydrolysis in Hsp70 activity?",
+    "options": {
+      "A": "ATP provides energy to directly fold the protein into its correct shape",
+      "B": "ATP hydrolysis drives conformational changes that regulate substrate binding affinity",
+      "C": "ATP is incorporated into the final folded protein structure",
+      "D": "ATP prevents all protein-protein interactions in the cell"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes how Hsp70 'uses ATP hydrolysis to cycle between high-affinity (ADP-bound) and low-affinity (ATP-bound) states for substrate proteins.' This ATP-driven conformational cycling regulates when the chaperone binds and releases substrate proteins, controlling the folding process. Option A is incorrect because chaperones don't directly fold proteins but assist the folding process. Option C is wrong because chaperones are not incorporated into final structures. Option D is too broad and incorrect.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Molecular Chaperones",
+        "url": "https://www.nature.com/articles/nrm1492",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:10:00.000Z"
+  },
+  {
+    "id": "mol_bio_006",
+    "topic": "molecular_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "In the genetic code, which feature allows for some protection against point mutations?",
+    "options": {
+      "A": "Each codon codes for multiple amino acids",
+      "B": "The code is degenerate, with multiple codons coding for the same amino acid",
+      "C": "Each amino acid is coded by only one codon",
+      "D": "The genetic code varies between different organisms"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The genetic code is degenerate, meaning multiple codons can code for the same amino acid (especially in the third 'wobble' position). This provides protection against mutations because a single base change may still result in the same amino acid being incorporated, making the mutation 'silent.' Option A is incorrect - each codon codes for only one amino acid. Option C describes a non-degenerate code. Option D is mostly incorrect - the genetic code is nearly universal.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Genetic Code",
+        "url": "https://www.khanacademy.org/science/biology/gene-expression-central-dogma/central-dogma-transcription",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:10:00.000Z"
+  },
+  {
+    "id": "mol_bio_007",
+    "topic": "molecular_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying gene regulation discovered that enhancers can function over vast distances (sometimes >1 Mb) to regulate target gene expression. These regulatory elements work through DNA looping, where transcription factors bound to enhancers contact promoter-bound factors through three-dimensional chromatin organization. The scientists found that architectural proteins like CTCF and cohesin facilitate loop formation and help organize topologically associating domains (TADs) that constrain enhancer-promoter interactions. Disruption of these chromatin structures can lead to inappropriate gene activation and contribute to disease.",
+    "question": "Based on this gene regulation mechanism, how do distant enhancers specifically regulate their target genes rather than activating nearby genes?",
+    "options": {
+      "A": "Enhancers can only activate genes on the same chromosome arm",
+      "B": "Chromatin looping and TAD organization constrain enhancer-promoter interactions",
+      "C": "Enhancers produce diffusible proteins that specifically bind target promoters",
+      "D": "Distance alone determines enhancer-promoter specificity"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that 'architectural proteins like CTCF and cohesin facilitate loop formation and help organize topologically associating domains (TADs) that constrain enhancer-promoter interactions.' This three-dimensional chromatin organization determines which enhancers can contact which promoters, providing specificity. Option A is too restrictive. Option C is not supported - enhancers work through direct protein-protein contact via looping. Option D is incorrect because distance alone doesn't provide specificity - organization does.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Chromatin Loops and Gene Regulation",
+        "url": "https://www.nature.com/articles/nrg2640",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:10:00.000Z"
+  },
+  {
+    "id": "mol_bio_008",
+    "topic": "molecular_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "During translation, what is the function of release factors?",
+    "options": {
+      "A": "To initiate translation at the start codon",
+      "B": "To terminate translation at stop codons",
+      "C": "To elongate the growing polypeptide chain",
+      "D": "To proofread newly synthesized proteins"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Release factors (eRF1 and eRF3 in eukaryotes) recognize stop codons (UAA, UAG, UGA) and promote termination of translation by hydrolyzing the bond between the completed polypeptide and the final tRNA. Option A describes the function of initiation factors. Option C describes elongation factors. Option D is not a primary function of release factors during translation termination.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Translation Termination",
+        "url": "https://www.khanacademy.org/science/biology/gene-expression-central-dogma/translation-polypeptides",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:10:00.000Z"
+  },
+  {
+    "id": "mol_bio_009",
+    "topic": "molecular_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying RNA processing discovered that alternative splicing allows a single gene to produce multiple protein isoforms with different functions. During splicing, introns are removed and exons are joined together, but the choice of which exons to include can vary. The researchers found that splicing enhancers and silencers, recognized by SR proteins and hnRNPs respectively, regulate this process. Alternative splicing is particularly common in nervous system genes, where it contributes to the functional diversity needed for complex neural networks. Defects in splicing regulation are associated with various diseases, including cancer and neurological disorders.",
+    "question": "Based on this alternative splicing mechanism, what is the primary advantage of alternative splicing for cellular function?",
+    "options": {
+      "A": "It reduces the total number of genes needed in the genome",
+      "B": "It allows one gene to encode multiple protein variants with potentially different functions",
+      "C": "It eliminates the need for post-translational modifications",
+      "D": "It prevents all forms of gene regulation"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that alternative splicing 'allows a single gene to produce multiple protein isoforms with different functions' and that it 'contributes to the functional diversity needed for complex neural networks.' This demonstrates how one gene can generate protein diversity. Option A is a secondary consideration, not the primary functional advantage. Option C is incorrect because splicing and post-translational modifications serve different purposes. Option D contradicts the described regulatory mechanisms.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Alternative Splicing",
+        "url": "https://www.biointeractive.org/classroom-resources/alternative-splicing",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:10:00.000Z"
+  },
+  {
+    "id": "mol_bio_010",
+    "topic": "molecular_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "A researcher studying enzyme kinetics observes that increasing the concentration of a particular molecule shifts the enzyme's Km for its substrate without changing Vmax. This observation is most consistent with:",
+    "options": {
+      "A": "Competitive inhibition",
+      "B": "Non-competitive inhibition",
+      "C": "Uncompetitive inhibition",
+      "D": "Irreversible inhibition"
+    },
+    "correct_answer": "A",
+    "explanation": "The correct answer is A. Competitive inhibition occurs when an inhibitor competes with substrate for the same binding site. This increases the apparent Km (more substrate needed to reach half-maximal velocity) but doesn't change Vmax (the enzyme can still reach maximum activity with sufficient substrate to outcompete the inhibitor). Option B (non-competitive) would decrease both Km and Vmax. Option C (uncompetitive) would decrease both Km and Vmax. Option D (irreversible) would decrease Vmax without necessarily affecting Km.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Enzyme Inhibition",
+        "url": "https://www.nature.com/scitable/topicpage/enzyme-inhibition-14117963/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T04:10:00.000Z"
+  }
+]

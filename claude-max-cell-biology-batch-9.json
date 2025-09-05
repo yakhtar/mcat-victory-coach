@@ -1,0 +1,237 @@
+[
+  {
+    "id": "cell_bio_081",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying cell adhesion discovered that cadherins are calcium-dependent adhesion molecules that form adherens junctions between epithelial cells. E-cadherin molecules on adjacent cells interact homophilically (like-with-like) to create strong intercellular connections. These interactions are strengthened by the intracellular association of cadherins with catenins, which link the adhesion complex to the actin cytoskeleton. When calcium is removed from the medium, cadherin-mediated adhesion is lost and cells dissociate from each other. This calcium dependence is due to calcium binding sites in the extracellular domain of cadherins that are essential for proper protein folding and adhesive function.",
+    "question": "Based on the mechanism described, what would be the most likely consequence of treating epithelial cells with calcium chelators that remove extracellular calcium?",
+    "options": {
+      "A": "Enhanced cadherin expression and stronger cell-cell adhesion",
+      "B": "Loss of adherens junctions and epithelial cell dissociation",
+      "C": "Increased actin polymerization at cell-cell contacts",
+      "D": "Permanent cadherin-catenin complex formation"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage clearly states that cadherin-mediated adhesion is calcium-dependent and that calcium removal leads to loss of adhesion and cell dissociation. Calcium chelators would remove the calcium ions necessary for cadherin extracellular domain folding and homophilic interactions, disrupting adherens junctions. Option A is incorrect because calcium removal weakens, not strengthens, adhesion. Option C is wrong because loss of cadherin function would likely reduce, not increase, organized actin at contacts. Option D is incorrect because calcium removal would actually disrupt cadherin function and complex stability.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Cell-Cell Junctions",
+        "url": "https://www.biointeractive.org/classroom-resources/cell-junctions",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T03:35:00.000Z"
+  },
+  {
+    "id": "cell_bio_082",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "During eukaryotic transcription initiation, which general transcription factor is responsible for recognizing and binding to the TATA box?",
+    "options": {
+      "A": "TFIIA",
+      "B": "TFIIB",
+      "C": "TFIID",
+      "D": "TFIIH"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. TFIID contains the TATA-binding protein (TBP) subunit that specifically recognizes and binds to the TATA box sequence in gene promoters. This is typically the first step in pre-initiation complex assembly. Option A (TFIIA) stabilizes the TBP-DNA interaction but doesn't directly recognize the TATA box. Option B (TFIIB) binds after TBP and helps position RNA polymerase II. Option D (TFIIH) has helicase and kinase activities important for transcription initiation but doesn't bind the TATA box directly.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Transcription Initiation",
+        "url": "https://www.nature.com/scitable/topicpage/eukaryotic-transcription-initiation-14120016/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T03:35:00.000Z"
+  },
+  {
+    "id": "cell_bio_083",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating stem cell metabolism discovered that pluripotent stem cells exhibit unique metabolic characteristics compared to differentiated cells. Embryonic stem cells rely heavily on glycolysis for ATP production and show high glucose uptake, even in oxygen-rich conditions. This metabolic state supports rapid proliferation and appears to be linked to the expression of pluripotency factors like Oct4 and Nanog. During differentiation, stem cells undergo metabolic reprogramming, switching from glycolysis to oxidative phosphorylation and reducing glucose consumption. This metabolic transition occurs early in differentiation and may actually drive cell fate decisions rather than simply following them.",
+    "question": "Based on these findings, what role does metabolic reprogramming play in stem cell differentiation?",
+    "options": {
+      "A": "Metabolism changes only after differentiation is complete",
+      "B": "Metabolic shifts may actively drive differentiation rather than just accompany it",
+      "C": "Differentiated cells always have lower energy demands than stem cells",
+      "D": "Glycolysis inhibition completely blocks stem cell self-renewal"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage suggests that metabolic reprogramming occurs early in differentiation and 'may actually drive cell fate decisions rather than simply following them,' indicating that metabolic changes could be causative rather than just consequential. This represents an active role for metabolism in controlling differentiation. Option A is incorrect because the passage states metabolic changes occur early in differentiation. Option C is wrong because energy demands aren't necessarily lower, just supplied differently. Option D overstates the case - while glycolysis is important for stem cells, complete inhibition effects aren't described.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Stem Cell Metabolism",
+        "url": "https://www.nature.com/articles/nrm3963",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:35:00.000Z"
+  },
+  {
+    "id": "cell_bio_084",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which type of junction between cells allows for the direct passage of small molecules and ions?",
+    "options": {
+      "A": "Tight junctions",
+      "B": "Adherens junctions",
+      "C": "Gap junctions",
+      "D": "Desmosomes"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Gap junctions contain connexin proteins that form channels allowing direct cytoplasmic communication between adjacent cells. Small molecules, ions, and signaling molecules can pass through these channels. Option A (tight junctions) seal the space between cells, preventing molecular passage. Option B (adherens junctions) provide mechanical adhesion but don't allow molecular passage. Option D (desmosomes) also provide mechanical adhesion without allowing molecular communication.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Cell Junctions",
+        "url": "https://www.khanacademy.org/science/biology/structure-of-a-cell/cell-junctions",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:35:00.000Z"
+  },
+  {
+    "id": "cell_bio_085",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying cellular stress responses found that heat shock proteins (HSPs) are rapidly upregulated when cells are exposed to elevated temperatures or other stresses. HSPs function as molecular chaperones, helping proteins fold correctly and preventing aggregation of misfolded proteins. The expression of HSPs is controlled by heat shock transcription factors (HSFs), which are normally kept inactive by binding to HSPs under unstressed conditions. When stress occurs, HSPs are recruited to deal with damaged proteins, releasing HSFs to activate transcription of additional HSP genes. This creates a negative feedback loop that maintains protein homeostasis.",
+    "question": "Based on this regulatory mechanism, what initiates the heat shock response?",
+    "options": {
+      "A": "Direct activation of HSFs by elevated temperature",
+      "B": "Increased translation of pre-existing HSP mRNAs",
+      "C": "Release of HSFs when HSPs are recruited to damaged proteins",
+      "D": "Degradation of misfolded proteins by the proteasome"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The heat shock response is initiated when cellular stress produces damaged/misfolded proteins that require HSP assistance. When HSPs are recruited to deal with these damaged proteins, they can no longer bind to and inhibit HSFs. The released HSFs then become active and upregulate HSP gene transcription. Option A is incorrect because HSFs are not directly activated by temperature but by protein damage. Option B describes a response mechanism but not initiation. Option D describes protein degradation, which is separate from the HSP response initiation.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Heat Shock Response",
+        "url": "https://www.nature.com/articles/nrm1201",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:35:00.000Z"
+  },
+  {
+    "id": "cell_bio_086",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "A mutation in the gene encoding lamin A would most likely affect which cellular process?",
+    "options": {
+      "A": "Mitochondrial respiration",
+      "B": "Nuclear envelope integrity and nuclear organization",
+      "C": "Ribosomal protein synthesis",
+      "D": "Peroxisomal fatty acid oxidation"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Lamin A is a major component of the nuclear lamina, a protein meshwork that underlies the inner nuclear membrane. It provides structural support to the nuclear envelope and helps organize chromatin and nuclear functions. Mutations in lamin A cause various diseases (laminopathies) characterized by nuclear abnormalities, altered gene expression, and cellular dysfunction. Options A, C, and D involve processes that don't directly depend on nuclear lamins, although severe nuclear dysfunction could indirectly affect these processes.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Nuclear Lamins",
+        "url": "https://www.nature.com/articles/nrg1261",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:35:00.000Z"
+  },
+  {
+    "id": "cell_bio_087",
+    "topic": "cell_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying cancer cell invasion discovered that epithelial-mesenchymal transition (EMT) is a critical process that allows carcinoma cells to acquire migratory and invasive properties. During EMT, epithelial cells lose their cell-cell adhesions, reorganize their cytoskeleton, and adopt a mesenchymal phenotype with enhanced motility. Key molecular changes include downregulation of E-cadherin and upregulation of vimentin, N-cadherin, and transcription factors like Snail, Slug, and Twist. The researchers found that EMT can be triggered by various signals including TGF-β, Wnt, and Notch pathways, and that this process is reversible through mesenchymal-epithelial transition (MET).",
+    "question": "Based on the EMT process described, which molecular change would be most indicative of a cell undergoing epithelial-mesenchymal transition?",
+    "options": {
+      "A": "Increased E-cadherin expression and enhanced cell-cell adhesion",
+      "B": "Upregulation of Snail transcription factor and loss of E-cadherin",
+      "C": "Enhanced expression of epithelial markers and reduced motility",
+      "D": "Increased keratin expression and strengthened tight junctions"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage identifies upregulation of EMT transcription factors like Snail and downregulation of E-cadherin as key molecular hallmarks of EMT. Snail directly represses E-cadherin expression, leading to loss of epithelial cell-cell adhesions and acquisition of mesenchymal properties. Option A describes the opposite of EMT (more like MET). Options C and D describe maintenance or enhancement of epithelial characteristics, which is opposite to what occurs during EMT.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Epithelial-Mesenchymal Transition",
+        "url": "https://www.nature.com/articles/nrm2830",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T03:35:00.000Z"
+  },
+  {
+    "id": "cell_bio_088",
+    "topic": "cell_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is the main function of the Golgi apparatus?",
+    "options": {
+      "A": "Protein synthesis",
+      "B": "DNA replication",
+      "C": "Protein modification and packaging",
+      "D": "ATP production"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The Golgi apparatus receives proteins from the rough ER and modifies them through various post-translational modifications including glycosylation, phosphorylation, and proteolytic processing. It also packages these modified proteins into vesicles for transport to their final destinations. Option A (protein synthesis) occurs at ribosomes. Option B (DNA replication) occurs in the nucleus. Option D (ATP production) occurs primarily in mitochondria.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Golgi Apparatus",
+        "url": "https://www.khanacademy.org/science/biology/structure-of-a-cell/tour-of-organelles",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T03:35:00.000Z"
+  },
+  {
+    "id": "cell_bio_089",
+    "topic": "cell_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying cellular antioxidant systems discovered that glutathione (GSH) plays a critical role in protecting cells from oxidative damage. GSH is a tripeptide (glutamate-cysteine-glycine) that acts as a major antioxidant by directly scavenging reactive oxygen species and serving as a cofactor for glutathione peroxidase enzymes. When GSH neutralizes oxidants, it becomes oxidized to glutathione disulfide (GSSG). The cell maintains its antioxidant capacity by reducing GSSG back to GSH using the enzyme glutathione reductase, which requires NADPH as a reducing equivalent. Cells with depleted glutathione levels show increased susceptibility to oxidative stress and cell death.",
+    "question": "Based on this antioxidant system, what would be the most likely consequence of inhibiting glutathione reductase?",
+    "options": {
+      "A": "Increased GSH levels and enhanced antioxidant protection",
+      "B": "Accumulation of GSSG and reduced cellular antioxidant capacity",
+      "C": "Enhanced NADPH production to compensate for the deficiency",
+      "D": "Immediate activation of alternative antioxidant pathways"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Glutathione reductase is essential for regenerating GSH from GSSG. Without this enzyme, GSSG would accumulate and GSH would be depleted, reducing the cell's ability to neutralize reactive oxygen species and increasing susceptibility to oxidative damage. Option A is incorrect because inhibiting glutathione reductase would decrease, not increase, GSH levels. Option C is wrong because NADPH production isn't directly regulated by glutathione reductase activity. Option D is incorrect because while other systems exist, the immediate consequence would be reduced antioxidant capacity.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Cellular Antioxidants",
+        "url": "https://www.biointeractive.org/classroom-resources/antioxidant-systems",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T03:35:00.000Z"
+  },
+  {
+    "id": "cell_bio_090",
+    "topic": "cell_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which enzyme is primarily responsible for the formation of peptide bonds during protein synthesis?",
+    "options": {
+      "A": "Aminoacyl-tRNA synthetase",
+      "B": "Peptidyl transferase",
+      "C": "Elongation factor EF-Tu",
+      "D": "Release factor eRF1"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Peptidyl transferase is the ribosomal enzyme activity responsible for catalyzing peptide bond formation between amino acids during translation. This activity resides in the large ribosomal subunit and is actually carried out by ribosomal RNA (making it a ribozyme). Option A (aminoacyl-tRNA synthetase) attaches amino acids to tRNAs but doesn't form peptide bonds. Option C (EF-Tu) delivers aminoacyl-tRNAs to the ribosome. Option D (eRF1) terminates translation but doesn't form peptide bonds.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Protein Synthesis",
+        "url": "https://www.nature.com/scitable/topicpage/protein-synthesis-14121619/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T03:35:00.000Z"
+  }
+]

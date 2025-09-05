@@ -1,0 +1,237 @@
+[
+  {
+    "id": "organ_sys_011",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying muscle physiology discovered that skeletal muscle contraction follows the sliding filament model. Muscle fibers contain myofibrils composed of repeating sarcomeres, the basic contractile units. Each sarcomere contains thick filaments (myosin) and thin filaments (actin) arranged in overlapping patterns. During contraction, myosin heads bind to actin forming cross-bridges, then pivot using ATP energy to pull actin filaments toward the center of the sarcomere. The scientists found that calcium ions regulate this process by binding to troponin, causing tropomyosin to shift and expose myosin-binding sites on actin.",
+    "question": "Based on this sliding filament mechanism, what is the direct role of calcium in muscle contraction?",
+    "options": {
+      "A": "Calcium provides the energy for myosin head pivoting",
+      "B": "Calcium binds to troponin, causing tropomyosin to expose myosin-binding sites on actin",
+      "C": "Calcium directly binds to myosin to activate cross-bridge formation",
+      "D": "Calcium synthesizes ATP for muscle contraction"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'calcium ions regulate this process by binding to troponin, causing tropomyosin to shift and expose myosin-binding sites on actin.' This regulatory mechanism allows cross-bridge formation to proceed. Option A is incorrect - ATP provides energy. Option C is wrong - calcium binds to troponin, not myosin directly. Option D confuses calcium's role with ATP synthesis.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Muscle Contraction",
+        "url": "https://www.khanacademy.org/science/health-and-medicine/muscular-system",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:05:00.000Z"
+  },
+  {
+    "id": "organ_sys_012",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which part of the brain is primarily responsible for regulating circadian rhythms and hormone release patterns?",
+    "options": {
+      "A": "Cerebral cortex",
+      "B": "Hypothalamus",
+      "C": "Cerebellum",
+      "D": "Medulla oblongata"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The hypothalamus contains the suprachiasmatic nucleus (SCN), which serves as the body's master circadian clock, and controls hormone release through connections to the pituitary gland. It regulates sleep-wake cycles, body temperature, and hormone secretion patterns. Option A handles higher cognitive functions. Option C coordinates movement. Option D controls vital functions like breathing.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Hypothalamus and Circadian Rhythms",
+        "url": "https://www.nature.com/scitable/topicpage/the-suprachiasmatic-nucleus-the-mind-clock-23404946/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T05:05:00.000Z"
+  },
+  {
+    "id": "organ_sys_013",
+    "topic": "organ_systems",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating immune system development discovered that T cells undergo positive and negative selection in the thymus to ensure proper function. During positive selection, T cells that can recognize self-MHC molecules receive survival signals, while those that cannot undergo apoptosis. In negative selection, T cells that strongly bind to self-antigens presented on MHC molecules are eliminated to prevent autoimmunity. The researchers found that only 2-5% of developing T cells survive both selection processes. This stringent quality control ensures that mature T cells can recognize foreign antigens presented on self-MHC but don't attack the body's own tissues.",
+    "question": "Based on this thymic selection process, what would happen to a developing T cell that cannot recognize self-MHC molecules?",
+    "options": {
+      "A": "It would be positively selected and mature normally",
+      "B": "It would undergo apoptosis during positive selection",
+      "C": "It would be eliminated during negative selection",
+      "D": "It would become a regulatory T cell"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that during positive selection, 'T cells that can recognize self-MHC molecules receive survival signals, while those that cannot undergo apoptosis.' A T cell unable to recognize self-MHC would fail positive selection and die. Option A contradicts the selection requirement. Option C describes negative selection. Option D describes a different developmental pathway.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: T Cell Development",
+        "url": "https://www.nature.com/articles/nri2079",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:05:00.000Z"
+  },
+  {
+    "id": "organ_sys_014",
+    "topic": "organ_systems",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which blood vessels carry deoxygenated blood from the body back to the heart?",
+    "options": {
+      "A": "Arteries",
+      "B": "Arterioles",
+      "C": "Veins",
+      "D": "Capillaries"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Veins carry deoxygenated blood from body tissues back to the heart (except for pulmonary veins, which carry oxygenated blood from lungs to heart). The venous system returns blood to the right atrium. Option A (arteries) carry blood away from the heart. Option B (arterioles) are small arteries. Option D (capillaries) are where gas exchange occurs.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Circulatory System",
+        "url": "https://www.khanacademy.org/science/health-and-medicine/circulatory-system",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:05:00.000Z"
+  },
+  {
+    "id": "organ_sys_015",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying gastrointestinal motility examined how the enteric nervous system controls digestive movements. They discovered that the enteric nervous system contains more neurons than the spinal cord and can function independently of central nervous control. Peristalsis, the coordinated wave-like contractions that propel food through the digestive tract, is initiated by stretch receptors and coordinated by myenteric plexus neurons. The researchers found that these contractions involve sequential contraction of smooth muscle above the food bolus and relaxation below it, creating a pressure gradient that moves contents forward.",
+    "question": "Based on this enteric nervous system function, what initiates peristaltic waves in the digestive tract?",
+    "options": {
+      "A": "Conscious control from the brain",
+      "B": "Stretch receptors responding to food bolus presence",
+      "C": "Chemical signals from the liver",
+      "D": "Hormones from the pancreas"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'peristalsis...is initiated by stretch receptors and coordinated by myenteric plexus neurons.' When food stretches the intestinal wall, it triggers the peristaltic reflex through local stretch receptors. Option A contradicts the autonomous function described. Options C and D don't relate to the mechanical initiation of peristalsis described.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Digestive System Physiology",
+        "url": "https://www.biointeractive.org/classroom-resources/digestive-system",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T05:05:00.000Z"
+  },
+  {
+    "id": "organ_sys_016",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "During exercise, which mechanism primarily increases cardiac output to meet metabolic demands?",
+    "options": {
+      "A": "Decreased heart rate only",
+      "B": "Increased stroke volume only",
+      "C": "Increased heart rate and stroke volume",
+      "D": "Decreased blood pressure"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Cardiac output = Heart Rate × Stroke Volume. During exercise, both heart rate (due to sympathetic stimulation) and stroke volume (due to increased venous return and contractility) increase to maximize cardiac output and oxygen delivery to active muscles. Option A would decrease output. Options B alone would be insufficient. Option D is a different cardiovascular parameter.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Cardiac Output Regulation",
+        "url": "https://www.khanacademy.org/science/health-and-medicine/circulatory-system",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:05:00.000Z"
+  },
+  {
+    "id": "organ_sys_017",
+    "topic": "organ_systems",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying renal physiology discovered that the countercurrent multiplier system in the loop of Henle creates a concentration gradient that enables water conservation. The descending limb is permeable to water but not solutes, while the ascending limb is impermeable to water but actively transports sodium and chloride out. This creates an increasing osmolarity gradient from cortex to medulla. The scientists found that antidiuretic hormone (ADH) controls final urine concentration by regulating aquaporin-2 water channels in the collecting duct, allowing fine-tuning of water reabsorption based on body hydration status.",
+    "question": "Based on this renal concentration mechanism, how does the countercurrent multiplier create an osmotic gradient?",
+    "options": {
+      "A": "Both limbs of the loop actively transport water in opposite directions",
+      "B": "The descending limb loses water while the ascending limb actively removes solutes, concentrating the interstitium",
+      "C": "Only the collecting duct contributes to urine concentration",
+      "D": "ADH directly controls solute transport in the loop of Henle"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that 'the descending limb is permeable to water but not solutes, while the ascending limb is impermeable to water but actively transports sodium and chloride out.' Water loss from the descending limb and solute removal by the ascending limb work together to create and maintain the medullary osmotic gradient. Option A is incorrect about water transport. Option C ignores the loop's role. Option D misplaces ADH's action.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Renal Concentration Mechanisms",
+        "url": "https://www.nature.com/articles/nrneph.2009.71",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:05:00.000Z"
+  },
+  {
+    "id": "organ_sys_018",
+    "topic": "organ_systems",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which structure in the eye is responsible for focusing light onto the retina?",
+    "options": {
+      "A": "Cornea",
+      "B": "Lens",
+      "C": "Iris",
+      "D": "Pupil"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The lens is responsible for fine-tuning the focus of light onto the retina through accommodation - changing its curvature to focus on objects at different distances. While the cornea provides most of the eye's refractive power, the lens provides adjustable focusing. Option C (iris) controls pupil size. Option D (pupil) is the opening that allows light to enter.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Eye Structure and Function",
+        "url": "https://www.khanacademy.org/science/health-and-medicine/nervous-system-and-sensory-infor",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:05:00.000Z"
+  },
+  {
+    "id": "organ_sys_019",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying bone remodeling discovered that this process involves coordinated activity between osteoblasts and osteoclasts to maintain bone strength and mineral homeostasis. Osteoblasts secrete collagen matrix and promote mineralization to build new bone, while osteoclasts secrete acids and enzymes to dissolve bone mineral and matrix. The researchers found that parathyroid hormone (PTH) stimulates bone resorption by osteoclasts to raise blood calcium, while calcitonin promotes bone formation by osteoblasts to lower blood calcium. This dynamic balance ensures both skeletal integrity and calcium homeostasis throughout life.",
+    "question": "Based on this bone remodeling system, what happens to bone remodeling when parathyroid hormone levels increase?",
+    "options": {
+      "A": "Both bone formation and resorption decrease",
+      "B": "Bone formation increases while resorption decreases",
+      "C": "Bone resorption increases to raise blood calcium levels",
+      "D": "Only bone formation is affected, not resorption"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The passage states that 'parathyroid hormone (PTH) stimulates bone resorption by osteoclasts to raise blood calcium.' When PTH increases, it activates osteoclasts to break down bone and release calcium into the bloodstream. Option A contradicts PTH's action. Option B describes the opposite effect. Option D ignores PTH's primary effect on resorption.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Bone Remodeling",
+        "url": "https://www.biointeractive.org/classroom-resources/bone-remodeling",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T05:05:00.000Z"
+  },
+  {
+    "id": "organ_sys_020",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which hormone is primarily responsible for stimulating the production and release of cortisol from the adrenal cortex?",
+    "options": {
+      "A": "Growth hormone (GH)",
+      "B": "Adrenocorticotropic hormone (ACTH)",
+      "C": "Thyroid-stimulating hormone (TSH)",
+      "D": "Prolactin"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. ACTH (adrenocorticotropic hormone) is released from the anterior pituitary and specifically stimulates the adrenal cortex to produce and secrete cortisol. This is part of the hypothalamic-pituitary-adrenal (HPA) axis. Option A stimulates growth and IGF-1 release. Option C stimulates thyroid hormone production. Option D stimulates milk production.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Endocrine System",
+        "url": "https://www.khanacademy.org/science/health-and-medicine/endocrine-system",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:05:00.000Z"
+  }
+]

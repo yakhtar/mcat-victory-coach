@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victory - MCAT Prep Platform</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        
+        body {
+            background: #fafafa;
+            color: #1a1a1a;
+            line-height: 1.7;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .btn-primary {
+            background: #000;
+            color: #fff;
+            border: none;
+            padding: 16px 40px;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+        
+        .btn-primary:hover {
+            background: #333;
+            transform: translateY(-1px);
+        }
+        
+        .metric-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #000;
+        }
+        
+        .metric-label {
+            font-size: 0.875rem;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="py-8">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-xl font-semibold tracking-wider">
+                VICTORY
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="py-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <!-- Hero Section -->
+            <div class="max-w-3xl">
+                <h1 class="text-6xl md:text-8xl font-bold mb-8 leading-none tracking-tight">
+                    Score 515+
+                </h1>
+                
+                <p class="text-2xl md:text-3xl font-light mb-12 text-gray-600">
+                    AI-powered MCAT prep that works
+                </p>
+                
+                <p class="text-lg mb-16 text-gray-700 max-w-lg leading-relaxed">
+                    5,000+ questions. Real AAMC format. Biochemistry mastery. 
+                    Get the score you need for med school acceptance.
+                </p>
+                
+                <!-- Metrics -->
+                <div class="grid grid-cols-3 gap-12 mb-16">
+                    <div>
+                        <div class="metric-number">5,000+</div>
+                        <div class="metric-label">AI Questions</div>
+                    </div>
+                    <div>
+                        <div class="metric-number">515+</div>
+                        <div class="metric-label">Target Score</div>
+                    </div>
+                    <div>
+                        <div class="metric-number">25%</div>
+                        <div class="metric-label">Biochemistry Focus</div>
+                    </div>
+                </div>
+                
+                <!-- CTA -->
+                <div class="space-y-4">
+                    <button class="btn-primary text-lg">
+                        Start Free Trial
+                    </button>
+                    <div class="text-sm text-gray-500">
+                        7 days free • No credit card required
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-12 mt-32">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-sm text-gray-400 text-center">
+                © 2024 Victory Platform. Built for future doctors.
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('✅ Victory Platform - Minimal Design Loaded');
+            
+            // Simple button interaction
+            const ctaButton = document.querySelector('.btn-primary');
+            if (ctaButton) {
+                ctaButton.addEventListener('click', function() {
+                    console.log('CTA clicked - Free trial initiated');
+                    // Future: Connect to registration system
+                });
+            }
+        });
+    </script>
+</body>
+</html>

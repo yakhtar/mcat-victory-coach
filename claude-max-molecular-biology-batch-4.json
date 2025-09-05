@@ -1,0 +1,237 @@
+[
+  {
+    "id": "mol_bio_031",
+    "topic": "molecular_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying protein synthesis discovered that ribosomes undergo a complex series of conformational changes during translation elongation. The ribosome contains three binding sites: A (aminoacyl), P (peptidyl), and E (exit). During elongation, aminoacyl-tRNA enters the A site, peptide bond formation occurs, and then the ribosome translocates, moving tRNAs from A to P to E sites. The scientists found that elongation factors EF-Tu and EF-G facilitate these processes, with EF-Tu delivering aminoacyl-tRNA to the A site and EF-G promoting translocation. Both factors are GTPases that undergo conformational changes upon GTP hydrolysis to drive the translation cycle.",
+    "question": "Based on this translation mechanism, what is the primary role of GTP hydrolysis by elongation factors?",
+    "options": {
+      "A": "To provide energy for peptide bond formation",
+      "B": "To drive conformational changes that facilitate ribosome movement and tRNA positioning",
+      "C": "To directly synthesize new amino acids",
+      "D": "To terminate translation when the stop codon is reached"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that elongation factors 'are GTPases that undergo conformational changes upon GTP hydrolysis to drive the translation cycle.' GTP hydrolysis provides the energy for conformational changes in these factors that facilitate ribosome translocation and proper tRNA positioning. Option A is incorrect - peptide bond formation is catalyzed by peptidyl transferase. Option C is wrong - amino acids are not synthesized during translation. Option D describes the role of release factors, not elongation factors.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Translation Elongation",
+        "url": "https://www.nature.com/articles/nrm3613",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:45:00.000Z"
+  },
+  {
+    "id": "mol_bio_032",
+    "topic": "molecular_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which RNA polymerase modification is specifically required for efficient transcription termination and mRNA processing in eukaryotes?",
+    "options": {
+      "A": "Serine 2 phosphorylation of the C-terminal domain",
+      "B": "Serine 5 phosphorylation of the C-terminal domain",
+      "C": "Methylation of the large subunit",
+      "D": "Acetylation of the small subunit"
+    },
+    "correct_answer": "A",
+    "explanation": "The correct answer is A. Serine 2 phosphorylation of RNA polymerase II's C-terminal domain (CTD) is associated with transcription elongation and is specifically required for efficient transcription termination and recruitment of mRNA processing factors (capping, splicing, polyadenylation). Option B (Ser5 phosphorylation) is associated with transcription initiation. Options C and D are not established mechanisms for RNA pol II regulation.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: RNA Polymerase II CTD",
+        "url": "https://www.nature.com/articles/nrm2094",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:45:00.000Z"
+  },
+  {
+    "id": "mol_bio_033",
+    "topic": "molecular_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating epigenetic inheritance studied how histone modifications can be maintained through DNA replication and cell division. They discovered that during S phase, parental histones are distributed between leading and lagging strands, creating hemimethylated nucleosomes that serve as templates for restoring full methylation patterns. The researchers found that histone chaperones like CAF-1 and ASF1 help deposit both parental and newly synthesized histones onto replicating DNA. Additionally, they identified enzymes like PCNA-associated UHRF1 that recognize hemimethylated CpG sites and recruit DNMT1 to maintain DNA methylation patterns. This coordinated system ensures epigenetic information is faithfully transmitted to daughter cells.",
+    "question": "Based on this epigenetic maintenance system, what ensures that histone modifications are preserved during DNA replication?",
+    "options": {
+      "A": "Complete replacement of all histones with newly modified versions",
+      "B": "Distribution of parental histones to serve as templates for restoring modification patterns",
+      "C": "Elimination of all histone modifications during replication",
+      "D": "Random association of histones with newly replicated DNA"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes how 'parental histones are distributed between leading and lagging strands, creating hemimethylated nucleosomes that serve as templates for restoring full methylation patterns.' This template mechanism allows preservation of epigenetic marks. Option A contradicts the inheritance of parental histones. Option C would lose epigenetic information. Option D would not maintain specific modification patterns.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Epigenetic Inheritance",
+        "url": "https://www.nature.com/articles/nrg3143",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:45:00.000Z"
+  },
+  {
+    "id": "mol_bio_034",
+    "topic": "molecular_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is the complementary mRNA sequence that would be transcribed from the DNA template strand 3'-TACGGATCC-5'?",
+    "options": {
+      "A": "5'-AUGCCUAGG-3'",
+      "B": "3'-AUGCCUAGG-5'",
+      "C": "5'-ATGCCTAGG-3'",
+      "D": "3'-ATGCCTAGG-5'"
+    },
+    "correct_answer": "A",
+    "explanation": "The correct answer is A. RNA polymerase reads the DNA template strand in the 3' to 5' direction and synthesizes RNA in the 5' to 3' direction. The mRNA sequence is complementary to the template strand with U replacing T: 3'-TACGGATCC-5' template produces 5'-AUGCCUAGG-3' mRNA. Options B and D have incorrect directionality. Option C uses DNA bases instead of RNA bases.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Transcription",
+        "url": "https://www.khanacademy.org/science/biology/gene-expression-central-dogma/transcription-of-dna-into-rna",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:45:00.000Z"
+  },
+  {
+    "id": "mol_bio_035",
+    "topic": "molecular_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying DNA replication fidelity discovered that DNA polymerases have different error rates and proofreading capabilities. DNA polymerase III, the main replicative enzyme in prokaryotes, has 3' to 5' exonuclease activity that allows it to remove incorrectly incorporated nucleotides immediately after addition. This proofreading function reduces the error rate from approximately 1 in 10,000 to 1 in 100,000. Additionally, post-replicative mismatch repair systems can detect and correct remaining errors, further improving overall fidelity. The researchers concluded that this multi-layered error correction system is essential for maintaining genomic stability.",
+    "question": "Based on this DNA replication fidelity system, what is the function of the 3' to 5' exonuclease activity?",
+    "options": {
+      "A": "To remove RNA primers after DNA synthesis",
+      "B": "To proofread and remove incorrectly incorporated nucleotides during synthesis",
+      "C": "To join Okazaki fragments on the lagging strand",
+      "D": "To unwind the DNA double helix ahead of the replication fork"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage specifically states that the 3' to 5' exonuclease activity 'allows it to remove incorrectly incorporated nucleotides immediately after addition' and that 'this proofreading function reduces the error rate.' This is the proofreading mechanism of DNA polymerase. Option A describes a different exonuclease activity. Option C describes DNA ligase function. Option D describes helicase function.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: DNA Replication Fidelity",
+        "url": "https://www.biointeractive.org/classroom-resources/dna-replication-fidelity",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:45:00.000Z"
+  },
+  {
+    "id": "mol_bio_036",
+    "topic": "molecular_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "In eukaryotic cells, which process removes introns from pre-mRNA transcripts?",
+    "options": {
+      "A": "Translation",
+      "B": "Transcription",
+      "C": "Splicing",
+      "D": "Polyadenylation"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Splicing is the process that removes introns (non-coding sequences) from pre-mRNA transcripts and joins exons (coding sequences) together to form mature mRNA. This occurs in the nucleus via the spliceosome complex. Option A (translation) occurs after mRNA processing. Option B (transcription) produces the initial pre-mRNA. Option D (polyadenylation) adds the poly-A tail but doesn't remove introns.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: mRNA Processing",
+        "url": "https://www.khanacademy.org/science/biology/gene-expression-central-dogma/transcription-of-dna-into-rna",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:45:00.000Z"
+  },
+  {
+    "id": "mol_bio_037",
+    "topic": "molecular_biology",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers investigating the molecular basis of aging studied how DNA damage accumulates over time and affects cellular function. They found that cells experience thousands of DNA lesions daily from both endogenous sources (reactive oxygen species, replication errors) and exogenous sources (UV radiation, chemicals). While most damage is repaired, some lesions persist and can cause mutations or trigger cellular senescence. The scientists discovered that telomere shortening acts as a molecular clock, limiting cell divisions and eventually leading to senescence or apoptosis. They concluded that the balance between DNA damage and repair capacity determines cellular longevity and contributes to organismal aging.",
+    "question": "Based on this aging research, what is the relationship between DNA damage, repair capacity, and cellular aging?",
+    "options": {
+      "A": "DNA damage decreases with age while repair capacity increases",
+      "B": "The accumulation of unrepaired DNA damage over time contributes to cellular aging and senescence",
+      "C": "DNA repair mechanisms become more efficient as cells age",
+      "D": "Telomeres prevent all forms of DNA damage in young cells"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that 'some lesions persist and can cause mutations or trigger cellular senescence' and that 'the balance between DNA damage and repair capacity determines cellular longevity.' When repair capacity cannot keep up with damage accumulation, aging occurs. Options A and C contradict the general trend of declining repair capacity with age. Option D overstates telomere function - they act as a molecular clock but don't prevent DNA damage.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: DNA Damage and Aging",
+        "url": "https://www.nature.com/articles/nrg2656",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:45:00.000Z"
+  },
+  {
+    "id": "mol_bio_038",
+    "topic": "molecular_biology",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which molecule carries the genetic code from the nucleus to the ribosomes?",
+    "options": {
+      "A": "DNA",
+      "B": "mRNA",
+      "C": "tRNA",
+      "D": "rRNA"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. mRNA (messenger RNA) carries the genetic code from DNA in the nucleus to ribosomes in the cytoplasm, where it serves as the template for protein synthesis. Option A (DNA) remains in the nucleus. Option C (tRNA) carries amino acids to ribosomes. Option D (rRNA) is a structural component of ribosomes.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Central Dogma",
+        "url": "https://www.khanacademy.org/science/biology/gene-expression-central-dogma",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T04:45:00.000Z"
+  },
+  {
+    "id": "mol_bio_039",
+    "topic": "molecular_biology",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying gene expression regulation examined how cells respond to environmental stress through rapid changes in transcription. They found that stress-response genes often contain multiple binding sites for stress-activated transcription factors like NF-κB, AP-1, and heat shock factors. These transcription factors are normally inactive but become activated through post-translational modifications (phosphorylation, acetylation) or by release from inhibitory proteins during stress conditions. The researchers observed that this system allows cells to quickly upregulate protective genes without requiring new protein synthesis, providing a rapid response to potentially harmful conditions.",
+    "question": "Based on this stress response system, how do cells achieve rapid gene expression changes during stress?",
+    "options": {
+      "A": "By synthesizing entirely new transcription factors from scratch",
+      "B": "Through rapid activation of pre-existing transcription factors via post-translational modifications",
+      "C": "By increasing the overall rate of DNA replication",
+      "D": "Through permanent changes to DNA sequence"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that transcription factors 'become activated through post-translational modifications (phosphorylation, acetylation) or by release from inhibitory proteins' and that this 'allows cells to quickly upregulate protective genes without requiring new protein synthesis.' This rapid modification of existing proteins is much faster than synthesis of new proteins. Option A would be slower. Options C and D don't relate to the described stress response mechanism.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Stress Response Transcription",
+        "url": "https://www.nature.com/articles/nrg1749",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T04:45:00.000Z"
+  },
+  {
+    "id": "mol_bio_040",
+    "topic": "molecular_biology",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "A researcher studying enzyme regulation observes that an enzyme shows hyperbolic kinetics when substrate concentration is varied, but sigmoidal kinetics when an allosteric activator is present. What does this suggest about the enzyme?",
+    "options": {
+      "A": "The enzyme has multiple active sites for the same substrate",
+      "B": "The allosteric activator promotes cooperative binding of substrate",
+      "C": "The enzyme is permanently modified by the activator",
+      "D": "The activator competitively inhibits the enzyme"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The change from hyperbolic to sigmoidal kinetics indicates that the allosteric activator promotes cooperative binding - where binding of one substrate molecule increases the affinity for additional substrate molecules. This cooperativity creates the S-shaped curve characteristic of allosteric regulation. Option A would not explain the kinetic change. Option C would not necessarily produce sigmoidal kinetics. Option D describes inhibition, not the observed activation.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Allosteric Regulation",
+        "url": "https://www.biointeractive.org/classroom-resources/allosteric-regulation",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T04:45:00.000Z"
+  }
+]
