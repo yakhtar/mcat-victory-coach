@@ -1,0 +1,237 @@
+[
+  {
+    "id": "evolution_031",
+    "topic": "evolution",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying phylogenetic reconstruction discovered that molecular data provides powerful tools for understanding evolutionary relationships. They compared DNA sequences across multiple species to construct phylogenetic trees showing evolutionary branching patterns. The scientists found that molecular clocks - the observation that neutral mutations accumulate at roughly constant rates - allow estimation of divergence times between species. However, they also discovered that different genes evolve at different rates, with ribosomal RNA genes evolving slowly due to functional constraints, while pseudogenes evolve rapidly due to lack of selective pressure.",
+    "question": "Based on this molecular phylogenetics research, why do ribosomal RNA genes evolve more slowly than pseudogenes?",
+    "options": {
+      "A": "Ribosomal RNA genes have higher mutation rates",
+      "B": "Functional constraints on ribosomal RNA genes subject them to stronger purifying selection",
+      "C": "Pseudogenes are under stronger positive selection",
+      "D": "Ribosomal RNA genes are located in heterochromatin"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'ribosomal RNA genes evolving slowly due to functional constraints, while pseudogenes evolve rapidly due to lack of selective pressure.' Functional constraints mean that most mutations in ribosomal RNA would be harmful and removed by purifying selection, while pseudogenes have no function and can accumulate neutral mutations freely. Option A is backwards. Option C is incorrect - pseudogenes lack function. Option D relates to location, not selection.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Molecular Phylogenetics",
+        "url": "https://www.nature.com/articles/nrg1933",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:35:00.000Z"
+  },
+  {
+    "id": "evolution_032",
+    "topic": "evolution",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which evolutionary mechanism is most important in very small populations?",
+    "options": {
+      "A": "Natural selection",
+      "B": "Gene flow", 
+      "C": "Genetic drift",
+      "D": "Mutation"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Genetic drift has an effect inversely proportional to population size, becoming the dominant evolutionary force in very small populations where random sampling effects can overpower weak selection. In small populations, chance events can cause large changes in allele frequencies regardless of fitness effects. Option A becomes less effective in small populations. Option B is reduced in small, isolated populations. Option D introduces variation but doesn't change frequencies dramatically.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Population Size and Genetic Drift",
+        "url": "https://www.khanacademy.org/science/biology/evolution-and-natural-selection/population-genetics",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:35:00.000Z"
+  },
+  {
+    "id": "evolution_033",
+    "topic": "evolution",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating the evolution of multicellularity discovered that this major transition occurred independently multiple times across different lineages. They found that multicellularity requires solving several evolutionary challenges: cell-cell cooperation, specialization of cell types, and prevention of cheating (cells that gain benefits without contributing to group function). The researchers discovered that mechanisms like kin selection (cells are genetically related), group selection (groups with better cooperation outcompete less cooperative groups), and developmental constraints (single-cell bottlenecks prevent cheating) all contribute to maintaining multicellular cooperation.",
+    "question": "Based on this multicellularity evolution research, what prevents individual cells from 'cheating' in multicellular organisms?",
+    "options": {
+      "A": "All cells in multicellular organisms are genetically identical, eliminating conflict",
+      "B": "Combination of kin selection, group selection, and developmental constraints like single-cell bottlenecks",
+      "C": "Multicellular organisms never face cheating problems",
+      "D": "Only environmental pressures prevent cheating"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage lists multiple mechanisms that 'contribute to maintaining multicellular cooperation': kin selection (genetic relatedness reduces conflict), group selection (cooperative groups outcompete cheaters), and developmental constraints (single-cell bottlenecks reduce opportunities for cheating lineages to persist). Option A ignores somatic mutations that create genetic differences. Option C contradicts the evolutionary challenge described. Option D ignores the intrinsic mechanisms mentioned.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Evolution of Multicellularity",
+        "url": "https://www.nature.com/articles/nrg2178",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:35:00.000Z"
+  },
+  {
+    "id": "evolution_034",
+    "topic": "evolution",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is the primary source of heritable variation in populations?",
+    "options": {
+      "A": "Environmental changes",
+      "B": "Genetic mutations",
+      "C": "Behavioral changes",
+      "D": "Seasonal variations"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Genetic mutations are the ultimate source of all heritable variation in populations. Without mutations, there would be no genetic diversity for natural selection to act upon. While sexual reproduction shuffles existing variation, mutations create new alleles. Option A can influence selection but doesn't create heritable variation. Options C and D don't create genetic changes that can be inherited.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Sources of Genetic Variation",
+        "url": "https://www.khanacademy.org/science/biology/evolution-and-natural-selection/population-genetics",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:35:00.000Z"
+  },
+  {
+    "id": "evolution_035",
+    "topic": "evolution",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying evolutionary developmental biology (evo-devo) examined how changes in gene regulation during development can drive morphological evolution. They found that mutations in regulatory regions of developmental genes can have large phenotypic effects by altering when, where, or how much of a gene product is made. The scientists discovered that changes in Hox gene expression patterns explain major body plan differences between arthropod groups, while modifications of BMP signaling pathways account for beak shape variation in Darwin's finches. They concluded that regulatory evolution is often more important than protein-coding evolution for morphological change.",
+    "question": "Based on this evo-devo research, why are mutations in gene regulatory regions often more important for morphological evolution than mutations in protein-coding regions?",
+    "options": {
+      "A": "Regulatory mutations have higher mutation rates than coding mutations",
+      "B": "Regulatory mutations can alter when, where, or how much a gene is expressed, causing large developmental changes",
+      "C": "Protein-coding mutations are always lethal",
+      "D": "Regulatory regions are larger than coding regions"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that regulatory mutations 'can have large phenotypic effects by altering when, where, or how much of a gene product is made.' Small changes in gene expression timing or location during development can have dramatic effects on final morphology, while protein function changes are often more constrained. Option A relates to mutation rates, not effects. Option C overstates lethality. Option D relates to size, not evolutionary impact.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Evolutionary Developmental Biology",
+        "url": "https://www.biointeractive.org/classroom-resources/evo-devo",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T05:35:00.000Z"
+  },
+  {
+    "id": "evolution_036",
+    "topic": "evolution",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "In a founder effect, what happens to genetic diversity in the new population?",
+    "options": {
+      "A": "Genetic diversity increases due to new mutations",
+      "B": "Genetic diversity decreases because the founding group carries only a subset of the original population's alleles",
+      "C": "Genetic diversity remains exactly the same as the original population",
+      "D": "Genetic diversity is eliminated completely"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The founder effect is a type of genetic bottleneck where a small group establishes a new population. This founding group carries only a subset of the genetic variation present in the original population, reducing genetic diversity. This can lead to different allele frequencies and loss of rare alleles. Option A would occur over long time periods. Option C ignores the sampling effect. Option D is too extreme - some diversity remains.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Founder Effects",
+        "url": "https://www.nature.com/scitable/topicpage/genetic-drift-founder-effects-and-population-bottlenecks-609/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T05:35:00.000Z"
+  },
+  {
+    "id": "evolution_037",
+    "topic": "evolution",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying the evolution of altruism discovered that seemingly selfless behaviors can evolve through several mechanisms that resolve the apparent paradox of individuals helping others at their own expense. Hamilton's rule (rB > C) explains kin selection, where helping relatives can be favored when the benefit to kin, weighted by relatedness, exceeds the cost to the helper. Reciprocal altruism explains cooperation between unrelated individuals when there's potential for future reciprocation. The scientists also found evidence for group selection, where groups with more altruists outcompete groups with fewer altruists, even if altruists have lower fitness within groups.",
+    "question": "Based on Hamilton's rule (rB > C), under what conditions would an altruistic act toward a sibling be evolutionarily favored?",
+    "options": {
+      "A": "When the cost to the altruist is always greater than the benefit to the sibling",
+      "B": "When the benefit to the sibling times 0.5 (relatedness) is greater than the cost to the altruist",
+      "C": "When the altruist and sibling are unrelated",
+      "D": "When there's no possibility of future reciprocation"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Hamilton's rule states that altruistic behavior is favored when rB > C, where r is relatedness, B is benefit, and C is cost. For full siblings, r = 0.5, so the altruistic act is favored when (0.5 × B) > C. This explains why individuals are more likely to help close relatives. Option A violates the rule. Option C eliminates the genetic basis for kin selection. Option D describes reciprocal altruism, not kin selection.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Hamilton's Rule and Kin Selection",
+        "url": "https://www.nature.com/articles/nature08335",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:35:00.000Z"
+  },
+  {
+    "id": "evolution_038",
+    "topic": "evolution",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What does the term 'common descent' mean in evolutionary biology?",
+    "options": {
+      "A": "All species live in the same environment",
+      "B": "All species share common ancestors if you trace back far enough in time",
+      "C": "All species have the same number of chromosomes",
+      "D": "All species reproduce in the same way"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Common descent is the principle that all life on Earth shares common ancestors when traced back through evolutionary history. This is supported by evidence from comparative anatomy, molecular biology, and the fossil record. The universal genetic code and similar cellular structures across all life forms support this concept. Options A, C, and D describe similarities that don't reflect evolutionary relationships.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Common Descent",
+        "url": "https://www.khanacademy.org/science/biology/evolution-and-natural-selection/evidence-of-evolution",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:35:00.000Z"
+  },
+  {
+    "id": "evolution_039",
+    "topic": "evolution",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying hybrid zones examined what happens when two closely related species meet and interbreed in nature. They found that hybrid offspring often show reduced fitness due to genetic incompatibilities, but the extent of this reduction varies. In some cases, hybrids are completely sterile or inviable, creating strong barriers to gene flow. In other cases, hybrids have intermediate fitness and can backcross with parental species, creating clines of genetic variation across the hybrid zone. The researchers discovered that the width and stability of hybrid zones depend on the balance between selection against hybrids and dispersal of individuals into the zone.",
+    "question": "Based on this hybrid zone research, what determines whether a hybrid zone will be narrow or wide?",
+    "options": {
+      "A": "Only the geographic distance between parental populations",
+      "B": "The balance between selection against hybrids and dispersal rates into the zone",
+      "C": "The age of the parental species",
+      "D": "The population size of each parental species"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'the width and stability of hybrid zones depend on the balance between selection against hybrids and dispersal of individuals into the zone.' Strong selection against hybrids creates narrow zones, while weak selection allows wider zones. High dispersal can also widen zones by bringing more parental individuals into contact. Option A ignores the selection-dispersal balance. Options C and D don't directly determine zone width.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Hybrid Zones",
+        "url": "https://www.biointeractive.org/classroom-resources/hybrid-zones",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T05:35:00.000Z"
+  },
+  {
+    "id": "evolution_040",
+    "topic": "evolution",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which pattern of speciation involves populations that are adjacent to each other but experience limited gene flow?",
+    "options": {
+      "A": "Allopatric speciation",
+      "B": "Sympatric speciation",
+      "C": "Parapatric speciation",
+      "D": "Peripatric speciation"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Parapatric speciation occurs when populations are geographically adjacent with limited gene flow between them, often along environmental gradients. This contrasts with allopatric (geographically separated), sympatric (same location), and peripatric (small peripheral population) speciation modes. The limited gene flow allows populations to diverge despite being in contact.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Modes of Speciation",
+        "url": "https://www.nature.com/scitable/topicpage/speciation-the-origin-of-new-species-26230527/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T05:35:00.000Z"
+  }
+]

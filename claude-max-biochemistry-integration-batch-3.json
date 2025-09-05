@@ -1,0 +1,237 @@
+[
+  {
+    "id": "biochem_int_021",
+    "topic": "biochemistry_integration",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying diabetes pathophysiology examined how persistent hyperglycemia leads to cellular damage through multiple biochemical pathways. They found that excess glucose can undergo non-enzymatic glycation reactions with proteins, forming advanced glycation end products (AGEs) that damage blood vessels and tissues. Additionally, high glucose levels overwhelm normal glycolytic capacity, diverting glucose into alternative pathways like the polyol pathway, which depletes NADPH and glutathione, compromising antioxidant defenses. The scientists discovered that these mechanisms explain many diabetic complications including neuropathy, nephropathy, and retinopathy.",
+    "question": "Based on this diabetes biochemistry, how does the polyol pathway contribute to diabetic complications?",
+    "options": {
+      "A": "It increases insulin sensitivity in target tissues",
+      "B": "It depletes NADPH and glutathione, compromising antioxidant defenses",
+      "C": "It converts glucose directly into fatty acids",
+      "D": "It enhances normal glycolytic ATP production"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that excess glucose 'diverts glucose into alternative pathways like the polyol pathway, which depletes NADPH and glutathione, compromising antioxidant defenses.' The polyol pathway uses NADPH to reduce glucose to sorbitol, depleting the NADPH needed for glutathione regeneration and antioxidant protection. Option A describes the opposite effect. Option C describes lipogenesis, not the polyol pathway. Option D contradicts the alternative pathway concept.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Diabetic Complications Biochemistry",
+        "url": "https://www.nature.com/articles/nrendo.2016.191",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:45:00.000Z"
+  },
+  {
+    "id": "biochem_int_022",
+    "topic": "biochemistry_integration",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which metabolic adaptation occurs in cardiac muscle during ischemia to maintain ATP production?",
+    "options": {
+      "A": "Increased fatty acid oxidation",
+      "B": "Switch from aerobic to anaerobic glucose metabolism",
+      "C": "Enhanced protein synthesis",
+      "D": "Activation of gluconeogenesis"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. During ischemia, oxygen availability is limited, forcing cardiac muscle to switch from efficient aerobic respiration to anaerobic glycolysis to maintain ATP production. While this is less efficient (2 ATP vs 36-38 ATP per glucose), it can function without oxygen. Option A requires oxygen for β-oxidation. Option C is anabolic and energy-consuming. Option D occurs in liver/kidney, not typically in cardiac muscle during ischemia.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Cardiac Metabolism During Ischemia",
+        "url": "https://www.biointeractive.org/classroom-resources/cardiac-metabolism",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T05:45:00.000Z"
+  },
+  {
+    "id": "biochem_int_023",
+    "topic": "biochemistry_integration",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating cancer metabolism discovered that tumor cells exhibit altered metabolic patterns that support rapid proliferation and survival in hostile environments. They found that even in oxygen-rich conditions, many cancer cells preferentially use aerobic glycolysis (the Warburg effect) rather than oxidative phosphorylation, producing lactate and consuming large amounts of glucose. The researchers discovered that this seemingly inefficient metabolism provides advantages: rapid ATP production, generation of biosynthetic precursors for nucleotides and amino acids, and production of lactate that acidifies the tumor microenvironment and promotes invasion.",
+    "question": "Based on this cancer metabolism research, why might the Warburg effect be advantageous for rapidly dividing cancer cells despite being less efficient for ATP production?",
+    "options": {
+      "A": "It produces more ATP per glucose molecule than oxidative phosphorylation",
+      "B": "It provides rapid ATP production and biosynthetic precursors needed for cell division",
+      "C": "It only occurs when oxygen is completely absent",
+      "D": "It prevents all forms of cellular damage"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that aerobic glycolysis provides 'rapid ATP production, generation of biosynthetic precursors for nucleotides and amino acids' needed for cell division. While less efficient per glucose, it's faster and provides building blocks for DNA, RNA, and protein synthesis required for proliferation. Option A is incorrect - it produces less ATP per glucose. Option C contradicts the 'aerobic' nature described. Option D overstates protective effects.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Cancer Metabolism and Warburg Effect",
+        "url": "https://www.nature.com/articles/nrc3038",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:45:00.000Z"
+  },
+  {
+    "id": "biochem_int_024",
+    "topic": "biochemistry_integration",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is the primary function of the citric acid cycle in cellular metabolism?",
+    "options": {
+      "A": "To produce glucose from amino acids",
+      "B": "To oxidize acetyl-CoA and generate reducing equivalents (NADH, FADH2) for ATP synthesis",
+      "C": "To synthesize fatty acids from carbohydrates",
+      "D": "To break down proteins into amino acids"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The citric acid cycle (Krebs cycle) oxidizes acetyl-CoA from various sources, generating NADH and FADH2 that feed into the electron transport chain for ATP production via oxidative phosphorylation. It's the central hub of oxidative metabolism. Option A describes gluconeogenesis. Option C describes lipogenesis. Option D describes protein catabolism.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Citric Acid Cycle",
+        "url": "https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation/citric-acid-cycle",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:45:00.000Z"
+  },
+  {
+    "id": "biochem_int_025",
+    "topic": "biochemistry_integration",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying metabolic flexibility examined how skeletal muscle adapts fuel utilization based on availability and energy demands. During rest and low-intensity exercise, muscle preferentially oxidizes fatty acids, which provide more ATP per molecule but require more oxygen. During high-intensity exercise, muscle shifts to glucose oxidation and eventually anaerobic glycolysis as oxygen becomes limiting. The scientists found that trained athletes show enhanced metabolic flexibility, efficiently switching between fuel sources and having greater oxidative capacity in their muscles.",
+    "question": "Based on this metabolic flexibility research, why do muscles shift from fat to glucose oxidation during high-intensity exercise?",
+    "options": {
+      "A": "Glucose provides more total ATP per molecule than fatty acids",
+      "B": "Glucose oxidation produces ATP more rapidly and requires less oxygen per ATP generated",
+      "C": "Fatty acids become unavailable during exercise",
+      "D": "Glucose oxidation produces more heat than fat oxidation"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. While fatty acids provide more total ATP per molecule, glucose oxidation is faster and more oxygen-efficient (produces more ATP per oxygen consumed). During high-intensity exercise when oxygen delivery may be limiting and rapid ATP production is crucial, glucose becomes the preferred fuel. The passage mentions this shift occurs 'as oxygen becomes limiting.' Option A is backwards regarding total ATP. Option C is incorrect - fatty acids remain available. Option D isn't the primary metabolic advantage described.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Exercise Metabolism and Fuel Selection",
+        "url": "https://www.biointeractive.org/classroom-resources/exercise-fuel-metabolism",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T05:45:00.000Z"
+  },
+  {
+    "id": "biochem_int_026",
+    "topic": "biochemistry_integration",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which enzyme serves as the primary control point for fatty acid synthesis regulation?",
+    "options": {
+      "A": "Hormone-sensitive lipase",
+      "B": "Acetyl-CoA carboxylase (ACC)",
+      "C": "Fatty acid synthase",
+      "D": "Carnitine palmitoyltransferase I (CPT-1)"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Acetyl-CoA carboxylase (ACC) catalyzes the rate-limiting step of fatty acid synthesis, converting acetyl-CoA to malonyl-CoA. It's regulated by allosteric effectors (citrate activates, palmitoyl-CoA inhibits) and covalent modification (phosphorylation by AMPK inactivates it). Option A regulates fat breakdown, not synthesis. Option C is important but not the primary control point. Option D regulates fatty acid oxidation.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Fatty Acid Synthesis Regulation",
+        "url": "https://www.khanacademy.org/science/biology/energy-and-enzymes/fatty-acid-metabolism",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:45:00.000Z"
+  },
+  {
+    "id": "biochem_int_027",
+    "topic": "biochemistry_integration",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying aging at the molecular level investigated how mitochondrial dysfunction contributes to the aging process. They found that with age, mitochondria accumulate damage from reactive oxygen species (ROS), leading to decreased efficiency of oxidative phosphorylation and increased ROS production - creating a vicious cycle. The scientists discovered that this mitochondrial decline affects cellular energy production, increases oxidative stress, and may trigger cellular senescence pathways. They also found that interventions like caloric restriction can improve mitochondrial function and extend lifespan in model organisms.",
+    "question": "Based on this aging research, how does mitochondrial dysfunction create a self-perpetuating cycle of cellular damage?",
+    "options": {
+      "A": "Damaged mitochondria produce less ATP, leading to cell death",
+      "B": "Mitochondrial damage increases ROS production, which causes further mitochondrial damage",
+      "C": "Mitochondrial dysfunction only affects young cells, not aged cells",
+      "D": "Damaged mitochondria increase glucose uptake, causing diabetes"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes how 'mitochondria accumulate damage from reactive oxygen species (ROS), leading to decreased efficiency of oxidative phosphorylation and increased ROS production - creating a vicious cycle.' Damaged mitochondria become less efficient and produce more ROS, which causes additional mitochondrial damage, perpetuating the cycle. Option A describes one consequence but not the cycle. Option C contradicts the aging context. Option D describes a different metabolic consequence.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Mitochondria and Aging",
+        "url": "https://www.nature.com/articles/nrm2275",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:45:00.000Z"
+  },
+  {
+    "id": "biochem_int_028",
+    "topic": "biochemistry_integration",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What happens to excess dietary carbohydrates that cannot be stored as glycogen?",
+    "options": {
+      "A": "They are eliminated in urine",
+      "B": "They are converted to fatty acids through lipogenesis",
+      "C": "They are converted directly to proteins",
+      "D": "They are stored as amino acids"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. When glycogen storage capacity is reached (liver ~100g, muscle ~400g), excess carbohydrates are converted to fatty acids through the lipogenesis pathway and stored as triglycerides in adipose tissue. This allows long-term energy storage beyond glycogen limits. Option A would be wasteful and doesn't occur normally. Options C and D are incorrect metabolic conversions.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Carbohydrate Metabolism and Storage",
+        "url": "https://www.khanacademy.org/science/biology/energy-and-enzymes/carbohydrate-metabolism",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:45:00.000Z"
+  },
+  {
+    "id": "biochem_int_029",
+    "topic": "biochemistry_integration",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying liver metabolism examined how the organ coordinates glucose homeostasis during fed and fasted states. During fed states, the liver takes up glucose, converts excess to glycogen for storage, and activates lipogenesis to synthesize fatty acids from surplus carbohydrates. During fasted states, the liver breaks down glycogen to release glucose and activates gluconeogenesis to produce glucose from non-carbohydrate precursors like amino acids, lactate, and glycerol. The researchers found that hormonal signals like insulin and glucagon coordinate these opposing metabolic programs.",
+    "question": "Based on this liver metabolism research, what metabolic processes are activated in the liver during the fasted state?",
+    "options": {
+      "A": "Glycogen synthesis and lipogenesis",
+      "B": "Glycogenolysis and gluconeogenesis", 
+      "C": "Protein synthesis and fatty acid synthesis",
+      "D": "Only glucose uptake from blood"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that during fasted states, 'the liver breaks down glycogen to release glucose and activates gluconeogenesis to produce glucose from non-carbohydrate precursors.' Both processes maintain blood glucose levels when dietary glucose is unavailable. Option A describes fed-state processes. Option C describes anabolic processes inappropriate for fasting. Option D doesn't address glucose production needs during fasting.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Liver Glucose Homeostasis",
+        "url": "https://www.biointeractive.org/classroom-resources/glucose-homeostasis",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T05:45:00.000Z"
+  },
+  {
+    "id": "biochem_int_030",
+    "topic": "biochemistry_integration",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "During prolonged fasting, which metabolic adaptation helps spare muscle protein from being used for gluconeogenesis?",
+    "options": {
+      "A": "Increased insulin sensitivity",
+      "B": "Enhanced glycogen synthesis",
+      "C": "Ketone body production from fatty acid oxidation",
+      "D": "Increased glucose absorption from intestines"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. During prolonged fasting, the liver produces ketone bodies from fatty acid β-oxidation. These ketones can be used by the brain and other tissues as an alternative fuel to glucose, reducing the need for gluconeogenesis from muscle amino acids. This protein-sparing effect is crucial during extended fasting. Option A wouldn't help during fasting when insulin is low. Option B is inappropriate during fasting. Option D isn't available during fasting.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Ketone Body Metabolism",
+        "url": "https://www.khanacademy.org/science/biology/energy-and-enzymes/ketone-body-metabolism",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:45:00.000Z"
+  }
+]

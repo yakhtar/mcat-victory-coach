@@ -1,0 +1,237 @@
+[
+  {
+    "id": "genetics_031",
+    "topic": "genetics",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying cancer genetics discovered that most cancers require multiple genetic hits to develop, supporting Knudson's two-hit hypothesis for tumor suppressor genes. They found that individuals with inherited mutations in tumor suppressor genes like BRCA1, TP53, or RB1 have higher cancer risk because they need only one additional 'hit' to lose tumor suppressor function completely. In contrast, oncogenes typically require only one activating mutation to contribute to cancer development. The scientists observed that cancer cells often show genomic instability, accumulating additional mutations that drive progression from benign to malignant tumors.",
+    "question": "Based on Knudson's two-hit hypothesis, why do individuals with inherited BRCA1 mutations have higher breast cancer risk?",
+    "options": {
+      "A": "BRCA1 mutations directly cause breast cancer",
+      "B": "They already have one 'hit' and need only one additional mutation to lose BRCA1 function completely",
+      "C": "BRCA1 mutations prevent all DNA repair",
+      "D": "Inherited mutations are more harmful than somatic mutations"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The two-hit hypothesis states that both copies of a tumor suppressor gene must be inactivated for cancer to develop. Individuals with inherited BRCA1 mutations start with one defective copy in all cells, so they need only one additional somatic mutation to lose BRCA1 function completely, dramatically increasing cancer risk. Option A oversimplifies - multiple hits are usually needed. Option C overstates the effect. Option D isn't the mechanism described.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Two-Hit Hypothesis",
+        "url": "https://www.nature.com/articles/nrc1299",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:40:00.000Z"
+  },
+  {
+    "id": "genetics_032",
+    "topic": "genetics",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "What is the expected outcome when an individual with Turner syndrome (45,X) reproduces?",
+    "options": {
+      "A": "All offspring will have Turner syndrome",
+      "B": "Reproduction is typically not possible due to gonadal dysgenesis",
+      "C": "50% of offspring will have normal karyotypes",
+      "D": "Only male offspring are possible"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Turner syndrome (45,X) typically results in gonadal dysgenesis with underdeveloped ovaries, leading to infertility and inability to reproduce naturally. While some individuals with mosaic forms may retain some ovarian function, classic Turner syndrome generally prevents reproduction. Option A assumes reproduction occurs. Options C and D assume normal reproductive capability.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Sex Chromosome Disorders",
+        "url": "https://www.nature.com/scitable/topicpage/sex-chromosome-disorders-and-their-clinical-consequences-606/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T05:40:00.000Z"
+  },
+  {
+    "id": "genetics_033",
+    "topic": "genetics",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating genetic mosaicism discovered that some individuals carry two or more genetically distinct cell populations within their body. This can result from somatic mutations during development, chromosomal nondisjunction in early embryonic divisions, or chimerism (fusion of two embryos). The researchers found that mosaicism can have varied clinical consequences: some cases are asymptomatic, while others cause developmental abnormalities or predispose to cancer. They observed that the phenotypic effects depend on when during development the genetic change occurred, which cell types are affected, and what genes are involved.",
+    "question": "Based on this genetic mosaicism research, what factors determine the severity of clinical consequences in mosaic individuals?",
+    "options": {
+      "A": "Only the type of genetic change, not the timing",
+      "B": "The timing of the genetic change during development, which cell types are affected, and the genes involved",
+      "C": "Mosaicism always causes severe developmental abnormalities",
+      "D": "Only environmental factors after birth"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'phenotypic effects depend on when during development the genetic change occurred, which cell types are affected, and what genes are involved.' Early changes affect more cells, changes in critical cell lineages have greater impact, and mutations in essential genes cause more severe effects. Option A ignores timing and cell type factors. Option C contradicts the varied consequences described. Option D ignores the genetic factors.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Genetic Mosaicism",
+        "url": "https://www.nature.com/articles/nrg3706",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:40:00.000Z"
+  },
+  {
+    "id": "genetics_034",
+    "topic": "genetics",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is the probability that two heterozygous parents (Aa × Aa) will have a homozygous recessive child?",
+    "options": {
+      "A": "0%",
+      "B": "25%",
+      "C": "50%", 
+      "D": "75%"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. In a cross between two heterozygotes (Aa × Aa), the Punnett square shows: AA (25%), Aa (50%), aa (25%). The probability of a homozygous recessive (aa) offspring is 25% or 1/4. Option C is the probability of heterozygous offspring. Option D is the probability of dominant phenotype.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Punnett Squares",
+        "url": "https://www.khanacademy.org/science/biology/classical-genetics/mendelian--genetics",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:40:00.000Z"
+  },
+  {
+    "id": "genetics_035",
+    "topic": "genetics",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying genetic disorders examined how consanguinity (marriage between relatives) affects disease risk in populations. They found that children of consanguineous marriages have increased risk for autosomal recessive disorders because related parents are more likely to carry the same rare recessive alleles inherited from common ancestors. The scientists calculated that first cousins share 1/8 of their genes, making it more probable that both parents are carriers for the same recessive condition. They observed that this effect is most pronounced for rare recessive disorders.",
+    "question": "Based on this consanguinity research, why does marriage between relatives increase the risk of autosomal recessive disorders in offspring?",
+    "options": {
+      "A": "Related individuals have higher mutation rates",
+      "B": "Related parents are more likely to both be carriers for the same recessive alleles due to common ancestry",
+      "C": "Consanguinity only affects dominant disorders",
+      "D": "Related individuals cannot produce viable offspring"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that 'related parents are more likely to carry the same rare recessive alleles inherited from common ancestors.' When both parents carry the same recessive allele, there's a 25% chance their children will be homozygous recessive and express the disorder. Option A relates to mutation rates, not inheritance. Option C contradicts the focus on recessive disorders. Option D is incorrect - consanguineous marriages can produce viable offspring.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Consanguinity and Genetic Risk",
+        "url": "https://www.biointeractive.org/classroom-resources/consanguinity-genetics",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T05:40:00.000Z"
+  },
+  {
+    "id": "genetics_036",
+    "topic": "genetics",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which mechanism explains why some X-linked traits show more variable expression in females than in males?",
+    "options": {
+      "A": "Females have two X chromosomes while males have only one",
+      "B": "X-inactivation creates mosaicism in females, leading to variable expression",
+      "C": "Males are more susceptible to X-linked disorders",
+      "D": "Females have stronger immune systems"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. X-inactivation (lyonization) randomly silences one X chromosome in each female cell during early development, creating a mosaic of cells expressing different X chromosomes. This can lead to variable expression of X-linked traits in females, from mild to severe, depending on the pattern of X-inactivation. Option A explains the genetic basis but not the variability. Option C is about susceptibility, not variability. Option D is unrelated to X-linked expression.",
+    "study_resources": [
+      {
+        "title": "Nature Education: X-inactivation and Variable Expression",
+        "url": "https://www.nature.com/scitable/topicpage/x-inactivation-x-linked-inheritance-and-xist-23279/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T05:40:00.000Z"
+  },
+  {
+    "id": "genetics_037",
+    "topic": "genetics",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying personalized medicine investigated how genetic polymorphisms affect drug responses, a field called pharmacogenomics. They discovered that variations in genes encoding drug-metabolizing enzymes, drug transporters, and drug targets can dramatically alter therapeutic efficacy and toxicity. For example, individuals with certain CYP2D6 variants metabolize antidepressants slowly, requiring dose adjustments to avoid toxicity. The scientists found that genetic testing before prescribing certain medications can improve treatment outcomes and reduce adverse drug reactions, leading to more precise, individualized therapy.",
+    "question": "Based on this pharmacogenomics research, how can genetic testing improve drug therapy outcomes?",
+    "options": {
+      "A": "Genetic testing eliminates all drug side effects",
+      "B": "Testing identifies genetic variants affecting drug metabolism, transport, or targets, allowing dose optimization",
+      "C": "Genetic testing is only useful for cancer treatments",
+      "D": "Testing can predict all future diseases a patient will develop"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that genetic polymorphisms in 'drug-metabolizing enzymes, drug transporters, and drug targets can dramatically alter therapeutic efficacy and toxicity' and that 'genetic testing before prescribing certain medications can improve treatment outcomes and reduce adverse drug reactions.' This allows clinicians to adjust doses based on individual genetic profiles. Option A overstates the benefits. Option C is too narrow. Option D goes beyond pharmacogenomics.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Pharmacogenomics",
+        "url": "https://www.nature.com/articles/nrg1897",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:40:00.000Z"
+  },
+  {
+    "id": "genetics_038",
+    "topic": "genetics",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "In genetics, what does the term 'allele' refer to?",
+    "options": {
+      "A": "A chromosome pair",
+      "B": "Alternative versions of the same gene",
+      "C": "The location of a gene on a chromosome",
+      "D": "The complete genetic makeup of an organism"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Alleles are alternative versions or variants of the same gene that can occur at a particular locus. For example, a gene for eye color might have alleles for brown eyes, blue eyes, or green eyes. Option A describes homologous chromosomes. Option C describes a gene locus. Option D describes a genome or genotype.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Alleles and Gene Expression",
+        "url": "https://www.khanacademy.org/science/biology/classical-genetics/mendelian--genetics",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:40:00.000Z"
+  },
+  {
+    "id": "genetics_039",
+    "topic": "genetics",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying population genetics examined how migration affects allele frequencies in populations. They found that gene flow - the movement of alleles between populations through migration - tends to homogenize allele frequencies across populations, reducing genetic differentiation. The researchers calculated that even small amounts of migration (as little as one migrant per generation) can prevent significant genetic divergence between populations. However, they also discovered that when migration stops, populations can diverge rapidly through genetic drift and local adaptation to different environments.",
+    "question": "Based on this population genetics research, what is the primary effect of gene flow between populations?",
+    "options": {
+      "A": "Gene flow increases genetic differences between populations",
+      "B": "Gene flow homogenizes allele frequencies and reduces genetic differentiation between populations", 
+      "C": "Gene flow only affects small populations",
+      "D": "Gene flow always leads to hybrid sterility"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that gene flow 'tends to homogenize allele frequencies across populations, reducing genetic differentiation' and that 'even small amounts of migration...can prevent significant genetic divergence between populations.' This homogenizing effect counteracts the diverging effects of genetic drift and local selection. Option A describes the opposite effect. Option C ignores effects on large populations. Option D confuses gene flow with reproductive isolation.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Gene Flow and Population Genetics",
+        "url": "https://www.biointeractive.org/classroom-resources/gene-flow",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T05:40:00.000Z"
+  },
+  {
+    "id": "genetics_040",
+    "topic": "genetics",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "In a population where 16% of individuals express a recessive trait, what is the frequency of the dominant allele?",
+    "options": {
+      "A": "0.4",
+      "B": "0.6",
+      "C": "0.84",
+      "D": "0.16"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. If 16% express the recessive trait, then q² = 0.16, so q = 0.4. Using Hardy-Weinberg equilibrium, p + q = 1, so p = 1 - 0.4 = 0.6. The dominant allele frequency is 0.6. Option A is the recessive allele frequency (q). Option C is the frequency of the dominant phenotype. Option D is the frequency of the recessive phenotype.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Hardy-Weinberg Calculations",
+        "url": "https://www.khanacademy.org/science/biology/her/heredity-and-genetics/hardy-weinberg-equilibrium",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:40:00.000Z"
+  }
+]

@@ -43,7 +43,10 @@ function mergeClaudeMaxQuestions() {
             './claude-max-molecular-biology-batch-6.json',
             './claude-max-evolution-batch-3.json',
             './claude-max-genetics-batch-3.json',
-            './claude-max-organ-systems-batch-3.json'
+            './claude-max-organ-systems-batch-3.json',
+            './claude-max-evolution-batch-4.json',
+            './claude-max-genetics-batch-4.json',
+            './claude-max-biochemistry-integration-batch-3.json'
         ];
         
         let claudeMaxQuestions = [];
