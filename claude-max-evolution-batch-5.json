@@ -1,0 +1,237 @@
+[
+  {
+    "id": "evolution_041",
+    "topic": "evolution",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying punctuated equilibrium examined fossil records to understand patterns of evolutionary change over time. They found that many species show long periods of morphological stasis interrupted by brief periods of rapid evolutionary change, often coinciding with speciation events. This contrasts with the gradualism model that predicts steady, continuous evolutionary change. The scientists discovered that rapid evolutionary change often occurs in small, isolated populations under strong selective pressure, while large, stable populations tend to show stasis due to stabilizing selection and gene flow that homogenizes variation.",
+    "question": "Based on punctuated equilibrium theory, when is rapid evolutionary change most likely to occur?",
+    "options": {
+      "A": "Continuously at a steady rate in all populations",
+      "B": "During speciation events in small, isolated populations under strong selective pressure",
+      "C": "Only in large, stable populations with high gene flow",
+      "D": "Never, because evolution is always gradual"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'rapid evolutionary change often occurs in small, isolated populations under strong selective pressure' and is associated with 'speciation events.' Small populations allow genetic drift and selection to act more effectively, while isolation prevents gene flow from counteracting change. Option A describes gradualism. Option C describes conditions favoring stasis. Option D contradicts the observed rapid change periods.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Punctuated Equilibrium",
+        "url": "https://www.biointeractive.org/classroom-resources/punctuated-equilibrium",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T05:55:00.000Z"
+  },
+  {
+    "id": "evolution_042",
+    "topic": "evolution",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which evolutionary process best explains the similar body shapes of sharks, dolphins, and ichthyosaurs?",
+    "options": {
+      "A": "Common descent from a recent ancestor",
+      "B": "Convergent evolution due to similar aquatic environments",
+      "C": "Genetic drift in marine populations",
+      "D": "Horizontal gene transfer between species"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Sharks (cartilaginous fish), dolphins (mammals), and ichthyosaurs (extinct reptiles) are distantly related but evolved similar streamlined body shapes for efficient swimming. This is classic convergent evolution where similar environmental pressures (aquatic locomotion) lead to analogous adaptations in unrelated lineages. Option A is incorrect - they're distantly related. Options C and D don't explain the adaptive similarity.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Convergent Evolution Examples",
+        "url": "https://www.nature.com/scitable/topicpage/convergent-evolution-14397468/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T05:55:00.000Z"
+  },
+  {
+    "id": "evolution_043",
+    "topic": "evolution",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating the evolution of eusociality (highly organized social systems with reproductive division of labor) discovered that this complex behavior evolved independently multiple times, particularly in Hymenoptera (ants, bees, wasps). They found that haplodiploidy (males develop from unfertilized eggs, females from fertilized eggs) creates unusual genetic relationships that may favor the evolution of worker sterility. In haplodiploid species, sisters share 75% of their genes on average, making them more related to each other than they would be to their own offspring (50% relatedness). This supports Hamilton's rule for the evolution of altruistic behavior.",
+    "question": "Based on this eusociality research, how does haplodiploidy in Hymenoptera potentially favor the evolution of worker sterility?",
+    "options": {
+      "A": "Workers are more closely related to their sisters (75%) than to potential offspring (50%), favoring helping sisters reproduce",
+      "B": "Haplodiploidy prevents workers from reproducing entirely",
+      "C": "Males in haplodiploid species cannot contribute to colony success",
+      "D": "Haplodiploidy eliminates all genetic conflicts within colonies"
+    },
+    "correct_answer": "A",
+    "explanation": "The correct answer is A. The passage explains that in haplodiploid species, 'sisters share 75% of their genes on average, making them more related to each other than they would be to their own offspring (50% relatedness).' According to Hamilton's rule (rB > C), helping sisters reproduce can be more beneficial genetically than reproducing yourself when relatedness is higher. Option B is mechanistically incorrect. Option C ignores male contributions. Option D overstates the effect - conflicts still exist.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Evolution of Eusociality",
+        "url": "https://www.nature.com/articles/nature08356",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:55:00.000Z"
+  },
+  {
+    "id": "evolution_044",
+    "topic": "evolution",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is the primary mechanism that increases genetic variation in sexually reproducing populations?",
+    "options": {
+      "A": "Asexual reproduction",
+      "B": "Genetic recombination during meiosis",
+      "C": "Vegetative propagation",
+      "D": "Binary fission"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Sexual reproduction increases genetic variation primarily through genetic recombination during meiosis, which includes independent assortment of chromosomes and crossing over between homologous chromosomes. This creates new combinations of alleles in gametes. Options A, C, and D are forms of asexual reproduction that produce genetically identical offspring and don't increase variation.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Sexual Reproduction and Genetic Variation",
+        "url": "https://www.khanacademy.org/science/biology/evolution-and-natural-selection/population-genetics",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:55:00.000Z"
+  },
+  {
+    "id": "evolution_045",
+    "topic": "evolution",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying industrial melanism examined how pollution affected moth populations in industrial areas of England. Before industrialization, light-colored peppered moths were common and well-camouflaged against lichen-covered tree bark, while dark (melanic) moths were rare and easily spotted by predators. During the Industrial Revolution, soot pollution darkened tree trunks, making light moths conspicuous and dark moths well-camouflaged. The frequency of melanic moths increased dramatically in polluted areas. After pollution controls were implemented, tree trunks became lighter again, and light moth frequencies increased while dark moth frequencies decreased.",
+    "question": "Based on this industrial melanism study, what does this example demonstrate about natural selection?",
+    "options": {
+      "A": "Natural selection only works in polluted environments",
+      "B": "Natural selection can respond rapidly to environmental changes, favoring different traits as conditions change",
+      "C": "Dark coloration is always advantageous for moth survival",
+      "D": "Industrial pollution creates new mutations in moth populations"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. This classic example shows that natural selection can respond rapidly to environmental changes - first favoring dark moths during industrial pollution, then favoring light moths again after pollution controls. The selective advantage of each color morph depended on the environment, demonstrating that fitness is context-dependent. Option A limits selection to one environment. Option C ignores environmental context. Option D confuses selection acting on existing variation with mutation creation.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Peppered Moths and Industrial Melanism",
+        "url": "https://www.biointeractive.org/classroom-resources/peppered-moths",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T05:55:00.000Z"
+  },
+  {
+    "id": "evolution_046",
+    "topic": "evolution",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "In allopatric speciation, what is the most critical factor that allows populations to diverge into separate species?",
+    "options": {
+      "A": "Identical environmental conditions",
+      "B": "Geographic separation that prevents gene flow",
+      "C": "High levels of gene flow between populations",
+      "D": "Identical selective pressures"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Allopatric speciation occurs when populations are geographically separated, preventing gene flow between them. Without gene flow to homogenize allele frequencies, populations can diverge through genetic drift, local adaptation to different environments, or accumulation of different mutations. Option A would prevent divergence. Option C would prevent speciation. Option D wouldn't promote divergence.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Allopatric Speciation",
+        "url": "https://www.nature.com/scitable/topicpage/speciation-the-origin-of-new-species-26230527/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T05:55:00.000Z"
+  },
+  {
+    "id": "evolution_047",
+    "topic": "evolution",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying the major transitions in evolution identified several critical events that fundamentally changed life on Earth: the origin of genetic systems, the evolution of cellular organization, the development of sexual reproduction, the evolution of multicellularity, and the emergence of social organizations. They discovered that each transition involved changes in how information is stored, transmitted, and expressed, often requiring new mechanisms to prevent conflicts between different levels of organization (genes vs. cells, cells vs. organisms, individuals vs. groups). The scientists concluded that these transitions share common themes of cooperation, division of labor, and the suppression of lower-level selection.",
+    "question": "Based on this major transitions research, what common challenge must be overcome in evolutionary transitions like the evolution of multicellularity?",
+    "options": {
+      "A": "Increasing the mutation rate to accelerate evolution",
+      "B": "Preventing conflicts between different levels of organization and maintaining cooperation",
+      "C": "Eliminating all genetic variation from populations",
+      "D": "Reverting to simpler organizational forms"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage emphasizes that major evolutionary transitions 'often require new mechanisms to prevent conflicts between different levels of organization' and involve 'the suppression of lower-level selection.' For example, in multicellularity, individual cell interests must be aligned with organism-level interests to prevent cheating. Option A would be counterproductive. Option C would eliminate the variation needed for evolution. Option D contradicts the progression toward complexity.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Major Evolutionary Transitions",
+        "url": "https://www.nature.com/articles/nature07017",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:55:00.000Z"
+  },
+  {
+    "id": "evolution_048",
+    "topic": "evolution",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which observation would provide the strongest evidence that two similar species evolved from a common ancestor?",
+    "options": {
+      "A": "They live in the same habitat",
+      "B": "They have similar DNA sequences and homologous structures",
+      "C": "They have the same diet",
+      "D": "They are the same size"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Similar DNA sequences and homologous structures provide strong molecular and anatomical evidence for common ancestry. DNA sequence similarity reflects shared evolutionary history, while homologous structures indicate common developmental and structural origins. Options A, C, and D could result from convergent evolution or ecological factors rather than common ancestry.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Evidence for Common Descent",
+        "url": "https://www.khanacademy.org/science/biology/evolution-and-natural-selection/evidence-of-evolution",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T05:55:00.000Z"
+  },
+  {
+    "id": "evolution_049",
+    "topic": "evolution",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying the evolution of antibiotic resistance discovered that resistance can evolve through multiple molecular mechanisms. Point mutations can alter target proteins to reduce drug binding, while gene duplications can increase target protein levels to overwhelm drug effects. Horizontal gene transfer can spread resistance genes rapidly between bacterial species through plasmids, transformation, and transduction. The researchers found that sub-lethal antibiotic concentrations create selective pressure favoring resistant variants, and that combination therapies using multiple drugs can slow resistance evolution by requiring multiple simultaneous mutations.",
+    "question": "Based on this antibiotic resistance research, why do combination drug therapies help slow the evolution of resistance?",
+    "options": {
+      "A": "Multiple drugs eliminate all bacteria immediately",
+      "B": "Resistance to multiple drugs simultaneously requires multiple rare mutations, reducing the probability",
+      "C": "Combination therapies prevent all bacterial reproduction",
+      "D": "Multiple drugs have no selective pressure on bacteria"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that combination therapies 'can slow resistance evolution by requiring multiple simultaneous mutations.' The probability of multiple independent resistance mutations occurring simultaneously in the same bacterium is much lower than single mutations, making resistance evolution less likely. Option A is too absolute. Option C would eliminate infection but isn't realistic. Option D contradicts the selective pressure concept.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Antibiotic Resistance Evolution",
+        "url": "https://www.nature.com/articles/nrmicro1614",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T05:55:00.000Z"
+  },
+  {
+    "id": "evolution_050",
+    "topic": "evolution",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "What is the evolutionary significance of the bottleneck effect in small populations?",
+    "options": {
+      "A": "It always increases genetic diversity",
+      "B": "It can lead to genetic drift overwhelming natural selection and loss of genetic variation",
+      "C": "It prevents any evolutionary change from occurring",
+      "D": "It only affects beneficial alleles"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Population bottlenecks reduce genetic diversity through random sampling effects (genetic drift), and in very small populations, drift can overpower weak selection. This can lead to loss of beneficial alleles and fixation of harmful ones purely by chance. Option A is backwards. Option C ignores drift effects. Option D incorrectly suggests selective elimination - bottlenecks affect alleles randomly regardless of their fitness effects.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Population Bottlenecks and Genetic Drift",
+        "url": "https://www.nature.com/scitable/topicpage/genetic-drift-founder-effects-and-population-bottlenecks-609/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T05:55:00.000Z"
+  }
+]

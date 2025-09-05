@@ -1,0 +1,237 @@
+[
+  {
+    "id": "genetics_041",
+    "topic": "genetics",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying mitochondrial inheritance discovered that mitochondrial DNA (mtDNA) follows a unique pattern of inheritance different from nuclear genes. Mitochondria are primarily inherited maternally because sperm mitochondria are typically destroyed after fertilization, while egg mitochondria are retained. The scientists found that mtDNA mutations can cause various disorders affecting energy metabolism, particularly in tissues with high energy demands like muscle and nervous tissue. They observed that the severity of mitochondrial diseases often correlates with the percentage of mutant mtDNA in affected tissues (heteroplasmy levels).",
+    "question": "Based on this mitochondrial inheritance research, why do mitochondrial disorders often show maternal inheritance patterns?",
+    "options": {
+      "A": "Mitochondrial DNA is located on the X chromosome",
+      "B": "Fathers cannot pass mitochondrial DNA to their children",
+      "C": "Mitochondria are primarily inherited from the mother because egg mitochondria are retained while sperm mitochondria are destroyed",
+      "D": "Mitochondrial DNA undergoes genomic imprinting"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The passage states that 'mitochondria are primarily inherited maternally because sperm mitochondria are typically destroyed after fertilization, while egg mitochondria are retained.' This cytoplasmic inheritance pattern means mitochondrial disorders typically pass from mother to all children. Option A confuses nuclear and mitochondrial inheritance. Option B is too absolute. Option D describes a different epigenetic mechanism.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Mitochondrial Inheritance",
+        "url": "https://www.nature.com/scitable/topicpage/mitochondrial-dna-and-disease-13562888/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T06:00:00.000Z"
+  },
+  {
+    "id": "genetics_042",
+    "topic": "genetics",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "In a population of 10,000 individuals, 100 people have cystic fibrosis (autosomal recessive). What is the frequency of carriers in this population?",
+    "options": {
+      "A": "0.01",
+      "B": "0.18",
+      "C": "0.10",
+      "D": "0.81"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. If 100/10,000 = 0.01 have cystic fibrosis, then q² = 0.01, so q = 0.1. The frequency of carriers (2pq) = 2(0.9)(0.1) = 0.18. About 18% of the population are carriers. Option A is the frequency of affected individuals. Option C is the recessive allele frequency. Option D is the frequency of homozygous dominant individuals.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Hardy-Weinberg Applications",
+        "url": "https://www.khanacademy.org/science/biology/her/heredity-and-genetics/hardy-weinberg-equilibrium",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T06:00:00.000Z"
+  },
+  {
+    "id": "genetics_043",
+    "topic": "genetics",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating the genetics of complex diseases discovered that many conditions result from the interaction of multiple genetic and environmental factors. They found that genome-wide association studies (GWAS) have identified thousands of genetic variants associated with diseases like diabetes, heart disease, and mental illness, but individual variants typically have small effect sizes. The researchers developed polygenic risk scores that combine information from many variants to better predict disease risk. However, they found that these scores often perform differently across populations with different ancestries, highlighting the importance of diversity in genetic research.",
+    "question": "Based on this complex disease genetics research, why do polygenic risk scores sometimes perform poorly across different populations?",
+    "options": {
+      "A": "Complex diseases are not influenced by genetics",
+      "B": "Different populations may have different patterns of linkage disequilibrium and allele frequencies",
+      "C": "Polygenic risk scores only work for monogenic diseases",
+      "D": "Environmental factors are identical across all populations"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Polygenic risk scores are based on associations between variants and diseases identified in specific populations (often European ancestry). Different populations have different patterns of linkage disequilibrium (which variants are inherited together) and different allele frequencies, so risk variants identified in one population may not predict risk well in another population. Option A contradicts the genetic basis described. Option C is backwards. Option D ignores environmental diversity.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Polygenic Risk Scores and Population Diversity",
+        "url": "https://www.nature.com/articles/s41576-019-0175-1",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T06:00:00.000Z"
+  },
+  {
+    "id": "genetics_044",
+    "topic": "genetics",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "What is the probability that a color-blind man and a carrier woman will have a color-blind daughter?",
+    "options": {
+      "A": "0%",
+      "B": "25%",
+      "C": "50%",
+      "D": "100%"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Color blindness is X-linked recessive. The cross is X^c Y (man) × X^C X^c (carrier woman). Female offspring can be X^C X^c (carrier, 25%) or X^c X^c (color-blind, 25%). The probability of a color-blind daughter is 25%. Option A ignores the recessive X from the mother. Option C is the probability for sons. Option D is incorrect for this cross.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: X-linked Inheritance",
+        "url": "https://www.khanacademy.org/science/biology/classical-genetics/sex-linkage-non-nuclear-inherit",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T06:00:00.000Z"
+  },
+  {
+    "id": "genetics_045",
+    "topic": "genetics",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying genetic counseling examined how advances in genetic testing have transformed medical practice. They found that whole genome sequencing can now identify variants in thousands of genes simultaneously, but interpreting these results presents challenges. Many variants are of uncertain significance (VUS), meaning their clinical impact is unknown. The scientists discovered that genetic counselors play crucial roles in helping patients understand test results, assess risks and benefits, and make informed decisions about medical management and family planning.",
+    "question": "Based on this genetic counseling research, what is the main challenge posed by variants of uncertain significance (VUS) in genetic testing?",
+    "options": {
+      "A": "VUS always cause severe genetic diseases",
+      "B": "VUS results cannot be communicated to patients",
+      "C": "The clinical significance of VUS is unknown, making risk assessment and medical decisions difficult",
+      "D": "VUS only occur in rare genetic disorders"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The passage defines VUS as variants whose 'clinical impact is unknown.' This uncertainty makes it difficult to assess disease risk, make medical management decisions, or provide clear guidance to patients and families. Option A overstates the impact - significance is unknown. Option B is incorrect - results can be communicated but are uncertain. Option D is too narrow - VUS occur across many types of genetic variation.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Genetic Testing and Counseling",
+        "url": "https://www.biointeractive.org/classroom-resources/genetic-testing",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T06:00:00.000Z"
+  },
+  {
+    "id": "genetics_046",
+    "topic": "genetics",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "Which type of chromosome abnormality results from unequal crossing over between misaligned homologous chromosomes?",
+    "options": {
+      "A": "Inversion",
+      "B": "Translocation", 
+      "C": "Gene duplication and deletion",
+      "D": "Ring chromosome"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Unequal crossing over occurs when homologous chromosomes misalign during meiosis, leading to crossing over between non-equivalent regions. This results in one chromosome gaining DNA (duplication) while the other loses DNA (deletion). Option A involves chromosome segment reversal. Option B involves exchange between non-homologous chromosomes. Option D involves chromosome end fusion.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Chromosome Rearrangements",
+        "url": "https://www.nature.com/scitable/topicpage/chromosome-rearrangements-393/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T06:00:00.000Z"
+  },
+  {
+    "id": "genetics_047",
+    "topic": "genetics",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying the genetics of aging investigated how telomeres contribute to cellular senescence and organismal lifespan. They found that telomeres shorten with each cell division due to the end-replication problem, and cells enter senescence when telomeres become critically short. While most somatic cells lack active telomerase, stem cells and cancer cells often maintain telomerase activity. The scientists discovered that individuals with shorter telomeres have increased risk of age-related diseases, while those with genetic variants that maintain longer telomeres may have increased cancer risk due to extended cellular replicative potential.",
+    "question": "Based on this telomere aging research, why might maintaining very long telomeres increase cancer risk?",
+    "options": {
+      "A": "Long telomeres directly cause DNA mutations",
+      "B": "Extended cellular replicative potential allows more time for cancer-causing mutations to accumulate",
+      "C": "Long telomeres prevent all forms of DNA repair",
+      "D": "Telomerase activity is toxic to normal cells"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage suggests that longer telomeres provide 'extended cellular replicative potential,' allowing cells to divide more times before senescence. This gives more opportunities for cancer-causing mutations to accumulate and for transformed cells to proliferate. Cellular senescence normally acts as a tumor suppressor mechanism. Option A incorrectly suggests direct causation. Option C overstates repair effects. Option D contradicts the normal function in stem cells.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Telomeres, Aging, and Cancer",
+        "url": "https://www.nature.com/articles/nrc2656",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T06:00:00.000Z"
+  },
+  {
+    "id": "genetics_048",
+    "topic": "genetics",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "In a dihybrid cross (AaBb × AaBb), what fraction of offspring will show both recessive traits?",
+    "options": {
+      "A": "1/16",
+      "B": "3/16",
+      "C": "9/16",
+      "D": "1/4"
+    },
+    "correct_answer": "A",
+    "explanation": "The correct answer is A. In a dihybrid cross, the probability of being homozygous recessive for both traits (aabb) is (1/4) × (1/4) = 1/16. This represents the offspring that show both recessive phenotypes. Option B represents various single recessive combinations. Option C represents the dominant phenotype for both traits. Option D represents the probability for a single trait.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Dihybrid Cross Ratios",
+        "url": "https://www.khanacademy.org/science/biology/classical-genetics/mendelian--genetics",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T06:00:00.000Z"
+  },
+  {
+    "id": "genetics_049",
+    "topic": "genetics",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying population genetics examined the genetic consequences of human migration and population bottlenecks throughout history. They found that the human migration out of Africa led to serial founder effects, with each new population carrying only a subset of the genetic diversity from the previous population. This explains why genetic diversity is highest in African populations and decreases with distance from Africa. The researchers also studied isolated populations like those on remote islands, finding that genetic drift has led to unique allele frequency patterns and increased rates of certain genetic disorders.",
+    "question": "Based on this human population genetics research, why is genetic diversity highest in African populations?",
+    "options": {
+      "A": "African populations have higher mutation rates",
+      "B": "Africa is where human populations originated and experienced the least bottleneck effects during migration",
+      "C": "African populations are larger than all other populations",
+      "D": "Environmental factors in Africa promote genetic diversity"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that 'human migration out of Africa led to serial founder effects, with each new population carrying only a subset of the genetic diversity from the previous population.' African populations retain the ancestral genetic diversity, while migrating populations experienced repeated bottlenecks that reduced diversity. Option A relates to mutation rates, not historical bottlenecks. Option C ignores the bottleneck effects. Option D suggests environmental causation not supported by the migration explanation.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Human Migration and Genetic Diversity",
+        "url": "https://www.biointeractive.org/classroom-resources/human-migration-genetic-diversity",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T06:00:00.000Z"
+  },
+  {
+    "id": "genetics_050",
+    "topic": "genetics",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "What is the expected result when a person with Klinefelter syndrome (47,XXY) undergoes meiosis?",
+    "options": {
+      "A": "Normal gamete production with equal numbers of X and Y gametes",
+      "B": "Impaired fertility due to meiotic problems from the extra X chromosome",
+      "C": "Enhanced fertility compared to normal males",
+      "D": "Production of only female offspring"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Klinefelter syndrome (47,XXY) involves an extra X chromosome that causes problems during meiosis. The presence of three sex chromosomes instead of two creates difficulties in proper chromosome pairing and segregation, leading to reduced fertility or infertility in most affected individuals. Option A ignores the meiotic complications. Option C contradicts the typical fertility problems. Option D assumes normal reproduction occurs.",
+    "study_resources": [
+      {
+        "title": "Nature Education: Sex Chromosome Disorders",
+        "url": "https://www.nature.com/scitable/topicpage/sex-chromosome-disorders-and-their-clinical-consequences-606/",
+        "type": "article"
+      }
+    ],
+    "created_at": "2025-09-05T06:00:00.000Z"
+  }
+]

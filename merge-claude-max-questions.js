@@ -46,7 +46,9 @@ function mergeClaudeMaxQuestions() {
             './claude-max-organ-systems-batch-3.json',
             './claude-max-evolution-batch-4.json',
             './claude-max-genetics-batch-4.json',
-            './claude-max-biochemistry-integration-batch-3.json'
+            './claude-max-biochemistry-integration-batch-3.json',
+            './claude-max-evolution-batch-5.json',
+            './claude-max-genetics-batch-5.json'
         ];
         
         let claudeMaxQuestions = [];
