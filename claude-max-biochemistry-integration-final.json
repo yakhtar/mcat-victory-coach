@@ -1,0 +1,237 @@
+[
+  {
+    "id": "biochemistry_integration_061",
+    "topic": "biochemistry_integration",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying vitamin deficiencies examined how specific vitamin shortages disrupt metabolic pathways. They found that thiamine (vitamin B1) deficiency impairs pyruvate dehydrogenase function, blocking efficient glucose oxidation and forcing cells to rely more on anaerobic glycolysis. Riboflavin (vitamin B2) deficiency affects flavin-dependent enzymes in fatty acid oxidation and the electron transport chain. Niacin (vitamin B3) deficiency reduces NAD+ availability, compromising both glycolysis and the citric acid cycle. The scientists discovered that these vitamin deficiencies create overlapping metabolic disruptions that can manifest as fatigue, neurological symptoms, and impaired energy production across multiple tissues.",
+    "question": "Based on this vitamin deficiency research, why does niacin (vitamin B3) deficiency severely impact energy metabolism?",
+    "options": {
+      "A": "Niacin directly produces ATP in cells",
+      "B": "NAD+ derived from niacin is essential for key oxidation reactions in glycolysis and the citric acid cycle",
+      "C": "Niacin deficiency prevents all protein synthesis",
+      "D": "Niacin is only needed for fatty acid synthesis"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that 'niacin (vitamin B3) deficiency reduces NAD+ availability, compromising both glycolysis and the citric acid cycle.' NAD+ is a crucial electron acceptor in multiple dehydrogenase reactions including glyceraldehyde-3-phosphate dehydrogenase in glycolysis and several enzymes in the citric acid cycle. Option A incorrectly suggests direct ATP production. Option C overstates the protein synthesis effects. Option D incorrectly limits niacin's metabolic scope.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Vitamin Cofactors in Energy Metabolism",
+        "url": "https://www.biointeractive.org/classroom-resources/vitamin-cofactors",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T07:15:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_062",
+    "topic": "biochemistry_integration",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "In patients with hereditary fructose intolerance, consumption of fructose leads to hypoglycemia. What is the primary metabolic mechanism causing this effect?",
+    "options": {
+      "A": "Fructose directly inhibits glucose transporters",
+      "B": "Aldolase B deficiency causes fructose-1-phosphate accumulation, depleting liver phosphate and impairing gluconeogenesis",
+      "C": "Fructose consumption increases insulin secretion excessively",
+      "D": "Fructose is converted to lactate, causing acidosis"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Hereditary fructose intolerance results from aldolase B deficiency, which cleaves fructose-1-phosphate. Without this enzyme, fructose-1-phosphate accumulates, trapping phosphate and depleting the phosphate pool needed for gluconeogenesis and glucose production. This leads to hypoglycemia despite normal glucose metabolism machinery. Option A describes a direct inhibition not seen in this condition. Option C relates to normal fructose metabolism. Option D misrepresents the metabolic block.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Hereditary Fructose Intolerance",
+        "url": "https://www.nature.com/articles/nrgastro.2012.144",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T07:15:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_063",
+    "topic": "biochemistry_integration",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating metabolic plasticity in cancer examined how tumor cells reprogram metabolism to support rapid growth and survival in hostile environments. They discovered that many cancers upregulate glutamine metabolism, using glutaminolysis to fuel anabolic processes. Glutamine provides nitrogen for nucleotide and amino acid synthesis while its carbon skeleton (via α-ketoglutarate) supports the citric acid cycle and lipid synthesis. The researchers found that hypoxic conditions activate hypoxia-inducible factor 1α (HIF-1α), which promotes glycolysis while suppressing mitochondrial respiration. This metabolic reprogramming allows cancer cells to maintain energy production and biosynthesis even under oxygen-limited conditions that would severely impair normal cells.",
+    "question": "Based on this cancer metabolism research, why is glutamine particularly important for cancer cell anabolism?",
+    "options": {
+      "A": "Glutamine produces more ATP than glucose",
+      "B": "Glutamine provides both nitrogen for biosynthesis and carbon skeletons for the citric acid cycle",
+      "C": "Glutamine only affects protein synthesis, not other pathways",
+      "D": "Glutamine prevents all DNA damage in cancer cells"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that 'glutamine provides nitrogen for nucleotide and amino acid synthesis while its carbon skeleton (via α-ketoglutarate) supports the citric acid cycle and lipid synthesis.' This dual role makes glutamine particularly valuable for rapidly dividing cells that need both building blocks (nitrogen) and metabolic intermediates (carbon skeletons). Option A incorrectly focuses on ATP production. Option C incorrectly limits glutamine's metabolic roles. Option D overstates glutamine's protective effects.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Glutamine Metabolism in Cancer",
+        "url": "https://www.nature.com/articles/nrc3772",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T07:15:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_064",
+    "topic": "biochemistry_integration",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which metabolic process is most active in liver during the absorptive state (after eating)?",
+    "options": {
+      "A": "Gluconeogenesis",
+      "B": "Glycogenolysis", 
+      "C": "Glycogen synthesis",
+      "D": "Ketogenesis"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. During the absorptive state, insulin levels are high and nutrients are abundant. The liver responds by storing glucose as glycogen through glycogen synthesis. This is the primary metabolic activity as the body shifts from glucose utilization to glucose storage. Option A occurs during fasting. Option B occurs when glucose is needed. Option D occurs during prolonged fasting when fatty acid oxidation is high.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Fed State vs Fasted State Metabolism",
+        "url": "https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation/fed-fasted-states",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T07:15:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_065",
+    "topic": "biochemistry_integration",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying exercise metabolism examined the metabolic changes during different phases of physical activity. They found that during the first few minutes of intense exercise, muscles rely on stored ATP and creatine phosphate for immediate energy. As exercise continues, glycolysis becomes the dominant pathway, producing ATP rapidly but generating lactate. With prolonged moderate exercise, oxidative metabolism increases, utilizing both glucose and fatty acids. The scientists discovered that training status significantly affects this metabolic progression, with trained individuals showing enhanced fatty acid oxidation capacity and improved lactate clearance, allowing them to maintain higher intensities for longer periods.",
+    "question": "Based on this exercise metabolism research, why do trained individuals show improved endurance performance?",
+    "options": {
+      "A": "Training eliminates lactate production entirely",
+      "B": "Enhanced fatty acid oxidation and lactate clearance allow better metabolic efficiency and sustained performance",
+      "C": "Trained individuals only use anaerobic metabolism",
+      "D": "Training prevents all muscle fatigue mechanisms"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'trained individuals showing enhanced fatty acid oxidation capacity and improved lactate clearance, allowing them to maintain higher intensities for longer periods.' Enhanced fat oxidation spares glycogen stores while improved lactate clearance reduces metabolic acidosis, both contributing to better endurance. Option A overstates lactate elimination. Option C incorrectly suggests only anaerobic metabolism. Option D overstates training's effects on fatigue.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Training Adaptations in Metabolism",
+        "url": "https://www.biointeractive.org/classroom-resources/training-adaptations",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T07:15:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_066",
+    "topic": "biochemistry_integration",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "What is the primary metabolic consequence of acetyl-CoA carboxylase activation by insulin?",
+    "options": {
+      "A": "Increased fatty acid oxidation",
+      "B": "Enhanced fatty acid synthesis and reduced fatty acid oxidation",
+      "C": "Activation of gluconeogenesis",
+      "D": "Inhibition of all anabolic pathways"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Acetyl-CoA carboxylase produces malonyl-CoA, the first committed step in fatty acid synthesis. Malonyl-CoA also inhibits carnitine palmitoyltransferase I (CPT-1), preventing fatty acid oxidation. This dual effect - promoting fat synthesis while blocking fat oxidation - exemplifies metabolic coordination during the fed state. Option A contradicts the malonyl-CoA effect on CPT-1. Option C relates to different pathways. Option D misrepresents insulin's anabolic effects.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Fatty Acid Synthesis Regulation",
+        "url": "https://www.nature.com/articles/nrm2128",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T07:15:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_067",
+    "topic": "biochemistry_integration",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying aging and metabolism investigated how cellular senescence affects metabolic function. They found that senescent cells undergo a metabolic shift toward glycolysis even in oxygen-rich conditions, similar to cancer cells but with different underlying mechanisms. Mitochondrial dysfunction in aging cells leads to reduced oxidative phosphorylation efficiency and increased reactive oxygen species production. The scientists discovered that this metabolic dysfunction contributes to the senescence-associated secretory phenotype (SASP), where senescent cells secrete inflammatory factors that affect neighboring cells. Additionally, they found that interventions targeting metabolic pathways, such as improving mitochondrial function or reducing oxidative stress, can delay cellular senescence and extend healthspan.",
+    "question": "Based on this aging metabolism research, how does mitochondrial dysfunction contribute to cellular senescence?",
+    "options": {
+      "A": "Mitochondrial dysfunction only affects ATP production, not other cellular processes",
+      "B": "Reduced oxidative phosphorylation and increased ROS production promote metabolic dysfunction and inflammatory signaling",
+      "C": "Mitochondrial dysfunction prevents all protein synthesis",
+      "D": "Aging cells can completely compensate for mitochondrial dysfunction"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that 'mitochondrial dysfunction in aging cells leads to reduced oxidative phosphorylation efficiency and increased reactive oxygen species production' and that 'this metabolic dysfunction contributes to the senescence-associated secretory phenotype (SASP).' This shows how mitochondrial problems create a cascade affecting both energy metabolism and inflammatory signaling. Option A underestimates the broader effects. Option C overstates protein synthesis effects. Option D contradicts the described dysfunction.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Aging, Metabolism, and Mitochondrial Dysfunction",
+        "url": "https://www.nature.com/articles/s41580-020-0252-5",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T07:15:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_068",
+    "topic": "biochemistry_integration",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which metabolic pathway generates the most ATP per molecule of glucose?",
+    "options": {
+      "A": "Glycolysis alone",
+      "B": "Fermentation",
+      "C": "Complete aerobic respiration",
+      "D": "Pentose phosphate pathway"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Complete aerobic respiration, including glycolysis, citric acid cycle, and oxidative phosphorylation, generates approximately 30-32 ATP per glucose molecule. This is far more efficient than glycolysis alone (2 ATP) or fermentation (2 ATP). Option A produces only 2 net ATP. Option B also produces only 2 ATP. Option D is primarily for NADPH generation, not ATP production.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: ATP Yield from Glucose Oxidation",
+        "url": "https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation/atp-yield",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T07:15:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_069",
+    "topic": "biochemistry_integration",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying metabolic regulation examined how allosteric regulation coordinates opposing metabolic pathways. They found that phosphofructokinase-1 (PFK-1), a key glycolytic enzyme, is activated by AMP and ADP (indicating low energy) but inhibited by ATP and citrate (indicating high energy and abundant acetyl-CoA). Conversely, fructose-1,6-bisphosphatase, the corresponding gluconeogenic enzyme, is inhibited by AMP and activated by ATP. The researchers discovered that this reciprocal regulation prevents futile cycling and ensures that energy-consuming processes are coordinated with cellular energy status.",
+    "question": "Based on this metabolic regulation research, why does citrate inhibit phosphofructokinase-1?",
+    "options": {
+      "A": "Citrate is toxic to all enzymes",
+      "B": "High citrate levels indicate abundant acetyl-CoA and energy, signaling to reduce glucose breakdown",
+      "C": "Citrate only affects gluconeogenesis, not glycolysis", 
+      "D": "Citrate inhibition is always harmful to cells"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that PFK-1 is 'inhibited by ATP and citrate (indicating high energy and abundant acetyl-CoA).' High citrate levels signal that the citric acid cycle is well-supplied with acetyl-CoA and energy production is adequate, so further glucose breakdown through glycolysis is unnecessary. This prevents wasteful glucose consumption when energy is abundant. Option A overgeneralizes citrate's effects. Option C misrepresents citrate's regulatory scope. Option D incorrectly characterizes this regulation as harmful.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Allosteric Regulation of Metabolism",
+        "url": "https://www.biointeractive.org/classroom-resources/allosteric-regulation",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T07:15:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_070",
+    "topic": "biochemistry_integration",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "In brown adipose tissue, what is the primary mechanism by which thermogenesis is achieved?",
+    "options": {
+      "A": "Increased muscle contractions generate heat",
+      "B": "Uncoupling protein 1 (UCP1) allows proton gradient energy to be released as heat instead of ATP synthesis",
+      "C": "Brown fat cells undergo rapid cell division to generate heat",
+      "D": "Glycolysis is accelerated to produce excess lactate"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Brown adipose tissue contains uncoupling protein 1 (UCP1) in mitochondrial inner membranes. UCP1 allows protons to bypass ATP synthase, dissipating the proton gradient as heat rather than capturing it for ATP synthesis. This uncoupling of oxidative phosphorylation is the primary thermogenic mechanism in brown fat. Option A describes muscle-based thermogenesis. Option C relates to hyperplasia, not thermogenesis. Option D doesn't describe brown fat's thermogenic mechanism.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Brown Adipose Tissue Thermogenesis",
+        "url": "https://www.nature.com/articles/nrendo.2016.58",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T07:15:00.000Z"
+  }
+]

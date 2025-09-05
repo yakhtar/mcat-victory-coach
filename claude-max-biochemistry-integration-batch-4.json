@@ -1,0 +1,237 @@
+[
+  {
+    "id": "biochemistry_integration_031",
+    "topic": "biochemistry_integration",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying metabolic regulation examined how cells coordinate glucose and fatty acid oxidation during different physiological states. They found that the Randle cycle (glucose-fatty acid cycle) creates reciprocal inhibition between these pathways. When fatty acid oxidation is active, acetyl-CoA and citrate levels increase, inhibiting key glycolytic enzymes phosphofructokinase and pyruvate dehydrogenase. Conversely, when glucose oxidation is favored, malonyl-CoA (from acetyl-CoA carboxylase) inhibits carnitine palmitoyltransferase I, blocking fatty acid entry into mitochondria. This metabolic flexibility allows cells to efficiently switch between fuel sources based on availability and energy demands.",
+    "question": "Based on this metabolic regulation research, what is the primary mechanism by which fatty acid oxidation inhibits glucose metabolism?",
+    "options": {
+      "A": "Fatty acids directly bind to glucose transporters",
+      "B": "Acetyl-CoA and citrate from fatty acid oxidation inhibit key glycolytic enzymes",
+      "C": "Fatty acid oxidation completely depletes cellular ATP",
+      "D": "Fatty acids cause insulin resistance in all tissues"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that during fatty acid oxidation, 'acetyl-CoA and citrate levels increase, inhibiting key glycolytic enzymes phosphofructokinase and pyruvate dehydrogenase.' This is the molecular basis of the Randle cycle's reciprocal inhibition. Option A describes a direct competitive mechanism not mentioned. Option C contradicts energy production from fatty acids. Option D relates to pathological insulin resistance, not normal metabolic switching.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Metabolic Flexibility and the Randle Cycle",
+        "url": "https://www.nature.com/articles/nrm2059",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T06:30:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_032",
+    "topic": "biochemistry_integration",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "During intense exercise, muscle cells switch to anaerobic glycolysis. What is the primary biochemical reason that lactate formation is essential during this metabolic state?",
+    "options": {
+      "A": "Lactate provides more ATP per glucose than aerobic respiration",
+      "B": "Lactate formation regenerates NAD+ needed to maintain glycolytic flux",
+      "C": "Lactate directly inhibits muscle fatigue",
+      "D": "Lactate formation prevents glucose depletion"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. During anaerobic glycolysis, the conversion of pyruvate to lactate by lactate dehydrogenase regenerates NAD+ from NADH. This NAD+ is essential for the glyceraldehyde-3-phosphate dehydrogenase reaction to continue, maintaining glycolytic flux when electron transport is limited. Option A is incorrect - aerobic respiration produces more ATP. Option C overstates lactate's direct role. Option D misrepresents the glucose conservation issue.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Fermentation and Anaerobic Respiration",
+        "url": "https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation/fermentation",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T06:30:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_033",
+    "topic": "biochemistry_integration",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating gluconeogenesis regulation discovered complex allosteric and covalent controls that coordinate this pathway with glycolysis. They found that phosphoenolpyruvate carboxykinase (PEPCK), a rate-limiting enzyme, is regulated transcriptionally by hormones and nutritionally by substrate availability. During fasting, glucagon activates protein kinase A, which phosphorylates and activates key transcription factors like CREB that increase PEPCK expression. Simultaneously, high acetyl-CoA levels (from fatty acid oxidation) allosterically activate pyruvate carboxylase, providing oxaloacetate for glucose synthesis. The researchers also discovered that fructose-2,6-bisphosphate, a potent activator of glycolysis, inhibits fructose-1,6-bisphosphatase in gluconeogenesis, creating reciprocal regulation.",
+    "question": "Based on this gluconeogenesis regulation research, how do high acetyl-CoA levels during fasting coordinate with glucose production?",
+    "options": {
+      "A": "Acetyl-CoA directly converts to glucose through the glyoxylate cycle",
+      "B": "Acetyl-CoA allosterically activates pyruvate carboxylase, increasing oxaloacetate production for gluconeogenesis",
+      "C": "Acetyl-CoA inhibits all gluconeogenic enzymes to conserve glucose",
+      "D": "Acetyl-CoA is converted to lactate for glucose synthesis"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'high acetyl-CoA levels (from fatty acid oxidation) allosterically activate pyruvate carboxylase, providing oxaloacetate for glucose synthesis.' Pyruvate carboxylase converts pyruvate to oxaloacetate, the first committed step in gluconeogenesis from pyruvate. This coordination ensures that when fatty acids are being oxidized (producing acetyl-CoA), glucose synthesis is enhanced. Option A describes a pathway not present in mammals. Option C contradicts the described activation. Option D misrepresents acetyl-CoA metabolism.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Gluconeogenesis and Metabolic Regulation",
+        "url": "https://www.nature.com/articles/nrendo.2009.229",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T06:30:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_034",
+    "topic": "biochemistry_integration",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which molecule serves as the primary connection between carbohydrate and fat metabolism?",
+    "options": {
+      "A": "Glucose",
+      "B": "Pyruvate",
+      "C": "Acetyl-CoA",
+      "D": "Lactate"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Acetyl-CoA is the central metabolite connecting carbohydrate and fat metabolism. It is produced from glucose via pyruvate oxidation and from fatty acids via beta-oxidation. Acetyl-CoA can enter the TCA cycle for energy production or be used for fatty acid synthesis when energy is abundant. Option A is the starting substrate for carbohydrate metabolism. Option B is an intermediate before acetyl-CoA formation. Option D is a fermentation product.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Overview of Metabolic Pathways",
+        "url": "https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation/overview-of-cellular-respiration",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T06:30:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_035",
+    "topic": "biochemistry_integration",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying insulin signaling examined how this hormone coordinates anabolic pathways across multiple tissues. They found that insulin binding to its receptor triggers a cascade involving PI3K/Akt pathway activation, leading to multiple metabolic effects. In muscle and adipose tissue, insulin promotes glucose uptake by stimulating GLUT4 translocation to the plasma membrane. In liver, insulin activates glycogen synthase while simultaneously inactivating phosphorylase kinase, promoting glycogen synthesis. The scientists also discovered that insulin activates acetyl-CoA carboxylase and fatty acid synthase, promoting lipogenesis while inhibiting hormone-sensitive lipase to reduce lipolysis.",
+    "question": "Based on this insulin signaling research, how does insulin coordinate glucose and lipid metabolism?",
+    "options": {
+      "A": "Insulin only affects glucose metabolism, not lipid metabolism",
+      "B": "Insulin promotes glucose storage as glycogen while simultaneously promoting fat synthesis and inhibiting fat breakdown",
+      "C": "Insulin inhibits all metabolic pathways to conserve energy",
+      "D": "Insulin only works in pancreatic beta cells"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes how insulin simultaneously promotes multiple anabolic pathways: glucose storage (activating glycogen synthase), fat synthesis (activating acetyl-CoA carboxylase and fatty acid synthase), and inhibiting fat breakdown (inhibiting hormone-sensitive lipase). This coordination allows efficient energy storage when nutrients are abundant. Option A ignores the described lipid effects. Option C contradicts the described pathway activations. Option D misidentifies insulin's target tissues.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Insulin Signaling and Metabolism",
+        "url": "https://www.biointeractive.org/classroom-resources/insulin-signaling",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T06:30:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_036",
+    "topic": "biochemistry_integration",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "During prolonged fasting, the liver produces ketone bodies. What is the primary metabolic advantage of ketone body production?",
+    "options": {
+      "A": "Ketones provide more energy per molecule than glucose",
+      "B": "Ketone bodies provide an alternative fuel for the brain when glucose is limited",
+      "C": "Ketones directly replace all cellular ATP requirements",
+      "D": "Ketone bodies prevent muscle protein breakdown"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. During prolonged fasting, the brain (which normally relies heavily on glucose) can adapt to use ketone bodies (β-hydroxybutyrate and acetoacetate) as an alternative fuel source. This metabolic adaptation allows the body to reduce glucose requirements and minimize muscle protein breakdown for gluconeogenesis. Option A is quantitatively incorrect. Option C overstates their role. Option D is an indirect benefit but not the primary advantage.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Ketone Body Metabolism",
+        "url": "https://www.nature.com/articles/nrendo.2017.76",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T06:30:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_037",
+    "topic": "biochemistry_integration",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying metabolic syndrome investigated how chronic nutrient excess disrupts normal metabolic homeostasis. They found that prolonged high glucose and fatty acid exposure leads to lipotoxicity and glucotoxicity in pancreatic beta cells. Excess palmitate activates ceramide synthesis pathways, leading to ER stress and apoptosis. Simultaneously, chronic hyperglycemia increases reactive oxygen species production through glucose auto-oxidation and advanced glycation end products (AGE) formation. The scientists discovered that these processes create a vicious cycle where insulin resistance worsens, leading to further hyperglycemia and lipid accumulation, ultimately resulting in beta cell failure and type 2 diabetes.",
+    "question": "Based on this metabolic syndrome research, what creates the 'vicious cycle' leading to beta cell failure?",
+    "options": {
+      "A": "Beta cells stop producing insulin immediately upon glucose exposure",
+      "B": "Lipotoxicity and glucotoxicity cause insulin resistance, which increases nutrient levels, further damaging beta cells",
+      "C": "Beta cells only respond to fatty acids, not glucose",
+      "D": "Insulin resistance only affects muscle tissue, not pancreatic function"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes how excess nutrients (glucose and fatty acids) damage beta cells through lipotoxicity and glucotoxicity, leading to 'insulin resistance worsens, leading to further hyperglycemia and lipid accumulation, ultimately resulting in beta cell failure.' This creates a positive feedback loop where initial damage leads to conditions that cause more damage. Option A oversimplifies the timeline. Option C ignores glucose effects described. Option D mislocates insulin resistance effects.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Beta Cell Failure in Type 2 Diabetes",
+        "url": "https://www.nature.com/articles/nrendo.2008.54",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T06:30:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_038",
+    "topic": "biochemistry_integration",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which enzyme is responsible for the rate-limiting step of fatty acid synthesis?",
+    "options": {
+      "A": "Fatty acid synthase",
+      "B": "Acetyl-CoA carboxylase",
+      "C": "Citrate lyase", 
+      "D": "Malonyl-CoA decarboxylase"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Acetyl-CoA carboxylase catalyzes the rate-limiting step of fatty acid synthesis by converting acetyl-CoA to malonyl-CoA. This enzyme is heavily regulated by allosteric effectors (citrate activates, palmitoyl-CoA inhibits) and covalent modification (insulin activates, glucagon inactivates). Option A performs the subsequent elongation steps but is not rate-limiting. Options C and D are involved in the pathway but don't control the overall rate.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Fatty Acid Synthesis",
+        "url": "https://www.khanacademy.org/science/biology/energy-and-enzymes/fatty-acid-metabolism",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T06:30:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_039",
+    "topic": "biochemistry_integration",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying exercise biochemistry examined metabolic adaptations during endurance training. They found that regular aerobic exercise increases mitochondrial biogenesis through activation of PGC-1α (peroxisome proliferator-activated receptor γ coactivator 1α), a master regulator of mitochondrial gene expression. Training also increases the activity of key metabolic enzymes including citrate synthase, succinate dehydrogenase, and cytochrome c oxidase. The researchers discovered that these adaptations improve the muscle's capacity for fatty acid oxidation, allowing trained individuals to spare muscle glycogen during prolonged exercise and maintain performance longer.",
+    "question": "Based on this exercise biochemistry research, why does increased mitochondrial biogenesis improve endurance performance?",
+    "options": {
+      "A": "More mitochondria only increase glucose oxidation capacity",
+      "B": "Mitochondrial biogenesis enhances fatty acid oxidation capacity, sparing glycogen stores",
+      "C": "Additional mitochondria prevent all lactate formation",
+      "D": "More mitochondria eliminate the need for oxygen during exercise"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that mitochondrial adaptations 'improve the muscle's capacity for fatty acid oxidation, allowing trained individuals to spare muscle glycogen during prolonged exercise.' Since fat stores are much larger than glycogen stores, enhanced fat oxidation capability extends endurance performance by preserving limited glycogen. Option A ignores the fatty acid oxidation benefits. Option C overstates the lactate effects. Option D contradicts aerobic metabolism requirements.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Exercise and Metabolic Adaptations",
+        "url": "https://www.biointeractive.org/classroom-resources/exercise-metabolism",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T06:30:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_040",
+    "topic": "biochemistry_integration",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "In liver cells during fasting, which allosteric effector coordinates the reciprocal regulation of glycolysis and gluconeogenesis?",
+    "options": {
+      "A": "Fructose-2,6-bisphosphate",
+      "B": "Glucose-6-phosphate",
+      "C": "AMP",
+      "D": "Citrate"
+    },
+    "correct_answer": "A",
+    "explanation": "The correct answer is A. Fructose-2,6-bisphosphate is a potent allosteric activator of phosphofructokinase-1 (glycolysis) and inhibitor of fructose-1,6-bisphosphatase (gluconeogenesis). During fasting, glucagon reduces fructose-2,6-bisphosphate levels, simultaneously inhibiting glycolysis and activating gluconeogenesis. This coordinated regulation prevents futile cycling. Option B affects multiple pathways but isn't the primary coordinator. Option C affects energy charge generally. Option D has multiple effects but isn't the specific reciprocal regulator.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Reciprocal Regulation of Metabolic Pathways",
+        "url": "https://www.nature.com/articles/nrm1647",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T06:30:00.000Z"
+  }
+]

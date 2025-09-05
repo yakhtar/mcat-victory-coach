@@ -1,0 +1,237 @@
+[
+  {
+    "id": "organ_systems_091",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying vestibular system function examined how the inner ear maintains balance and spatial orientation. They found that the vestibular organs consist of three semicircular canals that detect rotational movements and two otolith organs (utricle and saccule) that sense linear acceleration and head position relative to gravity. The scientists discovered that hair cells in these organs have stereocilia that bend when endolymph moves, opening mechanically-gated ion channels and generating neural signals. They found that the vestibular system works closely with visual and proprioceptive systems to maintain balance, with the vestibulo-ocular reflex stabilizing gaze during head movements. The researchers also discovered that vestibular dysfunction can cause vertigo, nausea, and balance disorders.",
+    "question": "Based on this vestibular system research, how do the semicircular canals and otolith organs provide complementary information about head movement?",
+    "options": {
+      "A": "Both detect only rotational movements",
+      "B": "Semicircular canals detect rotational movements while otolith organs sense linear acceleration and gravity",
+      "C": "Both organs function identically with no specialization",
+      "D": "Otolith organs only work during sleep"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage clearly states that 'three semicircular canals... detect rotational movements and two otolith organs... sense linear acceleration and head position relative to gravity.' This complementary arrangement allows complete detection of head movement in three-dimensional space: the semicircular canals detect angular acceleration in three planes, while the otolith organs detect linear acceleration and static head tilt. Option A ignores the otolith function. Option C contradicts the described specialization. Option D misrepresents otolith function timing.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Vestibular System and Balance",
+        "url": "https://www.biointeractive.org/classroom-resources/vestibular-system",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T09:00:00.000Z"
+  },
+  {
+    "id": "organ_systems_092",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "What is the primary factor that determines the strength of skeletal muscle contraction?",
+    "options": {
+      "A": "The length of the muscle only",
+      "B": "The frequency of motor neuron stimulation and the number of motor units recruited",
+      "C": "The temperature of the muscle tissue",
+      "D": "The amount of oxygen available"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Skeletal muscle contraction strength is determined by two main factors: temporal summation (frequency of stimulation - higher frequencies produce stronger contractions through summation) and spatial summation (recruitment of more motor units - each containing a motor neuron and all the muscle fibers it innervates). These mechanisms allow graded control of muscle force. Option A relates to length-tension relationships but isn't the primary determinant. Option C affects contraction rate but not primary strength. Option D affects metabolism but not the fundamental strength mechanism.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Skeletal Muscle Contraction Control",
+        "url": "https://www.nature.com/articles/nrm2915",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T09:00:00.000Z"
+  },
+  {
+    "id": "organ_systems_093",
+    "topic": "organ_systems",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating placental hormone production examined how pregnancy hormones coordinate maternal adaptations and fetal development. They found that human chorionic gonadotropin (hCG) maintains the corpus luteum early in pregnancy, ensuring continued progesterone production. As pregnancy progresses, the placenta takes over hormone production, secreting large amounts of progesterone and estrogen. The researchers discovered that human placental lactogen (hPL) promotes maternal insulin resistance and lipolysis, directing nutrients toward the fetus. They found that relaxin softens ligaments and prepares the birth canal, while pregnancy-associated plasma protein A (PAPP-A) regulates fetal growth through insulin-like growth factor pathways. The scientists also discovered that abnormal hormone levels can indicate pregnancy complications.",
+    "question": "Based on this placental hormone research, why does human placental lactogen (hPL) promote maternal insulin resistance?",
+    "options": {
+      "A": "hPL causes diabetes in all pregnant women",
+      "B": "Maternal insulin resistance directs glucose and other nutrients toward the fetus by reducing maternal glucose uptake",
+      "C": "hPL prevents all maternal metabolism",
+      "D": "Insulin resistance only affects the placenta, not the mother"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'human placental lactogen (hPL) promotes maternal insulin resistance and lipolysis, directing nutrients toward the fetus.' Maternal insulin resistance reduces the mother's glucose uptake by peripheral tissues, making more glucose available for placental transfer to the fetus. This represents a metabolic adaptation that prioritizes fetal nutrition. Combined with lipolysis, it ensures adequate nutrient supply to the growing fetus. Option A overstates the pathological nature. Option C is too extreme. Option D mislocates the effect.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Pregnancy Hormones and Metabolism",
+        "url": "https://www.nature.com/articles/nrendo.2017.85",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T09:00:00.000Z"
+  },
+  {
+    "id": "organ_systems_094",
+    "topic": "organ_systems",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which type of epithelium is best suited for areas where diffusion must occur rapidly?",
+    "options": {
+      "A": "Stratified squamous epithelium",
+      "B": "Simple squamous epithelium",
+      "C": "Stratified columnar epithelium",
+      "D": "Pseudostratified epithelium"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Simple squamous epithelium consists of a single layer of thin, flat cells that provides minimal barrier to diffusion. This tissue type is found in alveoli (gas exchange), glomerular capsules (filtration), and capillary walls (nutrient/waste exchange) where rapid diffusion is essential. Option A provides protection but impedes diffusion. Option C is thick and unsuitable for diffusion. Option D appears stratified and is typically found in respiratory passages for protection and secretion.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Epithelial Tissue Types",
+        "url": "https://www.khanacademy.org/science/biology/human-biology/tissues-introduction",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T09:00:00.000Z"
+  },
+  {
+    "id": "organ_systems_095",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying autonomic nervous system function examined how sympathetic and parasympathetic divisions coordinate organ function. They found that most organs receive dual innervation with opposing effects: sympathetic stimulation generally prepares the body for 'fight-or-flight' responses (increased heart rate, bronchodilation, pupil dilation), while parasympathetic stimulation promotes 'rest-and-digest' activities (decreased heart rate, bronchoconstriction, increased digestive activity). The scientists discovered that these systems use different neurotransmitters: sympathetic neurons primarily release norepinephrine at target organs, while parasympathetic neurons release acetylcholine. They also found that some organs, like sweat glands and adrenal medulla, receive only sympathetic innervation.",
+    "question": "Based on this autonomic nervous system research, why do most organs have dual innervation rather than single innervation?",
+    "options": {
+      "A": "Dual innervation provides redundancy in case one system fails",
+      "B": "Opposing sympathetic and parasympathetic effects allow precise, bidirectional control of organ function",
+      "C": "Both systems always stimulate organs simultaneously",
+      "D": "Dual innervation is unnecessary and wasteful"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes 'opposing effects' where 'sympathetic stimulation generally prepares the body for fight-or-flight... while parasympathetic stimulation promotes rest-and-digest activities.' This opposing dual control allows organs to be precisely regulated in both directions - they can be stimulated or inhibited as physiological conditions require. This provides much finer control than single innervation would allow. Option A underestimates the functional significance. Option C contradicts the opposing nature. Option D ignores the control advantages.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Autonomic Nervous System Control",
+        "url": "https://www.biointeractive.org/classroom-resources/autonomic-nervous-system",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T09:00:00.000Z"
+  },
+  {
+    "id": "organ_systems_096",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "In the kidney's juxtaglomerular apparatus, what triggers renin release?",
+    "options": {
+      "A": "High blood pressure and high sodium delivery to the distal tubule",
+      "B": "Low blood pressure, low sodium delivery to the distal tubule, and sympathetic stimulation",
+      "C": "High insulin levels only",
+      "D": "Increased urine production"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Renin release from juxtaglomerular cells is stimulated by three main factors: decreased renal perfusion pressure (detected by baroreceptors), decreased sodium chloride delivery to the macula densa (indicating reduced GFR), and sympathetic nervous system activation (β1-adrenergic stimulation). These signals indicate the need to activate the renin-angiotensin system to increase blood pressure and restore kidney function. Option A describes conditions that would inhibit renin release. Option C relates to metabolic regulation, not blood pressure. Option D is a consequence, not a cause.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Juxtaglomerular Apparatus and Renin",
+        "url": "https://www.nature.com/articles/nrneph.2011.143",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T09:00:00.000Z"
+  },
+  {
+    "id": "organ_systems_097",
+    "topic": "organ_systems",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying neuroplasticity examined how the adult nervous system adapts to injury and experience. They found that the adult brain retains remarkable capacity for structural and functional reorganization through mechanisms including synaptic plasticity, axonal sprouting, and neurogenesis in specific regions like the hippocampus. The scientists discovered that activity-dependent plasticity allows cortical maps to reorganize after injury or intensive training, with frequently used neural pathways becoming strengthened while unused pathways weaken. They found that neurotrophic factors like BDNF (brain-derived neurotrophic factor) support neuronal survival and promote synaptic changes underlying learning and memory. The researchers also discovered that environmental enrichment and physical exercise can enhance neuroplasticity and cognitive function.",
+    "question": "Based on this neuroplasticity research, how does activity-dependent plasticity benefit recovery from brain injury?",
+    "options": {
+      "A": "It prevents all brain injuries from occurring",
+      "B": "Active neural pathways strengthen while unused ones weaken, allowing healthy brain regions to compensate for damaged areas",
+      "C": "It only affects memory formation, not injury recovery",
+      "D": "Activity-dependent plasticity eliminates the need for rehabilitation"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that 'activity-dependent plasticity allows cortical maps to reorganize after injury... with frequently used neural pathways becoming strengthened while unused pathways weaken.' This mechanism enables healthy brain regions to take over functions previously performed by damaged areas through strengthening of alternative neural circuits and formation of new connections. This is the basis of rehabilitation therapies that promote recovery through targeted activity. Option A suggests prevention rather than recovery. Option C underestimates plasticity's scope. Option D overstates plasticity's sufficiency without intervention.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Neuroplasticity and Brain Recovery",
+        "url": "https://www.nature.com/articles/nrn3656",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T09:00:00.000Z"
+  },
+  {
+    "id": "organ_systems_098",
+    "topic": "organ_systems",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which blood vessels have the smallest diameter and are the site of nutrient and gas exchange?",
+    "options": {
+      "A": "Arteries",
+      "B": "Veins", 
+      "C": "Capillaries",
+      "D": "Arterioles"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Capillaries have the smallest diameter (about 5-10 micrometers) and consist of a single layer of endothelial cells, making them ideal for nutrient, gas, and waste exchange between blood and tissues. Their small size and thin walls minimize diffusion distance. Option A (arteries) carry blood away from the heart but are too thick for exchange. Option B (veins) return blood to the heart but aren't exchange sites. Option D (arterioles) regulate flow but aren't the primary exchange vessels.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Blood Vessel Types and Functions",
+        "url": "https://www.khanacademy.org/science/biology/human-biology/circulatory-pulmonary",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T09:00:00.000Z"
+  },
+  {
+    "id": "organ_systems_099",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying gastric secretion examined how the stomach regulates acid production in response to food intake. They found that gastric acid secretion occurs in three phases: the cephalic phase (triggered by sight, smell, or thought of food through vagal stimulation), the gastric phase (stimulated by food in the stomach releasing gastrin), and the intestinal phase (modulated by chyme entering the small intestine). The researchers discovered that parietal cells produce hydrochloric acid through the hydrogen-potassium ATPase (proton pump), while chief cells secrete pepsinogen that becomes activated to pepsin in the acidic environment. They also found that prostaglandins and bicarbonate protect the stomach lining from acid damage.",
+    "question": "Based on this gastric secretion research, why does gastric acid production begin before food actually enters the stomach?",
+    "options": {
+      "A": "The stomach produces acid continuously at the same rate",
+      "B": "The cephalic phase prepares the stomach for digestion by beginning acid production in response to food cues",
+      "C": "Acid production only begins after food reaches the small intestine",
+      "D": "The stomach cannot detect when food is present"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes the 'cephalic phase (triggered by sight, smell, or thought of food through vagal stimulation)' which occurs before food intake. This preparatory response optimizes digestion by having acid ready when food arrives, allowing immediate activation of pepsinogen to pepsin and beginning protein digestion efficiently. This anticipatory mechanism improves digestive efficiency. Option A ignores the described phases. Option C misrepresents the timing sequence. Option D contradicts the described gastric phase detection.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Gastric Regulation and Digestion",
+        "url": "https://www.biointeractive.org/classroom-resources/gastric-regulation",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T09:00:00.000Z"
+  },
+  {
+    "id": "organ_systems_100",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "What is the primary mechanism by which the countercurrent flow in the gills maximizes oxygen extraction from water?",
+    "options": {
+      "A": "Water and blood flow in the same direction",
+      "B": "Water and blood flow in opposite directions, maintaining a concentration gradient along the entire gill surface",
+      "C": "Only blood flows through the gills",
+      "D": "Water temperature determines oxygen extraction"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Countercurrent flow means water flows over the gill in the opposite direction to blood flow within the gill capillaries. This arrangement maintains a concentration gradient for oxygen diffusion along the entire length of the gill surface, allowing much more efficient oxygen extraction (up to 85%) compared to concurrent flow, where the gradient would quickly equilibrate. Option A describes concurrent flow, which is less efficient. Option C ignores water flow over gills. Option D misidentifies the primary mechanism.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Countercurrent Gas Exchange",
+        "url": "https://www.nature.com/articles/nrn2134",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T09:00:00.000Z"
+  }
+]

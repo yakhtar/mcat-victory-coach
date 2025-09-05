@@ -1,0 +1,237 @@
+[
+  {
+    "id": "organ_systems_071",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying skin physiology examined how this organ serves as a barrier and sensory interface. They found that the epidermis provides protection through multiple layers: the stratum corneum (dead keratinized cells), stratum granulosum, stratum spinosum, and stratum basale (stem cell layer). The dermis contains blood vessels, nerve endings, hair follicles, and sebaceous glands. The scientists discovered that melanocytes produce melanin pigment that protects against UV radiation, while Langerhans cells serve immune surveillance functions. They also found that skin sensation involves different receptor types: Meissner corpuscles for light touch, Pacinian corpuscles for pressure and vibration, and free nerve endings for pain and temperature.",
+    "question": "Based on this skin physiology research, how does skin protect against UV radiation damage?",
+    "options": {
+      "A": "Only through the thickness of the stratum corneum",
+      "B": "Melanocytes produce melanin pigment that absorbs and scatters UV radiation",
+      "C": "Sebaceous glands secrete UV-blocking oils",
+      "D": "Blood vessels dilate to dissipate UV energy"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'melanocytes produce melanin pigment that protects against UV radiation.' Melanin absorbs UV photons and converts the energy to harmless heat, preventing UV damage to DNA in deeper skin layers. This is why people with more melanin (darker skin) have better natural protection against UV radiation. Option A only addresses one protective mechanism. Option C misrepresents sebaceous gland function. Option D doesn't describe a UV protection mechanism.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Skin Structure and UV Protection",
+        "url": "https://www.biointeractive.org/classroom-resources/skin-structure",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T08:30:00.000Z"
+  },
+  {
+    "id": "organ_systems_072",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "What is the primary mechanism by which erythropoietin increases oxygen-carrying capacity of blood?",
+    "options": {
+      "A": "Increasing heart rate to pump blood faster",
+      "B": "Stimulating red blood cell production in the bone marrow",
+      "C": "Dilating blood vessels to increase blood flow",
+      "D": "Increasing hemoglobin's oxygen affinity"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Erythropoietin (EPO), produced primarily by the kidneys in response to hypoxia, stimulates erythropoiesis (red blood cell production) in the bone marrow. More red blood cells means more hemoglobin available to carry oxygen, directly increasing the blood's oxygen-carrying capacity. This is a longer-term adaptation to chronic hypoxia. Option A affects circulation but not capacity. Option C affects delivery but not capacity. Option D would change oxygen binding properties, not capacity per se.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Erythropoietin and Red Cell Production",
+        "url": "https://www.nature.com/articles/nrneph.2013.137",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T08:30:00.000Z"
+  },
+  {
+    "id": "organ_systems_073",
+    "topic": "organ_systems",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating synaptic plasticity examined how neural connections change with experience and learning. They found that long-term potentiation (LTP) strengthens synapses through activity-dependent mechanisms involving NMDA receptor activation, calcium influx, and downstream signaling cascades that modify synaptic proteins. Conversely, long-term depression (LTD) weakens synapses through different patterns of activity and calcium signals. The researchers discovered that these changes involve both pre-synaptic modifications (altered neurotransmitter release) and post-synaptic modifications (receptor trafficking, spine morphology changes). They found that metaplasticity - the plasticity of plasticity itself - allows synapses to adjust their capacity for further change based on their history of activity.",
+    "question": "Based on this synaptic plasticity research, what is metaplasticity and why is it important for learning?",
+    "options": {
+      "A": "Metaplasticity prevents all synaptic changes from occurring",
+      "B": "Metaplasticity is the ability of synapses to adjust their capacity for further plasticity based on previous activity history",
+      "C": "Metaplasticity only affects inhibitory synapses",
+      "D": "Metaplasticity eliminates the need for NMDA receptors"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage defines metaplasticity as 'the plasticity of plasticity itself - allows synapses to adjust their capacity for further change based on their history of activity.' This mechanism is important because it provides a way for synapses to regulate their own modifiability, preventing saturation and allowing for more nuanced learning and memory formation. It's a homeostatic mechanism that maintains the dynamic range for synaptic modification. Option A suggests prevention rather than regulation. Option C incorrectly limits its scope. Option D misrepresents its relationship to NMDA receptors.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Metaplasticity and Learning",
+        "url": "https://www.nature.com/articles/nrn2356",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T08:30:00.000Z"
+  },
+  {
+    "id": "organ_systems_074",
+    "topic": "organ_systems",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which type of joint allows the greatest range of motion?",
+    "options": {
+      "A": "Fibrous joint",
+      "B": "Cartilaginous joint",
+      "C": "Synovial joint",
+      "D": "Suture joint"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Synovial joints (like the shoulder, knee, and hip) allow the greatest range of motion because they have a fluid-filled synovial cavity that allows smooth movement between articulating bones. They include ball-and-socket joints, hinge joints, and pivot joints. Option A (fibrous joints) are largely immovable. Option B (cartilaginous joints) allow limited movement. Option D (suture joints) are a type of fibrous joint found in the skull with no movement.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Types of Joints",
+        "url": "https://www.khanacademy.org/science/biology/human-biology/skeletal-system-introduction",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T08:30:00.000Z"
+  },
+  {
+    "id": "organ_systems_075",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying lymphatic system function examined how this network maintains fluid balance and immune surveillance. They found that lymphatic vessels collect excess interstitial fluid, proteins, and lipids from tissues and return them to the bloodstream via the thoracic duct. The scientists discovered that lymph nodes act as filtering stations where immune cells screen lymph for pathogens and foreign particles. They found that lymphatic vessels have one-way valves and rely on skeletal muscle contractions, respiratory movements, and intrinsic smooth muscle contractions for lymph propulsion, as they lack a central pump like the heart. The researchers also discovered that specialized lymphatic vessels (lacteals) in the small intestine absorb dietary fats.",
+    "question": "Based on this lymphatic system research, why doesn't the lymphatic system need a central pump like the cardiovascular system?",
+    "options": {
+      "A": "Lymphatic vessels have much higher pressure than blood vessels",
+      "B": "The lymphatic system uses multiple mechanisms including muscle contractions, breathing, and vessel contractions to propel lymph",
+      "C": "Lymph flows much faster than blood",
+      "D": "The lymphatic system only works during sleep"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that lymphatic vessels 'rely on skeletal muscle contractions, respiratory movements, and intrinsic smooth muscle contractions for lymph propulsion.' These multiple mechanisms, combined with one-way valves, provide adequate force to move lymph at the slower rate required for its functions. The lymphatic system has lower pressure and flow requirements than the cardiovascular system. Option A incorrectly suggests higher pressure. Option C misrepresents lymph flow speed. Option D incorrectly limits its function temporally.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Lymphatic System Function",
+        "url": "https://www.biointeractive.org/classroom-resources/lymphatic-system",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T08:30:00.000Z"
+  },
+  {
+    "id": "organ_systems_076",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "What is the primary function of Type II pneumocytes in the alveoli?",
+    "options": {
+      "A": "Gas exchange between air and blood",
+      "B": "Production and secretion of pulmonary surfactant",
+      "C": "Phagocytosis of inhaled particles",
+      "D": "Oxygen sensing and regulation"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Type II pneumocytes (alveolar epithelial cells) produce and secrete pulmonary surfactant, which reduces surface tension in the alveoli and prevents alveolar collapse, especially during expiration. They also serve as progenitor cells for Type I pneumocytes. Option A describes the function of Type I pneumocytes. Option C describes alveolar macrophages. Option D is not a primary pneumocyte function.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Alveolar Epithelial Cell Types",
+        "url": "https://www.nature.com/articles/nrm3738",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T08:30:00.000Z"
+  },
+  {
+    "id": "organ_systems_077",
+    "topic": "organ_systems",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying circadian biology examined how internal biological clocks regulate physiological processes. They found that the master clock in the suprachiasmatic nucleus (SCN) coordinates peripheral clocks in organs throughout the body through neural, hormonal, and behavioral outputs. The scientists discovered that clock genes like Clock, Bmal1, Period, and Cryptochrome create molecular oscillators with approximately 24-hour periods through transcriptional-translational feedback loops. They found that light input to the SCN via specialized retinal ganglion cells helps synchronize internal clocks to the external day-night cycle. The researchers also discovered that disruption of circadian rhythms (through shift work, jet lag, or genetic mutations) can lead to metabolic disorders, sleep problems, and increased disease risk.",
+    "question": "Based on this circadian biology research, how do peripheral organ clocks coordinate with the master SCN clock?",
+    "options": {
+      "A": "Peripheral clocks function completely independently of the SCN",
+      "B": "The SCN coordinates peripheral clocks through neural, hormonal, and behavioral signals",
+      "C": "Only light directly affects peripheral clocks",
+      "D": "Peripheral clocks only respond to temperature changes"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'the master clock in the suprachiasmatic nucleus (SCN) coordinates peripheral clocks in organs throughout the body through neural, hormonal, and behavioral outputs.' This hierarchical organization allows the SCN to synchronize clocks throughout the body while still allowing some local flexibility. Examples include SCN control of cortisol release, autonomic nervous system activity, and feeding behavior that can influence peripheral clocks. Option A contradicts the described coordination. Option C ignores the multiple output mechanisms. Option D oversimplifies peripheral clock inputs.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Circadian Clock Organization",
+        "url": "https://www.nature.com/articles/nrn3898",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T08:30:00.000Z"
+  },
+  {
+    "id": "organ_systems_078",
+    "topic": "organ_systems",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which chamber of the heart receives deoxygenated blood from the body?",
+    "options": {
+      "A": "Left atrium",
+      "B": "Left ventricle",
+      "C": "Right atrium",
+      "D": "Right ventricle"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The right atrium receives deoxygenated blood returning from the body through the superior and inferior vena cavae. This blood then flows to the right ventricle, which pumps it to the lungs for oxygenation. Option A receives oxygenated blood from the lungs. Option B pumps oxygenated blood to the body. Option D pumps blood to the lungs but doesn't receive venous return.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Heart Anatomy and Blood Flow",
+        "url": "https://www.khanacademy.org/science/biology/human-biology/circulatory-pulmonary",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T08:30:00.000Z"
+  },
+  {
+    "id": "organ_systems_079",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying endocrine disruption examined how environmental chemicals can interfere with hormone signaling. They found that endocrine disruptors can mimic natural hormones (hormone agonists), block hormone receptors (hormone antagonists), or interfere with hormone synthesis, transport, or metabolism. The researchers discovered that these disruptions can occur at very low concentrations and may have different effects depending on the timing of exposure during development. They found that some chemicals like bisphenol A (BPA) can mimic estrogen, while others like certain pesticides can interfere with thyroid hormone function. The scientists also discovered that endocrine disruption during critical developmental windows can have lasting effects on reproductive, metabolic, and neurological systems.",
+    "question": "Based on this endocrine disruption research, why are developing organisms particularly vulnerable to endocrine disruptors?",
+    "options": {
+      "A": "Developing organisms have no hormone receptors",
+      "B": "Hormones are not important during development",
+      "C": "Critical developmental windows require precise hormone signaling, and disruption can cause lasting organizational changes",
+      "D": "Adults are more sensitive to hormone disruption than developing organisms"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The passage explains that 'endocrine disruption during critical developmental windows can have lasting effects on reproductive, metabolic, and neurological systems.' During development, hormones act as organizational signals that permanently structure developing organ systems. Disruption during these sensitive periods can cause irreversible changes in tissue organization, gene expression patterns, and physiological set-points. Option A is factually incorrect. Option B contradicts the importance of hormones in development. Option D reverses the relative sensitivity.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Endocrine Disruption and Development",
+        "url": "https://www.biointeractive.org/classroom-resources/endocrine-disruption",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T08:30:00.000Z"
+  },
+  {
+    "id": "organ_systems_080",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "In the glomerulus, which force opposes filtration?",
+    "options": {
+      "A": "Glomerular hydrostatic pressure",
+      "B": "Bowman's capsule hydrostatic pressure and plasma oncotic pressure",
+      "C": "Efferent arteriole constriction",
+      "D": "Tubular secretion pressure"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Net filtration pressure in the glomerulus is determined by forces favoring filtration (glomerular hydrostatic pressure) minus forces opposing filtration (Bowman's capsule hydrostatic pressure and plasma oncotic pressure from proteins that cannot cross the filtration barrier). These opposing forces reduce the net driving pressure for filtration. Option A promotes rather than opposes filtration. Option C affects filtration by changing glomerular pressure but isn't a direct opposing force. Option D is not a recognized filtration force.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Glomerular Filtration Forces",
+        "url": "https://www.nature.com/articles/nrneph.2016.88",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T08:30:00.000Z"
+  }
+]

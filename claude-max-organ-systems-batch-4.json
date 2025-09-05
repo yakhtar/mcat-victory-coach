@@ -1,0 +1,237 @@
+[
+  {
+    "id": "organ_systems_031",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying cardiac electrophysiology examined how the heart's electrical conduction system coordinates mechanical contraction. They found that the sinoatrial (SA) node acts as the primary pacemaker, generating action potentials that spread through specialized conduction pathways. The electrical signal travels from the SA node through internodal pathways to the atrioventricular (AV) node, where conduction is briefly delayed to allow complete ventricular filling. From the AV node, the signal rapidly conducts through the bundle of His, bundle branches, and Purkinje fibers to ensure synchronized ventricular contraction. The scientists discovered that disruptions in this conduction system can lead to arrhythmias and compromised cardiac output.",
+    "question": "Based on this cardiac electrophysiology research, why is the delay at the AV node functionally important?",
+    "options": {
+      "A": "The delay prevents all ventricular contractions",
+      "B": "The delay allows complete atrial emptying and ventricular filling before ventricular contraction begins",
+      "C": "The delay slows heart rate permanently",
+      "D": "The delay only affects the left ventricle"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that conduction at the AV node 'is briefly delayed to allow complete ventricular filling.' This delay ensures that the atria finish contracting and emptying their blood into the ventricles before ventricular contraction begins, optimizing cardiac output through proper timing of atrial and ventricular contractions. Option A suggests complete blocking rather than timing. Option C misrepresents the delay's permanence. Option D incorrectly limits the effect to one ventricle.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Cardiac Conduction System",
+        "url": "https://www.biointeractive.org/classroom-resources/cardiac-conduction",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T07:30:00.000Z"
+  },
+  {
+    "id": "organ_systems_032",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "What is the primary mechanism by which angiotensin II increases blood pressure?",
+    "options": {
+      "A": "Direct vasodilation and decreased heart rate",
+      "B": "Vasoconstriction and stimulation of aldosterone release leading to sodium retention",
+      "C": "Inhibition of ADH release and increased diuresis",
+      "D": "Decreased cardiac contractility"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Angiotensin II increases blood pressure through two primary mechanisms: direct vasoconstriction of arterioles and stimulation of aldosterone release from the adrenal cortex. Aldosterone promotes sodium reabsorption in the kidneys, leading to water retention and increased blood volume. Both mechanisms work together to raise blood pressure. Option A describes the opposite effects. Option C describes actions that would lower blood pressure. Option D would reduce cardiac output.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Renin-Angiotensin System",
+        "url": "https://www.nature.com/articles/nrcardio.2013.78",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T07:30:00.000Z"
+  },
+  {
+    "id": "organ_systems_033",
+    "topic": "organ_systems",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating respiratory gas transport examined how hemoglobin's oxygen-carrying capacity adapts to different physiological conditions. They found that hemoglobin exhibits cooperative binding, where binding of the first oxygen molecule increases the affinity for subsequent oxygen molecules, creating the characteristic sigmoidal oxygen-hemoglobin dissociation curve. The researchers discovered that 2,3-bisphosphoglycerate (2,3-BPG) binds to the T-state of hemoglobin, stabilizing the low-affinity state and promoting oxygen release in tissues. Additionally, they found that decreased pH (Bohr effect), increased CO2, and elevated temperature all shift the curve rightward, enhancing oxygen unloading where it's needed most - in metabolically active tissues.",
+    "question": "Based on this gas transport research, how does the Bohr effect benefit oxygen delivery to tissues?",
+    "options": {
+      "A": "Lower pH in active tissues increases hemoglobin's oxygen affinity, preventing oxygen release",
+      "B": "Lower pH in metabolically active tissues decreases hemoglobin's oxygen affinity, promoting oxygen unloading where it's needed",
+      "C": "The Bohr effect only affects carbon dioxide transport, not oxygen",
+      "D": "pH changes have no effect on hemoglobin function"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that 'decreased pH (Bohr effect)... shift[s] the curve rightward, enhancing oxygen unloading where it's needed most - in metabolically active tissues.' Metabolically active tissues produce CO2 and acids, lowering local pH. The Bohr effect ensures hemoglobin releases more oxygen in these tissues that need it most. Option A describes the opposite effect. Option C incorrectly limits the Bohr effect to CO2. Option D contradicts the described pH effects.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Hemoglobin and Oxygen Transport",
+        "url": "https://www.nature.com/articles/nrm2463",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T07:30:00.000Z"
+  },
+  {
+    "id": "organ_systems_034",
+    "topic": "organ_systems",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which part of the nephron is primarily responsible for the reabsorption of glucose and amino acids?",
+    "options": {
+      "A": "Glomerulus",
+      "B": "Proximal convoluted tubule",
+      "C": "Loop of Henle",
+      "D": "Collecting duct"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The proximal convoluted tubule is responsible for reabsorbing most filtered glucose and amino acids through active transport mechanisms. Under normal conditions, virtually 100% of filtered glucose and amino acids are reabsorbed here. Option A is the filtration site, not reabsorption. Option C primarily handles water and salt concentration. Option D fine-tunes water and electrolyte balance.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Nephron Function and Urine Formation",
+        "url": "https://www.khanacademy.org/science/biology/human-biology/kidney-nephron",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T07:30:00.000Z"
+  },
+  {
+    "id": "organ_systems_035",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying gastrointestinal motility examined how the enteric nervous system coordinates digestive tract movements. They found that the enteric nervous system contains more neurons than the spinal cord and can function independently of central nervous system input. The researchers discovered that migrating motor complexes (MMCs) occur during fasting states, creating powerful contractions that sweep undigested material and bacteria from the small intestine. During feeding, segmentation contractions mix intestinal contents while peristaltic waves propel material forward. The scientists also found that hormones like motilin trigger MMCs, while cholecystokinin (CCK) and gastrin modulate motility patterns based on digestive needs.",
+    "question": "Based on this GI motility research, what is the primary function of migrating motor complexes (MMCs)?",
+    "options": {
+      "A": "MMCs only occur during active digestion to mix food",
+      "B": "MMCs sweep undigested material and bacteria from the small intestine during fasting periods",
+      "C": "MMCs prevent all intestinal movement",
+      "D": "MMCs only affect the large intestine"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage clearly states that 'migrating motor complexes (MMCs) occur during fasting states, creating powerful contractions that sweep undigested material and bacteria from the small intestine.' This housekeeping function maintains intestinal cleanliness between meals. Option A incorrectly places MMCs during digestion rather than fasting. Option C suggests stopping rather than creating movement. Option D mislocates MMCs to the large intestine.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Enteric Nervous System",
+        "url": "https://www.biointeractive.org/classroom-resources/enteric-nervous-system",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T07:30:00.000Z"
+  },
+  {
+    "id": "organ_systems_036",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "During vigorous exercise, what mechanism primarily maintains blood flow to vital organs while redirecting flow away from non-essential tissues?",
+    "options": {
+      "A": "Increased parasympathetic activity",
+      "B": "Sympathetic vasoconstriction of non-essential vascular beds and metabolic vasodilation in active muscles",
+      "C": "Decreased heart rate and cardiac output",
+      "D": "Uniform vasodilation throughout the body"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. During exercise, sympathetic nervous system activation causes vasoconstriction in non-essential tissues (like splanchnic and cutaneous circulation) while active muscles experience metabolic vasodilation due to local factors (decreased O2, increased CO2, lactate, K+). This differential vascular response maintains perfusion pressure to vital organs while meeting increased muscle metabolic demands. Option A would have opposite effects. Option C would reduce oxygen delivery. Option D wouldn't prioritize blood flow distribution.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Exercise Hemodynamics",
+        "url": "https://www.nature.com/articles/nrcardio.2016.75",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T07:30:00.000Z"
+  },
+  {
+    "id": "organ_systems_037",
+    "topic": "organ_systems",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying pulmonary gas exchange examined factors affecting alveolar ventilation and perfusion matching. They found that optimal gas exchange requires matching of ventilation (V) to perfusion (Q), with a normal V/Q ratio of approximately 0.8. The scientists discovered that regional differences in V/Q ratios exist throughout the lung due to gravitational effects on blood flow and mechanical effects on ventilation. In upright individuals, apical regions tend to have high V/Q ratios while basal regions have lower ratios. The researchers also found that hypoxic pulmonary vasoconstriction helps redistribute blood flow from poorly ventilated alveoli to well-ventilated regions, optimizing overall gas exchange efficiency.",
+    "question": "Based on this pulmonary gas exchange research, why does hypoxic pulmonary vasoconstriction improve overall lung function?",
+    "options": {
+      "A": "It increases blood flow to all alveoli equally",
+      "B": "It redirects blood flow away from poorly oxygenated alveoli toward well-ventilated regions, improving V/Q matching",
+      "C": "It completely stops blood flow to the lungs",
+      "D": "It only affects carbon dioxide removal, not oxygen uptake"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that 'hypoxic pulmonary vasoconstriction helps redistribute blood flow from poorly ventilated alveoli to well-ventilated regions, optimizing overall gas exchange efficiency.' This mechanism prevents wasted perfusion of poorly ventilated areas and improves overall V/Q matching. Option A suggests uniform rather than selective distribution. Option C would eliminate gas exchange entirely. Option D incorrectly limits the mechanism to CO2 transport only.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Ventilation-Perfusion Matching",
+        "url": "https://www.nature.com/articles/nrcardio.2014.75",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T07:30:00.000Z"
+  },
+  {
+    "id": "organ_systems_038",
+    "topic": "organ_systems",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which hormone is primarily responsible for regulating water reabsorption in the collecting duct of the kidney?",
+    "options": {
+      "A": "Insulin",
+      "B": "Antidiuretic hormone (ADH)",
+      "C": "Cortisol",
+      "D": "Growth hormone"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Antidiuretic hormone (ADH) regulates water reabsorption in the collecting duct by increasing the permeability to water through insertion of aquaporin-2 water channels. When ADH levels are high, more water is reabsorbed, producing concentrated urine. When ADH is low, less water is reabsorbed, producing dilute urine. Options A, C, and D have other primary functions not related to renal water regulation.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: ADH and Water Balance",
+        "url": "https://www.khanacademy.org/science/biology/human-biology/kidney-adh",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T07:30:00.000Z"
+  },
+  {
+    "id": "organ_systems_039",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists investigating skeletal muscle contraction examined the molecular mechanisms of the sliding filament theory. They found that muscle contraction results from the interaction between thick filaments (myosin) and thin filaments (actin), powered by ATP hydrolysis. The researchers discovered that calcium release from the sarcoplasmic reticulum triggers contraction by binding to troponin C, causing a conformational change that moves tropomyosin away from myosin-binding sites on actin. Cross-bridge cycling then occurs, with myosin heads binding to actin, pulling the filaments past each other, and releasing to repeat the cycle. The scientists found that different muscle fiber types have varying contractile properties based on their myosin isoforms and metabolic characteristics.",
+    "question": "Based on this muscle contraction research, what role does calcium play in initiating muscle contraction?",
+    "options": {
+      "A": "Calcium directly provides energy for muscle contraction",
+      "B": "Calcium binds to troponin C, causing tropomyosin to uncover myosin-binding sites on actin",
+      "C": "Calcium prevents all muscle relaxation permanently",
+      "D": "Calcium only affects cardiac muscle, not skeletal muscle"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that 'calcium release from the sarcoplasmic reticulum triggers contraction by binding to troponin C, causing a conformational change that moves tropomyosin away from myosin-binding sites on actin.' This regulatory mechanism allows myosin-actin interaction to proceed. Option A confuses calcium's regulatory role with ATP's energy role. Option C overstates calcium's permanence. Option D incorrectly limits calcium's role to cardiac muscle.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Muscle Contraction Mechanism",
+        "url": "https://www.biointeractive.org/classroom-resources/muscle-contraction",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T07:30:00.000Z"
+  },
+  {
+    "id": "organ_systems_040",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "What is the primary driving force for glomerular filtration in the kidney?",
+    "options": {
+      "A": "Active transport by epithelial cells",
+      "B": "Hydrostatic pressure gradient across the glomerular membrane",
+      "C": "Osmotic gradients created by plasma proteins",
+      "D": "ATP-dependent pumping mechanisms"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Glomerular filtration is driven by the net filtration pressure, which is primarily the hydrostatic pressure in the glomerular capillaries minus the hydrostatic pressure in Bowman's capsule and the oncotic pressure of plasma proteins. The high hydrostatic pressure (about 60 mmHg) in glomerular capillaries provides the driving force for filtration. Option A describes reabsorption mechanisms. Option C opposes filtration. Option D is not involved in the filtration process.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Glomerular Filtration Physiology",
+        "url": "https://www.nature.com/articles/nrneph.2015.174",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T07:30:00.000Z"
+  }
+]

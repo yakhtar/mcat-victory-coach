@@ -1,0 +1,237 @@
+[
+  {
+    "id": "organ_systems_081",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying spinal cord organization examined how this neural structure processes and transmits information between the brain and periphery. They found that the spinal cord contains both ascending tracts that carry sensory information to the brain and descending tracts that carry motor commands from the brain to muscles. The scientists discovered that the gray matter is organized into distinct regions: dorsal horns process sensory input, ventral horns contain motor neurons, and intermediate zones handle autonomic functions and interneuron networks. They found that different sensory modalities use specific ascending pathways: the dorsal column-medial lemniscal pathway for fine touch and proprioception, and the spinothalamic tract for pain and temperature.",
+    "question": "Based on this spinal cord research, why do different sensory modalities use separate ascending pathways?",
+    "options": {
+      "A": "All sensory information travels through identical pathways",
+      "B": "Separate pathways allow specialized processing and preserve the distinct qualities of different sensory modalities",
+      "C": "Different pathways only exist to provide redundancy",
+      "D": "Sensory pathways have no functional specialization"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage describes that 'different sensory modalities use specific ascending pathways: the dorsal column-medial lemniscal pathway for fine touch and proprioception, and the spinothalamic tract for pain and temperature.' Separate pathways allow for specialized processing of different sensory qualities, maintain the fidelity of sensory information, and enable appropriate responses. This organization also allows selective modulation of specific sensory types. Option A contradicts the described pathway diversity. Option C underestimates functional specialization. Option D ignores the described specialization.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Spinal Cord Organization and Sensory Pathways",
+        "url": "https://www.biointeractive.org/classroom-resources/spinal-cord-pathways",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T08:45:00.000Z"
+  },
+  {
+    "id": "organ_systems_082",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "What is the primary mechanism by which vasopressin (ADH) conserves body water?",
+    "options": {
+      "A": "Increasing sodium reabsorption in the proximal tubule",
+      "B": "Inserting aquaporin-2 water channels into the collecting duct epithelium",
+      "C": "Stimulating thirst behavior only",
+      "D": "Increasing glomerular filtration rate"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Vasopressin (ADH) acts on V2 receptors in the collecting duct, activating a cAMP pathway that leads to insertion of aquaporin-2 (AQP2) water channels into the apical membrane. This dramatically increases water permeability, allowing more water reabsorption and production of concentrated urine. Option A describes aldosterone's action. Option C is a behavioral effect, not the primary renal mechanism. Option D would increase rather than conserve water loss.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: ADH and Water Homeostasis",
+        "url": "https://www.nature.com/articles/nrneph.2015.28",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T08:45:00.000Z"
+  },
+  {
+    "id": "organ_systems_083",
+    "topic": "organ_systems",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating memory formation examined how the hippocampus and associated structures encode and consolidate memories. They found that the hippocampus is crucial for episodic memory formation and spatial navigation, containing place cells that fire when animals are in specific locations. The researchers discovered that memory consolidation involves a gradual transfer of information from the hippocampus to neocortical areas for long-term storage. They found that different types of memory involve distinct brain circuits: declarative memories depend on the medial temporal lobe including the hippocampus, while procedural memories involve the basal ganglia and cerebellum. The scientists also discovered that memory formation involves long-term potentiation (LTP) at synapses, requiring NMDA receptor activation and protein synthesis.",
+    "question": "Based on this memory research, why does hippocampal damage primarily affect new memory formation rather than old memories?",
+    "options": {
+      "A": "The hippocampus only stores recent memories permanently",
+      "B": "Memory consolidation gradually transfers information from hippocampus to cortical areas, so old memories become hippocampus-independent",
+      "C": "Old memories are stored in different brain hemispheres",
+      "D": "The hippocampus only processes visual memories"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that 'memory consolidation involves a gradual transfer of information from the hippocampus to neocortical areas for long-term storage.' This process, called systems consolidation, means that older memories become less dependent on the hippocampus as they are strengthened in cortical networks. Recent memories that haven't completed this transfer remain hippocampus-dependent and are therefore lost with hippocampal damage. Option A misrepresents the storage mechanism. Option C has no anatomical basis. Option D incorrectly limits hippocampal function to one modality.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Hippocampus and Memory Consolidation",
+        "url": "https://www.nature.com/articles/nrn2590",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T08:45:00.000Z"
+  },
+  {
+    "id": "organ_systems_084",
+    "topic": "organ_systems",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which structure in the eye is responsible for focusing light onto the retina?",
+    "options": {
+      "A": "Cornea",
+      "B": "Iris",
+      "C": "Lens",
+      "D": "Vitreous humor"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The lens is responsible for fine focusing of light onto the retina through accommodation - changing its shape via ciliary muscle contraction/relaxation to focus on objects at different distances. While the cornea provides most of the eye's refractive power, the lens provides the variable focusing. Option A provides fixed refraction. Option B controls light amount, not focusing. Option D maintains eye shape but doesn't focus light.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Eye Structure and Vision",
+        "url": "https://www.khanacademy.org/science/biology/human-biology/vision-and-the-eye",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T08:45:00.000Z"
+  },
+  {
+    "id": "organ_systems_085",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying immune tolerance examined how the body distinguishes between self and non-self antigens to prevent autoimmune reactions. They found that central tolerance occurs in primary lymphoid organs (thymus for T cells, bone marrow for B cells) where developing lymphocytes that react strongly to self-antigens are eliminated or rendered non-functional. The scientists discovered that peripheral tolerance mechanisms include regulatory T cells (Tregs) that suppress immune responses, anergy (functional unresponsiveness) of lymphocytes that encounter antigens without proper co-stimulation, and immune privilege in certain tissues like the brain and eyes. They found that breakdown of tolerance mechanisms can lead to autoimmune diseases where the immune system attacks the body's own tissues.",
+    "question": "Based on this immune tolerance research, what is the primary difference between central and peripheral tolerance?",
+    "options": {
+      "A": "Central tolerance only affects B cells, peripheral tolerance only affects T cells",
+      "B": "Central tolerance eliminates self-reactive lymphocytes during development, while peripheral tolerance controls immune responses in mature tissues",
+      "C": "There is no difference between central and peripheral tolerance",
+      "D": "Peripheral tolerance only occurs during infections"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage distinguishes that 'central tolerance occurs in primary lymphoid organs... where developing lymphocytes that react strongly to self-antigens are eliminated' while 'peripheral tolerance mechanisms include regulatory T cells... anergy... and immune privilege' that control mature immune responses in tissues. Central tolerance is a developmental process that eliminates dangerous self-reactive cells, while peripheral tolerance manages immune responses in the body's tissues. Option A incorrectly assigns tolerance types to specific cell types. Option C ignores the described differences. Option D misrepresents peripheral tolerance timing.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Immune Tolerance Mechanisms",
+        "url": "https://www.biointeractive.org/classroom-resources/immune-tolerance",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T08:45:00.000Z"
+  },
+  {
+    "id": "organ_systems_086",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "During the plateau phase of the cardiac action potential, which ion movement primarily maintains the prolonged depolarization?",
+    "options": {
+      "A": "Sodium influx only",
+      "B": "Calcium influx through L-type calcium channels",
+      "C": "Potassium efflux only",
+      "D": "Chloride influx"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The plateau phase of the cardiac action potential is maintained by calcium influx through voltage-gated L-type calcium channels, which opens more slowly than sodium channels and remains open longer. This calcium influx balances potassium efflux, maintaining depolarization for several hundred milliseconds. This prolonged depolarization allows complete cardiac muscle contraction and prevents tetany. Option A describes the initial depolarization phase. Option C alone would cause repolarization. Option D is not a major contributor to the action potential.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Cardiac Action Potential Mechanisms",
+        "url": "https://www.nature.com/articles/nrcardio.2016.55",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T08:45:00.000Z"
+  },
+  {
+    "id": "organ_systems_087",
+    "topic": "organ_systems",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying hormone receptor signaling examined how different classes of hormones exert their cellular effects. They found that lipophilic hormones (steroid and thyroid hormones) can cross cell membranes and bind to intracellular receptors that function as transcription factors, directly regulating gene expression. In contrast, hydrophilic hormones (peptide hormones and catecholamines) bind to cell surface receptors and activate intracellular signaling cascades through second messengers like cAMP, IP3, and DAG. The scientists discovered that these different mechanisms result in distinct temporal responses: intracellular receptors produce slower but longer-lasting effects through gene expression changes, while cell surface receptors produce rapid but shorter-lived responses through enzyme modification.",
+    "question": "Based on this hormone signaling research, why do steroid hormones typically have slower onset but longer-lasting effects than peptide hormones?",
+    "options": {
+      "A": "Steroid hormones have lower affinity for their receptors",
+      "B": "Steroid hormone effects involve gene transcription and protein synthesis, which take time but produce lasting changes",
+      "C": "Peptide hormones are metabolized faster than steroid hormones",
+      "D": "Steroid hormones only work during specific times of day"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that intracellular receptors (for steroid hormones) 'function as transcription factors, directly regulating gene expression' and 'produce slower but longer-lasting effects through gene expression changes.' Gene transcription, mRNA processing, and protein synthesis take time (minutes to hours) but produce lasting structural and functional changes. Peptide hormones work through rapid enzyme modifications but don't directly change gene expression. Option A relates to binding affinity, not mechanism speed. Option C addresses metabolism, not mechanism. Option D misrepresents temporal specificity.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Hormone Receptor Signaling Mechanisms",
+        "url": "https://www.nature.com/articles/nrendo.2016.191",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T08:45:00.000Z"
+  },
+  {
+    "id": "organ_systems_088",
+    "topic": "organ_systems",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which part of the brain controls basic life functions such as breathing and heart rate?",
+    "options": {
+      "A": "Cerebrum",
+      "B": "Cerebellum",
+      "C": "Brainstem",
+      "D": "Hypothalamus"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The brainstem, particularly the medulla oblongata, contains vital control centers for breathing (respiratory center), heart rate (cardiac center), and blood pressure regulation. These are involuntary functions essential for life. Option A (cerebrum) handles higher cognitive functions. Option B (cerebellum) coordinates movement and balance. Option D (hypothalamus) regulates homeostasis but not basic vital functions.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Brainstem Function",
+        "url": "https://www.khanacademy.org/science/biology/human-biology/neuron-nervous-system",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T08:45:00.000Z"
+  },
+  {
+    "id": "organ_systems_089",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying drug metabolism examined how the liver processes pharmaceutical compounds and toxins. They found that liver metabolism occurs in two main phases: Phase I reactions use cytochrome P450 enzymes to add functional groups (hydroxyl, amino, or sulfhydryl groups) to make compounds more polar, while Phase II reactions conjugate these metabolites with endogenous compounds (glucuronic acid, sulfate, glutathione) to make them water-soluble for excretion. The researchers discovered that genetic polymorphisms in P450 enzymes can lead to individual differences in drug metabolism, affecting both efficacy and toxicity. They also found that some drugs can induce or inhibit P450 enzymes, leading to drug-drug interactions that alter metabolism rates.",
+    "question": "Based on this drug metabolism research, why are Phase II conjugation reactions important for drug elimination?",
+    "options": {
+      "A": "Phase II reactions destroy all drugs completely",
+      "B": "Phase II conjugation makes drugs more water-soluble, facilitating their excretion in urine and bile",
+      "C": "Phase II reactions only affect drug absorption",
+      "D": "Phase II reactions make drugs more lipophilic"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'Phase II reactions conjugate these metabolites with endogenous compounds... to make them water-soluble for excretion.' Water solubility is crucial for excretion through the kidneys (urine) and liver (bile) because lipophilic compounds would be reabsorbed rather than eliminated. Conjugation with polar molecules like glucuronic acid increases water solubility dramatically. Option A overstates the process - drugs are modified, not destroyed. Option C mislocates the phase's function. Option D describes the opposite effect.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Drug Metabolism Pathways",
+        "url": "https://www.biointeractive.org/classroom-resources/drug-metabolism",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T08:45:00.000Z"
+  },
+  {
+    "id": "organ_systems_090",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "What is the primary mechanism that prevents blood from flowing backward through the heart valves?",
+    "options": {
+      "A": "Active pumping by valve tissue",
+      "B": "Passive closure due to pressure differentials and valve leaflet design",
+      "C": "Electrical stimulation of valve muscles",
+      "D": "Hormonal control of valve function"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Heart valves are passive structures that open and close based on pressure gradients across them. When pressure is higher upstream, valves open; when pressure is higher downstream, the valve leaflets are pushed together to close. The valve leaflets are designed to coapt (come together) perfectly under reverse pressure, preventing backflow. Option A incorrectly suggests active tissue pumping. Option C misrepresents electrical control. Option D incorrectly suggests hormonal control of valve mechanics.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Heart Valve Mechanics",
+        "url": "https://www.nature.com/articles/nrcardio.2011.202",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T08:45:00.000Z"
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "id": "organ_systems_041",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying endocrine regulation examined how the hypothalamic-pituitary-adrenal (HPA) axis responds to stress. They found that stress activates the paraventricular nucleus of the hypothalamus to release corticotropin-releasing hormone (CRH), which stimulates the anterior pituitary to secrete adrenocorticotropic hormone (ACTH). ACTH then stimulates the adrenal cortex to produce cortisol, the primary stress hormone. The scientists discovered that cortisol has wide-ranging effects including glucose mobilization, immune suppression, and negative feedback to both the hypothalamus and pituitary. They also found that chronic stress can lead to dysregulation of this axis, contributing to various health problems including depression, anxiety, and metabolic disorders.",
+    "question": "Based on this HPA axis research, what is the primary function of cortisol's negative feedback mechanism?",
+    "options": {
+      "A": "To permanently maintain high cortisol levels",
+      "B": "To prevent cortisol production entirely",
+      "C": "To regulate and limit cortisol release, preventing excessive stress hormone activation",
+      "D": "To stimulate more ACTH production"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The passage mentions that 'cortisol has... negative feedback to both the hypothalamus and pituitary.' Negative feedback mechanisms serve to regulate hormone levels by inhibiting further release when adequate amounts are present, preventing excessive activation of the stress response system. Option A suggests maintaining rather than regulating levels. Option B would eliminate necessary cortisol function. Option D describes positive rather than negative feedback.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: HPA Axis and Stress Response",
+        "url": "https://www.biointeractive.org/classroom-resources/hpa-axis-stress",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T07:45:00.000Z"
+  },
+  {
+    "id": "organ_systems_042",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "In the cardiac cycle, when does coronary perfusion primarily occur?",
+    "options": {
+      "A": "During systole when aortic pressure is highest",
+      "B": "During diastole when ventricular pressure is low and aortic pressure provides driving force",
+      "C": "Only during isovolumetric contraction",
+      "D": "Coronary flow is constant throughout the cardiac cycle"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Coronary perfusion occurs primarily during diastole because during systole, the contracting ventricular muscle compresses the coronary vessels, impeding blood flow. During diastole, ventricular pressure falls while aortic diastolic pressure provides the driving force for coronary blood flow through the coronary ostia. This is why diastolic pressure is crucial for coronary perfusion. Option A ignores ventricular compression effects. Option C is too restrictive. Option D is incorrect about flow constancy.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Coronary Circulation Physiology",
+        "url": "https://www.nature.com/articles/nrcardio.2017.109",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T07:45:00.000Z"
+  },
+  {
+    "id": "organ_systems_043",
+    "topic": "organ_systems",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating synaptic transmission examined how neurotransmitter release and reception enable neural communication. They found that action potential arrival at the presynaptic terminal opens voltage-gated calcium channels, leading to calcium influx and vesicle fusion through SNARE protein interactions. The researchers discovered that different neurotransmitters have distinct receptors and signaling mechanisms: ionotropic receptors create fast synaptic responses through direct ion channel opening, while metabotropic receptors produce slower, longer-lasting effects through G-protein-coupled second messenger systems. They also found that synaptic plasticity, including long-term potentiation (LTP) and long-term depression (LTD), underlies learning and memory formation through activity-dependent changes in synaptic strength.",
+    "question": "Based on this synaptic transmission research, what fundamental difference distinguishes ionotropic from metabotropic neurotransmitter receptors?",
+    "options": {
+      "A": "Ionotropic receptors only respond to inhibitory neurotransmitters",
+      "B": "Ionotropic receptors are ligand-gated ion channels providing fast responses, while metabotropic receptors use G-protein signaling for slower, prolonged effects",
+      "C": "Metabotropic receptors are only found in the central nervous system",
+      "D": "Ionotropic receptors require more neurotransmitter to activate"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage clearly states that 'ionotropic receptors create fast synaptic responses through direct ion channel opening, while metabotropic receptors produce slower, longer-lasting effects through G-protein-coupled second messenger systems.' This describes the fundamental mechanistic difference between these receptor types. Option A incorrectly limits ionotropic receptors to inhibitory functions. Option C mislocates metabotropic receptors. Option D makes an unsupported claim about activation requirements.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Neurotransmitter Receptor Types",
+        "url": "https://www.nature.com/articles/nrn2755",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T07:45:00.000Z"
+  },
+  {
+    "id": "organ_systems_044",
+    "topic": "organ_systems",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which cells in the stomach are responsible for producing hydrochloric acid?",
+    "options": {
+      "A": "Chief cells",
+      "B": "Parietal cells",
+      "C": "G cells",
+      "D": "Mucus cells"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Parietal cells in the stomach lining produce hydrochloric acid (HCl) through the enzyme hydrogen-potassium ATPase (proton pump). This acid is essential for protein digestion and iron absorption. Option A (chief cells) produce pepsinogen. Option C (G cells) produce gastrin hormone. Option D (mucus cells) produce protective mucus.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Stomach Acid Production",
+        "url": "https://www.khanacademy.org/science/biology/human-biology/digestive-system-introduction",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T07:45:00.000Z"
+  },
+  {
+    "id": "organ_systems_045",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying immune system function examined how adaptive immunity provides specific, long-lasting protection against pathogens. They found that B cells differentiate into plasma cells that produce antibodies specific to antigens, while T helper cells coordinate immune responses and cytotoxic T cells directly kill infected cells. The scientists discovered that antigen-presenting cells (APCs) like dendritic cells process and present antigens on MHC molecules to activate T cells. They also found that memory B and T cells persist after initial infection, providing rapid response upon re-exposure to the same pathogen. This immunological memory forms the basis for vaccination effectiveness.",
+    "question": "Based on this adaptive immunity research, what is the primary advantage of immunological memory?",
+    "options": {
+      "A": "Memory cells prevent all future infections permanently",
+      "B": "Memory cells provide rapid, enhanced immune response upon re-exposure to previously encountered pathogens",
+      "C": "Memory cells only affect antibody production, not cellular immunity",
+      "D": "Memory cells eliminate the need for innate immunity"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'memory B and T cells persist after initial infection, providing rapid response upon re-exposure to the same pathogen.' This rapid secondary response is faster and stronger than the primary response, providing better protection. Option A overstates the absolute protection. Option C ignores memory T cells mentioned in the passage. Option D incorrectly suggests memory cells replace innate immunity.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Adaptive Immunity and Memory",
+        "url": "https://www.biointeractive.org/classroom-resources/adaptive-immunity",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T07:45:00.000Z"
+  },
+  {
+    "id": "organ_systems_046",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "What is the primary mechanism by which loop diuretics increase urine production?",
+    "options": {
+      "A": "Blocking ADH receptors in the collecting duct",
+      "B": "Inhibiting the Na-K-2Cl cotransporter in the thick ascending limb of the loop of Henle",
+      "C": "Increasing glomerular filtration rate directly",
+      "D": "Stimulating aldosterone production"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Loop diuretics (like furosemide) work by inhibiting the Na-K-2Cl cotransporter in the thick ascending limb of the loop of Henle. This prevents sodium, potassium, and chloride reabsorption, leading to increased electrolyte and water excretion. This also disrupts the medullary concentration gradient, impairing the kidney's concentrating ability. Option A describes ADH antagonists. Option C is not the direct mechanism. Option D would have the opposite effect.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Diuretic Mechanisms",
+        "url": "https://www.nature.com/articles/nrneph.2014.212",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T07:45:00.000Z"
+  },
+  {
+    "id": "organ_systems_047",
+    "topic": "organ_systems",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying cerebral blood flow regulation examined how the brain maintains adequate perfusion despite fluctuations in systemic blood pressure. They found that cerebral autoregulation maintains constant blood flow across a wide range of perfusion pressures (50-150 mmHg) through myogenic and metabolic mechanisms. The myogenic response involves smooth muscle contraction when vessel wall tension increases, while metabolic regulation responds to local CO2, O2, and pH changes. The scientists discovered that chronic hypertension shifts the autoregulation curve rightward, making the brain vulnerable to hypoperfusion at previously normal pressures. They also found that certain conditions like stroke can impair autoregulation, making cerebral perfusion pressure-dependent.",
+    "question": "Based on this cerebral blood flow research, why does chronic hypertension increase stroke risk even after blood pressure normalization?",
+    "options": {
+      "A": "Hypertension permanently damages all brain neurons",
+      "B": "Chronic hypertension shifts cerebral autoregulation to higher pressures, making the brain vulnerable to hypoperfusion at normal pressures",
+      "C": "Blood pressure normalization always causes immediate stroke",
+      "D": "Hypertension only affects peripheral circulation, not cerebral"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that 'chronic hypertension shifts the autoregulation curve rightward, making the brain vulnerable to hypoperfusion at previously normal pressures.' This adaptive change means that pressure levels that were once adequate become insufficient for maintaining cerebral perfusion, increasing stroke risk. Option A overgeneralizes neuronal damage. Option C suggests inevitability rather than increased risk. Option D contradicts the described cerebral effects.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Cerebral Autoregulation",
+        "url": "https://www.nature.com/articles/nrcardio.2016.25",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T07:45:00.000Z"
+  },
+  {
+    "id": "organ_systems_048",
+    "topic": "organ_systems",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which type of muscle tissue is found in the walls of blood vessels?",
+    "options": {
+      "A": "Skeletal muscle",
+      "B": "Cardiac muscle",
+      "C": "Smooth muscle",
+      "D": "Striated muscle"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Smooth muscle tissue is found in the walls of blood vessels, where it regulates vessel diameter through vasoconstriction and vasodilation. This muscle type is involuntary and lacks the striations seen in skeletal and cardiac muscle. Option A is found attached to bones. Option B is found only in the heart. Option D is a general term that includes both skeletal and cardiac muscle.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Types of Muscle Tissue",
+        "url": "https://www.khanacademy.org/science/biology/human-biology/muscle-tissue",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T07:45:00.000Z"
+  },
+  {
+    "id": "organ_systems_049",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying reproductive physiology examined hormonal regulation of the menstrual cycle. They found that the cycle is controlled by complex interactions between the hypothalamus, anterior pituitary, and ovaries. During the follicular phase, rising estrogen from developing follicles eventually triggers a positive feedback surge of luteinizing hormone (LH), causing ovulation. After ovulation, the corpus luteum produces progesterone, which maintains the endometrial lining. The researchers discovered that if pregnancy doesn't occur, progesterone levels fall, leading to menstruation and cycle restart. They also found that this hormonal coordination can be disrupted by stress, nutrition, and various medical conditions.",
+    "question": "Based on this menstrual cycle research, what triggers the LH surge that causes ovulation?",
+    "options": {
+      "A": "Falling progesterone levels from the previous cycle",
+      "B": "Rising estrogen levels during the follicular phase creating positive feedback",
+      "C": "Direct hypothalamic stimulation independent of ovarian hormones",
+      "D": "Increasing FSH levels throughout the cycle"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'during the follicular phase, rising estrogen from developing follicles eventually triggers a positive feedback surge of luteinizing hormone (LH), causing ovulation.' This positive feedback mechanism is unique, as estrogen usually provides negative feedback, but at high levels switches to positive feedback triggering the LH surge. Option A describes what happens later in the cycle. Option C ignores the described hormonal trigger. Option D confuses FSH with the LH surge mechanism.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Menstrual Cycle Regulation",
+        "url": "https://www.biointeractive.org/classroom-resources/menstrual-cycle",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T07:45:00.000Z"
+  },
+  {
+    "id": "organ_systems_050",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "What is the primary mechanism by which surfactant reduces the work of breathing?",
+    "options": {
+      "A": "Surfactant increases lung elasticity",
+      "B": "Surfactant reduces surface tension in alveoli, preventing collapse and reducing the pressure needed for inflation",
+      "C": "Surfactant increases oxygen solubility in blood",
+      "D": "Surfactant strengthens the alveolar walls"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Pulmonary surfactant, produced by type II alveolar cells, reduces surface tension at the air-water interface in alveoli. This prevents alveolar collapse (especially smaller alveoli) during expiration and reduces the pressure required to inflate the lungs during inspiration, significantly decreasing the work of breathing. Option A describes the opposite effect. Option C relates to gas transport, not breathing mechanics. Option D misrepresents surfactant's mechanical effects.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Pulmonary Surfactant Function",
+        "url": "https://www.nature.com/articles/nrm2330",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T07:45:00.000Z"
+  }
+]

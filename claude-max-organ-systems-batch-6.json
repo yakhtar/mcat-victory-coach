@@ -1,0 +1,237 @@
+[
+  {
+    "id": "organ_systems_051",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying liver function examined the organ's role in metabolism and detoxification. They found that hepatocytes perform over 500 different functions including protein synthesis, glucose homeostasis, lipid metabolism, and xenobiotic detoxification. The scientists discovered that the liver receives blood from both the hepatic artery (oxygenated) and portal vein (nutrient-rich from the intestines), creating a unique dual blood supply. They found that Phase I detoxification reactions use cytochrome P450 enzymes to add functional groups to toxins, while Phase II reactions conjugate these metabolites for excretion. The researchers also discovered that the liver's regenerative capacity allows it to restore up to 75% of its mass after injury.",
+    "question": "Based on this liver function research, why does the liver have a dual blood supply from both the hepatic artery and portal vein?",
+    "options": {
+      "A": "The dual supply only provides redundancy in case one vessel fails",
+      "B": "The hepatic artery provides oxygen while the portal vein delivers nutrients absorbed from the intestines for processing",
+      "C": "Both vessels carry identical blood with no functional difference",
+      "D": "The portal vein only supplies blood during digestion"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that the liver 'receives blood from both the hepatic artery (oxygenated) and portal vein (nutrient-rich from the intestines).' This dual supply serves complementary functions: the hepatic artery provides oxygen needed for the liver's high metabolic demands, while the portal vein delivers nutrients, toxins, and other substances absorbed from the GI tract that require hepatic processing. Option A understates the functional significance. Option C ignores the described differences. Option D misrepresents portal vein flow patterns.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Liver Function and Blood Supply",
+        "url": "https://www.biointeractive.org/classroom-resources/liver-function",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T08:00:00.000Z"
+  },
+  {
+    "id": "organ_systems_052",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "During the Frank-Starling mechanism, what is the primary factor that increases cardiac output when venous return increases?",
+    "options": {
+      "A": "Increased heart rate only",
+      "B": "Increased preload leading to greater ventricular stretch and stronger contraction",
+      "C": "Decreased afterload allowing easier ejection",
+      "D": "Increased sympathetic stimulation"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The Frank-Starling mechanism describes how increased venous return increases ventricular preload (end-diastolic volume), which stretches the cardiac muscle fibers. This stretch optimizes actin-myosin overlap and increases the force of contraction, leading to greater stroke volume and cardiac output. This is an intrinsic property of cardiac muscle independent of neural control. Option A ignores the stroke volume component. Option C describes a different mechanism. Option D involves extrinsic control, not the intrinsic Frank-Starling response.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Frank-Starling Mechanism",
+        "url": "https://www.nature.com/articles/nrcardio.2014.60",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T08:00:00.000Z"
+  },
+  {
+    "id": "organ_systems_053",
+    "topic": "organ_systems",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating visual processing examined how the retina converts light into neural signals. They found that photoreceptors (rods and cones) contain photopigments that undergo conformational changes when struck by photons, initiating a biochemical cascade. In the dark, photoreceptors are depolarized and continuously release glutamate. Light activation leads to hyperpolarization and reduced glutamate release through a cyclic GMP-mediated pathway. The researchers discovered that this information passes through multiple retinal layers: bipolar cells, horizontal cells, amacrine cells, and ganglion cells, with extensive lateral processing occurring before signals reach the optic nerve. They also found that different ganglion cell types extract specific visual features like motion, edges, and color contrast.",
+    "question": "Based on this visual processing research, why do photoreceptors hyperpolarize in response to light rather than depolarize?",
+    "options": {
+      "A": "Hyperpolarization allows faster signal transmission",
+      "B": "Light reduces cyclic GMP levels, closing sodium channels and causing hyperpolarization, which decreases glutamate release to signal light detection",
+      "C": "Photoreceptors cannot depolarize due to their membrane properties",
+      "D": "Hyperpolarization only occurs in cone cells, not rods"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that 'light activation leads to hyperpolarization and reduced glutamate release through a cyclic GMP-mediated pathway.' In the phototransduction cascade, light activation reduces cyclic GMP levels, causing sodium channels to close, which hyperpolarizes the photoreceptor and reduces glutamate release. This reduction in neurotransmitter release signals light detection to downstream neurons. Option A doesn't explain the specific mechanism. Option C misrepresents photoreceptor capabilities. Option D incorrectly limits hyperpolarization to specific cell types.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Phototransduction Mechanisms",
+        "url": "https://www.nature.com/articles/nrn2283",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T08:00:00.000Z"
+  },
+  {
+    "id": "organ_systems_054",
+    "topic": "organ_systems",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which part of the brain is primarily responsible for maintaining balance and coordinating movement?",
+    "options": {
+      "A": "Cerebrum",
+      "B": "Cerebellum",
+      "C": "Brainstem",
+      "D": "Thalamus"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The cerebellum is primarily responsible for balance, coordination, and fine motor control. It receives input from the vestibular system, proprioceptors, and visual system to maintain equilibrium and coordinate smooth, precise movements. Option A (cerebrum) handles higher cognitive functions. Option C (brainstem) controls vital functions like breathing. Option D (thalamus) serves as a relay station for sensory information.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Brain Structure and Function",
+        "url": "https://www.khanacademy.org/science/biology/human-biology/neuron-nervous-system",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T08:00:00.000Z"
+  },
+  {
+    "id": "organ_systems_055",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying bone physiology examined how mechanical stress influences bone remodeling. They found that osteoblasts respond to mechanical loading by increasing bone formation, while reduced loading leads to osteoclast-mediated bone resorption. The scientists discovered that osteocytes, embedded within the bone matrix, act as mechanosensors that detect strain and communicate with surface osteoblasts and osteoclasts through gap junctions and paracrine signaling. They found that weight-bearing exercise stimulates bone density, while prolonged bed rest or space flight leads to significant bone loss. The researchers also discovered that parathyroid hormone (PTH) and calcitonin regulate this process by influencing osteoblast and osteoclast activity.",
+    "question": "Based on this bone physiology research, what is the primary role of osteocytes in bone remodeling?",
+    "options": {
+      "A": "Osteocytes directly break down bone matrix",
+      "B": "Osteocytes act as mechanosensors that detect strain and coordinate osteoblast-osteoclast activity",
+      "C": "Osteocytes only produce new bone matrix",
+      "D": "Osteocytes function independently of mechanical stress"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'osteocytes, embedded within the bone matrix, act as mechanosensors that detect strain and communicate with surface osteoblasts and osteoclasts through gap junctions and paracrine signaling.' This positions osteocytes as the key coordinators of bone remodeling in response to mechanical stress. Option A confuses osteocytes with osteoclasts. Option C confuses them with osteoblasts. Option D contradicts their described mechanosensory role.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Bone Remodeling and Mechanotransduction",
+        "url": "https://www.biointeractive.org/classroom-resources/bone-remodeling",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T08:00:00.000Z"
+  },
+  {
+    "id": "organ_systems_056",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "What is the primary cause of the first heart sound (S1)?",
+    "options": {
+      "A": "Opening of the aortic and pulmonary valves",
+      "B": "Closure of the mitral and tricuspid valves",
+      "C": "Ventricular filling",
+      "D": "Closure of the aortic and pulmonary valves"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The first heart sound (S1) is caused by the closure of the atrioventricular valves (mitral and tricuspid) at the beginning of ventricular systole. This closure prevents backflow of blood into the atria as ventricular pressure rises. Option A describes what contributes to S2. Option C occurs during diastole. Option D describes the second heart sound (S2).",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Heart Sounds and Cardiac Cycle",
+        "url": "https://www.nature.com/articles/nrcardio.2016.171",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T08:00:00.000Z"
+  },
+  {
+    "id": "organ_systems_057",
+    "topic": "organ_systems",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying placental function examined how this organ facilitates maternal-fetal exchange during pregnancy. They found that the placenta develops from both maternal (decidua) and fetal (chorion) tissues, creating a barrier that allows selective transport while preventing direct blood mixing. The scientists discovered that oxygen and nutrients cross from maternal to fetal circulation through diffusion, facilitated transport, and active transport mechanisms. They found that the placenta also produces hormones like human chorionic gonadotropin (hCG), progesterone, and estrogen to maintain pregnancy. Additionally, they discovered that certain substances like alcohol, drugs, and pathogens can cross the placental barrier, potentially affecting fetal development.",
+    "question": "Based on this placental function research, why doesn't maternal and fetal blood directly mix in the placenta?",
+    "options": {
+      "A": "Direct blood mixing would cause immediate maternal death",
+      "B": "The placental barrier prevents direct mixing while allowing selective exchange, avoiding immune rejection and maintaining separate circulations",
+      "C": "Fetal blood cannot survive outside the fetus",
+      "D": "Maternal blood contains no nutrients for the fetus"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that the placenta 'creates a barrier that allows selective transport while preventing direct blood mixing.' Direct blood mixing would cause maternal immune rejection of fetal cells (which contain paternal antigens), potentially harm both circulations through incompatible blood factors, and eliminate the ability to regulate what crosses between mother and fetus. The barrier allows controlled exchange while maintaining physiological separation. Option A overstates the immediate danger. Option C misrepresents fetal blood properties. Option D ignores the nutrient transfer described.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Placental Development and Function",
+        "url": "https://www.nature.com/articles/nrm3767",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T08:00:00.000Z"
+  },
+  {
+    "id": "organ_systems_058",
+    "topic": "organ_systems",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which hormone is responsible for stimulating milk production in mammary glands?",
+    "options": {
+      "A": "Oxytocin",
+      "B": "Prolactin",
+      "C": "Estrogen",
+      "D": "Growth hormone"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Prolactin, produced by the anterior pituitary, is the primary hormone responsible for stimulating milk production (lactogenesis) in mammary glands. Option A (oxytocin) causes milk ejection but not production. Option C (estrogen) is involved in mammary gland development but not direct milk production. Option D (growth hormone) supports general metabolism but isn't the primary lactogenic hormone.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Lactation and Hormonal Control",
+        "url": "https://www.khanacademy.org/science/biology/human-biology/reproductive-system-introduction",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T08:00:00.000Z"
+  },
+  {
+    "id": "organ_systems_059",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying thermoregulation examined how the human body maintains core temperature within narrow limits. They found that the hypothalamus acts as the body's thermostat, integrating temperature information from peripheral and central thermoreceptors. When core temperature rises, the hypothalamus initiates heat loss responses including vasodilation, sweating, and behavioral changes. When core temperature falls, it triggers heat conservation and generation responses including vasoconstriction, shivering, and increased metabolic rate. The researchers discovered that fever represents a controlled elevation of the thermal set-point, mediated by pyrogens that affect hypothalamic temperature regulation.",
+    "question": "Based on this thermoregulation research, how does the body generate heat during cold exposure?",
+    "options": {
+      "A": "Only through conscious behavioral changes like putting on clothes",
+      "B": "Through vasoconstriction, shivering thermogenesis, and increased metabolic rate",
+      "C": "By stopping all metabolic processes to conserve energy",
+      "D": "Through sweating to generate friction heat"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that when core temperature falls, the hypothalamus 'triggers heat conservation and generation responses including vasoconstriction, shivering, and increased metabolic rate.' Vasoconstriction conserves heat by reducing heat loss, while shivering and increased metabolism actively generate heat through muscle contractions and increased cellular activity. Option A ignores physiological responses. Option C would be counterproductive. Option D describes a cooling mechanism, not heating.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Thermoregulation Mechanisms",
+        "url": "https://www.biointeractive.org/classroom-resources/thermoregulation",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T08:00:00.000Z"
+  },
+  {
+    "id": "organ_systems_060",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "In the counter-current multiplier system of the kidney, what is the primary function of the descending limb of the loop of Henle?",
+    "options": {
+      "A": "Active transport of sodium and chloride out of the tubule",
+      "B": "Water reabsorption due to high permeability to water but not solutes",
+      "C": "Production of concentrated urea",
+      "D": "Secretion of hydrogen ions"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The descending limb of the loop of Henle is highly permeable to water but relatively impermeable to solutes. As filtrate moves down through the increasingly hypertonic medullary interstitium, water is reabsorbed, concentrating the filtrate. This sets up the gradient that the ascending limb then uses to actively transport sodium and chloride. Option A describes the thick ascending limb function. Option C relates to collecting duct function. Option D occurs in other parts of the nephron.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Counter-current Multiplier System",
+        "url": "https://www.nature.com/articles/nrneph.2012.248",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T08:00:00.000Z"
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "id": "organ_systems_061",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying pancreatic function examined how this organ coordinates digestive enzyme secretion with hormonal regulation of blood glucose. They found that the pancreas has both exocrine and endocrine functions: acinar cells produce digestive enzymes (amylase, lipase, proteases) that are released into the duodenum via the pancreatic duct, while islet cells (alpha, beta, and delta) secrete hormones directly into the bloodstream. The scientists discovered that pancreatic enzyme secretion is stimulated by cholecystokinin (CCK) and secretin in response to nutrients in the duodenum. They also found that insulin from beta cells promotes glucose uptake and storage, while glucagon from alpha cells promotes glucose release during fasting.",
+    "question": "Based on this pancreatic function research, how do the exocrine and endocrine functions of the pancreas work together during digestion?",
+    "options": {
+      "A": "Only the exocrine function is active during digestion",
+      "B": "Exocrine cells release digestive enzymes while endocrine cells regulate blood glucose levels in response to nutrient absorption",
+      "C": "The endocrine and exocrine functions operate completely independently",
+      "D": "Endocrine cells only function during fasting, not digestion"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. During digestion, the pancreas coordinates both functions: the exocrine pancreas releases digestive enzymes in response to CCK and secretin to break down nutrients, while the endocrine pancreas (particularly beta cells) releases insulin to manage the resulting increase in blood glucose from nutrient absorption. This coordination ensures efficient digestion and glucose homeostasis. Option A ignores endocrine contributions. Option C contradicts their coordinated response. Option D misrepresents insulin's role during feeding.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Pancreatic Function and Glucose Homeostasis",
+        "url": "https://www.biointeractive.org/classroom-resources/pancreatic-function",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T08:15:00.000Z"
+  },
+  {
+    "id": "organ_systems_062",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "What is the primary mechanism by which aldosterone increases sodium reabsorption in the kidney?",
+    "options": {
+      "A": "Direct inhibition of sodium channels",
+      "B": "Increasing the synthesis and insertion of epithelial sodium channels (ENaC) in the collecting duct",
+      "C": "Decreasing potassium secretion only",
+      "D": "Inhibiting ADH release"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Aldosterone, a mineralocorticoid hormone, increases sodium reabsorption by binding to mineralocorticoid receptors in the collecting duct and distal convoluted tubule. This activates transcription of genes encoding epithelial sodium channels (ENaC) and Na-K-ATPase pumps, increasing sodium reabsorption and potassium secretion. Option A describes the opposite effect. Option C ignores the primary sodium effect. Option D relates to different hormonal interactions.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Aldosterone and Sodium Regulation",
+        "url": "https://www.nature.com/articles/nrneph.2014.114",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T08:15:00.000Z"
+  },
+  {
+    "id": "organ_systems_063",
+    "topic": "organ_systems",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating auditory processing examined how the cochlea converts sound waves into neural signals. They found that sound waves cause vibrations of the basilar membrane, with different frequencies causing maximum displacement at different locations along the membrane (tonotopic organization). Hair cells in the organ of Corti detect these vibrations through stereocilia deflection, which opens mechanically-gated ion channels, leading to depolarization and neurotransmitter release. The researchers discovered that outer hair cells amplify basilar membrane motion through active contraction (cochlear amplification), while inner hair cells primarily transduce the mechanical signal into neural activity. They also found that the cochlea exhibits remarkable frequency selectivity and dynamic range.",
+    "question": "Based on this auditory processing research, what is the primary function of outer hair cells in hearing?",
+    "options": {
+      "A": "Outer hair cells only detect loud sounds",
+      "B": "Outer hair cells amplify basilar membrane vibrations to enhance sensitivity and frequency selectivity",
+      "C": "Outer hair cells directly send signals to the brain",
+      "D": "Outer hair cells only respond to low-frequency sounds"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'outer hair cells amplify basilar membrane motion through active contraction (cochlear amplification).' This amplification enhances the cochlea's sensitivity to quiet sounds and sharpens frequency selectivity, while inner hair cells are primarily responsible for transducing the amplified signal into neural activity. Option A incorrectly limits their function to loud sounds. Option C misrepresents their role - they amplify rather than directly transmit signals. Option D incorrectly restricts their frequency range.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Cochlear Mechanics and Hair Cell Function",
+        "url": "https://www.nature.com/articles/nrn2786",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T08:15:00.000Z"
+  },
+  {
+    "id": "organ_systems_064",
+    "topic": "organ_systems",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which component of blood is primarily responsible for oxygen transport?",
+    "options": {
+      "A": "Plasma",
+      "B": "White blood cells",
+      "C": "Red blood cells",
+      "D": "Platelets"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Red blood cells (erythrocytes) contain hemoglobin, which binds oxygen in the lungs and transports it to tissues throughout the body. Their biconcave shape and lack of organelles maximize space for hemoglobin and facilitate gas diffusion. Option A (plasma) carries dissolved gases but not the majority of oxygen. Option B (white blood cells) are involved in immune function. Option D (platelets) are involved in blood clotting.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Blood Components and Function",
+        "url": "https://www.khanacademy.org/science/biology/human-biology/circulatory-pulmonary",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T08:15:00.000Z"
+  },
+  {
+    "id": "organ_systems_065",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying taste perception examined how taste buds detect and process different flavors. They found that taste buds contain specialized sensory cells that respond to five basic tastes: sweet, sour, salty, bitter, and umami. Each taste cell expresses specific receptor proteins: G-protein coupled receptors for sweet, bitter, and umami tastes, while sour and salty tastes involve ion channels. The scientists discovered that taste cells release neurotransmitters to activate gustatory neurons, which carry signals to the brainstem and ultimately to the gustatory cortex. They also found that taste perception is strongly influenced by olfactory input, with smell contributing significantly to flavor perception.",
+    "question": "Based on this taste perception research, why does food seem to lose flavor when you have a stuffy nose?",
+    "options": {
+      "A": "Nasal congestion damages taste buds directly",
+      "B": "Blocked nasal passages prevent olfactory input, which normally contributes significantly to flavor perception",
+      "C": "Congestion affects only bitter taste reception",
+      "D": "Mucus production eliminates all taste sensitivity"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'taste perception is strongly influenced by olfactory input, with smell contributing significantly to flavor perception.' When nasal passages are blocked, volatile compounds from food cannot reach olfactory receptors, eliminating the smell component that normally enhances and modifies taste perception. This makes food seem less flavorful even though taste buds still function normally. Option A incorrectly suggests direct damage. Option C incorrectly limits the effect to one taste. Option D overstates the impact on taste sensitivity.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Taste and Smell Integration",
+        "url": "https://www.biointeractive.org/classroom-resources/taste-smell",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T08:15:00.000Z"
+  },
+  {
+    "id": "organ_systems_066",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "During inspiration, what is the primary mechanism that draws air into the lungs?",
+    "options": {
+      "A": "Active contraction of lung tissue",
+      "B": "Creation of negative pressure in the pleural cavity through diaphragm contraction and chest wall expansion",
+      "C": "Positive pressure generated by the upper respiratory tract",
+      "D": "Direct suction by the alveoli"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Inspiration occurs when the diaphragm contracts and moves downward while external intercostal muscles lift the ribs outward, expanding the thoracic cavity. This expansion creates negative pressure in the pleural cavity, which causes the lungs to expand and creates negative pressure within the lungs, drawing air in from the atmosphere. Option A misrepresents the passive nature of lung expansion. Option C describes the opposite pressure relationship. Option D oversimplifies the mechanism to alveolar action alone.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Respiratory Mechanics",
+        "url": "https://www.nature.com/articles/nrcardio.2016.181",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T08:15:00.000Z"
+  },
+  {
+    "id": "organ_systems_067",
+    "topic": "organ_systems",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers studying sleep physiology examined the neural mechanisms controlling sleep-wake cycles. They found that the circadian clock in the suprachiasmatic nucleus (SCN) coordinates daily rhythms through light input from the retina. The SCN regulates melatonin production by the pineal gland, which promotes sleepiness in darkness. The scientists discovered that sleep consists of distinct stages: non-REM sleep (stages 1-3) characterized by progressively deeper sleep and slower brain waves, and REM sleep featuring rapid eye movements, vivid dreams, and temporary muscle paralysis. They found that different neurotransmitter systems promote wake (acetylcholine, norepinephrine, dopamine) versus sleep (GABA, adenosine), with adenosine accumulating during wakefulness to create sleep pressure.",
+    "question": "Based on this sleep physiology research, what role does adenosine play in sleep regulation?",
+    "options": {
+      "A": "Adenosine only affects REM sleep, not non-REM sleep",
+      "B": "Adenosine accumulates during wakefulness and creates sleep pressure, promoting the transition to sleep",
+      "C": "Adenosine prevents all sleep stages from occurring",
+      "D": "Adenosine only functions during daylight hours"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that 'adenosine accumulating during wakefulness to create sleep pressure.' Adenosine is produced as a byproduct of neural activity and ATP metabolism, and its accumulation creates the homeostatic drive for sleep - the longer we stay awake, the more adenosine builds up, increasing sleepiness. This is why caffeine, an adenosine receptor antagonist, promotes wakefulness. Option A incorrectly limits adenosine to one sleep stage. Option C describes the opposite effect. Option D misrepresents its temporal function.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Sleep Regulation and Adenosine",
+        "url": "https://www.nature.com/articles/nrn2697",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T08:15:00.000Z"
+  },
+  {
+    "id": "organ_systems_068",
+    "topic": "organ_systems",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which hormone directly stimulates the contraction of smooth muscle in the uterus during labor?",
+    "options": {
+      "A": "Prolactin",
+      "B": "Estrogen",
+      "C": "Oxytocin",
+      "D": "Progesterone"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Oxytocin, produced by the hypothalamus and released by the posterior pituitary, directly stimulates uterine smooth muscle contractions during labor. It also stimulates milk ejection during breastfeeding. Option A (prolactin) stimulates milk production. Option B (estrogen) prepares the reproductive system but doesn't directly cause contractions. Option D (progesterone) actually inhibits uterine contractions during pregnancy.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Oxytocin and Labor",
+        "url": "https://www.khanacademy.org/science/biology/human-biology/reproductive-system-introduction",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T08:15:00.000Z"
+  },
+  {
+    "id": "organ_systems_069",
+    "topic": "organ_systems",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying wound healing examined the coordinated cellular and molecular processes that restore tissue integrity. They found that wound healing occurs in overlapping phases: hemostasis (blood clotting), inflammation (immune cell recruitment and debris removal), proliferation (new tissue formation), and remodeling (tissue reorganization and strengthening). The researchers discovered that platelets not only form clots but also release growth factors that initiate healing. They found that neutrophils and macrophages clear bacteria and damaged tissue, while fibroblasts produce collagen and other extracellular matrix components. The scientists also discovered that angiogenesis (new blood vessel formation) is essential for delivering nutrients to the healing tissue.",
+    "question": "Based on this wound healing research, why is angiogenesis important during the proliferation phase?",
+    "options": {
+      "A": "Angiogenesis only removes damaged blood vessels",
+      "B": "New blood vessel formation provides oxygen and nutrients necessary for tissue regeneration and growth",
+      "C": "Angiogenesis prevents all bacterial infections",
+      "D": "Blood vessels only form during the inflammation phase"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage states that 'angiogenesis (new blood vessel formation) is essential for delivering nutrients to the healing tissue.' During proliferation, new tissue is rapidly forming and has high metabolic demands for oxygen, nutrients, and removal of waste products. New blood vessels must form to support this growth and ensure adequate perfusion of the regenerating tissue. Option A misrepresents angiogenesis as removal rather than formation. Option C overstates its antimicrobial role. Option D incorrectly limits angiogenesis to one phase.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Wound Healing Process",
+        "url": "https://www.biointeractive.org/classroom-resources/wound-healing",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T08:15:00.000Z"
+  },
+  {
+    "id": "organ_systems_070",
+    "topic": "organ_systems",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "In the cardiac conduction system, which structure has the slowest conduction velocity?",
+    "options": {
+      "A": "Sinoatrial node",
+      "B": "Atrioventricular node", 
+      "C": "Bundle of His",
+      "D": "Purkinje fibers"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The atrioventricular (AV) node has the slowest conduction velocity in the cardiac conduction system. This deliberate delay allows complete atrial emptying before ventricular contraction begins, optimizing ventricular filling and cardiac output. The AV node's slow conduction is due to its small cell diameter and fewer gap junctions. Option A generates impulses but conducts normally. Options C and D have rapid conduction to synchronize ventricular contraction.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Cardiac Conduction System Properties",
+        "url": "https://www.nature.com/articles/nrcardio.2013.169",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T08:15:00.000Z"
+  }
+]

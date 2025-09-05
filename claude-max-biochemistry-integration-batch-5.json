@@ -1,0 +1,237 @@
+[
+  {
+    "id": "biochemistry_integration_041",
+    "topic": "biochemistry_integration",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Researchers studying amino acid metabolism examined how the body handles nitrogen disposal during protein catabolism. They found that amino acid deamination produces ammonia, a toxic compound that must be efficiently removed. In most tissues, ammonia is converted to glutamine by glutamine synthetase, allowing safe transport to the liver. In the liver, the urea cycle converts ammonia to urea through a series of reactions involving carbamoyl phosphate synthetase I, ornithine transcarbamylase, argininosuccinate synthetase, and arginase. The scientists discovered that this process requires significant ATP investment (4 ATP per urea molecule) but is essential for preventing ammonia toxicity.",
+    "question": "Based on this nitrogen disposal research, why is the conversion of ammonia to glutamine important in peripheral tissues?",
+    "options": {
+      "A": "Glutamine provides more energy than ammonia",
+      "B": "Glutamine is a non-toxic carrier form that allows safe ammonia transport to the liver",
+      "C": "Glutamine directly enters the urea cycle",
+      "D": "Glutamine prevents all protein breakdown"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that ammonia is 'a toxic compound that must be efficiently removed' and that 'ammonia is converted to glutamine by glutamine synthetase, allowing safe transport to the liver.' Glutamine serves as a non-toxic carrier molecule for nitrogen transport. Option A relates to energy, not toxicity. Option C misrepresents the urea cycle substrates. Option D overstates glutamine's role in protein metabolism.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Nitrogen Metabolism and the Urea Cycle",
+        "url": "https://www.biointeractive.org/classroom-resources/nitrogen-metabolism",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T06:45:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_042",
+    "topic": "biochemistry_integration",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "During periods of low carbohydrate intake, which amino acid becomes particularly important for maintaining blood glucose levels?",
+    "options": {
+      "A": "Leucine",
+      "B": "Alanine",
+      "C": "Tryptophan",
+      "D": "Methionine"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Alanine is a major gluconeogenic amino acid that can be readily converted to pyruvate and then to glucose. Muscle tissue exports alanine as a glucose precursor during fasting states, making it particularly important for glucose homeostasis when dietary carbohydrates are limited. Option A is primarily ketogenic. Option C is used for neurotransmitter synthesis. Option D is involved in methyl transfer reactions.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Amino Acid Metabolism in Gluconeogenesis",
+        "url": "https://www.nature.com/articles/nrm.2017.73",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T06:45:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_043",
+    "topic": "biochemistry_integration",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Scientists investigating oxidative stress and antioxidant systems examined how cells maintain redox homeostasis under metabolic stress. They found that the pentose phosphate pathway (PPP) plays a crucial role by generating NADPH, essential for maintaining reduced glutathione (GSH) levels. During oxidative stress, glucose-6-phosphate dehydrogenase activity increases, diverting glucose from glycolysis to the PPP. The researchers discovered that cells with G6PD deficiency show increased vulnerability to oxidative damage, particularly red blood cells which lack nuclei and cannot synthesize new enzymes. They also found that the transcription factor Nrf2 coordinates antioxidant responses by upregulating genes encoding antioxidant enzymes and NADPH-generating enzymes.",
+    "question": "Based on this oxidative stress research, why are individuals with glucose-6-phosphate dehydrogenase (G6PD) deficiency particularly vulnerable to oxidative stress?",
+    "options": {
+      "A": "G6PD deficiency prevents glucose uptake entirely",
+      "B": "Reduced G6PD activity limits NADPH production needed to maintain glutathione in its reduced, antioxidant form",
+      "C": "G6PD deficiency causes excessive glycolysis",
+      "D": "G6PD deficiency prevents all DNA repair mechanisms"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that 'the pentose phosphate pathway plays a crucial role by generating NADPH, essential for maintaining reduced glutathione (GSH) levels' and that 'cells with G6PD deficiency show increased vulnerability to oxidative damage.' G6PD catalyzes the rate-limiting step of the PPP, so its deficiency reduces NADPH production and compromises the cell's ability to maintain antioxidant defenses. Option A overstates the effect on glucose uptake. Option C contradicts the PPP's role. Option D extends beyond the specific antioxidant mechanism.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: G6PD Deficiency and Oxidative Stress",
+        "url": "https://www.nature.com/articles/nrg.2016.93",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T06:45:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_044",
+    "topic": "biochemistry_integration",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which molecule directly links glycolysis and the citric acid cycle?",
+    "options": {
+      "A": "Pyruvate",
+      "B": "Lactate",
+      "C": "Acetyl-CoA",
+      "D": "Oxaloacetate"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. Acetyl-CoA is the direct link between glycolysis and the citric acid cycle. Pyruvate from glycolysis is oxidatively decarboxylated by pyruvate dehydrogenase complex to form acetyl-CoA, which then enters the citric acid cycle by combining with oxaloacetate. Option A is the end product of glycolysis but must be converted to acetyl-CoA. Option B is a fermentation product. Option D is a citric acid cycle intermediate.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Connecting Glycolysis and Citric Acid Cycle",
+        "url": "https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation/pyruvate-oxidation",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T06:45:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_045",
+    "topic": "biochemistry_integration",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "A research team studying cholesterol homeostasis examined how cells regulate cholesterol synthesis and uptake. They found that HMG-CoA reductase, the rate-limiting enzyme in cholesterol synthesis, is subject to multiple levels of regulation. When cholesterol levels are high, the enzyme undergoes degradation, and its transcription is suppressed through SREBP-2 inactivation. Simultaneously, high cholesterol levels reduce LDL receptor expression, limiting cholesterol uptake from lipoproteins. The scientists discovered that statins, competitive inhibitors of HMG-CoA reductase, paradoxically increase LDL receptor expression by reducing intracellular cholesterol levels, enhancing cholesterol clearance from the blood.",
+    "question": "Based on this cholesterol homeostasis research, why do statin drugs effectively lower blood cholesterol levels?",
+    "options": {
+      "A": "Statins directly break down cholesterol in the blood",
+      "B": "Statins inhibit cholesterol synthesis, leading to increased LDL receptor expression and enhanced cholesterol uptake from blood",
+      "C": "Statins prevent all fat absorption from the diet",
+      "D": "Statins only work by increasing cholesterol excretion"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that 'statins, competitive inhibitors of HMG-CoA reductase, paradoxically increase LDL receptor expression by reducing intracellular cholesterol levels, enhancing cholesterol clearance from the blood.' By blocking cholesterol synthesis, statins create a cellular cholesterol deficit that triggers compensatory increases in LDL receptor expression, leading to enhanced cholesterol removal from blood. Option A describes direct destruction, not synthesis inhibition. Option C relates to absorption, not synthesis. Option D focuses only on excretion mechanisms.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Cholesterol Homeostasis and Statin Therapy",
+        "url": "https://www.nature.com/articles/nrd1226",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T06:45:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_046",
+    "topic": "biochemistry_integration",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "In muscle tissue during intense exercise, what metabolic adaptation allows continued ATP production when oxygen becomes limiting?",
+    "options": {
+      "A": "Complete oxidation of glucose to CO2 and H2O",
+      "B": "Conversion of pyruvate to lactate coupled with substrate-level phosphorylation",
+      "C": "Exclusive use of fatty acid oxidation",
+      "D": "Direct conversion of amino acids to ATP"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. During intense exercise when oxygen becomes limiting, muscle tissue switches to anaerobic glycolysis. This involves converting pyruvate to lactate (regenerating NAD+) while continuing to produce ATP through substrate-level phosphorylation in glycolysis. Though less efficient than aerobic metabolism, this allows continued ATP production when oxidative phosphorylation is limited. Option A requires oxygen. Option C requires oxygen for fatty acid oxidation. Option D is not a primary ATP production mechanism.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Muscle Metabolism During Exercise",
+        "url": "https://www.biointeractive.org/classroom-resources/muscle-metabolism",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T06:45:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_047",
+    "topic": "biochemistry_integration",
+    "difficulty": "elite",
+    "type": "passage",
+    "passage": "Researchers investigating metabolic reprogramming in cancer cells discovered that tumor cells exhibit altered metabolism compared to normal cells, even in oxygen-rich environments. This 'Warburg effect' involves preferential glucose fermentation to lactate rather than complete oxidation. Scientists found that this metabolic shift supports rapid cell division by providing biosynthetic precursors: glucose-6-phosphate for nucleotide synthesis via the pentose phosphate pathway, and pyruvate for amino acid synthesis. The researchers also discovered that lactate production creates an acidic tumor microenvironment that promotes invasion and suppresses immune responses, demonstrating how metabolic changes support cancer progression beyond just energy production.",
+    "question": "Based on this cancer metabolism research, what advantage does the Warburg effect provide to rapidly dividing cancer cells?",
+    "options": {
+      "A": "The Warburg effect produces more ATP per glucose molecule than aerobic respiration",
+      "B": "Aerobic glycolysis provides biosynthetic precursors needed for rapid cell division and creates a favorable tumor microenvironment",
+      "C": "The Warburg effect completely eliminates the need for oxygen in cancer cells",
+      "D": "Lactate production directly kills surrounding normal cells"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The passage explains that the Warburg effect 'supports rapid cell division by providing biosynthetic precursors: glucose-6-phosphate for nucleotide synthesis via the pentose phosphate pathway, and pyruvate for amino acid synthesis.' Additionally, 'lactate production creates an acidic tumor microenvironment that promotes invasion and suppresses immune responses.' Option A is incorrect - aerobic respiration produces more ATP. Option C overstates oxygen independence. Option D oversimplifies the microenvironment effects.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Cancer Metabolism and the Warburg Effect",
+        "url": "https://www.nature.com/articles/nrc3365",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T06:45:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_048",
+    "topic": "biochemistry_integration",
+    "difficulty": "foundation",
+    "type": "discrete",
+    "question": "Which vitamin is essential as a cofactor for the pyruvate dehydrogenase complex?",
+    "options": {
+      "A": "Vitamin C",
+      "B": "Vitamin B1 (thiamine)",
+      "C": "Vitamin D",
+      "D": "Vitamin K"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. Thiamine (vitamin B1) is essential for the pyruvate dehydrogenase complex, specifically as thiamine pyrophosphate (TPP), a cofactor for the E1 component that catalyzes pyruvate decarboxylation. Thiamine deficiency leads to impaired glucose metabolism and conditions like beriberi. Option A is important for collagen synthesis. Option D is involved in blood clotting. Option D affects calcium metabolism.",
+    "study_resources": [
+      {
+        "title": "Khan Academy: Vitamin Cofactors in Metabolism",
+        "url": "https://www.khanacademy.org/science/biology/energy-and-enzymes/enzyme-cofactors",
+        "type": "video"
+      }
+    ],
+    "created_at": "2025-09-05T06:45:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_049",
+    "topic": "biochemistry_integration",
+    "difficulty": "intermediate",
+    "type": "passage",
+    "passage": "Scientists studying metabolic flexibility examined how different tissues adapt their fuel utilization based on physiological conditions. They found that skeletal muscle can efficiently switch between glucose and fatty acid oxidation depending on substrate availability, exercise intensity, and training status. During low-intensity exercise, muscle preferentially oxidizes fatty acids, sparing glucose for organs that depend on it. However, during high-intensity exercise, glucose becomes the preferred fuel because glycolysis can produce ATP more rapidly than fatty acid oxidation. The researchers discovered that endurance training enhances mitochondrial capacity and enzymes for fatty acid oxidation, allowing greater reliance on fat as fuel.",
+    "question": "Based on this metabolic flexibility research, why does muscle tissue preferentially use glucose during high-intensity exercise?",
+    "options": {
+      "A": "Glucose provides more total ATP than fatty acids",
+      "B": "Fatty acids cannot be oxidized during exercise",
+      "C": "Glucose can be metabolized more rapidly than fatty acids, providing faster ATP production",
+      "D": "High-intensity exercise prevents fatty acid mobilization"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The passage states that 'during high-intensity exercise, glucose becomes the preferred fuel because glycolysis can produce ATP more rapidly than fatty acid oxidation.' While fatty acid oxidation produces more ATP per molecule, it's a slower process requiring more oxygen and enzymatic steps. During high-intensity exercise, the rapid ATP demand favors the faster glycolytic pathway. Option A is backwards regarding total yield. Option B contradicts fatty acid use at lower intensities. Option D misrepresents fatty acid mobilization.",
+    "study_resources": [
+      {
+        "title": "BioInteractive: Exercise Metabolism and Fuel Selection",
+        "url": "https://www.biointeractive.org/classroom-resources/exercise-fuel-selection",
+        "type": "interactive"
+      }
+    ],
+    "created_at": "2025-09-05T06:45:00.000Z"
+  },
+  {
+    "id": "biochemistry_integration_050",
+    "topic": "biochemistry_integration",
+    "difficulty": "advanced",
+    "type": "discrete",
+    "question": "What is the metabolic consequence of a deficiency in carnitine palmitoyltransferase I (CPT-1)?",
+    "options": {
+      "A": "Enhanced fatty acid synthesis",
+      "B": "Impaired fatty acid oxidation and potential hypoglycemia during fasting",
+      "C": "Increased glucose oxidation only",
+      "D": "Complete inability to produce ketone bodies"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. CPT-1 is the rate-limiting enzyme for fatty acid entry into mitochondria for β-oxidation. Its deficiency severely impairs fatty acid oxidation, forcing greater reliance on glucose metabolism. During fasting when glucose stores are limited, this can lead to hypoglycemia because the body cannot efficiently switch to fat as an alternative fuel source. Option A contradicts the metabolic shift away from fatty acids. Option C understates the glucose reliance issue. Option D is too absolute - some ketone production might still occur.",
+    "study_resources": [
+      {
+        "title": "Nature Reviews: Fatty Acid Oxidation Disorders",
+        "url": "https://www.nature.com/articles/nrg1929",
+        "type": "review"
+      }
+    ],
+    "created_at": "2025-09-05T06:45:00.000Z"
+  }
+]
