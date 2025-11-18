@@ -62,3 +62,37 @@ Thumbs.db
 # Temporary files
 .tmp/
 temp/
+nul
+check-subjects.py
+
+# Individual chemistry/physics/psychology JSON files (keeping only main databases)
+claude-chemistry-*.json
+claude-physics-*.json
+claude-psychology-sociology-*.json
+claude-organic-chemistry-*.json
+claude-max-general-chemistry-batch-*.json
+
+# Batch files
+*-batch-*.json
+cars-batch-*.json
+psychology-batch-*.json
+sociology-batch-*.json
+organic-chemistry-batch-*.json
+
+# Database backups (keeping only the main ones)
+data/question-database-backup*.json
+data/question-database-before*.json
+data/question-database-original-backup.json
+
+# Claude specific directory
+.claude/
+
+# Test files
+test-*.cjs
+test-*.js
+
+# Analysis report files
+complete-database-analysis-*.json
+database-analysis-*.json
+subject-audit-report.json
+subject-correction-report.json

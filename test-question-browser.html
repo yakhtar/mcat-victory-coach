@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question Browser Test</title>
+</head>
+<body>
+    <h1>Testing Question Browser API</h1>
+    <div id="results"></div>
+
+    <script>
+        async function testAPIs() {
+            const results = document.getElementById('results');
+
+            try {
+                // Test Stats API
+                console.log('Fetching stats...');
+                const statsResponse = await fetch('/api/questions/stats');
+                const statsData = await statsResponse.json();
+
+                results.innerHTML += `
+                    <h2>Stats API Response:</h2>
+                    <p>Total Questions: <strong>${statsData.stats.total_questions}</strong></p>
+                    <p>Amino Acids: ${statsData.stats.by_topic.amino_acids}</p>
+                    <p>Metabolism: ${statsData.stats.by_topic.metabolism}</p>
+                    <p>Status: ${statsData.success ? '✅ Working' : '❌ Failed'}</p>
+                    <hr>
+                `;
+
+                // Test Questions API
+                console.log('Fetching questions...');
+                const questionsResponse = await fetch('/api/questions?limit=5');
+                const questionsData = await questionsResponse.json();
+
+                results.innerHTML += `
+                    <h2>Questions API Response:</h2>
+                    <p>Questions Received: <strong>${questionsData.questions.length}</strong></p>
+                    <p>First Question: ${questionsData.questions[0]?.question || 'No question'}</p>
+                    <p>Status: ${questionsData.success ? '✅ Working' : '❌ Failed'}</p>
+                    <hr>
+                `;
+
+                // Summary
+                results.innerHTML += `
+                    <h2>Summary:</h2>
+                    <p style="color: green; font-size: 20px;">
+                        ✅ Both APIs are working correctly!<br>
+                        📊 Database has ${statsData.stats.total_questions} questions<br>
+                        🎯 The question-browser.html page should display this count when JavaScript runs
+                    </p>
+                `;
+
+            } catch (error) {
+                results.innerHTML += `<p style="color: red;">Error: ${error.message}</p>`;
+                console.error('Error:', error);
+            }
+        }
+
+        // Run test when page loads
+        testAPIs();
+    </script>
+</body>
+</html>

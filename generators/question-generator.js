@@ -3,9 +3,11 @@ import path from 'path';
 
 class MCATQuestionGenerator {
     constructor(openaiClient, claudeClient) {
-        this.openaiClient = openaiClient;
+        // Claude-only mode for cost optimization (openaiClient will be null)
+        this.openaiClient = null; // Disabled for cost savings
         this.claudeClient = claudeClient;
         this.questionDatabase = this.loadQuestionDatabase();
+        console.log('📚 Question Generator: Claude Max only mode - cost optimized');
     }
 
     loadQuestionDatabase() {

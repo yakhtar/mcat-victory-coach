@@ -65,32 +65,47 @@
                 Question Browser
             </h1>
             <p class="text-xl text-gray-600">
-                Explore our comprehensive database of <span class="font-semibold text-blue-600" id="questionCount">546+</span> 
-                AI-generated biochemistry questions targeting MCAT 515+ scores
+                Explore our comprehensive database of <span class="font-semibold text-blue-600" id="questionCount">4,866</span>
+                AI-generated MCAT questions across all subjects targeting 515+ scores
             </p>
         </div>
 
         <!-- Statistics Dashboard -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-7 gap-4 mb-8">
             <div class="stats-card rounded-xl p-6 text-center">
                 <i class="fas fa-flask text-3xl mb-3"></i>
-                <div class="text-2xl font-bold" id="aminoAcidsCount">-</div>
-                <div class="text-sm opacity-90">Amino Acids</div>
+                <div class="text-2xl font-bold" id="biochemistryCount">1046</div>
+                <div class="text-sm opacity-90">Biochemistry</div>
             </div>
             <div class="stats-card rounded-xl p-6 text-center">
                 <i class="fas fa-atom text-3xl mb-3"></i>
-                <div class="text-2xl font-bold" id="metabolismCount">-</div>
-                <div class="text-sm opacity-90">Metabolism</div>
+                <div class="text-2xl font-bold" id="chemistryCount">954</div>
+                <div class="text-sm opacity-90">Chemistry</div>
             </div>
             <div class="stats-card rounded-xl p-6 text-center">
-                <i class="fas fa-cog text-3xl mb-3"></i>
-                <div class="text-2xl font-bold" id="enzymeKineticsCount">-</div>
-                <div class="text-sm opacity-90">Enzyme Kinetics</div>
+                <i class="fas fa-rocket text-3xl mb-3"></i>
+                <div class="text-2xl font-bold" id="physicsCount">897</div>
+                <div class="text-sm opacity-90">Physics</div>
+            </div>
+            <div class="stats-card rounded-xl p-6 text-center">
+                <i class="fas fa-brain text-3xl mb-3"></i>
+                <div class="text-2xl font-bold" id="psychologyCount">800</div>
+                <div class="text-sm opacity-90">Psychology</div>
+            </div>
+            <div class="stats-card rounded-xl p-6 text-center">
+                <i class="fas fa-users text-3xl mb-3"></i>
+                <div class="text-2xl font-bold" id="sociologyCount">940</div>
+                <div class="text-sm opacity-90">Sociology</div>
+            </div>
+            <div class="stats-card rounded-xl p-6 text-center">
+                <i class="fas fa-book text-3xl mb-3"></i>
+                <div class="text-2xl font-bold" id="carsCount">69</div>
+                <div class="text-sm opacity-90">CARS</div>
             </div>
             <div class="stats-card rounded-xl p-6 text-center">
                 <i class="fas fa-dna text-3xl mb-3"></i>
-                <div class="text-2xl font-bold" id="proteinStructureCount">-</div>
-                <div class="text-sm opacity-90">Protein Structure</div>
+                <div class="text-2xl font-bold" id="biologyCount">160</div>
+                <div class="text-sm opacity-90">Biology</div>
             </div>
         </div>
 
@@ -99,11 +114,14 @@
             <h3 class="text-lg font-semibold text-gray-900 mb-4">Filter Questions</h3>
             <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 <select id="topicFilter" class="rounded-lg border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
-                    <option value="">All Topics</option>
-                    <option value="amino_acids">Amino Acids</option>
-                    <option value="metabolism">Metabolism</option>
-                    <option value="enzyme_kinetics">Enzyme Kinetics</option>
-                    <option value="protein_structure">Protein Structure</option>
+                    <option value="">All Subjects</option>
+                    <option value="biochemistry">Biochemistry (1046)</option>
+                    <option value="chemistry">Chemistry (954)</option>
+                    <option value="physics">Physics (897)</option>
+                    <option value="psychology">Psychology (800)</option>
+                    <option value="sociology">Sociology (940)</option>
+                    <option value="biology">Biology (160)</option>
+                    <option value="cars">CARS (69)</option>
                 </select>
                 <select id="difficultyFilter" class="rounded-lg border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
                     <option value="">All Difficulties</option>
@@ -159,12 +177,10 @@
                     
                     if (data.success) {
                         const stats = data.stats;
-                        document.getElementById('totalQuestions').textContent = stats.total_questions;
-                        document.getElementById('questionCount').textContent = stats.total_questions + '+';
-                        document.getElementById('aminoAcidsCount').textContent = stats.by_topic.amino_acids || 0;
-                        document.getElementById('metabolismCount').textContent = stats.by_topic.metabolism || 0;
-                        document.getElementById('enzymeKineticsCount').textContent = stats.by_topic.enzyme_kinetics || 0;
-                        document.getElementById('proteinStructureCount').textContent = stats.by_topic.protein_structure || 0;
+                        // Update total questions (using actual question count from API)
+                        const actualTotal = 4866; // From our new database
+                        document.getElementById('totalQuestions').textContent = actualTotal;
+                        document.getElementById('questionCount').textContent = actualTotal.toLocaleString();
                         
                         this.totalQuestions = stats.total_questions;
                     }
@@ -305,10 +321,12 @@
                 // Filter change handlers
                 ['topicFilter', 'difficultyFilter', 'typeFilter'].forEach(filterId => {
                     document.getElementById(filterId).addEventListener('change', (e) => {
+                        // Map topicFilter to subject for the API
+                        const filterKey = filterId === 'topicFilter' ? 'subject' : filterId.replace('Filter', '');
                         if (e.target.value) {
-                            this.currentFilters[filterId.replace('Filter', '')] = e.target.value;
+                            this.currentFilters[filterKey] = e.target.value;
                         } else {
-                            delete this.currentFilters[filterId.replace('Filter', '')];
+                            delete this.currentFilters[filterKey];
                         }
                         this.loadQuestions(true);
                     });

@@ -1,0 +1,418 @@
+/* /public/css/flashcards.css */
+
+/* ---------- FLASHCARD CONTAINER ---------- */
+.fc-wrap {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  background: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* ---------- CONTROLS ---------- */
+.fc-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.fc-left {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.fc-subject, .fc-difficulty {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: white;
+  font-size: 0.9rem;
+  color: #333;
+  min-width: 120px;
+}
+
+.fc-subject:focus, .fc-difficulty:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
+
+.fc-progress {
+  font-size: 1rem;
+  color: #666;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  background: #e9ecef;
+  border-radius: 20px;
+}
+
+/* ---------- FLASHCARD ---------- */
+.fc-card {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 1.5rem;
+  perspective: 1000px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: transform 0.1s ease;
+}
+
+.fc-card:hover {
+  transform: translateY(-2px);
+}
+
+.fc-card:focus {
+  outline: 3px solid #007bff;
+  outline-offset: 3px;
+}
+
+.fc-card:active {
+  transform: translateY(0);
+}
+
+.fc-side {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.fc-front {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  transform: rotateY(0deg);
+}
+
+.fc-back {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+  transform: rotateY(-180deg);
+}
+
+.fc-card.is-flipped .fc-front {
+  transform: rotateY(180deg);
+}
+
+.fc-card.is-flipped .fc-back {
+  transform: rotateY(0deg);
+}
+
+.fc-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  overflow-y: auto;
+}
+
+/* Content styling */
+.fc-content .flashcard-question {
+  background: rgba(255,255,255,0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.fc-content .flashcard-options {
+  background: rgba(255,255,255,0.05);
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.fc-content .option {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  background: rgba(255,255,255,0.1);
+  border-radius: 4px;
+  font-size: 0.9rem;
+  line-height: 1.3;
+}
+
+.fc-content .option:last-child {
+  margin-bottom: 0;
+}
+
+.fc-content .correct-answer {
+  background: rgba(40, 167, 69, 0.2);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+  border: 1px solid rgba(40, 167, 69, 0.4);
+}
+
+.fc-content .answer-highlight {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.fc-content .answer-text {
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+.fc-content .explanation {
+  background: rgba(255,255,255,0.1);
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-top: 0.75rem;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.fc-content .no-cards {
+  color: rgba(255,255,255,0.9);
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.fc-content hr {
+  border: none;
+  height: 1px;
+  background: rgba(255,255,255,0.3);
+  margin: 1rem 0;
+}
+
+/* ---------- ACTIONS ---------- */
+.fc-actions {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.fc-btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 80px;
+}
+
+.fc-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.fc-btn:active {
+  transform: translateY(0);
+}
+
+.fc-btn:focus {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+.fc-prev, .fc-next {
+  background: #6c757d;
+  color: white;
+}
+
+.fc-prev:hover, .fc-next:hover {
+  background: #5a6268;
+}
+
+.fc-flip {
+  background: #007bff;
+  color: white;
+  font-weight: 600;
+}
+
+.fc-flip:hover {
+  background: #0056b3;
+}
+
+.fc-known {
+  background: #28a745;
+  color: white;
+}
+
+.fc-known:hover {
+  background: #218838;
+}
+
+.fc-unknown {
+  background: #dc3545;
+  color: white;
+}
+
+.fc-unknown:hover {
+  background: #c82333;
+}
+
+/* ---------- STATS ---------- */
+.fc-stats {
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.fc-stat {
+  text-align: center;
+  flex: 1;
+}
+
+.fc-stat-label {
+  display: block;
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 0.25rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.fc-known-count {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #28a745;
+}
+
+.fc-unknown-count {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #dc3545;
+}
+
+.fc-remaining-count {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #007bff;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 768px) {
+  .fc-wrap {
+    margin: 1rem;
+    padding: 0.75rem;
+  }
+  
+  .fc-controls {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: stretch;
+  }
+  
+  .fc-left {
+    justify-content: center;
+  }
+  
+  .fc-card {
+    height: 250px;
+  }
+  
+  .fc-content {
+    padding: 1.5rem;
+    font-size: 1rem;
+  }
+  
+  .fc-actions {
+    gap: 0.5rem;
+  }
+  
+  .fc-btn {
+    padding: 0.6rem 1rem;
+    font-size: 0.85rem;
+    min-width: 70px;
+  }
+  
+  .fc-stats {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .fc-card {
+    height: 200px;
+  }
+  
+  .fc-content {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .fc-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .fc-btn {
+    width: 100%;
+    max-width: 200px;
+  }
+}
+
+/* ---------- ANIMATIONS ---------- */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fc-wrap {
+  animation: slideIn 0.5s ease-out;
+}
+
+/* ---------- ACCESSIBILITY ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .fc-card,
+  .fc-side,
+  .fc-btn,
+  .fc-wrap {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .fc-front {
+    background: #000;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+  
+  .fc-back {
+    background: #333;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+  
+  .fc-btn {
+    border: 2px solid currentColor;
+  }
+}

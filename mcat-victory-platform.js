@@ -10,9 +10,9 @@ import path from 'path';
 import fs from 'fs';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import OpenAI from 'openai';
 import Anthropic from '@anthropic-ai/sdk';
 import MCATQuestionGenerator from './generators/question-generator.js';
+import { getLeonardoService } from './services/leonardoService.js';
 
 // Load environment variables
 dotenv.config();
@@ -34,6 +34,9 @@ class MCATVictoryPlatform {
         
         // Initialize enhanced question generator
         this.questionGenerator = null;
+        
+        // Initialize Leonardo AI service for visual content
+        this.leonardoService = getLeonardoService();
         
         // Conversation memory for AI Tutor
         this.conversationSessions = new Map(); // sessionId -> conversation history
@@ -85,32 +88,26 @@ class MCATVictoryPlatform {
 
     initializeAIClients() {
         try {
-            // Initialize OpenAI client
-            this.openai = new OpenAI({
-                apiKey: process.env.OPENAI_API_KEY,
-            });
-            
-            // Initialize Anthropic client
+            // Initialize Claude client (Claude Max $100 plan - cost optimized)
             this.anthropic = new Anthropic({
                 apiKey: process.env.ANTHROPIC_API_KEY,
             });
             
-            console.log('🤖 AI clients initialized successfully');
-            console.log('✅ OpenAI client ready');
-            console.log('✅ Claude client ready');
+            console.log('🤖 Claude Max AI client initialized successfully');
+            console.log('✅ Claude Max client ready - cost optimized mode');
+            console.log('💰 Using Claude Max $100 plan - no additional API costs');
             
-            // Initialize enhanced question generator
+            // Initialize enhanced question generator (Claude-only)
             try {
-                this.questionGenerator = new MCATQuestionGenerator(this.openai, this.anthropic);
-                console.log('📚 Enhanced Question Generator initialized');
+                this.questionGenerator = new MCATQuestionGenerator(null, this.anthropic);
+                console.log('📚 Enhanced Question Generator initialized (Claude-only mode)');
             } catch (error) {
                 console.error('❌ Error initializing question generator:', error);
                 this.questionGenerator = null;
             }
             
         } catch (error) {
-            console.error('❌ Error initializing AI clients:', error);
-            this.openai = null;
+            console.error('❌ Error initializing Claude client:', error);
             this.anthropic = null;
         }
     }
@@ -358,6 +355,21 @@ class MCATVictoryPlatform {
         // Main dashboard route
         app.get('/', (req, res) => {
             res.sendFile(path.join(process.cwd(), 'public', 'index.html'));
+        });
+
+        // Serve question database for flashcards
+        app.get('/data/question-database.json', (req, res) => {
+            try {
+                const dbPath = path.join(process.cwd(), 'data', 'question-database.json');
+                if (fs.existsSync(dbPath)) {
+                    res.sendFile(dbPath);
+                } else {
+                    res.status(404).json({ error: 'Question database not found' });
+                }
+            } catch (error) {
+                console.error('Error serving question database:', error);
+                res.status(500).json({ error: 'Internal server error' });
+            }
         });
 
         // API Routes powered by MCP server
@@ -679,6 +691,151 @@ class MCATVictoryPlatform {
             }
         });
 
+        // Visual Content Generation Routes (Leonardo AI)
+        
+        // Generate medical diagram for any topic
+        app.post('/api/visual/medical-diagram', async (req, res) => {
+            try {
+                const { topic, description, style = 'educational' } = req.body;
+                
+                if (!topic || !description) {
+                    return res.status(400).json({
+                        success: false,
+                        error: 'Topic and description are required for diagram generation'
+                    });
+                }
+                
+                const result = await this.leonardoService.generateMedicalDiagram(topic, description, { style });
+                
+                res.json({
+                    success: true,
+                    ...result,
+                    generated_at: new Date().toISOString()
+                });
+            } catch (error) {
+                console.error('Medical diagram generation error:', error);
+                res.status(500).json({
+                    success: false,
+                    error: error.message
+                });
+            }
+        });
+        
+        // Generate molecular structure visualization
+        app.post('/api/visual/molecular-structure', async (req, res) => {
+            try {
+                const { molecule_name, formula, view = '3D perspective' } = req.body;
+                
+                if (!molecule_name || !formula) {
+                    return res.status(400).json({
+                        success: false,
+                        error: 'Molecule name and formula are required'
+                    });
+                }
+                
+                const result = await this.leonardoService.generateMolecularStructure(molecule_name, formula, { view });
+                
+                res.json({
+                    success: true,
+                    ...result,
+                    generated_at: new Date().toISOString()
+                });
+            } catch (error) {
+                console.error('Molecular structure generation error:', error);
+                res.status(500).json({
+                    success: false,
+                    error: error.message
+                });
+            }
+        });
+        
+        // Generate anatomical diagram
+        app.post('/api/visual/anatomical-diagram', async (req, res) => {
+            try {
+                const { body_system, structure, complexity = 'detailed' } = req.body;
+                
+                if (!body_system || !structure) {
+                    return res.status(400).json({
+                        success: false,
+                        error: 'Body system and structure are required'
+                    });
+                }
+                
+                const result = await this.leonardoService.generateAnatomicalDiagram(body_system, structure, { complexity });
+                
+                res.json({
+                    success: true,
+                    ...result,
+                    generated_at: new Date().toISOString()
+                });
+            } catch (error) {
+                console.error('Anatomical diagram generation error:', error);
+                res.status(500).json({
+                    success: false,
+                    error: error.message
+                });
+            }
+        });
+        
+        // Generate biochemical pathway diagram
+        app.post('/api/visual/pathway-diagram', async (req, res) => {
+            try {
+                const { pathway_name, key_steps } = req.body;
+                
+                if (!pathway_name || !key_steps || !Array.isArray(key_steps)) {
+                    return res.status(400).json({
+                        success: false,
+                        error: 'Pathway name and key steps array are required'
+                    });
+                }
+                
+                const result = await this.leonardoService.generatePathwayDiagram(pathway_name, key_steps);
+                
+                res.json({
+                    success: true,
+                    ...result,
+                    generated_at: new Date().toISOString()
+                });
+            } catch (error) {
+                console.error('Pathway diagram generation error:', error);
+                res.status(500).json({
+                    success: false,
+                    error: error.message
+                });
+            }
+        });
+        
+        // Leonardo AI service health check
+        app.get('/api/visual/health', async (req, res) => {
+            try {
+                const health = await this.leonardoService.healthCheck();
+                res.json(health);
+            } catch (error) {
+                res.status(500).json({
+                    status: 'error',
+                    service: 'Leonardo AI',
+                    error: error.message
+                });
+            }
+        });
+        
+        // Get Leonardo usage statistics
+        app.get('/api/visual/usage', async (req, res) => {
+            try {
+                const stats = await this.leonardoService.getUsageStats();
+                res.json({
+                    success: true,
+                    usage_stats: stats,
+                    service: 'Leonardo AI'
+                });
+            } catch (error) {
+                res.status(500).json({
+                    success: false,
+                    error: error.message
+                });
+            }
+        });
+
         // 515+ Progress Tracking Routes
         
         // Get detailed progress report
@@ -797,6 +954,7 @@ class MCATVictoryPlatform {
             try {
                 const filters = {
                     topic: req.query.topic,
+                    subject: req.query.subject,
                     difficulty: req.query.difficulty,
                     type: req.query.type
                 };
@@ -816,6 +974,9 @@ class MCATVictoryPlatform {
                 let allQuestions = databaseData.questions || [];
                 
                 // Apply filters
+                if (filters.subject) {
+                    allQuestions = allQuestions.filter(q => q.subject === filters.subject);
+                }
                 if (filters.topic) {
                     allQuestions = allQuestions.filter(q => q.topic === filters.topic);
                 }
@@ -860,6 +1021,7 @@ class MCATVictoryPlatform {
             try {
                 const filters = {
                     topic: req.query.topic,
+                    subject: req.query.subject,
                     difficulty: req.query.difficulty,
                     type: req.query.type
                 };
@@ -886,6 +1048,9 @@ class MCATVictoryPlatform {
                 let allQuestions = databaseData.questions || [];
                 
                 // Apply filters
+                if (filters.subject) {
+                    allQuestions = allQuestions.filter(q => q.subject === filters.subject);
+                }
                 if (filters.topic) {
                     allQuestions = allQuestions.filter(q => q.topic === filters.topic);
                 }
@@ -1425,14 +1590,14 @@ class MCATVictoryPlatform {
             const isBiochemistry = this.isBiochemistryQuery(message);
             const is515Plus = contextualAnalysis.queryType === 'advanced' || isBiochemistry;
             
-            // Choose AI based on complexity and type
+            // Use Claude Max for ALL queries - cost optimized, high quality responses
             let response;
             if (is515Plus || isBiochemistry) {
-                // Use Claude for complex, detailed explanations (515+ focus)
-                response = await this.generateClaudeResponse(message, contextualAnalysis, conversation);
+                // Enhanced prompts for 515+ focus and biochemistry specialization
+                response = await this.generateClaudeResponse(message, contextualAnalysis, conversation, 'advanced');
             } else {
-                // Use OpenAI for general queries
-                response = await this.generateOpenAIResponse(message, contextualAnalysis, conversation);
+                // General MCAT queries with Claude Max
+                response = await this.generateClaudeResponse(message, contextualAnalysis, conversation, 'general');
             }
             
             return response || this.getEnhancedFallbackTutorResponse(message);
@@ -1443,7 +1608,7 @@ class MCATVictoryPlatform {
         }
     }
 
-    async generateClaudeResponse(message, contextualAnalysis, conversation) {
+    async generateClaudeResponse(message, contextualAnalysis, conversation, mode = 'general') {
         if (!this.anthropic) {
             console.log('❌ Claude client not available');
             return null;
@@ -1451,6 +1616,7 @@ class MCATVictoryPlatform {
 
         try {
             const isBiochem = this.isBiochemistryQuery(message);
+            const isAdvanced = mode === 'advanced';
             
             const systemPrompt = `You are an expert MCAT tutor specializing in helping students achieve 515+ scores (top 5% of test-takers). Your expertise focuses on:
 
@@ -1510,45 +1676,7 @@ Query type: ${contextualAnalysis.queryType}
         }
     }
 
-    async generateOpenAIResponse(message, contextualAnalysis, conversation) {
-        if (!this.openai) {
-            console.log('❌ OpenAI client not available');
-            return null;
-        }
-
-        try {
-            const systemPrompt = `You are an MCAT tutor helping students prepare for medical school admission. Focus on:
-- Clear, accurate explanations of medical and scientific concepts
-- MCAT-specific study strategies
-- Connections between topics across MCAT sections
-- Practical study advice
-
-Current topic: ${contextualAnalysis.currentTopic || 'MCAT preparation'}`;
-
-            const response = await this.openai.chat.completions.create({
-                model: 'gpt-4-turbo-preview',
-                max_tokens: 1200,
-                temperature: 0.7,
-                messages: [
-                    {
-                        role: 'system',
-                        content: systemPrompt
-                    },
-                    {
-                        role: 'user', 
-                        content: message
-                    }
-                ]
-            });
-
-            console.log('✅ OpenAI response generated');
-            return response.choices[0].message.content;
-
-        } catch (error) {
-            console.log('❌ OpenAI API error:', error.message);
-            return null;
-        }
-    }
+    // OpenAI function removed - using Claude Max only for cost optimization
 
     isBiochemistryQuery(message) {
         // Enhanced biochemistry detection for 515+ focus

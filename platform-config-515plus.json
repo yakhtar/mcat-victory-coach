@@ -1,0 +1,29 @@
+{
+  "database_path": "./data/integrated-515plus-database.json",
+  "features_enabled": {
+    "score_prediction": true,
+    "study_planning": true,
+    "spaced_repetition": true,
+    "cars_timer": true,
+    "weakness_tracking": true,
+    "visual_diagrams": true
+  },
+  "api_routes": {
+    "enhanced": true,
+    "validation": true,
+    "analytics": true,
+    "study_planning": true
+  },
+  "target_scores": {
+    "minimum": 500,
+    "target": 515,
+    "elite": 520
+  },
+  "study_modes": [
+    "timed_practice",
+    "untimed_practice",
+    "cars_passages",
+    "section_tests",
+    "full_length"
+  ]
+}
